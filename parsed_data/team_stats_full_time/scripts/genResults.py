@@ -1,8 +1,8 @@
 import sys
 import subprocess
 
-directory = "../data/2014338"
-filename = "2014338_ts.txt"
+directory = "../data/2014354"
+filename = "2014354_ts.txt"
 
 firstHalf = "firsthalf.txt"
 secondHalf = "secondhalf.txt"
