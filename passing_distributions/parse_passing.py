@@ -119,8 +119,9 @@ def setup(start, end):
         # making index -> num/stats dicts
         for index in xrange(len(line) - 9):
             index_to_num[index] = line[index]
+        offset = len(line) - 9
         for index in xrange(len(line)-9, len(line)):
-            index_to_stats[index] = line[index]
+            index_to_stats[index-offset] = line[index]
 
 #################################################
 # store_edges(start, end)
@@ -147,10 +148,9 @@ def store_edges(start, end):
 
             # convert time to float
             time = re.sub("\"", "", time)
-            # print "time is %s" % time
             if "\'" in time:
                 hour, mins = time.split("\'")
-            else:
+            else: # no minutes to parse out
                 hour = time
                 mins = 0
             hour = float(hour)
@@ -248,11 +248,29 @@ def print_nodes(team):
 #################################################
 def print_player_stats(team):
     sys.stderr.write("printing player stats...\n")
+    player_stats_outfile = open(parsed_args.outfile + "-" + team + "-players", 'w')
+    line = ""
     for player in player_stats:
-        print "%s, " % player, player_stats[player]
-    # num_stats_outfile = open(parsed_args.outfile + "-" + team + "-nodes", 'w')
-    # for num in num_to_name:
-    #     num_name_outfile.write("%s\t%s\n" % (num, num_to_name[num]))
+        line += "%s," % player
+        for i in xrange(len(player_stats[player])):
+            line += "%s:%s," % (i, player_stats[player][i])
+        line = line[:-1] # get rid of last comma
+        line += "\n"
+    # print line
+    player_stats_outfile.write(line)
+
+#################################################
+# print_player_feature_stats()
+#
+#   team: team for print player stats for
+#################################################
+def print_player_feature_stats(teams):
+    player_feature_stats_outfile = open(parsed_args.outfile + "-" + teams +
+            "-players-features", 'w')
+    # line = ""
+    for index in index_to_stats:
+        player_feature_stats_outfile.write("%s\t%s\n" % (index,
+            index_to_stats[index]))
 
 #################################################
 # prep(start, end)
@@ -266,17 +284,20 @@ def prep(start, end):
     store_edges(start+1, end)
 
 team1, team2 = get_team_names()
+
 sys.stderr.write("teams are: " + team1 + " and " + team2 + "\n")
+# print player stat feature num -> feature name
 # team 1
 start1, end1 = get_start_end_index(0, len(passing_dist), passing_dist)
 prep(start1, end1)
-print_edges(team1)
-print_nodes(team1)
-# print_player_stats(team1)
+print_player_feature_stats(team1+"+" + team2)
+# print_edges(team1)
+# print_nodes(team1)
+print_player_stats(team1)
 
 # team 2
 start2, end2 = get_start_end_index(end1, len(passing_dist), passing_dist)
 prep(start2, end2)
-print_edges(team2)
-print_nodes(team2)
-# print_player_stats(team2)
+# print_edges(team2)
+# print_nodes(team2)
+print_player_stats(team2)
