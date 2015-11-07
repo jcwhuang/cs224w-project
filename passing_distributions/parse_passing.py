@@ -117,9 +117,9 @@ def setup(start, end):
         line[-1] += "-success"
 
         # making index -> num/stats dicts
-        for index in xrange(14):
+        for index in xrange(len(line) - 9):
             index_to_num[index] = line[index]
-        for index in xrange(14, len(line)):
+        for index in xrange(len(line)-9, len(line)):
             index_to_stats[index] = line[index]
 
 #################################################
@@ -159,22 +159,19 @@ def store_edges(start, end):
             split = split[3:]
 
             # store passing edges
-            for index in xrange(14):
+            for index in xrange(len(split) - 9):
                 if split[index] != '' and split[index] != '-':
                     player2 = index_to_num[index]
                     passing_edges[num][player2] = split[index]
                     # print "%s -> %s: %s" % (num, player2, split[index])
 
             # store player stats
-            # strip percentage sign of last stat & make into decimal
-            perc = split[len(split) - 1][:-1]
-            split[len(split) - 1] = "0.%s" % str(perc)
-            player_stats[num] = split[14:]
+            player_stats[num] = split[len(split) - 9:]
             # print "player_stats[%s] = "% num, split[14:]
         else:
             # players
             total_passes = split[3:17]
-            for index in xrange(14):
+            for index in xrange(len(index_to_num)):
                 player = index_to_num[index]
                 total_passes_received_by_player[player] = total_passes[index]
                 # print "%s -> %s" % (player, total_passes[index])
@@ -202,45 +199,84 @@ def store_edges(start, end):
             for index in xrange(len(total_stats_processed)):
                 total_passes_received_by_stats[index+offset] = total_stats_processed[index]
 
-# get team names
-teams_orig = passing_dist[3].rstrip().split(",")
-teams = []
-for t in teams_orig:
-    if t != "": teams.append(t)
-team1 = teams[0]
-team2 = teams[2]
-# replace spaces with _
-team1 = re.sub(" ", "_", team1)
-team2 = re.sub(" ", "_", team2)
+#################################################
+# get_team_names()
+#
+#   get team1 and team2 names
+#   replace spaces in team names with "_"
+#################################################
+def get_team_names():
+    # get team names
+    teams_orig = passing_dist[3].rstrip().split(",")
+    teams = []
+    for t in teams_orig:
+        if t != "": teams.append(t)
+    team1 = teams[0]
+    team2 = teams[2]
+    # replace spaces with _
+    team1 = re.sub(" ", "_", team1)
+    team2 = re.sub(" ", "_", team2)
+    return (team1, team2)
 
+#################################################
+# print_edges(team)
+#
+#   team: team for print edges for
+#################################################
+def print_edges(team):
+    outfile = open(parsed_args.outfile + "-" + team + "-edges", 'w')
+    # print edges
+    for player1 in passing_edges:
+        for player2 in passing_edges[player1]:
+            outfile.write("%s\t%s\t%s\n" % (player1, player2, \
+                    passing_edges[player1][player2]))
+
+#################################################
+# print_nodes(team)
+#
+#   team: team for print nodes for
+#################################################
+def print_nodes(team):
+    num_name_outfile = open(parsed_args.outfile + "-" + team + "-nodes", 'w')
+    for num in num_to_name:
+        num_name_outfile.write("%s\t%s\n" % (num, num_to_name[num]))
+
+#################################################
+# print_player_stats(team)
+#
+#   team: team for print player stats for
+#################################################
+def print_player_stats(team):
+    sys.stderr.write("printing player stats...\n")
+    for player in player_stats:
+        print "%s, " % player, player_stats[player]
+    # num_stats_outfile = open(parsed_args.outfile + "-" + team + "-nodes", 'w')
+    # for num in num_to_name:
+    #     num_name_outfile.write("%s\t%s\n" % (num, num_to_name[num]))
+
+#################################################
+# prep(start, end)
+#
+#   start: starting index in passing distribution
+#   end: ending index in passing distribution
+#################################################
+def prep(start, end):
+    init()
+    setup(start, start + 1)
+    store_edges(start+1, end)
+
+team1, team2 = get_team_names()
+sys.stderr.write("teams are: " + team1 + " and " + team2 + "\n")
 # team 1
-outfile = open(parsed_args.outfile + "-" + team1 + "-edges", 'w')
-init()
 start1, end1 = get_start_end_index(0, len(passing_dist), passing_dist)
-setup(start1, start1 + 1)
-store_edges(start1+1, end1)
-# print edges
-for player1 in passing_edges:
-    for player2 in passing_edges[player1]:
-        outfile.write("%s\t%s\t%s\n" % (player1, player2, \
-                passing_edges[player1][player2]))
-# print player num to player names
-num_name_outfile = open(parsed_args.outfile + "-" + team1 + "-nodes", 'w')
-for num in num_to_name:
-    num_name_outfile.write("%s\t%s\n" % (num, num_to_name[num]))
+prep(start1, end1)
+print_edges(team1)
+print_nodes(team1)
+# print_player_stats(team1)
 
 # team 2
-outfile = open(parsed_args.outfile + "-" + team2 + "-edges", 'w')
-init()
 start2, end2 = get_start_end_index(end1, len(passing_dist), passing_dist)
-setup(start2, start2+1)
-store_edges(start2+1, end2)
-# print edges
-for player1 in passing_edges:
-    for player2 in passing_edges[player1]:
-        outfile.write("%s\t%s\t%s\n" % (player1, player2, \
-                passing_edges[player1][player2]))
-# print player num to player names
-num_name_outfile = open(parsed_args.outfile + "-" + team2 + "-nodes", 'w')
-for num in num_to_name:
-    num_name_outfile.write("%s\t%s\n" % (num, num_to_name[num]))
+prep(start2, end2)
+print_edges(team2)
+print_nodes(team2)
+# print_player_stats(team2)
