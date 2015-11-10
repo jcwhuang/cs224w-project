@@ -12,6 +12,7 @@ to your working directory (with csv, tables dir's)
 3. $ bash convert_all_files.sh
 
 ## Results
+In the networks directory,
 - date_tpd-team-edges
     * player_num1 player_num2 weight
 - date_tpd-team-nodes
