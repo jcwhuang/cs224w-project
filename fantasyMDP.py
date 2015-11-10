@@ -2,13 +2,17 @@ import collections, util, math, random
 import classes, scoring
 import copy
 import os
+import glob
+import re
 
 #to compute 15-man roster from available players
 class ComputeRosterMDP(util.MDP):
-	def __init__(self, players, budget):
+	def __init__(self, players, budget, allTeams, allPlayers):
 		self.players=players
 		self.budget=budget
 		self.maxPositions = {'GK': 2, 'DEF': 5, 'MID': 5, 'STR': 3}
+        # self.allTeams = allTeams
+        # self.allPlayers = allPlayers
 
 	# a state = (roster, budget, positions, teams)
 	# roster -- a list of class Player that represents the players we have 
@@ -23,14 +27,8 @@ class ComputeRosterMDP(util.MDP):
 	#			(we can only choose up to 3 players from each Premier league
 	#			team to put on our roster)
 	def startState(self):
-		teams = {}
-		for t in AllTeams: #TO DO: make list of all teams in league
-			teams[t] = 0
-		positions = {}
-		positions["GK"] = 0
-		positions["DEF"] = 0
-		positions["MID"] = 0
-		positions["STR"] = 0
+		teams = {t:0 for t in self.allTeams}
+		positions = {pos:0 for pos in self.maxPositions}
 		return ([], self.budget, positions ,teams)
 
 	#------------League Constraints on Roster--------------#
@@ -42,7 +40,7 @@ class ComputeRosterMDP(util.MDP):
 	# 6) Can select up to 3 players from a single Premier League team
 	def actions(self,state):
 		actions = []		
-		for p in AllPlayers: #TO DO: create list of all players
+		for p in self.allPlayers:
 			if p not in state[0]: #if not in roster yet
 				positionConstraint = (state.positions[p.position] < self.maxPositions[p.position])
 				budgetConstraint = (p.price < state.budget)
@@ -121,6 +119,27 @@ for line in lines:
 	elems = line.split(",")
 	p = classes.Player(elems[0], elems[1], elems[2], elems[3])
 	players[elems[0]] = p
+
+# store team name -> player name -> player number
+# team_to_players[team][player_name] = player_num
+team_to_players = {}
+team_to_player_files = glob.glob("all_games/all_players/player_name_to_num*")
+for f in team_to_player_files:
+	m = re.match("^.*-(.*)$", f)
+	if m:
+		team =  m.group(1)
+		team = re.sub("_", " ", team)
+	team_to_players[team] = {}
+	with open(f, 'r') as team_to_player_file:
+		for line in team_to_player_file:
+			name, num = line.split(",")
+			team_to_players[team][name] = num
+
+# store all teams
+all_teams_file = "all_games/all-teams"
+all_teams = []
+for line in all_teams_file:
+	all_teams.append(line.rstrip())
 
 #store player match data
 player_stat_features = {}

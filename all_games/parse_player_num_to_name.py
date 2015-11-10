@@ -13,7 +13,6 @@ from collections import defaultdict
 node_files = glob.glob("*-nodes")
 prefix = "all_players/player_name_to_num-"
 teams = defaultdict(list)
-print node_files
 
 for node_file in node_files:
 	m = re.match("^.*-(.*)-nodes$", node_file)
@@ -24,7 +23,6 @@ for node_file in node_files:
 			num, name = line.rstrip().split("\t")
 			if (name, num) not in teams[team]:
 				teams[team].append((name, num))
-				print "num, name = %s, %s" % (name, num)
 
 for team in teams:
 	team_outfile = open(prefix+team, "w+")
