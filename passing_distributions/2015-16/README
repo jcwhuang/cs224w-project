@@ -1,10 +1,20 @@
+# Parsing Passing Distributions
+
+## Instructions
 To 1. convert tables/*.xls(x) to .csv
    2. get nodes/edges from csv/*.csv
 
 1. copy convert_all_files.sh, parse_passing.py, and excel_to_csv.py
 to your working directory (with csv, tables dir's)
-2. run the following:
+2. $ mkdir networks
+3. $ bash convert_all_files.sh
 
-> bash convert_all_files.sh
+## Results
+- date_tpd-team-edges
+    * player_num1 player_num2 weight
+- date_tpd-team-nodes
+    * player_num player_name
+- date_tpd-team-players
+    * player_num, feature_num:feature_value
 
 
