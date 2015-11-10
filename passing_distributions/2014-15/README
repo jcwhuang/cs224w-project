@@ -1,6 +1,0 @@
-To 1. convert tables/*.xls(x) to .csv
-   2. get nodes/edges from csv/*.csv
-
-run the following:
-
-bash convert_all_files.sh
