@@ -1,8 +1,10 @@
 # Parsing Passing Distributions
 
+## Objectives
+1. convert tables/*.xls(x) to .csv
+2. get nodes/edges from csv/*.csv
+
 ## Instructions
-To 1. convert tables/*.xls(x) to .csv
-   2. get nodes/edges from csv/*.csv
 
 1. copy convert_all_files.sh, parse_passing.py, and excel_to_csv.py
 to your working directory (with csv, tables dir's)
