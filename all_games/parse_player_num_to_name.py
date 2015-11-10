@@ -19,7 +19,6 @@ for node_file in node_files:
 	m = re.match("^.*-(.*)-nodes$", node_file)
 	if m:
 		team =  m.group(1)
-		team = re.sub("_", " ", team)
 		team_file = open(node_file, "r")
 		for line in team_file:
 			num, name = line.rstrip().split("\t")
