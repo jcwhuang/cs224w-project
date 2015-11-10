@@ -2,13 +2,16 @@ import collections
 
 # stores relevant team data
 class Team():
-	def __init__(self, name):
+	def __init__(self, name, players):
 		self.name = name
-		self.players = []
+		self.players = players
 		self.rank = 0
 
 	def setRank(self, rank):
 		self.rank = rank
+
+	def addPlayer(self, player):
+		self.players.append(player)
 
 class Player():
 	def __init__(self, name, team, position, price):

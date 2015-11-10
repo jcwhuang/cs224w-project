@@ -11,7 +11,7 @@ class ComputeRosterMDP(util.MDP):
 		self.players=players
 		self.budget=budget
 		self.maxPositions = {'GK': 2, 'DEF': 5, 'MID': 5, 'STR': 3}
-        # self.allTeams = allTeams
+        # self.allTeams=allTeams
         # self.allPlayers = allPlayers
 
 	# a state = (roster, budget, positions, teams)
@@ -40,7 +40,10 @@ class ComputeRosterMDP(util.MDP):
 	# 6) Can select up to 3 players from a single Premier League team
 	def actions(self,state):
 		actions = []		
-		for p in self.allPlayers:
+		# TO DO: how to store all players? 
+		#       There are duplicate names from different teams :(
+		#       The alternative is to use the dict team->player name -> playernum
+		for p in AllPlayers:
 			if p not in state[0]: #if not in roster yet
 				positionConstraint = (state.positions[p.position] < self.maxPositions[p.position])
 				budgetConstraint = (p.price < state.budget)
@@ -120,41 +123,55 @@ for line in lines:
 	p = classes.Player(elems[0], elems[1], elems[2], elems[3])
 	players[elems[0]] = p
 
+
+
+# store all teams as Team object
+all_teams_file = "all_games/all-teams"
+allTeams = []
+for line in all_teams_file:
+	teamName = line.rstrip()
+	allTeams.append(classes.Team(teamName, []))
+
 # store team name -> player name -> player number
-# team_to_players[team][player_name] = player_num
+# usage: team_to_players[team][player_name] = player_num
 team_to_players = {}
 team_to_player_files = glob.glob("all_games/all_players/player_name_to_num*")
 for f in team_to_player_files:
 	m = re.match("^.*-(.*)$", f)
 	if m:
-		team =  m.group(1)
+		team = m.group(1)
 		team = re.sub("_", " ", team)
+
+	# TO DO: get corresponding Player object
+	# TO DO: add Player object to corresponding team in allTeams
+	# right now, this just stores everything as Strings.
 	team_to_players[team] = {}
 	with open(f, 'r') as team_to_player_file:
 		for line in team_to_player_file:
 			name, num = line.split(",")
 			team_to_players[team][name] = num
 
-# store all teams
-all_teams_file = "all_games/all-teams"
-all_teams = []
-for line in all_teams_file:
-	all_teams.append(line.rstrip())
 
 #store player match data
+team_to_player_ft = {}
 player_stat_features = {}
-for i in os.listdir("player_statistics/2015-16/"):
-	if  i.endswith(".py")==False and i.endswith("Store")==False:
-		filename = "player_statistics/2015-16/" + i + "/csv/"
+for matchday in os.listdir("player_statistics/2015-16/"):
+	if  matchday.endswith(".py")==False and matchday.endswith("Store")==False:
+		filename = "player_statistics/2015-16/" + matchday + "/csv/"
 		for tf in os.listdir(filename):
 			if tf.endswith("features"):
-				if not player_stat_features.keys():
+				if not player_stat_features.keys(): # do this once
 					ls = [line.rstrip('\n') for line in open(filename+tf)]
-					#TO DO number: acronym, separated by tab
+					# store feature number -> feature acronym
+					for ft in ls:
+						ft_num, ft_acronym = ft.split("\t")
+						player_stat_features[ft_num] = ft_acronym
 			elif tf.endswith("csv")==False and tf.endswith(".py")==False:
 				#TO DO
 				#iterating through a single match of player stats for one team
 				#need to store player names to player number before doing this	
+				# store as team -> player_num -> player_features
+
 				continue
 
 '''for p in players.keys():
