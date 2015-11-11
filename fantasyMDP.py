@@ -30,9 +30,16 @@ class ComputeRosterMDP(util.MDP):
 	#			(we can only choose up to 3 players from each Premier league
 	#			team to put on our roster)
 	def startState(self):
-		teams = {t:0 for t in self.allTeams}
-		positions = {pos:0 for pos in self.maxPositions}
-		return ([], self.budget, positions ,teams)
+		# teams = {t:0 for t in self.allTeams}
+		# positions = {pos:0 for pos in self.maxPositions}
+		teams = tuple([(t,0) for t in self.allTeams])
+		positions = tuple([(pos,0) for pos in self.maxPositions])
+		# need to represent roster as a tuple so it is hashable
+		# also need to represent team & positions as a tuples 
+		# so they are also hashable
+		# return ([], self.budget, positions, teams)
+		return ((), self.budget, positions, teams)
+
 
 	#------------League Constraints on Roster--------------#
 	# 1) 2 goalkeepers
@@ -42,20 +49,9 @@ class ComputeRosterMDP(util.MDP):
 	# 5) budget = 100million
 	# 6) Can select up to 3 players from a single Premier League team
 	def actions(self,state):
-		# actions = []		
-		# stateRoster, stateBudget, statePositions, stateTeams = state
-		# for playerName in self.allPlayers:
-		# 	p = self.allPlayers[playerName]
-		# 	if p not in state[0]: #if not in roster yet
-		# 		positionConstraint = (statePositions[p.position] < self.maxPositions[p.position])
-		# 		budgetConstraint = (p.price < stateBudget)
-		# 		teamConstraint = (stateTeams[p.team] < 3)
-		# 		if positionConstraint and budgetConstraint and teamConstraint:
-		# 			actions.append(p)
-
-		# TO DO: experiment. Just always return all possible players
-		#        satisfy constraints in succAndProbReward
-		#        just like we did in blackjack
+		# Just always return all possible players
+		# satisfy constraints in succAndProbReward
+		# just like we did in blackjack
 		actions = [self.allPlayers[playerName] for playerName in self.allPlayers]
 		return actions
 
@@ -66,6 +62,11 @@ class ComputeRosterMDP(util.MDP):
 
 		validPlayer = False
 		stateRoster, stateBudget, statePositions, stateTeams = state
+
+		statePositions = dict(statePositions)
+		print "StatePositions are", statePositions
+		stateTeams = dict(stateTeams)
+
 		if action not in state[0]: # if not in roster yet
 			positionConstraint = (statePositions[p.position] < self.maxPositions[p.position])
 			budgetConstraint = (p.price < stateBudget)
@@ -77,14 +78,19 @@ class ComputeRosterMDP(util.MDP):
 			return []
 
 		# compute new state
-		newRoster = state[0]
+		newRoster = list(stateRoster)
 		newRoster.append(action)
-		newBudget = state[1]-action.price
-		newPositions = state[2]
+		newBudget = stateBudget-action.price
+		newPositions = statePositions
 		newPositions[action.position] += 1
-		newTeams = state[3]
+		newTeams = stateTeams
 		newTeams[action.team] += 1
-		newState = (newRoster, newBudget, newPositions, newTeams)
+
+		# convert back into tuple
+		newPositions = tuple(newPositions.items())
+		newTeams = tuple(newTeams.items())
+
+		newState = (tuple(newRoster), newBudget, newPositions, newTeams)
 
 		# TO DO: Finish reward function
 		# reward = 0 
@@ -318,6 +324,7 @@ mdp = ComputeRosterMDP(players, budget, allTeams, allPlayers)
 rl = util.QLearningAlgorithm(mdp.actions, mdp.discount(), util.fantasyFeatureExtractor)
 print "Finished in %s iterations" % rl.numIters
 qRewards = util.simulate(mdp, rl, 100, verbose=True)
-
+print "qRewards: %s" % (sum(qRewards) / len(qRewards))
+mdp.computeStates()
 
 
