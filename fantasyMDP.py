@@ -118,6 +118,7 @@ players = {}
 # list of all players as Players
 allPlayers = {}
 
+# for positions, only last names are included along with price, team, and position
 lines = [line.rstrip('\n') for line in open('fantasy_player_data/positions/defenders')]
 lines = lines + [line.rstrip('\n') for line in open('fantasy_player_data/positions/forwards')]
 lines = lines + [line.rstrip('\n') for line in open('fantasy_player_data/positions/goalkeepers')]
@@ -137,6 +138,7 @@ team_to_player_num = defaultdict(lambda: defaultdict(str))
 
 # team_to_player_name[team][player_num] = player_name
 team_to_player_name = defaultdict(lambda: defaultdict(str))
+# all_player_list includes first and last names for players, player numbers, and teams
 all_player_lines = [line.rstrip() for line in open("fantasy_player_data/all_players/all_player_list", 'r')]
 
 for line in all_player_lines[1:]:
@@ -157,15 +159,15 @@ allTeams = {}
 # store basic player data
 # add players to their corresponding Teams
 for line in lines:
-	name, team, position, price = line.rstrip().split(", ")
+	last_name, team, position, price = line.rstrip().split(", ")
 
 	team_dict = check_for_accented_key(team, team_to_player_num);
 
-	num = team_dict[name]
-	p = classes.Player(name, num, team, position, price)
+	num = team_dict[last_name]
+	p = classes.Player(last_name, num, team, position, price)
 
 	# store player_name-player_num-player_team = Player object
-	key = name + "-" + num + "-" + team
+	key = last_name + "-" + num + "-" + team
 	allPlayers[key] = p
 
 	if team not in allTeams:
@@ -173,48 +175,68 @@ for line in lines:
 
 	allTeams[team].addPlayer(p)
 
-#store player match data
-team_to_player_ft = {}
-player_stat_features = {}
+# all_player_features[player_num + "-" + team] = {ft_num:ft:value}
+all_player_features = defaultdict(lambda: defaultdict(float))
+
+# stores feature number -> feature acronym
+feature_num_to_acro = {}
+team_to_num_games = defaultdict(float)
 for matchday in os.listdir("player_statistics/2015-16/"):
-	if  matchday.endswith(".py")==False and matchday.endswith("Store")==False:
+	if matchday.endswith(".py")==False and matchday.endswith("Store")==False:
+
 		folder = "player_statistics/2015-16/" + matchday + "/csv/"
 		for tf in os.listdir(folder):
 			if tf.endswith("features"):
-				if not player_stat_features.keys(): # do this once
+				if not feature_num_to_acro.keys(): # do this once
 					ls = [line.rstrip('\n') for line in open(folder+tf)]
 					# store feature number -> feature acronym
 					for ft in ls:
 						ft_num, ft_acronym = ft.split("\t")
-						player_stat_features[ft_num] = ft_acronym
-			elif tf.endswith("csv")==False and tf.endswith(".py")==False:
-				# TO DO
-				# iterating through a single match of player stats for one team
-				# need to store player names to player number before doing this	
+						feature_num_to_acro[ft_num] = ft_acronym
+			elif tf.endswith("csv")==False and tf.endswith(".py")==False and tf.endswith(".swp")==False:
 				# how to aggregate player stats over multiple matches
 				#      - add up stats and then normalize at the end
 
-				# shall we store player features for each Player object?
+				# store player features for each Player object as a dict
 
-				# store as team -> player_num -> dict of player_features
-				# m = re.match("^.*-(.*)$", tf)
-				# if m:
-				# 	team = m.group(1)
-				# 	team = re.sub("_", " ", team)
+				# each line is a player
+				# for each player in a team, aggregate stats
+				# use key: player_num-team
+				# for each team, keep a sum of how many games played
+
+
+				# get team name
+				m = re.match("^.*-(.*)$", tf)
+				if m:
+					team = m.group(1)
+					team = re.sub("_", " ", team)
+					
+					with open((folder+tf), 'r') as team_ft_file:
+						for player_line in team_ft_file:
+							player_ft = defaultdict(float)
+							features = player_line.rstrip().split(",")
+							player_num = features[0]
+							features = features[1:] # slice off player_num
+							if len(features) > 1:
+								for ft in features:
+									ft_num, ft_val = ft.split(":")
+									ft_val = float(ft_val)
+									player_ft[ft_num] = ft_val
+								def aggregate_player_features(key, team, ft_dict):
+									for ft in ft_dict:
+										all_player_features[key][ft] += ft_dict[ft]
+								key = player_num + "-" + team
+								aggregate_player_features(key, team, player_ft)
+				team_to_num_games[team] += 1
+
+# normalize player features over num games played
+for key in all_player_features:
+	team = re.sub(".*-", "", key)
+	for player in all_player_features[key]:
+		all_player_features[key][player] /= team_to_num_games[team]
+	print "%s: " % key, all_player_features[key]
+
 				
-				# 	if team not in team_to_player_ft:
-				# 		team_to_player_ft[team] = {}
-				# 	with open(folder+tf, 'r') as feature_file:
-				# 		for line in feature_file:
-				# 			features = line.split(",")
-				# 			# features[0] = player num
-				# 			# features[1] - on = features
-				# 			p_num = features[0]
-				# 			if p_num not in team_to_player_ft[team]:
-				# 				team_to_player_ft[team][p_num] = {}
-				# 			team_to_player_ft[team][p_num]
-
-				continue
 
 '''for p in players.keys():
 	print players[p].name
