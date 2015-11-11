@@ -14,10 +14,11 @@ class Team():
 		self.players.append(player)
 
 class Player():
-	def __init__(self, name, team, position, price):
+	def __init__(self, name, number, team, position, price):
 		#self.firstName = firstName
 		#self.lastName = lastName
 		self.name = name
+		self.number = number
 		self.team = team
 		self.position = position
 		self.price = price

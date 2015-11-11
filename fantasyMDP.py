@@ -122,8 +122,30 @@ lines = lines + [line.rstrip('\n') for line in open('fantasy_player_data/forward
 lines = lines + [line.rstrip('\n') for line in open('fantasy_player_data/goalkeepers')]
 lines = lines + [line.rstrip('\n') for line in open('fantasy_player_data/midfielders')]
 
-# store all teams as Team object
-# all_teams_filename = "all_games/all-teams"
+# team_to_player_num[team][player_name] = player_num
+team_to_player_num = defaultdict(lambda: defaultdict(str))
+
+# team_to_player_name[team][player_num] = player_name
+team_to_player_name = defaultdict(lambda: defaultdict(str))
+team_to_player_files = glob.glob("all_games/all_players/player_name_to_num*")
+for f in team_to_player_files:
+	m = re.match("^.*-(.*)$", f)
+	if m:
+		team = m.group(1)
+		team = re.sub("_", " ", team)
+		# team_to_players[team] = {}
+		with open(f, 'r') as team_to_player_file:
+			for line in team_to_player_file:
+				name, num = line.rstrip().split(",")
+				team_to_player_name[team][num] = name
+				# store last name only
+				if " " in name:
+					last_name = (re.match(".* (.*)", name)).group(1)
+				else: last_name = name
+				print "name %s vs. last_name %s" % (name, last_name)
+				if last_name in team_to_player_name[team]:
+					print "ERROR!! DUPLICATE!"
+				team_to_player_num[team][last_name] = num
 
 # team name as String -> Team object
 allTeams = {}
@@ -132,8 +154,14 @@ allTeams = {}
 # add players to their corresponding Teams
 for line in lines:
 	name, team, position, price = line.split(", ")
-	# team = team.decode('utf-8')
-	p = classes.Player(name, team, position, price)
+	print "%s, %s" % (team, name)
+	if team in team_to_player_num:
+		# print "meow"
+		if name in team_to_player_num[name]:
+			print "yey"
+	num = team_to_player_num[team][name]
+	# print "%s, %s, %s, %s, %s" % (name, num, team, position, price)
+	p = classes.Player(name, num, team, position, price)
 	# issue with using name as key: duplicate names
 	# players[elems[0]] = p
 	allPlayers.append(p)
@@ -142,21 +170,7 @@ for line in lines:
 
 	allTeams[team].addPlayer(p)
 
-# store team name -> player name -> player number
-# usage: team_to_players[team][player_name] = player_num
-# all represented as Strings not objects
-team_to_players = {}
-team_to_player_files = glob.glob("all_games/all_players/player_name_to_num*")
-for f in team_to_player_files:
-	m = re.match("^.*-(.*)$", f)
-	if m:
-		team = m.group(1)
-		team = re.sub("_", " ", team)
-		team_to_players[team] = {}
-		with open(f, 'r') as team_to_player_file:
-			for line in team_to_player_file:
-				name, num = line.split(",")
-				team_to_players[team][name] = num
+
 
 #store player match data
 team_to_player_ft = {}
