@@ -1,4 +1,4 @@
-import collections, random
+import collections, random, math
 
 # An abstract class representing a Markov Decision Process (MDP).
 class MDP:
@@ -121,6 +121,7 @@ def simulate(mdp, rl, numTrials=10, maxIterations=1000, verbose=False,
             state = newState
         if verbose:
             print "Trial %d (totalReward = %s): %s" % (trial, totalReward, sequence)
+            print ""
         totalRewards.append(totalReward)
     return totalRewards
 
@@ -151,6 +152,7 @@ class QLearningAlgorithm(RLAlgorithm):
     # |explorationProb|, take a random action.
     def getAction(self, state):
         self.numIters += 1
+
         if random.random() < self.explorationProb:
             return random.choice(self.actions(state))
         else:
@@ -174,7 +176,7 @@ class QLearningAlgorithm(RLAlgorithm):
         Vopt = max([self.getQ(newState, a) for a in self.actions(newState)])
         Qopt = self.getQ(state, action)
         for name, value in self.featureExtractor(state, action):
-            self.weights[name] = self.weights[name] - self.getStepSize()*(Qopt - (reward + self.discount*Vopt))*value
+            self.weights[name] -= self.getStepSize()*(Qopt - (reward + self.discount*Vopt))*value
         # END_YOUR_CODE
 
 # Return a singleton list containing indicator feature for the (state, action)
@@ -185,7 +187,7 @@ def identityFeatureExtractor(state, action):
     return [(featureKey, featureValue)]
 
 def fantasyFeatureExtractor(state, action):
-	'''playedInGame = False    # 1pt
+    '''playedInGame = False    # 1pt
 	played60Min = False     # 2pt
 	goalsScored = 0         # 6pt if GK or DEF, 5pt if MID, 4 if STR
 	assists = 0             # 3pt
@@ -201,73 +203,84 @@ def fantasyFeatureExtractor(state, action):
 	redCard = False         # -3pt
 	savesByGK = 0           # 1pt/3saves
 	recoveredBalls = 0      # 1pt/5balls
-	'''
-	roster = state[0]
-	features = []
+    '''
+    roster = state[0]
+    features = []
 
-	gamesPlayed = 0
-	teamMinutes = 0
-	teamGoals = 0
-	teamAssists = 0
-	teamShutOuts = 0
-	penaltiesReceived = 0
-	penaltiesConceded = 0
-	penaltiesMissed = 0
-	penaltiesSaved = 0
-	goalsConceded = 0
-	yellowCards = 0
-	savesByGK = 0
-	recoveredBalls = 0
-	redCards = 0
+    gamesPlayed = 0
+    teamMinutes = 0
+    teamGoals = 0
+    teamAssists = 0
+    teamShutOuts = 0
+    penaltiesReceived = 0
+    penaltiesConceded = 0
+    penaltiesMissed = 0
+    penaltiesSaved = 0
+    goalsConceded = 0
+    yellowCards = 0
+    savesByGK = 0
+    recoveredBalls = 0
+    redCards = 0
 
 	#non-fantasy-score features
-	foulsCommitted = 0
-	foulsSuffered = 0
-	attemptsOffTarget = 0
-	offsides = 0
-	attemptsOnTarget = 0
-	attemptsBlocked = 0
+    foulsCommitted = 0
+    foulsSuffered = 0
+    attemptsOffTarget = 0
+    offsides = 0
+    attemptsOnTarget = 0
+    attemptsBlocked = 0
 
-	for player in roster:
-		for matchStats in player.stats:
-			gamesPlayed += 1			
-			teamMinutes += matchStats.minutes
-			teamGoals += matchStats.goals
-			yellowCards += matchStats.yellowCards
-			redCards += matchStats.redCards
+    for player in roster: 
+        gamesPlayed += 1	
+        teamMinutes += player.stats['M']
+        teamGoals += player.stats['G']
+        yellowCards += player.stats['Y']
+        redCards += player.stats['R']
 
-			#non-fantasy-score features
-			foulsCommitted += matchStats.foulsCommitted
-			foulsSuffered += matchStats.foulsSuffered 
-			attemptsOffTarget += matchStats.attemptsOffTarget
-			offsides += matchStats.offsides
-			attemptsOnTarget += matchStats.attemptsOnTarget
-			attemptsBlocked += matchStats.attemptsBlocked
+        #non-fantasy-score features
+        foulsCommitted += player.stats['FC']
+        foulsSuffered += player.stats['FS']
+        attemptsOffTarget += player.stats['W']
+        offsides += player.stats['O']
+        attemptsOnTarget += player.stats['T']
+        attemptsBlocked += player.stats['AB']	
 
-			#(NOT IN PLAYER SUMMARY STATS)
-			'''teamAssists
-			penaltiesReceived 
-			penaltiesConceded
-			penaltiesMissed
-			penaltiesSaved
-			teamShutouts
-			savesByGK
-			recoveredBalls
-			goalsConceded
-			'''
-			#can also add opposing team features
+        # teamMinutes += matchStats.minutes
+        # teamGoals += matchStats.goals
+        # yellowCards += matchStats.yellowCards
+        # redCards += matchStats.redCards
 
-	features.append(('gamesPlayed', gamesPlayed, action))			
-	features.append(('teamMinutes', teamMinutes, action))
-	features.append(('teamGoals', teamGoals, action))
-	features.append(('yellowCards', yellowCards, action))
-	features.append(('redCards', redCards, action))
-	#non-fantasy-score features
-	features.append(('foulsCommitted', foulsCommitted, action))
-	features.append(('foulsSuffered', foulsSuffered , action))
-	features.append(('attemptsOffTarget', attemptsOffTarget, action))
-	features.append(('offsides', offsides, action))
-	features.append(('attemptsOnTarget', attemptsOnTarget, action))
-	features.append(('attemptsBlocked', attemptsBlocked, action))
+        # #non-fantasy-score features
+        # foulsCommitted += matchStats.foulsCommitted
+        # foulsSuffered += matchStats.foulsSuffered 
+        # attemptsOffTarget += matchStats.attemptsOffTarget
+        # offsides += matchStats.offsides
+        # attemptsOnTarget += matchStats.attemptsOnTarget
+        # attemptsBlocked += matchStats.attemptsBlocked
 
-	return features
+		#(NOT IN PLAYER SUMMARY STATS)
+        '''teamAssists
+        penaltiesReceived 
+        penaltiesConceded
+        penaltiesMissed
+        penaltiesSaved
+        teamShutouts
+        savesByGK
+        recoveredBalls
+        goalsConceded
+        '''
+        #can also add opposing team features
+    features.append(('gamesPlayed', gamesPlayed))			
+    features.append(('teamMinutes', teamMinutes))
+    features.append(('teamGoals', teamGoals))   
+    features.append(('yellowCards', yellowCards))
+    features.append(('redCards', redCards))
+    #non-fantasy-score features
+    features.append(('foulsCommitted', foulsCommitted))
+    features.append(('foulsSuffered', foulsSuffered))
+    features.append(('attemptsOffTarget', attemptsOffTarget))
+    features.append(('offsides', offsides))
+    features.append(('attemptsOnTarget', attemptsOnTarget))
+    features.append(('attemptsBlocked', attemptsBlocked))
+
+    return features
