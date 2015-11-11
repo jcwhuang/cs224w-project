@@ -5,6 +5,7 @@ import os
 import glob
 import re
 from collections import defaultdict
+import unicodedata
 
 # to compute 15-man roster from available players
 class ComputeRosterMDP(util.MDP):
@@ -117,35 +118,30 @@ players = {}
 # list of all players as Players
 allPlayers = []
 
-lines = [line.rstrip('\n') for line in open('fantasy_player_data/defenders')]
-lines = lines + [line.rstrip('\n') for line in open('fantasy_player_data/forwards')]
-lines = lines + [line.rstrip('\n') for line in open('fantasy_player_data/goalkeepers')]
-lines = lines + [line.rstrip('\n') for line in open('fantasy_player_data/midfielders')]
+lines = [line.rstrip('\n') for line in open('fantasy_player_data/positions/defenders')]
+lines = lines + [line.rstrip('\n') for line in open('fantasy_player_data/positions/forwards')]
+lines = lines + [line.rstrip('\n') for line in open('fantasy_player_data/positions/goalkeepers')]
+lines = lines + [line.rstrip('\n') for line in open('fantasy_player_data/positions/midfielders')]
 
-# team_to_player_num[team][player_name] = player_num
+# team_to_player_num[team][player_last_name] = player_num
 team_to_player_num = defaultdict(lambda: defaultdict(str))
 
 # team_to_player_name[team][player_num] = player_name
 team_to_player_name = defaultdict(lambda: defaultdict(str))
-team_to_player_files = glob.glob("all_games/all_players/player_name_to_num*")
-for f in team_to_player_files:
-	m = re.match("^.*-(.*)$", f)
-	if m:
-		team = m.group(1)
-		team = re.sub("_", " ", team)
-		# team_to_players[team] = {}
-		with open(f, 'r') as team_to_player_file:
-			for line in team_to_player_file:
-				name, num = line.rstrip().split(",")
-				team_to_player_name[team][num] = name
-				# store last name only
-				if " " in name:
-					last_name = (re.match(".* (.*)", name)).group(1)
-				else: last_name = name
-				print "name %s vs. last_name %s" % (name, last_name)
-				if last_name in team_to_player_name[team]:
-					print "ERROR!! DUPLICATE!"
-				team_to_player_num[team][last_name] = num
+all_player_lines = [line.rstrip() for line in open("fantasy_player_data/all_players/all_player_list", 'r')]
+
+for line in all_player_lines[1:]:
+	num, name, team = line.rstrip().split(",")
+
+	# get rid of trailing whitespace
+	name = re.sub("\s*$", "", name)
+	if " " in name:
+		last_name = (re.match(".* (.*)$", name)).group(1)
+	else: last_name = name
+	print "last_name: %s, name: %s, team: %s" % (last_name, name, team)
+
+	team_to_player_num[team][last_name] = num
+	team_to_player_name[team][num] = name
 
 # team name as String -> Team object
 allTeams = {}
@@ -153,12 +149,11 @@ allTeams = {}
 # store basic player data
 # add players to their corresponding Teams
 for line in lines:
-	name, team, position, price = line.split(", ")
-	print "%s, %s" % (team, name)
-	if team in team_to_player_num:
-		# print "meow"
-		if name in team_to_player_num[name]:
-			print "yey"
+	name, team, position, price = line.rstrip().split(", ")
+
+	# TO DO: having issues keying on accented words
+	#        even though the team name is added above
+	#        it's not recognized down here :(
 	num = team_to_player_num[team][name]
 	# print "%s, %s, %s, %s, %s" % (name, num, team, position, price)
 	p = classes.Player(name, num, team, position, price)
@@ -169,8 +164,6 @@ for line in lines:
 		allTeams[team] = classes.Team(team, [])
 
 	allTeams[team].addPlayer(p)
-
-
 
 #store player match data
 team_to_player_ft = {}
