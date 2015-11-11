@@ -64,7 +64,7 @@ class ComputeRosterMDP(util.MDP):
 		stateRoster, stateBudget, statePositions, stateTeams = state
 
 		statePositions = dict(statePositions)
-		print "StatePositions are", statePositions
+		# print "StatePositions are", statePositions¡
 		stateTeams = dict(stateTeams)
 
 		if action not in state[0]: # if not in roster yet
