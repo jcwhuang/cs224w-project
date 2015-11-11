@@ -4,8 +4,9 @@ import copy
 import os
 import glob
 import re
+from collections import defaultdict
 
-#to compute 15-man roster from available players
+# to compute 15-man roster from available players
 class ComputeRosterMDP(util.MDP):
 	def __init__(self, players, budget, allTeams, allPlayers):
 		self.players=players
@@ -54,11 +55,11 @@ class ComputeRosterMDP(util.MDP):
 					
 				
 	def succAndProbReward(self, state, action):
-		#if roster is full
+		# if roster is full
 		if len(state[0]) == 15:
 			return []
 
-		#compute new state
+		# compute new state
 		newRoster = state[0]
 		newRoster.append(action)
 		newBudget = state[1]-action.price
@@ -68,7 +69,7 @@ class ComputeRosterMDP(util.MDP):
 		newTeams[action.team] += 1
 		newState = (newRoster, newBudget, newPositions, newTeams)
 
-		#TO DO: Reward function
+		# TO DO: Reward function
 		reward = 0 
 		playedInGame = False 	# 1pt
 		played60Min = False		# 2pt
@@ -112,28 +113,38 @@ class ComputeMatchLineupMDP(util.MDP):
 
 #store all player data
 players = {}
+
+# list of all players as Players
+allPlayers = []
+
 lines = [line.rstrip('\n') for line in open('fantasy_player_data/defenders')]
 lines = lines + [line.rstrip('\n') for line in open('fantasy_player_data/forwards')]
 lines = lines + [line.rstrip('\n') for line in open('fantasy_player_data/goalkeepers')]
 lines = lines + [line.rstrip('\n') for line in open('fantasy_player_data/midfielders')]
 
-#store basic player data
-for line in lines:
-	elems = line.split(",")
-	p = classes.Player(elems[0], elems[1], elems[2], elems[3])
-	players[elems[0]] = p
-
-
-
 # store all teams as Team object
-all_teams_file = "all_games/all-teams"
-allTeams = []
-for line in all_teams_file:
-	teamName = line.rstrip()
-	allTeams.append(classes.Team(teamName, []))
+# all_teams_filename = "all_games/all-teams"
+
+# team name as String -> Team object
+allTeams = {}
+
+# store basic player data
+# add players to their corresponding Teams
+for line in lines:
+	name, team, position, price = line.split(", ")
+	# team = team.decode('utf-8')
+	p = classes.Player(name, team, position, price)
+	# issue with using name as key: duplicate names
+	# players[elems[0]] = p
+	allPlayers.append(p)
+	if team not in allTeams:
+		allTeams[team] = classes.Team(team, [])
+
+	allTeams[team].addPlayer(p)
 
 # store team name -> player name -> player number
 # usage: team_to_players[team][player_name] = player_num
+# all represented as Strings not objects
 team_to_players = {}
 team_to_player_files = glob.glob("all_games/all_players/player_name_to_num*")
 for f in team_to_player_files:
@@ -141,36 +152,51 @@ for f in team_to_player_files:
 	if m:
 		team = m.group(1)
 		team = re.sub("_", " ", team)
-
-	# TO DO: get corresponding Player object
-	# TO DO: add Player object to corresponding team in allTeams
-	# right now, this just stores everything as Strings.
-	team_to_players[team] = {}
-	with open(f, 'r') as team_to_player_file:
-		for line in team_to_player_file:
-			name, num = line.split(",")
-			team_to_players[team][name] = num
-
+		team_to_players[team] = {}
+		with open(f, 'r') as team_to_player_file:
+			for line in team_to_player_file:
+				name, num = line.split(",")
+				team_to_players[team][name] = num
 
 #store player match data
 team_to_player_ft = {}
 player_stat_features = {}
 for matchday in os.listdir("player_statistics/2015-16/"):
 	if  matchday.endswith(".py")==False and matchday.endswith("Store")==False:
-		filename = "player_statistics/2015-16/" + matchday + "/csv/"
-		for tf in os.listdir(filename):
+		folder = "player_statistics/2015-16/" + matchday + "/csv/"
+		for tf in os.listdir(folder):
 			if tf.endswith("features"):
 				if not player_stat_features.keys(): # do this once
-					ls = [line.rstrip('\n') for line in open(filename+tf)]
+					ls = [line.rstrip('\n') for line in open(folder+tf)]
 					# store feature number -> feature acronym
 					for ft in ls:
 						ft_num, ft_acronym = ft.split("\t")
 						player_stat_features[ft_num] = ft_acronym
 			elif tf.endswith("csv")==False and tf.endswith(".py")==False:
-				#TO DO
-				#iterating through a single match of player stats for one team
-				#need to store player names to player number before doing this	
-				# store as team -> player_num -> player_features
+				# TO DO
+				# iterating through a single match of player stats for one team
+				# need to store player names to player number before doing this	
+				# wait, how to aggregate player stats over multiple matches?
+				# shall we store player features for each Player object?
+				# shall we add up stats and then normalize at the end?
+
+				# store as team -> player_num -> dict of player_features
+				# m = re.match("^.*-(.*)$", tf)
+				# if m:
+				# 	team = m.group(1)
+				# 	team = re.sub("_", " ", team)
+				
+				# 	if team not in team_to_player_ft:
+				# 		team_to_player_ft[team] = {}
+				# 	with open(folder+tf, 'r') as feature_file:
+				# 		for line in feature_file:
+				# 			features = line.split(",")
+				# 			# features[0] = player num
+				# 			# features[1] - on = features
+				# 			p_num = features[0]
+				# 			if p_num not in team_to_player_ft[team]:
+				# 				team_to_player_ft[team][p_num] = {}
+				# 			team_to_player_ft[team][p_num]
 
 				continue
 
