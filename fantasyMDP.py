@@ -64,7 +64,7 @@ class ComputeRosterMDP(util.MDP):
 		stateRoster, stateBudget, statePositions, stateTeams = state
 
 		statePositions = dict(statePositions)
-		# print "StatePositions are", statePositions¡
+		# print "StatePositions are", statePositions
 		stateTeams = dict(stateTeams)
 
 		if action not in state[0]: # if not in roster yet
@@ -254,13 +254,16 @@ for matchday in os.listdir("player_statistics/2015-16/"):
 		folder = "player_statistics/2015-16/" + matchday + "/csv/"
 		for tf in os.listdir(folder):
 			if tf.endswith("features"):
-				if not feature_num_to_acro.keys(): # do this once
-					ls = [line.rstrip('\n') for line in open(folder+tf)]
-					# store feature number -> feature acronym
-					for ft in ls:
-						ft_num, ft_acronym = ft.split("\t")
-						feature_num_to_acro[ft_num] = ft_acronym
-			elif tf.endswith("csv")==False and tf.endswith(".py")==False and tf.endswith(".swp")==False:
+				#if not feature_num_to_acro.keys(): # do this once
+				ls = [line.rstrip('\n') for line in open(folder+tf)]
+				# store feature number -> feature acronym
+				for ft in ls:
+					ft_num, ft_acronym = ft.split("\t")
+					feature_num_to_acro[ft_num] = ft_acronym
+				break
+		for tf in os.listdir(folder):
+			if tf.endswith("features")==False and tf.endswith("csv")==False and tf.endswith(".py")==False and tf.endswith(".swp")==False:
+				print tf
 				# how to aggregate player stats over multiple matches
 				#      - add up stats and then normalize at the end
 
