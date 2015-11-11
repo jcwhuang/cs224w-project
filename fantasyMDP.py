@@ -116,12 +116,21 @@ class ComputeMatchLineupMDP(util.MDP):
 players = {}
 
 # list of all players as Players
-allPlayers = []
+allPlayers = {}
 
 lines = [line.rstrip('\n') for line in open('fantasy_player_data/positions/defenders')]
 lines = lines + [line.rstrip('\n') for line in open('fantasy_player_data/positions/forwards')]
 lines = lines + [line.rstrip('\n') for line in open('fantasy_player_data/positions/goalkeepers')]
 lines = lines + [line.rstrip('\n') for line in open('fantasy_player_data/positions/midfielders')]
+
+# compare ignoring accented characters
+def check_for_accented_key(k, d):
+	for key in d:
+		u1 = unicodedata.normalize('NFC', k.decode('utf-8'))
+		u2 = unicodedata.normalize('NFC', key.decode('utf-8'))
+		if u1 == u2:
+			return d[key]
+	raise "Couldn't find team name"
 
 # team_to_player_num[team][player_last_name] = player_num
 team_to_player_num = defaultdict(lambda: defaultdict(str))
@@ -138,7 +147,6 @@ for line in all_player_lines[1:]:
 	if " " in name:
 		last_name = (re.match(".* (.*)$", name)).group(1)
 	else: last_name = name
-	print "last_name: %s, name: %s, team: %s" % (last_name, name, team)
 
 	team_to_player_num[team][last_name] = num
 	team_to_player_name[team][num] = name
@@ -151,15 +159,15 @@ allTeams = {}
 for line in lines:
 	name, team, position, price = line.rstrip().split(", ")
 
-	# TO DO: having issues keying on accented words
-	#        even though the team name is added above
-	#        it's not recognized down here :(
-	num = team_to_player_num[team][name]
-	# print "%s, %s, %s, %s, %s" % (name, num, team, position, price)
+	team_dict = check_for_accented_key(team, team_to_player_num);
+
+	num = team_dict[name]
 	p = classes.Player(name, num, team, position, price)
-	# issue with using name as key: duplicate names
-	# players[elems[0]] = p
-	allPlayers.append(p)
+
+	# store player_name-player_num-player_team = Player object
+	key = name + "-" + num + "-" + team
+	allPlayers[key] = p
+
 	if team not in allTeams:
 		allTeams[team] = classes.Team(team, [])
 
@@ -183,9 +191,10 @@ for matchday in os.listdir("player_statistics/2015-16/"):
 				# TO DO
 				# iterating through a single match of player stats for one team
 				# need to store player names to player number before doing this	
-				# wait, how to aggregate player stats over multiple matches?
+				# how to aggregate player stats over multiple matches
+				#      - add up stats and then normalize at the end
+
 				# shall we store player features for each Player object?
-				# shall we add up stats and then normalize at the end?
 
 				# store as team -> player_num -> dict of player_features
 				# m = re.match("^.*-(.*)$", tf)
