@@ -52,7 +52,8 @@ class ComputeRosterMDP(util.MDP):
 		# Just always return all possible players
 		# satisfy constraints in succAndProbReward
 		# just like we did in blackjack
-		actions = [self.allPlayers[playerName] for playerName in self.allPlayers]
+
+		actions = [self.allPlayers[playerName] for playerName in self.allPlayers.keys()]
 		return actions
 
 	def succAndProbReward(self, state, action):
@@ -242,6 +243,8 @@ for line in lines:
 
 	allTeams[team].addPlayer(p)
 
+print allPlayers
+
 # all_player_features[player_num + "-" + team] = {ft_num:ft:value}
 all_player_features = defaultdict(lambda: defaultdict(float))
 
@@ -263,7 +266,6 @@ for matchday in os.listdir("player_statistics/2015-16/"):
 				break
 		for tf in os.listdir(folder):
 			if tf.endswith("features")==False and tf.endswith("csv")==False and tf.endswith(".py")==False and tf.endswith(".swp")==False:
-				print tf
 				# how to aggregate player stats over multiple matches
 				#      - add up stats and then normalize at the end
 
@@ -310,7 +312,7 @@ for player in allPlayers:
 	last_name, num, team = player.split("-", 2)
 	allPlayers[player].stats = all_player_features[num + "-" + team]
 
-'''			
+'''
 for p in allPlayers.keys():
 	print "------------"
 	print allPlayers[p].name
@@ -326,8 +328,9 @@ budget = 100.0
 mdp = ComputeRosterMDP(players, budget, allTeams, allPlayers)
 rl = util.QLearningAlgorithm(mdp.actions, mdp.discount(), util.fantasyFeatureExtractor)
 print "Finished in %s iterations" % rl.numIters
-qRewards = util.simulate(mdp, rl, 100, verbose=True)
+qRewards = util.simulate(mdp, rl, 100) # verbose=True)
 print "qRewards: %s" % (sum(qRewards) / len(qRewards))
-mdp.computeStates()
+#mdp.computeStates()
+		
 
 

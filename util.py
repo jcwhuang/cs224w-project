@@ -103,8 +103,18 @@ def simulate(mdp, rl, numTrials=10, maxIterations=1000, verbose=False,
         for _ in range(maxIterations):
             action = rl.getAction(state)
             transitions = mdp.succAndProbReward(state, action)
+
+            # TO CHECK
+            print "state = ", str(state)
+            print "chosen action = ", str(action)
+
             if sort: transitions = sorted(transitions)
             if len(transitions) == 0:
+
+                #TO CHECK
+                print "len(transitions) = 0"
+                print "Transitions: ", str(transitions)
+
                 rl.incorporateFeedback(state, action, 0, None)
                 break
 
@@ -119,6 +129,7 @@ def simulate(mdp, rl, numTrials=10, maxIterations=1000, verbose=False,
             totalReward += totalDiscount * reward
             totalDiscount *= mdp.discount()
             state = newState
+            print "iteration ", _, ", reward = reward"
         if verbose:
             print "Trial %d (totalReward = %s): %s" % (trial, totalReward, sequence)
             print ""
@@ -140,6 +151,7 @@ class QLearningAlgorithm(RLAlgorithm):
         self.weights = collections.Counter()
         self.numIters = 0
 
+
    # Return the Q function associated with the weights and features
     def getQ(self, state, action):
         score = 0
@@ -156,8 +168,16 @@ class QLearningAlgorithm(RLAlgorithm):
         if random.random() < self.explorationProb:
             return random.choice(self.actions(state))
         else:
-            return max((self.getQ(state, action), action) for action in self.actions(state))[1]
 
+            #TO CHECK
+            sub = [self.getQ(state,action) for action in self.actions(state)]
+            print "sub = ", str(sub)
+            #--------------------------
+
+            maxQ = max((self.getQ(state,action)) for action in self.actions(state))			
+            qs = [(self.getQ(state, action), action) for action in self.actions(state) if self.getQ(state,action)==maxQ]
+            #return max((self.getQ(state, action), action) for action in self.actions(state))[1]
+            return qs[random.randint(0, len(qs)-1)][1]
     # Call this function to get the step size to update the weights.
     def getStepSize(self):
         return 1.0 / math.sqrt(self.numIters)
