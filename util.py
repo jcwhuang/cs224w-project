@@ -95,6 +95,7 @@ def simulate(mdp, rl, numTrials=10, maxIterations=1000, verbose=False,
         raise Exception("Invalid probs: %s" % probs)
 
     totalRewards = []  # The rewards we get on each trial
+    bestSequence = None
     for trial in range(numTrials):
         state = mdp.startState()
         sequence = [state]
@@ -103,20 +104,41 @@ def simulate(mdp, rl, numTrials=10, maxIterations=1000, verbose=False,
         for _ in range(maxIterations):
             action = rl.getAction(state)
             transitions = mdp.succAndProbReward(state, action)
-
+            rl.actionsTaken = []
             # TO CHECK
-            print "state = ", str(state)
-            print "chosen action = ", str(action)
+            # print "state = ", str(state)
+            # print "roster = ", str([p.name for p in state[0]])
+            # print "chosen action = ", str(action.name)
 
             if sort: transitions = sorted(transitions)
-            if len(transitions) == 0:
 
-                #TO CHECK
-                print "len(transitions) = 0"
-                print "Transitions: ", str(transitions)
+            # instead of giving up when no transitions, let's try another action
+            while len(transitions) == 0:
+                action = rl.getAction(state)
+                # print "trying a new action %s" % action.name
 
-                rl.incorporateFeedback(state, action, 0, None)
+                transitions = mdp.succAndProbReward(state, action)
+                # print "len(state) = %s" % (len(state[0]))
+                # TO DO: hacky. Make this nicer.
+                if len(state[0]) == 15: 
+                    rl.incorporateFeedback(state, action, 0, None)
+                    break
+
+                rl.actionsTaken.append(action)
+
+            if len(state[0]) == 15:
+                bestSequence = state[0]
                 break
+            # if len(transitions) == 0:
+
+            #     #TO CHECK
+            #     print "len(transitions) = 0"
+            #     print "Transitions: ", str(transitions)
+
+            #     rl.incorporateFeedback(state, action, 0, None)
+
+
+            #     break
 
             # Choose a random transition
             i = sample([prob for newState, prob, reward in transitions])
@@ -129,12 +151,16 @@ def simulate(mdp, rl, numTrials=10, maxIterations=1000, verbose=False,
             totalReward += totalDiscount * reward
             totalDiscount *= mdp.discount()
             state = newState
-            print "iteration ", _, ", reward = reward"
+            print "iteration ", _, ", reward =", reward
         if verbose:
-            print "Trial %d (totalReward = %s): %s" % (trial, totalReward, sequence)
+            # print "Trial %d (totalReward = %s): %s" % (trial, totalReward, sequence)
+            print "Trial %d: (totalReward = %s)" % (trial, totalReward)
+
             print ""
         totalRewards.append(totalReward)
-    return totalRewards
+    # print "sequence is", sequence[len(sequence)-1]
+    # print "state is", state
+    return (bestSequence, totalRewards)
 
 # Performs Q-learning.  Read util.RLAlgorithm for more information.
 # actions: a function that takes a state and returns a list of actions.
@@ -148,9 +174,12 @@ class QLearningAlgorithm(RLAlgorithm):
         self.discount = discount
         self.featureExtractor = featureExtractor
         self.explorationProb = explorationProb
-        self.weights = collections.Counter()
+        # self.weights = collections.Counter()
+        self.weights = {'gamesPlayed':1, 'teamMinutes': 2, 'teamGoals':6, 'yellowCards':-1, 'redCards':-3}
         self.numIters = 0
-
+        self.bestSequence = []
+        # TO DO: hacky
+        self.actionsTaken = []
 
    # Return the Q function associated with the weights and features
     def getQ(self, state, action):
@@ -170,11 +199,27 @@ class QLearningAlgorithm(RLAlgorithm):
         else:
 
             #TO CHECK
-            sub = [self.getQ(state,action) for action in self.actions(state)]
-            print "sub = ", str(sub)
+            # sub = [self.getQ(state,action) for action in self.actions(state)]
+            # print "sub = ", str(sub)
             #--------------------------
+            roster = state[0]
+            # TO DO: check over this
+            # take out all actions that we've already tried
+            # then try getting the max
 
-            maxQ = max((self.getQ(state,action)) for action in self.actions(state))			
+            stateActions = self.actions(state)
+            validActions = []
+            for action in stateActions:
+                if action not in self.actionsTaken:
+                    validActions.append(action)
+
+            maxQ, bestAction = max((self.getQ(state,action), action) for action in validActions) 
+            return bestAction
+            # maxQ, bestAction = max((self.getQ(state,action), action) for action in self.actions(state))	
+            # while bestAction in roster:
+            #      maxQ, bestAction = max((self.getQ(state,action), action) for action in self.actions(state))
+            return bestAction
+            # self.bestSequence.append(bestAction)		
             qs = [(self.getQ(state, action), action) for action in self.actions(state) if self.getQ(state,action)==maxQ]
             #return max((self.getQ(state, action), action) for action in self.actions(state))[1]
             return qs[random.randint(0, len(qs)-1)][1]
@@ -187,17 +232,28 @@ class QLearningAlgorithm(RLAlgorithm):
     # You should update the weights using self.getStepSize(); use
     # self.getQ() to compute the current estimate of the parameters.
     def incorporateFeedback(self, state, action, reward, newState):
-        # BEGIN_YOUR_CODE (around 15 lines of code expected)
 
-        #check for end state
-        if newState == None:
-            return
+        # check for end state
+        # if newState == None:
+        #     return
+        # pred = self.getQ(state, action)
 
-        Vopt = max([self.getQ(newState, a) for a in self.actions(newState)])
-        Qopt = self.getQ(state, action)
-        for name, value in self.featureExtractor(state, action):
-            self.weights[name] -= self.getStepSize()*(Qopt - (reward + self.discount*Vopt))*value
-        # END_YOUR_CODE
+        # Vopt = max([self.getQ(newState, a) for a in self.actions(newState)])
+        # # Qopt = self.getQ(state, action)
+        # target = reward + self.discount * Vopt
+        # update = self.getStepSize() * (pred - target)
+        # print "Vopt: %s, target: %s, update: %s, pred: %s" % (Vopt, target, update, pred)
+        # for f, v in self.featureExtractor(state, action):
+        #     self.weights[f] -= update * v
+        # print "feature values are", self.featureExtractor(state, action)
+        # print "weights are: ", self.weights
+
+        # what if we just set the weights and not update?
+        pass
+
+        # print "Vopt: %s, Qopt: %s" % (Vopt, Qopt)
+        # for name, value in self.featureExtractor(state, action):
+        #     self.weights[name] -= self.getStepSize()*(Qopt - (reward + self.discount*Vopt))*value
 
 # Return a singleton list containing indicator feature for the (state, action)
 # pair.  Provides no generalization.
@@ -224,6 +280,7 @@ def fantasyFeatureExtractor(state, action):
 	savesByGK = 0           # 1pt/3saves
 	recoveredBalls = 0      # 1pt/5balls
     '''
+
     roster = state[0]
     features = []
 
@@ -249,8 +306,10 @@ def fantasyFeatureExtractor(state, action):
     offsides = 0
     attemptsOnTarget = 0
     attemptsBlocked = 0
-
+    # print "roster is", roster
     for player in roster: 
+        # print "player stats for %s are" % player.name, player.stats
+
         gamesPlayed += 1	
         teamMinutes += player.stats['M']
         teamGoals += player.stats['G']
@@ -264,6 +323,8 @@ def fantasyFeatureExtractor(state, action):
         offsides += player.stats['O']
         attemptsOnTarget += player.stats['T']
         attemptsBlocked += player.stats['AB']	
+
+        
 
         # teamMinutes += matchStats.minutes
         # teamGoals += matchStats.goals
@@ -295,12 +356,13 @@ def fantasyFeatureExtractor(state, action):
     features.append(('teamGoals', teamGoals))   
     features.append(('yellowCards', yellowCards))
     features.append(('redCards', redCards))
-    #non-fantasy-score features
-    features.append(('foulsCommitted', foulsCommitted))
-    features.append(('foulsSuffered', foulsSuffered))
-    features.append(('attemptsOffTarget', attemptsOffTarget))
-    features.append(('offsides', offsides))
-    features.append(('attemptsOnTarget', attemptsOnTarget))
-    features.append(('attemptsBlocked', attemptsBlocked))
+    # non-fantasy-score features
+    # TO DO: add these back later
+    # features.append(('foulsCommitted', foulsCommitted))
+    # features.append(('foulsSuffered', foulsSuffered))
+    # features.append(('attemptsOffTarget', attemptsOffTarget))
+    # features.append(('offsides', offsides))
+    # features.append(('attemptsOnTarget', attemptsOnTarget))
+    # features.append(('attemptsBlocked', attemptsBlocked))
 
     return features

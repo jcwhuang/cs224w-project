@@ -51,27 +51,43 @@ class ComputeRosterMDP(util.MDP):
 	def actions(self,state):
 		# Just always return all possible players
 		# satisfy constraints in succAndProbReward
-		# just like we did in blackjack
 
 		actions = [self.allPlayers[playerName] for playerName in self.allPlayers.keys()]
 		return actions
+		# only return players not in roster already
+		# validActions = []
+		# stateRoster, stateBudget, statePositions, stateTeams = state
+		# statePositions = dict(statePositions)
+		# stateTeams = dict(stateTeams)
+		# for playerName in self.allPlayers:
+		# 	p = self.allPlayers[playerName]
+		# 	if p not in stateRoster:
+		# 		positionConstraint = (statePositions[p.position] < self.maxPositions[p.position])
+		# 		budgetConstraint = (p.price < stateBudget)
+		# 		teamConstraint = (stateTeams[p.team] < 3)
+		# 		if not positionConstraint: print "have max positions for %s" % p.position
+		# 		if not teamConstraint: print "have max players for %s" % p.team
+		# 		if positionConstraint and budgetConstraint and teamConstraint:
+		# 			validActions.append(self.allPlayers[playerName])
+		# return validActions
 
 	def succAndProbReward(self, state, action):
 		# if roster is full
 		if len(state[0]) == 15:
 			return []
 
+		prob = 1
 		validPlayer = False
 		stateRoster, stateBudget, statePositions, stateTeams = state
 
 		statePositions = dict(statePositions)
-		# print "StatePositions are", statePositions
 		stateTeams = dict(stateTeams)
-
-		if action not in state[0]: # if not in roster yet
-			positionConstraint = (statePositions[p.position] < self.maxPositions[p.position])
-			budgetConstraint = (p.price < stateBudget)
-			teamConstraint = (stateTeams[p.team] < 3)
+		if action not in stateRoster: # if not in roster yet
+			positionConstraint = (statePositions[action.position] < self.maxPositions[action.position])
+			budgetConstraint = (action.price < stateBudget)
+			teamConstraint = (stateTeams[action.team] < 3)
+			# if not positionConstraint: print "have max positions for %s" % action.position
+			# if not teamConstraint: print "have max players for %s" % action.team
 			if positionConstraint and budgetConstraint and teamConstraint:
 				validPlayer = True
 		
@@ -161,7 +177,7 @@ class ComputeRosterMDP(util.MDP):
 		# for now, let's say reward is -price
 		reward = -1 * action.price
 
-		return [(newState, 1, reward)]
+		return [(newState, prob, reward)]
 
 	def discount(self):
 		return 1
@@ -188,9 +204,9 @@ allPlayers = {}
 
 # for positions, only last names are included along with price, team, and position
 lines = [line.rstrip('\n') for line in open('fantasy_player_data/positions/defenders')]
-lines = lines + [line.rstrip('\n') for line in open('fantasy_player_data/positions/forwards')]
-lines = lines + [line.rstrip('\n') for line in open('fantasy_player_data/positions/goalkeepers')]
-lines = lines + [line.rstrip('\n') for line in open('fantasy_player_data/positions/midfielders')]
+lines += [line.rstrip('\n') for line in open('fantasy_player_data/positions/forwards')]
+lines += [line.rstrip('\n') for line in open('fantasy_player_data/positions/goalkeepers')]
+lines += [line.rstrip('\n') for line in open('fantasy_player_data/positions/midfielders')]
 
 # compare ignoring accented characters
 def check_for_accented_key(k, d):
@@ -243,7 +259,7 @@ for line in lines:
 
 	allTeams[team].addPlayer(p)
 
-print allPlayers
+# print allPlayers
 
 # all_player_features[player_num + "-" + team] = {ft_num:ft:value}
 all_player_features = defaultdict(lambda: defaultdict(float))
@@ -328,8 +344,12 @@ budget = 100.0
 mdp = ComputeRosterMDP(players, budget, allTeams, allPlayers)
 rl = util.QLearningAlgorithm(mdp.actions, mdp.discount(), util.fantasyFeatureExtractor)
 print "Finished in %s iterations" % rl.numIters
-qRewards = util.simulate(mdp, rl, 100) # verbose=True)
+bestSequence, qRewards = util.simulate(mdp, rl, numTrials=1, maxIterations=100,verbose=True)
 print "qRewards: %s" % (sum(qRewards) / len(qRewards))
+bestSequenceNames = [p.name for p in bestSequence]
+print "best set of players is", bestSequenceNames
+# print "best set of players", rl.bestSequence
+
 #mdp.computeStates()
 		
 
