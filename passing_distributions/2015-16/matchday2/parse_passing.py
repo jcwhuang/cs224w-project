@@ -137,8 +137,11 @@ def setup(start, end):
 def store_edges(start, end):
     # store edges
     for line in passing_dist[start:end]:
+        # strip last comma from end
+        line = re.sub(",,$", "", line)
+
         split = line.rstrip().split(",")
-        if "" == split[len(split)-1]:
+        if "" == split[-1]:
             split = split[:-1]
         if "Total passes received" not in split[0]:
             # first store num -> name

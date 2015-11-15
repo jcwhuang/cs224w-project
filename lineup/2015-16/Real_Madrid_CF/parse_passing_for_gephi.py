@@ -137,9 +137,13 @@ def setup(start, end):
 def store_edges(start, end):
     # store edges
     for line in passing_dist[start:end]:
+        # strip last comma from end
+        line = re.sub(",,$", "", line)
         split = line.rstrip().split(",")
-        if "" == split[len(split)-1]:
+        if "" == split[-1]:
             split = split[:-1]
+        # print "split is", split
+
         if "Total passes received" not in split[0]:
             # first store num -> name
             name, num, time = split[0:3]
@@ -169,9 +173,10 @@ def store_edges(start, end):
 
             # store player stats
             player_stats[num] = split[len(split) - 9:]
-            # print "player_stats[%s] = "% num, split[14:]
+            # print "player_stats[%s] = "% num, split[len(split) - 9:]
         else:
             # players
+            # total_passes = split[3:17]
             # total_passes = split[3:-9]
             # for index in xrange(len(index_to_num)):
             #     player = index_to_num[index]
@@ -197,7 +202,7 @@ def store_edges(start, end):
                 else:
                     total_stats_processed.append(stat)
 
-            offset = len(split) - 9
+            offset = len(split) - 9 
             for index in xrange(len(total_stats_processed)):
                 total_passes_received_by_stats[index+offset] = total_stats_processed[index]
 
@@ -226,11 +231,12 @@ def get_team_names():
 #   team: team for print edges for
 #################################################
 def print_edges(team):
-    outfile = open(parsed_args.outfile + "-" + team + "-edges", 'w')
+    outfile = open(parsed_args.outfile + "-" + team + "-edges.csv", 'w')
+    outfile.write("Source;Target;Weight\n")
     # print edges
     for player1 in passing_edges:
         for player2 in passing_edges[player1]:
-            outfile.write("%s\t%s\t%s\n" % (player1, player2, \
+            outfile.write("%s;%s;%s\n" % (player1, player2, \
                     passing_edges[player1][player2]))
 
 #################################################
@@ -239,9 +245,10 @@ def print_edges(team):
 #   team: team for print nodes for
 #################################################
 def print_nodes(team):
-    num_name_outfile = open(parsed_args.outfile + "-" + team + "-nodes", 'w')
+    num_name_outfile = open(parsed_args.outfile + "-" + team + "-nodes.csv", 'w')
+    num_name_outfile.write("Id;Label\n")
     for num in num_to_name:
-        num_name_outfile.write("%s\t%s\n" % (num, num_to_name[num]))
+        num_name_outfile.write("%s;\"%s\"\n" % (num, num_to_name[num]))
 
 #################################################
 # print_player_stats(team)
@@ -295,11 +302,11 @@ prep(start1, end1)
 print_player_feature_stats(team1+"+" + team2)
 print_edges(team1)
 print_nodes(team1)
-print_player_stats(team1)
+# print_player_stats(team1)
 
 # team 2
 start2, end2 = get_start_end_index(end1, len(passing_dist), passing_dist)
 prep(start2, end2)
 print_edges(team2)
 print_nodes(team2)
-print_player_stats(team2)
+# print_player_stats(team2)
