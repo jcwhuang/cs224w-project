@@ -46,6 +46,25 @@ class Match():
 		self.visitingTeam = visitingTeam
 		self.homeScore = 0
 		self.visitorScore = 0
+		self.homeTeamObj = Team("", "")
+		self.visitingTeamObj = Team("", "")
+		self.homePD = {}
+		self.visitorPD = {}
+
+		#stores how many passes to defenders, mids, etc.
+		self.homePosPD = {}
+		self.visitorPosPD = {}
+
+		# can be one of "HEAVY_DEF", "HEAVY_MID", "HEAVY_OFF", "BALANCED", 
+		# still need to add possibility of "HEAVY_RIGHT" and "HEAVY_LEFT"
+		# in pdPrediction.py
+		self.homePDType = ""
+		self.visitorPDType = ""
+
+	def getPD(self, team):
+		if team == self.homeTeam:
+			return self.homePD
+		return self.visitorPD
 
 	def winner(self):
 		if self.homeScore > self.visitorScore:
@@ -60,4 +79,19 @@ class Match():
 
 	def setVisitorScore(self, score):
 		self.visitorScore = score
+
+	def setHomeTeam(self, team):
+		self.homeTeam = team
+
+	def setVisitingTeam(self, team):
+		self.visitingTeam = team
+
+	def setHomeTeamObj(self, team):
+		self.homeTeamObj = team
+
+	def setVisitingTeamObj(self, team):
+		self.visitingTeamObj = team
+
+
+
 
