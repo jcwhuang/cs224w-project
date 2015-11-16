@@ -138,6 +138,8 @@ def store_edges(start, end):
     # store edges
     for line in passing_dist[start:end]:
         split = line.rstrip().split(",")
+        if "" == split[len(split)-1]:
+            split = split[:-1]
         if "Total passes received" not in split[0]:
             # first store num -> name
             name, num, time = split[0:3]
@@ -170,14 +172,14 @@ def store_edges(start, end):
             # print "player_stats[%s] = "% num, split[14:]
         else:
             # players
-            total_passes = split[3:17]
-            for index in xrange(len(index_to_num)):
-                player = index_to_num[index]
-                total_passes_received_by_player[player] = total_passes[index]
+            # total_passes = split[3:-9]
+            # for index in xrange(len(index_to_num)):
+            #     player = index_to_num[index]
+            #     total_passes_received_by_player[player] = total_passes[index]
                 # print "%s -> %s" % (player, total_passes[index])
 
             # stats
-            total_stats = split[17:]
+            total_stats = split[-9:]
             # pre-process
             total_stats_processed = []
             for stat in total_stats:
@@ -195,7 +197,7 @@ def store_edges(start, end):
                 else:
                     total_stats_processed.append(stat)
 
-            offset = 17
+            offset = len(split) - 9
             for index in xrange(len(total_stats_processed)):
                 total_passes_received_by_stats[index+offset] = total_stats_processed[index]
 
