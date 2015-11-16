@@ -87,8 +87,9 @@ def findPlayerPosition(name, team):
 
 #store team rankings, teamName:ranking
 rankings = {}
-#TO DO
-
+for line in [x.rstrip('\n') for x in open("rankings.txt")]:
+	sl = line.split('\t')
+	rankings[sl[0]] = sl[1]
 
 #matchID:classes.Match
 matches = {}
@@ -154,6 +155,13 @@ for matchday in os.listdir("passing_distributions/2015-16/"):
 				pd[elems[0]][elems[1]] = elems[2]
 
 
+#store team ranks in matches
+for matchID in matches.keys():
+	match = matches[matchID]
+	match.homeTeamObj.setRank(rankings[match.homeTeam])
+	match.visitingTeamObj.setRank(rankings[match.visitingTeam])
+
+
 def computePositionPD(team, pd, players):
 	num_to_pos = {}
 	for player in players:
@@ -175,7 +183,7 @@ for id in matches.keys():
 	#to do some more analysis
 	print "#################################################"
 	print "MATCH ", id
-	print match.homeTeam, " vs ", match.visitingTeam
+	print match.homeTeam, " (#", rankings[match.homeTeam],") vs ", match.visitingTeam, " (#", rankings[match.visitingTeam], ")"
 	print match.homeTeam, "'s position PD: "
 	print match.homePosPD
 	print match.visitingTeam, "'s position PD: "
