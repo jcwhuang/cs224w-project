@@ -5,8 +5,7 @@ if len(sys.argv) < 2:
     sys.exit(1)
 
 profilePath = sys.argv[1]
-bulletin = util.PlayerBulletin('../fantasy_player_data/positions/small_ascii_players.json')
-# bulletin = util.PlayerBulletin('../fantasy_player_data/positions/ascii_players.json')
+bulletin = util.PlayerBulletin('../fantasy_player_data/positions/ascii_players.json')
 profile = util.ProjectProfile(bulletin, profilePath)
 profile.print_info()
 cspConstructor = submission.ProjectCSPConstructor(bulletin, profile)
