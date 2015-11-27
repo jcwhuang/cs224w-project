@@ -1,0 +1,6154 @@
+{
+    "Buffon!Juventus": {
+        "pid": "Buffon!Juventus",
+        "name": "Buffon",
+        "team": "Juventus",
+        "pos": "GK",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Neuer!FC Bayern M&#252;nchen": {
+        "pid": "Neuer!FC Bayern M&#252;nchen",
+        "name": "Neuer",
+        "team": "FC Bayern M&#252;nchen",
+        "pos": "GK",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Stegen!FC Barcelona": {
+        "pid": "Stegen!FC Barcelona",
+        "name": "Stegen",
+        "team": "FC Barcelona",
+        "pos": "GK",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Casillas!FC Porto": {
+        "pid": "Casillas!FC Porto",
+        "name": "Casillas",
+        "team": "FC Porto",
+        "pos": "GK",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Navas!Real Madrid CF": {
+        "pid": "Navas!Real Madrid CF",
+        "name": "Navas",
+        "team": "Real Madrid CF",
+        "pos": "GK",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Courtois!Chelsea FC": {
+        "pid": "Courtois!Chelsea FC",
+        "name": "Courtois",
+        "team": "Chelsea FC",
+        "pos": "GK",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Sirigu!Paris Saint-Germain": {
+        "pid": "Sirigu!Paris Saint-Germain",
+        "name": "Sirigu",
+        "team": "Paris Saint-Germain",
+        "pos": "GK",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "&#268;ech!Arsenal FC": {
+        "pid": "&#268;ech!Arsenal FC",
+        "name": "&#268;ech",
+        "team": "Arsenal FC",
+        "pos": "GK",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Gea!Manchester United FC": {
+        "pid": "Gea!Manchester United FC",
+        "name": "Gea",
+        "team": "Manchester United FC",
+        "pos": "GK",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Romero!Manchester United FC": {
+        "pid": "Romero!Manchester United FC",
+        "name": "Romero",
+        "team": "Manchester United FC",
+        "pos": "GK",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Hart!Manchester City FC": {
+        "pid": "Hart!Manchester City FC",
+        "name": "Hart",
+        "team": "Manchester City FC",
+        "pos": "GK",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Oblak!Club Atl&#233;tico de Madrid": {
+        "pid": "Oblak!Club Atl&#233;tico de Madrid",
+        "name": "Oblak",
+        "team": "Club Atl&#233;tico de Madrid",
+        "pos": "GK",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Bravo!FC Barcelona": {
+        "pid": "Bravo!FC Barcelona",
+        "name": "Bravo",
+        "team": "FC Barcelona",
+        "pos": "GK",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Leno!Bayer 04 Leverkusen": {
+        "pid": "Leno!Bayer 04 Leverkusen",
+        "name": "Leno",
+        "team": "Bayer 04 Leverkusen",
+        "pos": "GK",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Szcz&#281;sny!AS Roma": {
+        "pid": "Szcz&#281;sny!AS Roma",
+        "name": "Szcz&#281;sny",
+        "team": "AS Roma",
+        "pos": "GK",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Pyatov!FC Shakhtar Donetsk": {
+        "pid": "Pyatov!FC Shakhtar Donetsk",
+        "name": "Pyatov",
+        "team": "FC Shakhtar Donetsk",
+        "pos": "GK",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Akinfeev!PFC CSKA Moskva": {
+        "pid": "Akinfeev!PFC CSKA Moskva",
+        "name": "Akinfeev",
+        "team": "PFC CSKA Moskva",
+        "pos": "GK",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Helton!FC Porto": {
+        "pid": "Helton!FC Porto",
+        "name": "Helton",
+        "team": "FC Porto",
+        "pos": "GK",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Muslera!Galatasaray A&#350;": {
+        "pid": "Muslera!Galatasaray A&#350;",
+        "name": "Muslera",
+        "team": "Galatasaray A&#350;",
+        "pos": "GK",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Barrag&#225;n!Club Atl&#233;tico de Madrid": {
+        "pid": "Barrag&#225;n!Club Atl&#233;tico de Madrid",
+        "name": "Barrag&#225;n",
+        "team": "Club Atl&#233;tico de Madrid",
+        "pos": "GK",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Benaglio!VfL Wolfsburg": {
+        "pid": "Benaglio!VfL Wolfsburg",
+        "name": "Benaglio",
+        "team": "VfL Wolfsburg",
+        "pos": "GK",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Rico!Sevilla FC": {
+        "pid": "Rico!Sevilla FC",
+        "name": "Rico",
+        "team": "Sevilla FC",
+        "pos": "GK",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Sanctis!AS Roma": {
+        "pid": "Sanctis!AS Roma",
+        "name": "Sanctis",
+        "team": "AS Roma",
+        "pos": "GK",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Lopes!Olympique Lyonnais": {
+        "pid": "Lopes!Olympique Lyonnais",
+        "name": "Lopes",
+        "team": "Olympique Lyonnais",
+        "pos": "GK",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Trapp!Paris Saint-Germain": {
+        "pid": "Trapp!Paris Saint-Germain",
+        "name": "Trapp",
+        "team": "Paris Saint-Germain",
+        "pos": "GK",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Moy&#224;!Club Atl&#233;tico de Madrid": {
+        "pid": "Moy&#224;!Club Atl&#233;tico de Madrid",
+        "name": "Moy&#224;",
+        "team": "Club Atl&#233;tico de Madrid",
+        "pos": "GK",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Casilla!Real Madrid CF": {
+        "pid": "Casilla!Real Madrid CF",
+        "name": "Casilla",
+        "team": "Real Madrid CF",
+        "pos": "GK",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Caballero!Manchester City FC": {
+        "pid": "Caballero!Manchester City FC",
+        "name": "Caballero",
+        "team": "Manchester City FC",
+        "pos": "GK",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Begovi&#263;!Chelsea FC": {
+        "pid": "Begovi&#263;!Chelsea FC",
+        "name": "Begovi&#263;",
+        "team": "Chelsea FC",
+        "pos": "GK",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Ulreich!FC Bayern M&#252;nchen": {
+        "pid": "Ulreich!FC Bayern M&#252;nchen",
+        "name": "Ulreich",
+        "team": "FC Bayern M&#252;nchen",
+        "pos": "GK",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Wiland!Malm&#246; FF": {
+        "pid": "Wiland!Malm&#246; FF",
+        "name": "Wiland",
+        "team": "Malm&#246; FF",
+        "pos": "GK",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Ospina!Arsenal FC": {
+        "pid": "Ospina!Arsenal FC",
+        "name": "Ospina",
+        "team": "Arsenal FC",
+        "pos": "GK",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Neto!Juventus": {
+        "pid": "Neto!Juventus",
+        "name": "Neto",
+        "team": "Juventus",
+        "pos": "GK",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Zoet!PSV Eindhoven": {
+        "pid": "Zoet!PSV Eindhoven",
+        "name": "Zoet",
+        "team": "PSV Eindhoven",
+        "pos": "GK",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Casteels!VfL Wolfsburg": {
+        "pid": "Casteels!VfL Wolfsburg",
+        "name": "Casteels",
+        "team": "VfL Wolfsburg",
+        "pos": "GK",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Chernik!FC BATE Borisov": {
+        "pid": "Chernik!FC BATE Borisov",
+        "name": "Chernik",
+        "team": "FC BATE Borisov",
+        "pos": "GK",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Roberto!Olympiacos FC": {
+        "pid": "Roberto!Olympiacos FC",
+        "name": "Roberto",
+        "team": "Olympiacos FC",
+        "pos": "GK",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "C&#233;sar!SL Benfica": {
+        "pid": "C&#233;sar!SL Benfica",
+        "name": "C&#233;sar",
+        "team": "SL Benfica",
+        "pos": "GK",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Kre&#353;i&#263;!Bayer 04 Leverkusen": {
+        "pid": "Kre&#353;i&#263;!Bayer 04 Leverkusen",
+        "name": "Kre&#353;i&#263;",
+        "team": "Bayer 04 Leverkusen",
+        "pos": "GK",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Lodygin!FC Zenit": {
+        "pid": "Lodygin!FC Zenit",
+        "name": "Lodygin",
+        "team": "FC Zenit",
+        "pos": "GK",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Douchez!Paris Saint-Germain": {
+        "pid": "Douchez!Paris Saint-Germain",
+        "name": "Douchez",
+        "team": "Paris Saint-Germain",
+        "pos": "GK",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Kapino!Olympiacos FC": {
+        "pid": "Kapino!Olympiacos FC",
+        "name": "Kapino",
+        "team": "Olympiacos FC",
+        "pos": "GK",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Sommer!VfL Borussia M&#246;nchengladbach": {
+        "pid": "Sommer!VfL Borussia M&#246;nchengladbach",
+        "name": "Sommer",
+        "team": "VfL Borussia M&#246;nchengladbach",
+        "pos": "GK",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Kerzhakov!FC Zenit": {
+        "pid": "Kerzhakov!FC Zenit",
+        "name": "Kerzhakov",
+        "team": "FC Zenit",
+        "pos": "GK",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Gorgelin!Olympique Lyonnais": {
+        "pid": "Gorgelin!Olympique Lyonnais",
+        "name": "Gorgelin",
+        "team": "Olympique Lyonnais",
+        "pos": "GK",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Starke!FC Bayern M&#252;nchen": {
+        "pid": "Starke!FC Bayern M&#252;nchen",
+        "name": "Starke",
+        "team": "FC Bayern M&#252;nchen",
+        "pos": "GK",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "&#304;&#351;can!Galatasaray A&#350;": {
+        "pid": "&#304;&#351;can!Galatasaray A&#350;",
+        "name": "&#304;&#351;can",
+        "team": "Galatasaray A&#350;",
+        "pos": "GK",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Shovkovskiy!FC Dynamo Kyiv": {
+        "pid": "Shovkovskiy!FC Dynamo Kyiv",
+        "name": "Shovkovskiy",
+        "team": "FC Dynamo Kyiv",
+        "pos": "GK",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Ederson!SL Benfica": {
+        "pid": "Ederson!SL Benfica",
+        "name": "Ederson",
+        "team": "SL Benfica",
+        "pos": "GK",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Eduardo!GNK Dinamo Zagreb": {
+        "pid": "Eduardo!GNK Dinamo Zagreb",
+        "name": "Eduardo",
+        "team": "GNK Dinamo Zagreb",
+        "pos": "GK",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Koopmans!PSV Eindhoven": {
+        "pid": "Koopmans!PSV Eindhoven",
+        "name": "Koopmans",
+        "team": "PSV Eindhoven",
+        "pos": "GK",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Eri&#263;!FC Astana": {
+        "pid": "Eri&#263;!FC Astana",
+        "name": "Eri&#263;",
+        "team": "FC Astana",
+        "pos": "GK",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Kanibolotskiy!FC Shakhtar Donetsk": {
+        "pid": "Kanibolotskiy!FC Shakhtar Donetsk",
+        "name": "Kanibolotskiy",
+        "team": "FC Shakhtar Donetsk",
+        "pos": "GK",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Lopes!SL Benfica": {
+        "pid": "Lopes!SL Benfica",
+        "name": "Lopes",
+        "team": "SL Benfica",
+        "pos": "GK",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Beto!Sevilla FC": {
+        "pid": "Beto!Sevilla FC",
+        "name": "Beto",
+        "team": "Sevilla FC",
+        "pos": "GK",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Kompalla!VfL Borussia M&#246;nchengladbach": {
+        "pid": "Kompalla!VfL Borussia M&#246;nchengladbach",
+        "name": "Kompalla",
+        "team": "VfL Borussia M&#246;nchengladbach",
+        "pos": "GK",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Heimeroth!VfL Borussia M&#246;nchengladbach": {
+        "pid": "Heimeroth!VfL Borussia M&#246;nchengladbach",
+        "name": "Heimeroth",
+        "team": "VfL Borussia M&#246;nchengladbach",
+        "pos": "GK",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Sels!KAA Gent": {
+        "pid": "Sels!KAA Gent",
+        "name": "Sels",
+        "team": "KAA Gent",
+        "pos": "GK",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Ryan!Valencia CF": {
+        "pid": "Ryan!Valencia CF",
+        "name": "Ryan",
+        "team": "Valencia CF",
+        "pos": "GK",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Malafeev!FC Zenit": {
+        "pid": "Malafeev!FC Zenit",
+        "name": "Malafeev",
+        "team": "FC Zenit",
+        "pos": "GK",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Sippel!VfL Borussia M&#246;nchengladbach": {
+        "pid": "Sippel!VfL Borussia M&#246;nchengladbach",
+        "name": "Sippel",
+        "team": "VfL Borussia M&#246;nchengladbach",
+        "pos": "GK",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Pasveer!PSV Eindhoven": {
+        "pid": "Pasveer!PSV Eindhoven",
+        "name": "Pasveer",
+        "team": "PSV Eindhoven",
+        "pos": "GK",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Masip!FC Barcelona": {
+        "pid": "Masip!FC Barcelona",
+        "name": "Masip",
+        "team": "FC Barcelona",
+        "pos": "GK",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Mocio!Olympique Lyonnais": {
+        "pid": "Mocio!Olympique Lyonnais",
+        "name": "Mocio",
+        "team": "Olympique Lyonnais",
+        "pos": "GK",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Sarnavskiy!FC Shakhtar Donetsk": {
+        "pid": "Sarnavskiy!FC Shakhtar Donetsk",
+        "name": "Sarnavskiy",
+        "team": "FC Shakhtar Donetsk",
+        "pos": "GK",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Rybka!FC Dynamo Kyiv": {
+        "pid": "Rybka!FC Dynamo Kyiv",
+        "name": "Rybka",
+        "team": "FC Dynamo Kyiv",
+        "pos": "GK",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Andersson!Malm&#246; FF": {
+        "pid": "Andersson!Malm&#246; FF",
+        "name": "Andersson",
+        "team": "Malm&#246; FF",
+        "pos": "GK",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Yelldell!Bayer 04 Leverkusen": {
+        "pid": "Yelldell!Bayer 04 Leverkusen",
+        "name": "Yelldell",
+        "team": "Bayer 04 Leverkusen",
+        "pos": "GK",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Je&#382;ina!GNK Dinamo Zagreb": {
+        "pid": "Je&#382;ina!GNK Dinamo Zagreb",
+        "name": "Je&#382;ina",
+        "team": "GNK Dinamo Zagreb",
+        "pos": "GK",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Yoel!Valencia CF": {
+        "pid": "Yoel!Valencia CF",
+        "name": "Yoel",
+        "team": "Valencia CF",
+        "pos": "GK",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Gr&#252;n!VfL Wolfsburg": {
+        "pid": "Gr&#252;n!VfL Wolfsburg",
+        "name": "Gr&#252;n",
+        "team": "VfL Wolfsburg",
+        "pos": "GK",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Chepchugov!PFC CSKA Moskva": {
+        "pid": "Chepchugov!PFC CSKA Moskva",
+        "name": "Chepchugov",
+        "team": "PFC CSKA Moskva",
+        "pos": "GK",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Soroko!FC BATE Borisov": {
+        "pid": "Soroko!FC BATE Borisov",
+        "name": "Soroko",
+        "team": "FC BATE Borisov",
+        "pos": "GK",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Loginovski!FC Astana": {
+        "pid": "Loginovski!FC Astana",
+        "name": "Loginovski",
+        "team": "FC Astana",
+        "pos": "GK",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Dom&#233;nech!Valencia CF": {
+        "pid": "Dom&#233;nech!Valencia CF",
+        "name": "Dom&#233;nech",
+        "team": "Valencia CF",
+        "pos": "GK",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Sivera!Valencia CF": {
+        "pid": "Sivera!Valencia CF",
+        "name": "Sivera",
+        "team": "Valencia CF",
+        "pos": "GK",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "G&#246;nen!Galatasaray A&#350;": {
+        "pid": "G&#246;nen!Galatasaray A&#350;",
+        "name": "G&#246;nen",
+        "team": "Galatasaray A&#350;",
+        "pos": "GK",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Chichkan!FC BATE Borisov": {
+        "pid": "Chichkan!FC BATE Borisov",
+        "name": "Chichkan",
+        "team": "FC BATE Borisov",
+        "pos": "GK",
+        "cost": 30,
+        "py/object": "util.Player"
+    },
+    "Vandenbussche!KAA Gent": {
+        "pid": "Vandenbussche!KAA Gent",
+        "name": "Vandenbussche",
+        "team": "KAA Gent",
+        "pos": "GK",
+        "cost": 30,
+        "py/object": "util.Player"
+    },
+    "Golubnichi!FC Astana": {
+        "pid": "Golubnichi!FC Astana",
+        "name": "Golubnichi",
+        "team": "FC Astana",
+        "pos": "GK",
+        "cost": 30,
+        "py/object": "util.Player"
+    },
+    "Johansson!Malm&#246; FF": {
+        "pid": "Johansson!Malm&#246; FF",
+        "name": "Johansson",
+        "team": "Malm&#246; FF",
+        "pos": "GK",
+        "cost": 30,
+        "py/object": "util.Player"
+    },
+    "Hasson!Maccabi Tel-Aviv FC": {
+        "pid": "Hasson!Maccabi Tel-Aviv FC",
+        "name": "Hasson",
+        "team": "Maccabi Tel-Aviv FC",
+        "pos": "GK",
+        "cost": 30,
+        "py/object": "util.Player"
+    },
+    "Ohayon!Maccabi Tel-Aviv FC": {
+        "pid": "Ohayon!Maccabi Tel-Aviv FC",
+        "name": "Ohayon",
+        "team": "Maccabi Tel-Aviv FC",
+        "pos": "GK",
+        "cost": 30,
+        "py/object": "util.Player"
+    },
+    "Azinovic!Malm&#246; FF": {
+        "pid": "Azinovic!Malm&#246; FF",
+        "name": "Azinovic",
+        "team": "Malm&#246; FF",
+        "pos": "GK",
+        "cost": 30,
+        "py/object": "util.Player"
+    },
+    "Thoelen!KAA Gent": {
+        "pid": "Thoelen!KAA Gent",
+        "name": "Thoelen",
+        "team": "KAA Gent",
+        "pos": "GK",
+        "cost": 30,
+        "py/object": "util.Player"
+    },
+    "Rajkovi&#263;!Maccabi Tel-Aviv FC": {
+        "pid": "Rajkovi&#263;!Maccabi Tel-Aviv FC",
+        "name": "Rajkovi&#263;",
+        "team": "Maccabi Tel-Aviv FC",
+        "pos": "GK",
+        "cost": 30,
+        "py/object": "util.Player"
+    },
+    "Lifshitz!Maccabi Tel-Aviv FC": {
+        "pid": "Lifshitz!Maccabi Tel-Aviv FC",
+        "name": "Lifshitz",
+        "team": "Maccabi Tel-Aviv FC",
+        "pos": "GK",
+        "cost": 30,
+        "py/object": "util.Player"
+    },
+    "Mikuli&#263;!GNK Dinamo Zagreb": {
+        "pid": "Mikuli&#263;!GNK Dinamo Zagreb",
+        "name": "Mikuli&#263;",
+        "team": "GNK Dinamo Zagreb",
+        "pos": "GK",
+        "cost": 30,
+        "py/object": "util.Player"
+    },
+    "Varane!Real Madrid CF": {
+        "pid": "Varane!Real Madrid CF",
+        "name": "Varane",
+        "team": "Real Madrid CF",
+        "pos": "DEF",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Alves!FC Barcelona": {
+        "pid": "Alves!FC Barcelona",
+        "name": "Alves",
+        "team": "FC Barcelona",
+        "pos": "DEF",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Chiellini!Juventus": {
+        "pid": "Chiellini!Juventus",
+        "name": "Chiellini",
+        "team": "Juventus",
+        "pos": "DEF",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Mascherano!FC Barcelona": {
+        "pid": "Mascherano!FC Barcelona",
+        "name": "Mascherano",
+        "team": "FC Barcelona",
+        "pos": "DEF",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "God&#237;n!Club Atl&#233;tico de Madrid": {
+        "pid": "God&#237;n!Club Atl&#233;tico de Madrid",
+        "name": "God&#237;n",
+        "team": "Club Atl&#233;tico de Madrid",
+        "pos": "DEF",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Boateng!FC Bayern M&#252;nchen": {
+        "pid": "Boateng!FC Bayern M&#252;nchen",
+        "name": "Boateng",
+        "team": "FC Bayern M&#252;nchen",
+        "pos": "DEF",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Juanfran!Club Atl&#233;tico de Madrid": {
+        "pid": "Juanfran!Club Atl&#233;tico de Madrid",
+        "name": "Juanfran",
+        "team": "Club Atl&#233;tico de Madrid",
+        "pos": "DEF",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Alba!FC Barcelona": {
+        "pid": "Alba!FC Barcelona",
+        "name": "Alba",
+        "team": "FC Barcelona",
+        "pos": "DEF",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Bonucci!Juventus": {
+        "pid": "Bonucci!Juventus",
+        "name": "Bonucci",
+        "team": "Juventus",
+        "pos": "DEF",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Marcelo!Real Madrid CF": {
+        "pid": "Marcelo!Real Madrid CF",
+        "name": "Marcelo",
+        "team": "Real Madrid CF",
+        "pos": "DEF",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Lahm!FC Bayern M&#252;nchen": {
+        "pid": "Lahm!FC Bayern M&#252;nchen",
+        "name": "Lahm",
+        "team": "FC Bayern M&#252;nchen",
+        "pos": "DEF",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Piqu&#233;!FC Barcelona": {
+        "pid": "Piqu&#233;!FC Barcelona",
+        "name": "Piqu&#233;",
+        "team": "FC Barcelona",
+        "pos": "DEF",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Kompany!Manchester City FC": {
+        "pid": "Kompany!Manchester City FC",
+        "name": "Kompany",
+        "team": "Manchester City FC",
+        "pos": "DEF",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Ivanovi&#263;!Chelsea FC": {
+        "pid": "Ivanovi&#263;!Chelsea FC",
+        "name": "Ivanovi&#263;",
+        "team": "Chelsea FC",
+        "pos": "DEF",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Terry!Chelsea FC": {
+        "pid": "Terry!Chelsea FC",
+        "name": "Terry",
+        "team": "Chelsea FC",
+        "pos": "DEF",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Alaba!FC Bayern M&#252;nchen": {
+        "pid": "Alaba!FC Bayern M&#252;nchen",
+        "name": "Alaba",
+        "team": "FC Bayern M&#252;nchen",
+        "pos": "DEF",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Ramos!Real Madrid CF": {
+        "pid": "Ramos!Real Madrid CF",
+        "name": "Ramos",
+        "team": "Real Madrid CF",
+        "pos": "DEF",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Silva!Paris Saint-Germain": {
+        "pid": "Silva!Paris Saint-Germain",
+        "name": "Silva",
+        "team": "Paris Saint-Germain",
+        "pos": "DEF",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Benatia!FC Bayern M&#252;nchen": {
+        "pid": "Benatia!FC Bayern M&#252;nchen",
+        "name": "Benatia",
+        "team": "FC Bayern M&#252;nchen",
+        "pos": "DEF",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Darmian!Manchester United FC": {
+        "pid": "Darmian!Manchester United FC",
+        "name": "Darmian",
+        "team": "Manchester United FC",
+        "pos": "DEF",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Otamendi!Manchester City FC": {
+        "pid": "Otamendi!Manchester City FC",
+        "name": "Otamendi",
+        "team": "Manchester City FC",
+        "pos": "DEF",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Evra!Juventus": {
+        "pid": "Evra!Juventus",
+        "name": "Evra",
+        "team": "Juventus",
+        "pos": "DEF",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Dante!VfL Wolfsburg": {
+        "pid": "Dante!VfL Wolfsburg",
+        "name": "Dante",
+        "team": "VfL Wolfsburg",
+        "pos": "DEF",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Wiel!Paris Saint-Germain": {
+        "pid": "Wiel!Paris Saint-Germain",
+        "name": "Wiel",
+        "team": "Paris Saint-Germain",
+        "pos": "DEF",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Barzagli!Juventus": {
+        "pid": "Barzagli!Juventus",
+        "name": "Barzagli",
+        "team": "Juventus",
+        "pos": "DEF",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Lichtsteiner!Juventus": {
+        "pid": "Lichtsteiner!Juventus",
+        "name": "Lichtsteiner",
+        "team": "Juventus",
+        "pos": "DEF",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Zabaleta!Manchester City FC": {
+        "pid": "Zabaleta!Manchester City FC",
+        "name": "Zabaleta",
+        "team": "Manchester City FC",
+        "pos": "DEF",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Jantschke!VfL Borussia M&#246;nchengladbach": {
+        "pid": "Jantschke!VfL Borussia M&#246;nchengladbach",
+        "name": "Jantschke",
+        "team": "VfL Borussia M&#246;nchengladbach",
+        "pos": "DEF",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Cahill!Chelsea FC": {
+        "pid": "Cahill!Chelsea FC",
+        "name": "Cahill",
+        "team": "Chelsea FC",
+        "pos": "DEF",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Pepe!Real Madrid CF": {
+        "pid": "Pepe!Real Madrid CF",
+        "name": "Pepe",
+        "team": "Real Madrid CF",
+        "pos": "DEF",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Luiz!Paris Saint-Germain": {
+        "pid": "Luiz!Paris Saint-Germain",
+        "name": "Luiz",
+        "team": "Paris Saint-Germain",
+        "pos": "DEF",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Smalling!Manchester United FC": {
+        "pid": "Smalling!Manchester United FC",
+        "name": "Smalling",
+        "team": "Manchester United FC",
+        "pos": "DEF",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Mangala!Manchester City FC": {
+        "pid": "Mangala!Manchester City FC",
+        "name": "Mangala",
+        "team": "Manchester City FC",
+        "pos": "DEF",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Lu&#237;s!Club Atl&#233;tico de Madrid": {
+        "pid": "Lu&#237;s!Club Atl&#233;tico de Madrid",
+        "name": "Lu&#237;s",
+        "team": "Club Atl&#233;tico de Madrid",
+        "pos": "DEF",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Mertesacker!Arsenal FC": {
+        "pid": "Mertesacker!Arsenal FC",
+        "name": "Mertesacker",
+        "team": "Arsenal FC",
+        "pos": "DEF",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Danilo!Real Madrid CF": {
+        "pid": "Danilo!Real Madrid CF",
+        "name": "Danilo",
+        "team": "Real Madrid CF",
+        "pos": "DEF",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Vermaelen!FC Barcelona": {
+        "pid": "Vermaelen!FC Barcelona",
+        "name": "Vermaelen",
+        "team": "FC Barcelona",
+        "pos": "DEF",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Srna!FC Shakhtar Donetsk": {
+        "pid": "Srna!FC Shakhtar Donetsk",
+        "name": "Srna",
+        "team": "FC Shakhtar Donetsk",
+        "pos": "DEF",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Maxwell!Paris Saint-Germain": {
+        "pid": "Maxwell!Paris Saint-Germain",
+        "name": "Maxwell",
+        "team": "Paris Saint-Germain",
+        "pos": "DEF",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Papadopoulos!Bayer 04 Leverkusen": {
+        "pid": "Papadopoulos!Bayer 04 Leverkusen",
+        "name": "Papadopoulos",
+        "team": "Bayer 04 Leverkusen",
+        "pos": "DEF",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Kurzawa!Paris Saint-Germain": {
+        "pid": "Kurzawa!Paris Saint-Germain",
+        "name": "Kurzawa",
+        "team": "Paris Saint-Germain",
+        "pos": "DEF",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "I!Maccabi Tel-Aviv FC": {
+        "pid": "I!Maccabi Tel-Aviv FC",
+        "name": "I",
+        "team": "Maccabi Tel-Aviv FC",
+        "pos": "DEF",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Monreal!Arsenal FC": {
+        "pid": "Monreal!Arsenal FC",
+        "name": "Monreal",
+        "team": "Arsenal FC",
+        "pos": "DEF",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Azpilicueta!Chelsea FC": {
+        "pid": "Azpilicueta!Chelsea FC",
+        "name": "Azpilicueta",
+        "team": "Chelsea FC",
+        "pos": "DEF",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Badstuber!FC Bayern M&#252;nchen": {
+        "pid": "Badstuber!FC Bayern M&#252;nchen",
+        "name": "Badstuber",
+        "team": "FC Bayern M&#252;nchen",
+        "pos": "DEF",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Gibbs!Arsenal FC": {
+        "pid": "Gibbs!Arsenal FC",
+        "name": "Gibbs",
+        "team": "Arsenal FC",
+        "pos": "DEF",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Garay!FC Zenit": {
+        "pid": "Garay!FC Zenit",
+        "name": "Garay",
+        "team": "FC Zenit",
+        "pos": "DEF",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Wendt!VfL Borussia M&#246;nchengladbach": {
+        "pid": "Wendt!VfL Borussia M&#246;nchengladbach",
+        "name": "Wendt",
+        "team": "VfL Borussia M&#246;nchengladbach",
+        "pos": "DEF",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Demichelis!Manchester City FC": {
+        "pid": "Demichelis!Manchester City FC",
+        "name": "Demichelis",
+        "team": "Manchester City FC",
+        "pos": "DEF",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Indi!FC Porto": {
+        "pid": "Indi!FC Porto",
+        "name": "Indi",
+        "team": "FC Porto",
+        "pos": "DEF",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Mathieu!FC Barcelona": {
+        "pid": "Mathieu!FC Barcelona",
+        "name": "Mathieu",
+        "team": "FC Barcelona",
+        "pos": "DEF",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Shaw!Manchester United FC": {
+        "pid": "Shaw!Manchester United FC",
+        "name": "Shaw",
+        "team": "Manchester United FC",
+        "pos": "DEF",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Rodriguez!VfL Wolfsburg": {
+        "pid": "Rodriguez!VfL Wolfsburg",
+        "name": "Rodriguez",
+        "team": "VfL Wolfsburg",
+        "pos": "DEF",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Kolarov!Manchester City FC": {
+        "pid": "Kolarov!Manchester City FC",
+        "name": "Kolarov",
+        "team": "Manchester City FC",
+        "pos": "DEF",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Carri&#231;o!Sevilla FC": {
+        "pid": "Carri&#231;o!Sevilla FC",
+        "name": "Carri&#231;o",
+        "team": "Sevilla FC",
+        "pos": "DEF",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Marquinhos!Paris Saint-Germain": {
+        "pid": "Marquinhos!Paris Saint-Germain",
+        "name": "Marquinhos",
+        "team": "Paris Saint-Germain",
+        "pos": "DEF",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Sandro!Juventus": {
+        "pid": "Sandro!Juventus",
+        "name": "Sandro",
+        "team": "Juventus",
+        "pos": "DEF",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Bartra!FC Barcelona": {
+        "pid": "Bartra!FC Barcelona",
+        "name": "Bartra",
+        "team": "FC Barcelona",
+        "pos": "DEF",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Rugani!Juventus": {
+        "pid": "Rugani!Juventus",
+        "name": "Rugani",
+        "team": "Juventus",
+        "pos": "DEF",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Siqueira!Club Atl&#233;tico de Madrid": {
+        "pid": "Siqueira!Club Atl&#233;tico de Madrid",
+        "name": "Siqueira",
+        "team": "Club Atl&#233;tico de Madrid",
+        "pos": "DEF",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Koscielny!Arsenal FC": {
+        "pid": "Koscielny!Arsenal FC",
+        "name": "Koscielny",
+        "team": "Arsenal FC",
+        "pos": "DEF",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Rafinha!FC Bayern M&#252;nchen": {
+        "pid": "Rafinha!FC Bayern M&#252;nchen",
+        "name": "Rafinha",
+        "team": "FC Bayern M&#252;nchen",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Vieirinha!VfL Wolfsburg": {
+        "pid": "Vieirinha!VfL Wolfsburg",
+        "name": "Vieirinha",
+        "team": "VfL Wolfsburg",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Baba!Chelsea FC": {
+        "pid": "Baba!Chelsea FC",
+        "name": "Baba",
+        "team": "Chelsea FC",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Cissokho!FC Porto": {
+        "pid": "Cissokho!FC Porto",
+        "name": "Cissokho",
+        "team": "FC Porto",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Lombaerts!FC Zenit": {
+        "pid": "Lombaerts!FC Zenit",
+        "name": "Lombaerts",
+        "team": "FC Zenit",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Tr&#228;sch!VfL Wolfsburg": {
+        "pid": "Tr&#228;sch!VfL Wolfsburg",
+        "name": "Tr&#228;sch",
+        "team": "VfL Wolfsburg",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Gay&#224;!Valencia CF": {
+        "pid": "Gay&#224;!Valencia CF",
+        "name": "Gay&#224;",
+        "team": "Valencia CF",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Clichy!Manchester City FC": {
+        "pid": "Clichy!Manchester City FC",
+        "name": "Clichy",
+        "team": "Manchester City FC",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Carvajal!Real Madrid CF": {
+        "pid": "Carvajal!Real Madrid CF",
+        "name": "Carvajal",
+        "team": "Real Madrid CF",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Cancelo!Valencia CF": {
+        "pid": "Cancelo!Valencia CF",
+        "name": "Cancelo",
+        "team": "Valencia CF",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Hilbert!Bayer 04 Leverkusen": {
+        "pid": "Hilbert!Bayer 04 Leverkusen",
+        "name": "Hilbert",
+        "team": "Bayer 04 Leverkusen",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Adriano!FC Barcelona": {
+        "pid": "Adriano!FC Barcelona",
+        "name": "Adriano",
+        "team": "FC Barcelona",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Gabriel!Arsenal FC": {
+        "pid": "Gabriel!Arsenal FC",
+        "name": "Gabriel",
+        "team": "Arsenal FC",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Rami!Sevilla FC": {
+        "pid": "Rami!Sevilla FC",
+        "name": "Rami",
+        "team": "Sevilla FC",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Willems!PSV Eindhoven": {
+        "pid": "Willems!PSV Eindhoven",
+        "name": "Willems",
+        "team": "PSV Eindhoven",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Maicon!FC Porto": {
+        "pid": "Maicon!FC Porto",
+        "name": "Maicon",
+        "team": "FC Porto",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Maicon!AS Roma": {
+        "pid": "Maicon!AS Roma",
+        "name": "Maicon",
+        "team": "AS Roma",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Sagna!Manchester City FC": {
+        "pid": "Sagna!Manchester City FC",
+        "name": "Sagna",
+        "team": "Manchester City FC",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Luis&#227;o!SL Benfica": {
+        "pid": "Luis&#227;o!SL Benfica",
+        "name": "Luis&#227;o",
+        "team": "SL Benfica",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Tah!Bayer 04 Leverkusen": {
+        "pid": "Tah!Bayer 04 Leverkusen",
+        "name": "Tah",
+        "team": "Bayer 04 Leverkusen",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Schulz!VfL Borussia M&#246;nchengladbach": {
+        "pid": "Schulz!VfL Borussia M&#246;nchengladbach",
+        "name": "Schulz",
+        "team": "VfL Borussia M&#246;nchengladbach",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Rafael!Olympique Lyonnais": {
+        "pid": "Rafael!Olympique Lyonnais",
+        "name": "Rafael",
+        "team": "Olympique Lyonnais",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Barrag&#225;n!Valencia CF": {
+        "pid": "Barrag&#225;n!Valencia CF",
+        "name": "Barrag&#225;n",
+        "team": "Valencia CF",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Christensen!VfL Borussia M&#246;nchengladbach": {
+        "pid": "Christensen!VfL Borussia M&#246;nchengladbach",
+        "name": "Christensen",
+        "team": "VfL Borussia M&#246;nchengladbach",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Korb!VfL Borussia M&#246;nchengladbach": {
+        "pid": "Korb!VfL Borussia M&#246;nchengladbach",
+        "name": "Korb",
+        "team": "VfL Borussia M&#246;nchengladbach",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Aurier!Paris Saint-Germain": {
+        "pid": "Aurier!Paris Saint-Germain",
+        "name": "Aurier",
+        "team": "Paris Saint-Germain",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Coke!Sevilla FC": {
+        "pid": "Coke!Sevilla FC",
+        "name": "Coke",
+        "team": "Sevilla FC",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Morozyuk!FC Dynamo Kyiv": {
+        "pid": "Morozyuk!FC Dynamo Kyiv",
+        "name": "Morozyuk",
+        "team": "FC Dynamo Kyiv",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Anyukov!FC Zenit": {
+        "pid": "Anyukov!FC Zenit",
+        "name": "Anyukov",
+        "team": "FC Zenit",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Torosidis!AS Roma": {
+        "pid": "Torosidis!AS Roma",
+        "name": "Torosidis",
+        "team": "AS Roma",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Escudero!Sevilla FC": {
+        "pid": "Escudero!Sevilla FC",
+        "name": "Escudero",
+        "team": "Sevilla FC",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Nacho!Real Madrid CF": {
+        "pid": "Nacho!Real Madrid CF",
+        "name": "Nacho",
+        "team": "Real Madrid CF",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Jones!Manchester United FC": {
+        "pid": "Jones!Manchester United FC",
+        "name": "Jones",
+        "team": "Manchester United FC",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Umtiti!Olympique Lyonnais": {
+        "pid": "Umtiti!Olympique Lyonnais",
+        "name": "Umtiti",
+        "team": "Olympique Lyonnais",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Bernat!FC Bayern M&#252;nchen": {
+        "pid": "Bernat!FC Bayern M&#252;nchen",
+        "name": "Bernat",
+        "team": "FC Bayern M&#252;nchen",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Debuchy!Arsenal FC": {
+        "pid": "Debuchy!Arsenal FC",
+        "name": "Debuchy",
+        "team": "Arsenal FC",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Gim&#233;nez!Club Atl&#233;tico de Madrid": {
+        "pid": "Gim&#233;nez!Club Atl&#233;tico de Madrid",
+        "name": "Gim&#233;nez",
+        "team": "Club Atl&#233;tico de Madrid",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "C&#225;ceres!Juventus": {
+        "pid": "C&#225;ceres!Juventus",
+        "name": "C&#225;ceres",
+        "team": "Juventus",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Rafinha!FC Barcelona": {
+        "pid": "Rafinha!FC Barcelona",
+        "name": "Rafinha",
+        "team": "FC Barcelona",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Stranzl!VfL Borussia M&#246;nchengladbach": {
+        "pid": "Stranzl!VfL Borussia M&#246;nchengladbach",
+        "name": "Stranzl",
+        "team": "VfL Borussia M&#246;nchengladbach",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Neto!FC Zenit": {
+        "pid": "Neto!FC Zenit",
+        "name": "Neto",
+        "team": "FC Zenit",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Pereira!FC Porto": {
+        "pid": "Pereira!FC Porto",
+        "name": "Pereira",
+        "team": "FC Porto",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Tr&#233;moulinas!Sevilla FC": {
+        "pid": "Tr&#233;moulinas!Sevilla FC",
+        "name": "Tr&#233;moulinas",
+        "team": "Sevilla FC",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Douglas!FC Barcelona": {
+        "pid": "Douglas!FC Barcelona",
+        "name": "Douglas",
+        "team": "FC Barcelona",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Cast&#225;n!AS Roma": {
+        "pid": "Cast&#225;n!AS Roma",
+        "name": "Cast&#225;n",
+        "team": "AS Roma",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Rojo!Manchester United FC": {
+        "pid": "Rojo!Manchester United FC",
+        "name": "Rojo",
+        "team": "Manchester United FC",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Dom&#237;nguez!VfL Borussia M&#246;nchengladbach": {
+        "pid": "Dom&#237;nguez!VfL Borussia M&#246;nchengladbach",
+        "name": "Dom&#237;nguez",
+        "team": "VfL Borussia M&#246;nchengladbach",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Arbeloa!Real Madrid CF": {
+        "pid": "Arbeloa!Real Madrid CF",
+        "name": "Arbeloa",
+        "team": "Real Madrid CF",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Nielsen!KAA Gent": {
+        "pid": "Nielsen!KAA Gent",
+        "name": "Nielsen",
+        "team": "KAA Gent",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Shevchuk!FC Shakhtar Donetsk": {
+        "pid": "Shevchuk!FC Shakhtar Donetsk",
+        "name": "Shevchuk",
+        "team": "FC Shakhtar Donetsk",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Johnson!VfL Borussia M&#246;nchengladbach": {
+        "pid": "Johnson!VfL Borussia M&#246;nchengladbach",
+        "name": "Johnson",
+        "team": "VfL Borussia M&#246;nchengladbach",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Berezutski!PFC CSKA Moskva": {
+        "pid": "Berezutski!PFC CSKA Moskva",
+        "name": "Berezutski",
+        "team": "PFC CSKA Moskva",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Morel!Olympique Lyonnais": {
+        "pid": "Morel!Olympique Lyonnais",
+        "name": "Morel",
+        "team": "Olympique Lyonnais",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Savi&#263;!Club Atl&#233;tico de Madrid": {
+        "pid": "Savi&#263;!Club Atl&#233;tico de Madrid",
+        "name": "Savi&#263;",
+        "team": "Club Atl&#233;tico de Madrid",
+        "pos": "DEF",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Kaya!Galatasaray A&#350;": {
+        "pid": "Kaya!Galatasaray A&#350;",
+        "name": "Kaya",
+        "team": "Galatasaray A&#350;",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Khacheridi!FC Dynamo Kyiv": {
+        "pid": "Khacheridi!FC Dynamo Kyiv",
+        "name": "Khacheridi",
+        "team": "FC Dynamo Kyiv",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Boenisch!Bayer 04 Leverkusen": {
+        "pid": "Boenisch!Bayer 04 Leverkusen",
+        "name": "Boenisch",
+        "team": "Bayer 04 Leverkusen",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Hern&#225;ndez!Club Atl&#233;tico de Madrid": {
+        "pid": "Hern&#225;ndez!Club Atl&#233;tico de Madrid",
+        "name": "Hern&#225;ndez",
+        "team": "Club Atl&#233;tico de Madrid",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Naldo!VfL Wolfsburg": {
+        "pid": "Naldo!VfL Wolfsburg",
+        "name": "Naldo",
+        "team": "VfL Wolfsburg",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Beller&#237;n!Arsenal FC": {
+        "pid": "Beller&#237;n!Arsenal FC",
+        "name": "Beller&#237;n",
+        "team": "Arsenal FC",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Jedvaj!Bayer 04 Leverkusen": {
+        "pid": "Jedvaj!Bayer 04 Leverkusen",
+        "name": "Jedvaj",
+        "team": "Bayer 04 Leverkusen",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Eliseu!SL Benfica": {
+        "pid": "Eliseu!SL Benfica",
+        "name": "Eliseu",
+        "team": "SL Benfica",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Sar&#305;o&#287;lu!Galatasaray A&#350;": {
+        "pid": "Sar&#305;o&#287;lu!Galatasaray A&#350;",
+        "name": "Sar&#305;o&#287;lu",
+        "team": "Galatasaray A&#350;",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Moreno!PSV Eindhoven": {
+        "pid": "Moreno!PSV Eindhoven",
+        "name": "Moreno",
+        "team": "PSV Eindhoven",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Kimpembe!Paris Saint-Germain": {
+        "pid": "Kimpembe!Paris Saint-Germain",
+        "name": "Kimpembe",
+        "team": "Paris Saint-Germain",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Carole!Galatasaray A&#350;": {
+        "pid": "Carole!Galatasaray A&#350;",
+        "name": "Carole",
+        "team": "Galatasaray A&#350;",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Yanga-Mbiwa!Olympique Lyonnais": {
+        "pid": "Yanga-Mbiwa!Olympique Lyonnais",
+        "name": "Yanga-Mbiwa",
+        "team": "Olympique Lyonnais",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Balta!Galatasaray A&#350;": {
+        "pid": "Balta!Galatasaray A&#350;",
+        "name": "Balta",
+        "team": "Galatasaray A&#350;",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Pinto!GNK Dinamo Zagreb": {
+        "pid": "Pinto!GNK Dinamo Zagreb",
+        "name": "Pinto",
+        "team": "GNK Dinamo Zagreb",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Vezo!Valencia CF": {
+        "pid": "Vezo!Valencia CF",
+        "name": "Vezo",
+        "team": "Valencia CF",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Ferreira!Sevilla FC": {
+        "pid": "Ferreira!Sevilla FC",
+        "name": "Ferreira",
+        "team": "Sevilla FC",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Jardel!SL Benfica": {
+        "pid": "Jardel!SL Benfica",
+        "name": "Jardel",
+        "team": "SL Benfica",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Fernandes!PFC CSKA Moskva": {
+        "pid": "Fernandes!PFC CSKA Moskva",
+        "name": "Fernandes",
+        "team": "PFC CSKA Moskva",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Tinnerholm!Malm&#246; FF": {
+        "pid": "Tinnerholm!Malm&#246; FF",
+        "name": "Tinnerholm",
+        "team": "Malm&#246; FF",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Kryvtsov!FC Shakhtar Donetsk": {
+        "pid": "Kryvtsov!FC Shakhtar Donetsk",
+        "name": "Kryvtsov",
+        "team": "FC Shakhtar Donetsk",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Donati!Bayer 04 Leverkusen": {
+        "pid": "Donati!Bayer 04 Leverkusen",
+        "name": "Donati",
+        "team": "Bayer 04 Leverkusen",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Bi&#353;evac!Olympique Lyonnais": {
+        "pid": "Bi&#353;evac!Olympique Lyonnais",
+        "name": "Bi&#353;evac",
+        "team": "Olympique Lyonnais",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Jung!VfL Wolfsburg": {
+        "pid": "Jung!VfL Wolfsburg",
+        "name": "Jung",
+        "team": "VfL Wolfsburg",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Dragovic!FC Dynamo Kyiv": {
+        "pid": "Dragovic!FC Dynamo Kyiv",
+        "name": "Dragovic",
+        "team": "FC Dynamo Kyiv",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Zouma!Chelsea FC": {
+        "pid": "Zouma!Chelsea FC",
+        "name": "Zouma",
+        "team": "Chelsea FC",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Schennikov!PFC CSKA Moskva": {
+        "pid": "Schennikov!PFC CSKA Moskva",
+        "name": "Schennikov",
+        "team": "PFC CSKA Moskva",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Jallet!Olympique Lyonnais": {
+        "pid": "Jallet!Olympique Lyonnais",
+        "name": "Jallet",
+        "team": "Olympique Lyonnais",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Rakitskiy!FC Shakhtar Donetsk": {
+        "pid": "Rakitskiy!FC Shakhtar Donetsk",
+        "name": "Rakitskiy",
+        "team": "FC Shakhtar Donetsk",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Mustafi!Valencia CF": {
+        "pid": "Mustafi!Valencia CF",
+        "name": "Mustafi",
+        "team": "Valencia CF",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Klose!VfL Wolfsburg": {
+        "pid": "Klose!VfL Wolfsburg",
+        "name": "Klose",
+        "team": "VfL Wolfsburg",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Silva!FC Dynamo Kyiv": {
+        "pid": "Silva!FC Dynamo Kyiv",
+        "name": "Silva",
+        "team": "FC Dynamo Kyiv",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Chambers!Arsenal FC": {
+        "pid": "Chambers!Arsenal FC",
+        "name": "Chambers",
+        "team": "Arsenal FC",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Marcano!FC Porto": {
+        "pid": "Marcano!FC Porto",
+        "name": "Marcano",
+        "team": "FC Porto",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Kolodziejczak!Sevilla FC": {
+        "pid": "Kolodziejczak!Sevilla FC",
+        "name": "Kolodziejczak",
+        "team": "Sevilla FC",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Ignashevich!PFC CSKA Moskva": {
+        "pid": "Ignashevich!PFC CSKA Moskva",
+        "name": "Ignashevich",
+        "team": "PFC CSKA Moskva",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Santos!Valencia CF": {
+        "pid": "Santos!Valencia CF",
+        "name": "Santos",
+        "team": "Valencia CF",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Andreolli!Sevilla FC": {
+        "pid": "Andreolli!Sevilla FC",
+        "name": "Andreolli",
+        "team": "Sevilla FC",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Bedimo!Olympique Lyonnais": {
+        "pid": "Bedimo!Olympique Lyonnais",
+        "name": "Bedimo",
+        "team": "Olympique Lyonnais",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Johansson!KAA Gent": {
+        "pid": "Johansson!KAA Gent",
+        "name": "Johansson",
+        "team": "KAA Gent",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Digne!AS Roma": {
+        "pid": "Digne!AS Roma",
+        "name": "Digne",
+        "team": "AS Roma",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Arias!PSV Eindhoven": {
+        "pid": "Arias!PSV Eindhoven",
+        "name": "Arias",
+        "team": "PSV Eindhoven",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Criscito!FC Zenit": {
+        "pid": "Criscito!FC Zenit",
+        "name": "Criscito",
+        "team": "FC Zenit",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "G&#225;mez!Club Atl&#233;tico de Madrid": {
+        "pid": "G&#225;mez!Club Atl&#233;tico de Madrid",
+        "name": "G&#225;mez",
+        "team": "Club Atl&#233;tico de Madrid",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Smolnikov!FC Zenit": {
+        "pid": "Smolnikov!FC Zenit",
+        "name": "Smolnikov",
+        "team": "FC Zenit",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Ani&#269;i&#263;!FC Astana": {
+        "pid": "Ani&#269;i&#263;!FC Astana",
+        "name": "Ani&#269;i&#263;",
+        "team": "FC Astana",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Orb&#225;n!Valencia CF": {
+        "pid": "Orb&#225;n!Valencia CF",
+        "name": "Orb&#225;n",
+        "team": "Valencia CF",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Poulsen!PSV Eindhoven": {
+        "pid": "Poulsen!PSV Eindhoven",
+        "name": "Poulsen",
+        "team": "PSV Eindhoven",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Bruma!PSV Eindhoven": {
+        "pid": "Bruma!PSV Eindhoven",
+        "name": "Bruma",
+        "team": "PSV Eindhoven",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "R&#252;diger!AS Roma": {
+        "pid": "R&#252;diger!AS Roma",
+        "name": "R&#252;diger",
+        "team": "AS Roma",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Kirchhoff!FC Bayern M&#252;nchen": {
+        "pid": "Kirchhoff!FC Bayern M&#252;nchen",
+        "name": "Kirchhoff",
+        "team": "FC Bayern M&#252;nchen",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Kon&#233;!Olympique Lyonnais": {
+        "pid": "Kon&#233;!Olympique Lyonnais",
+        "name": "Kon&#233;",
+        "team": "Olympique Lyonnais",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Mladenovi&#263;!FC BATE Borisov": {
+        "pid": "Mladenovi&#263;!FC BATE Borisov",
+        "name": "Mladenovi&#263;",
+        "team": "FC BATE Borisov",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Taravel!GNK Dinamo Zagreb": {
+        "pid": "Taravel!GNK Dinamo Zagreb",
+        "name": "Taravel",
+        "team": "GNK Dinamo Zagreb",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Lay&#250;n!FC Porto": {
+        "pid": "Lay&#250;n!FC Porto",
+        "name": "Lay&#250;n",
+        "team": "FC Porto",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "S&#237;lvio!SL Benfica": {
+        "pid": "S&#237;lvio!SL Benfica",
+        "name": "S&#237;lvio",
+        "team": "SL Benfica",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Azevedo!FC Shakhtar Donetsk": {
+        "pid": "Azevedo!FC Shakhtar Donetsk",
+        "name": "Azevedo",
+        "team": "FC Shakhtar Donetsk",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Wendell!Bayer 04 Leverkusen": {
+        "pid": "Wendell!Bayer 04 Leverkusen",
+        "name": "Wendell",
+        "team": "Bayer 04 Leverkusen",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Shomko!FC Astana": {
+        "pid": "Shomko!FC Astana",
+        "name": "Shomko",
+        "team": "FC Astana",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Lindel&#246;f!SL Benfica": {
+        "pid": "Lindel&#246;f!SL Benfica",
+        "name": "Lindel&#246;f",
+        "team": "SL Benfica",
+        "pos": "DEF",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Knoche!VfL Wolfsburg": {
+        "pid": "Knoche!VfL Wolfsburg",
+        "name": "Knoche",
+        "team": "VfL Wolfsburg",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "&#193;rnason!Malm&#246; FF": {
+        "pid": "&#193;rnason!Malm&#246; FF",
+        "name": "&#193;rnason",
+        "team": "Malm&#246; FF",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Manolas!AS Roma": {
+        "pid": "Manolas!AS Roma",
+        "name": "Manolas",
+        "team": "AS Roma",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Chedjou!Galatasaray A&#350;": {
+        "pid": "Chedjou!Galatasaray A&#350;",
+        "name": "Chedjou",
+        "team": "Galatasaray A&#350;",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Brouwers!VfL Borussia M&#246;nchengladbach": {
+        "pid": "Brouwers!VfL Borussia M&#246;nchengladbach",
+        "name": "Brouwers",
+        "team": "VfL Borussia M&#246;nchengladbach",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Rafinha!KAA Gent": {
+        "pid": "Rafinha!KAA Gent",
+        "name": "Rafinha",
+        "team": "KAA Gent",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Brenet!PSV Eindhoven": {
+        "pid": "Brenet!PSV Eindhoven",
+        "name": "Brenet",
+        "team": "PSV Eindhoven",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Postnikov!FC Astana": {
+        "pid": "Postnikov!FC Astana",
+        "name": "Postnikov",
+        "team": "FC Astana",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Zhavnerchik!FC BATE Borisov": {
+        "pid": "Zhavnerchik!FC BATE Borisov",
+        "name": "Zhavnerchik",
+        "team": "FC BATE Borisov",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "G&#252;nter!Galatasaray A&#350;": {
+        "pid": "G&#252;nter!Galatasaray A&#350;",
+        "name": "G&#252;nter",
+        "team": "Galatasaray A&#350;",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Berezutski!PFC CSKA Moskva": {
+        "pid": "Berezutski!PFC CSKA Moskva",
+        "name": "Berezutski",
+        "team": "PFC CSKA Moskva",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Antunes!FC Dynamo Kyiv": {
+        "pid": "Antunes!FC Dynamo Kyiv",
+        "name": "Antunes",
+        "team": "FC Dynamo Kyiv",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Dubra!FC BATE Borisov": {
+        "pid": "Dubra!FC BATE Borisov",
+        "name": "Dubra",
+        "team": "FC BATE Borisov",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Latorre!Valencia CF": {
+        "pid": "Latorre!Valencia CF",
+        "name": "Latorre",
+        "team": "Valencia CF",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Ili&#269;!FC Astana": {
+        "pid": "Ili&#269;!FC Astana",
+        "name": "Ili&#269;",
+        "team": "FC Astana",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Bot&#237;a!Olympiacos FC": {
+        "pid": "Bot&#237;a!Olympiacos FC",
+        "name": "Bot&#237;a",
+        "team": "Olympiacos FC",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Elvedi!VfL Borussia M&#246;nchengladbach": {
+        "pid": "Elvedi!VfL Borussia M&#246;nchengladbach",
+        "name": "Elvedi",
+        "team": "VfL Borussia M&#246;nchengladbach",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Sch&#228;fer!VfL Wolfsburg": {
+        "pid": "Sch&#228;fer!VfL Wolfsburg",
+        "name": "Sch&#228;fer",
+        "team": "VfL Wolfsburg",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Milunovi&#263;!FC BATE Borisov": {
+        "pid": "Milunovi&#263;!FC BATE Borisov",
+        "name": "Milunovi&#263;",
+        "team": "FC BATE Borisov",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Sigali!GNK Dinamo Zagreb": {
+        "pid": "Sigali!GNK Dinamo Zagreb",
+        "name": "Sigali",
+        "team": "GNK Dinamo Zagreb",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Yot&#250;n!Malm&#246; FF": {
+        "pid": "Yot&#250;n!Malm&#246; FF",
+        "name": "Yot&#250;n",
+        "team": "Malm&#246; FF",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Polyakov!FC BATE Borisov": {
+        "pid": "Polyakov!FC BATE Borisov",
+        "name": "Polyakov",
+        "team": "FC BATE Borisov",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "McNair!Manchester United FC": {
+        "pid": "McNair!Manchester United FC",
+        "name": "McNair",
+        "team": "Manchester United FC",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "L&#243;pez!SL Benfica": {
+        "pid": "L&#243;pez!SL Benfica",
+        "name": "L&#243;pez",
+        "team": "SL Benfica",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Makarenko!FC Dynamo Kyiv": {
+        "pid": "Makarenko!FC Dynamo Kyiv",
+        "name": "Makarenko",
+        "team": "FC Dynamo Kyiv",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Nababkin!PFC CSKA Moskva": {
+        "pid": "Nababkin!PFC CSKA Moskva",
+        "name": "Nababkin",
+        "team": "PFC CSKA Moskva",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "&#199;amdal!Galatasaray A&#350;": {
+        "pid": "&#199;amdal!Galatasaray A&#350;",
+        "name": "&#199;amdal",
+        "team": "Galatasaray A&#350;",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Rose!Olympique Lyonnais": {
+        "pid": "Rose!Olympique Lyonnais",
+        "name": "Rose",
+        "team": "Olympique Lyonnais",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Ordets!FC Shakhtar Donetsk": {
+        "pid": "Ordets!FC Shakhtar Donetsk",
+        "name": "Ordets",
+        "team": "FC Shakhtar Donetsk",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Shpungin!Maccabi Tel-Aviv FC": {
+        "pid": "Shpungin!Maccabi Tel-Aviv FC",
+        "name": "Shpungin",
+        "team": "Maccabi Tel-Aviv FC",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Semedo!SL Benfica": {
+        "pid": "Semedo!SL Benfica",
+        "name": "Semedo",
+        "team": "SL Benfica",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Tibi!Maccabi Tel-Aviv FC": {
+        "pid": "Tibi!Maccabi Tel-Aviv FC",
+        "name": "Tibi",
+        "team": "Maccabi Tel-Aviv FC",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Bengtsson!Malm&#246; FF": {
+        "pid": "Bengtsson!Malm&#246; FF",
+        "name": "Bengtsson",
+        "team": "Malm&#246; FF",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Harush!Maccabi Tel-Aviv FC": {
+        "pid": "Harush!Maccabi Tel-Aviv FC",
+        "name": "Harush",
+        "team": "Maccabi Tel-Aviv FC",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Mitrovi&#263;!KAA Gent": {
+        "pid": "Mitrovi&#263;!KAA Gent",
+        "name": "Mitrovi&#263;",
+        "team": "KAA Gent",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Denayer!Galatasaray A&#350;": {
+        "pid": "Denayer!Galatasaray A&#350;",
+        "name": "Denayer",
+        "team": "Galatasaray A&#350;",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Abdennour!Valencia CF": {
+        "pid": "Abdennour!Valencia CF",
+        "name": "Abdennour",
+        "team": "Valencia CF",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Siovas!Olympiacos FC": {
+        "pid": "Siovas!Olympiacos FC",
+        "name": "Siovas",
+        "team": "Olympiacos FC",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Ascues!VfL Wolfsburg": {
+        "pid": "Ascues!VfL Wolfsburg",
+        "name": "Ascues",
+        "team": "VfL Wolfsburg",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Kucher!FC Shakhtar Donetsk": {
+        "pid": "Kucher!FC Shakhtar Donetsk",
+        "name": "Kucher",
+        "team": "FC Shakhtar Donetsk",
+        "pos": "DEF",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Gaiduchik!FC BATE Borisov": {
+        "pid": "Gaiduchik!FC BATE Borisov",
+        "name": "Gaiduchik",
+        "team": "FC BATE Borisov",
+        "pos": "DEF",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Vasin!PFC CSKA Moskva": {
+        "pid": "Vasin!PFC CSKA Moskva",
+        "name": "Vasin",
+        "team": "PFC CSKA Moskva",
+        "pos": "DEF",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Ismaily!FC Shakhtar Donetsk": {
+        "pid": "Ismaily!FC Shakhtar Donetsk",
+        "name": "Ismaily",
+        "team": "FC Shakhtar Donetsk",
+        "pos": "DEF",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Vida!FC Dynamo Kyiv": {
+        "pid": "Vida!FC Dynamo Kyiv",
+        "name": "Vida",
+        "team": "FC Dynamo Kyiv",
+        "pos": "DEF",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Ziv!Maccabi Tel-Aviv FC": {
+        "pid": "Ziv!Maccabi Tel-Aviv FC",
+        "name": "Ziv",
+        "team": "Maccabi Tel-Aviv FC",
+        "pos": "DEF",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Vouros!Olympiacos FC": {
+        "pid": "Vouros!Olympiacos FC",
+        "name": "Vouros",
+        "team": "Olympiacos FC",
+        "pos": "DEF",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Isimat-Mirin!PSV Eindhoven": {
+        "pid": "Isimat-Mirin!PSV Eindhoven",
+        "name": "Isimat-Mirin",
+        "team": "PSV Eindhoven",
+        "pos": "DEF",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Carvalho!Malm&#246; FF": {
+        "pid": "Carvalho!Malm&#246; FF",
+        "name": "Carvalho",
+        "team": "Malm&#246; FF",
+        "pos": "DEF",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Raly!Maccabi Tel-Aviv FC": {
+        "pid": "Raly!Maccabi Tel-Aviv FC",
+        "name": "Raly",
+        "team": "Maccabi Tel-Aviv FC",
+        "pos": "DEF",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Salino!Olympiacos FC": {
+        "pid": "Salino!Olympiacos FC",
+        "name": "Salino",
+        "team": "Olympiacos FC",
+        "pos": "DEF",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Konate!Malm&#246; FF": {
+        "pid": "Konate!Malm&#246; FF",
+        "name": "Konate",
+        "team": "Malm&#246; FF",
+        "pos": "DEF",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Chernov!PFC CSKA Moskva": {
+        "pid": "Chernov!PFC CSKA Moskva",
+        "name": "Chernov",
+        "team": "PFC CSKA Moskva",
+        "pos": "DEF",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "M&#259;&#355;el!GNK Dinamo Zagreb": {
+        "pid": "M&#259;&#355;el!GNK Dinamo Zagreb",
+        "name": "M&#259;&#355;el",
+        "team": "GNK Dinamo Zagreb",
+        "pos": "DEF",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Dasa!Maccabi Tel-Aviv FC": {
+        "pid": "Dasa!Maccabi Tel-Aviv FC",
+        "name": "Dasa",
+        "team": "Maccabi Tel-Aviv FC",
+        "pos": "DEF",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Costa!Olympiacos FC": {
+        "pid": "Costa!Olympiacos FC",
+        "name": "Costa",
+        "team": "Olympiacos FC",
+        "pos": "DEF",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Volodko!FC BATE Borisov": {
+        "pid": "Volodko!FC BATE Borisov",
+        "name": "Volodko",
+        "team": "FC BATE Borisov",
+        "pos": "DEF",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Ozen!Malm&#246; FF": {
+        "pid": "Ozen!Malm&#246; FF",
+        "name": "Ozen",
+        "team": "Malm&#246; FF",
+        "pos": "DEF",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Baiduk!FC BATE Borisov": {
+        "pid": "Baiduk!FC BATE Borisov",
+        "name": "Baiduk",
+        "team": "FC BATE Borisov",
+        "pos": "DEF",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Matviyenko!FC Shakhtar Donetsk": {
+        "pid": "Matviyenko!FC Shakhtar Donetsk",
+        "name": "Matviyenko",
+        "team": "FC Shakhtar Donetsk",
+        "pos": "DEF",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Brorsson!Malm&#246; FF": {
+        "pid": "Brorsson!Malm&#246; FF",
+        "name": "Brorsson",
+        "team": "Malm&#246; FF",
+        "pos": "DEF",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Schildenfeld!GNK Dinamo Zagreb": {
+        "pid": "Schildenfeld!GNK Dinamo Zagreb",
+        "name": "Schildenfeld",
+        "team": "GNK Dinamo Zagreb",
+        "pos": "DEF",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Akhmetov!FC Astana": {
+        "pid": "Akhmetov!FC Astana",
+        "name": "Akhmetov",
+        "team": "FC Astana",
+        "pos": "DEF",
+        "cost": 30,
+        "py/object": "util.Player"
+    },
+    "Masuaku!Olympiacos FC": {
+        "pid": "Masuaku!Olympiacos FC",
+        "name": "Masuaku",
+        "team": "Olympiacos FC",
+        "pos": "DEF",
+        "cost": 30,
+        "py/object": "util.Player"
+    },
+    "Garc&#237;a!Maccabi Tel-Aviv FC": {
+        "pid": "Garc&#237;a!Maccabi Tel-Aviv FC",
+        "name": "Garc&#237;a",
+        "team": "Maccabi Tel-Aviv FC",
+        "pos": "DEF",
+        "cost": 30,
+        "py/object": "util.Player"
+    },
+    "Vitas!KAA Gent": {
+        "pid": "Vitas!KAA Gent",
+        "name": "Vitas",
+        "team": "KAA Gent",
+        "pos": "DEF",
+        "cost": 30,
+        "py/object": "util.Player"
+    },
+    "Goldberg!Maccabi Tel-Aviv FC": {
+        "pid": "Goldberg!Maccabi Tel-Aviv FC",
+        "name": "Goldberg",
+        "team": "Maccabi Tel-Aviv FC",
+        "pos": "DEF",
+        "cost": 30,
+        "py/object": "util.Player"
+    },
+    "Vindheim!Malm&#246; FF": {
+        "pid": "Vindheim!Malm&#246; FF",
+        "name": "Vindheim",
+        "team": "Malm&#246; FF",
+        "pos": "DEF",
+        "cost": 30,
+        "py/object": "util.Player"
+    },
+    "Pikalkin!FC Astana": {
+        "pid": "Pikalkin!FC Astana",
+        "name": "Pikalkin",
+        "team": "FC Astana",
+        "pos": "DEF",
+        "cost": 30,
+        "py/object": "util.Player"
+    },
+    "Benkovi&#263;!GNK Dinamo Zagreb": {
+        "pid": "Benkovi&#263;!GNK Dinamo Zagreb",
+        "name": "Benkovi&#263;",
+        "team": "GNK Dinamo Zagreb",
+        "pos": "DEF",
+        "cost": 30,
+        "py/object": "util.Player"
+    },
+    "Hazard!Chelsea FC": {
+        "pid": "Hazard!Chelsea FC",
+        "name": "Hazard",
+        "team": "Chelsea FC",
+        "pos": "MID",
+        "cost": 115,
+        "py/object": "util.Player"
+    },
+    "Robben!FC Bayern M&#252;nchen": {
+        "pid": "Robben!FC Bayern M&#252;nchen",
+        "name": "Robben",
+        "team": "FC Bayern M&#252;nchen",
+        "pos": "MID",
+        "cost": 110,
+        "py/object": "util.Player"
+    },
+    "Rodr&#237;guez!Real Madrid CF": {
+        "pid": "Rodr&#237;guez!Real Madrid CF",
+        "name": "Rodr&#237;guez",
+        "team": "Real Madrid CF",
+        "pos": "MID",
+        "cost": 105,
+        "py/object": "util.Player"
+    },
+    "G&#246;tze!FC Bayern M&#252;nchen": {
+        "pid": "G&#246;tze!FC Bayern M&#252;nchen",
+        "name": "G&#246;tze",
+        "team": "FC Bayern M&#252;nchen",
+        "pos": "MID",
+        "cost": 105,
+        "py/object": "util.Player"
+    },
+    "Rib&#233;ry!FC Bayern M&#252;nchen": {
+        "pid": "Rib&#233;ry!FC Bayern M&#252;nchen",
+        "name": "Rib&#233;ry",
+        "team": "FC Bayern M&#252;nchen",
+        "pos": "MID",
+        "cost": 105,
+        "py/object": "util.Player"
+    },
+    "Tour&#233;!Manchester City FC": {
+        "pid": "Tour&#233;!Manchester City FC",
+        "name": "Tour&#233;",
+        "team": "Manchester City FC",
+        "pos": "MID",
+        "cost": 100,
+        "py/object": "util.Player"
+    },
+    "Vidal!FC Bayern M&#252;nchen": {
+        "pid": "Vidal!FC Bayern M&#252;nchen",
+        "name": "Vidal",
+        "team": "FC Bayern M&#252;nchen",
+        "pos": "MID",
+        "cost": 100,
+        "py/object": "util.Player"
+    },
+    "Iniesta!FC Barcelona": {
+        "pid": "Iniesta!FC Barcelona",
+        "name": "Iniesta",
+        "team": "FC Barcelona",
+        "pos": "MID",
+        "cost": 100,
+        "py/object": "util.Player"
+    },
+    "F&#224;bregas!Chelsea FC": {
+        "pid": "F&#224;bregas!Chelsea FC",
+        "name": "F&#224;bregas",
+        "team": "Chelsea FC",
+        "pos": "MID",
+        "cost": 95,
+        "py/object": "util.Player"
+    },
+    "Silva!Manchester City FC": {
+        "pid": "Silva!Manchester City FC",
+        "name": "Silva",
+        "team": "Manchester City FC",
+        "pos": "MID",
+        "cost": 95,
+        "py/object": "util.Player"
+    },
+    "&#214;zil!Arsenal FC": {
+        "pid": "&#214;zil!Arsenal FC",
+        "name": "&#214;zil",
+        "team": "Arsenal FC",
+        "pos": "MID",
+        "cost": 95,
+        "py/object": "util.Player"
+    },
+    "Cazorla!Arsenal FC": {
+        "pid": "Cazorla!Arsenal FC",
+        "name": "Cazorla",
+        "team": "Arsenal FC",
+        "pos": "MID",
+        "cost": 95,
+        "py/object": "util.Player"
+    },
+    "Koke!Club Atl&#233;tico de Madrid": {
+        "pid": "Koke!Club Atl&#233;tico de Madrid",
+        "name": "Koke",
+        "team": "Club Atl&#233;tico de Madrid",
+        "pos": "MID",
+        "cost": 90,
+        "py/object": "util.Player"
+    },
+    "Pjani&#263;!AS Roma": {
+        "pid": "Pjani&#263;!AS Roma",
+        "name": "Pjani&#263;",
+        "team": "AS Roma",
+        "pos": "MID",
+        "cost": 90,
+        "py/object": "util.Player"
+    },
+    "Ramsey!Arsenal FC": {
+        "pid": "Ramsey!Arsenal FC",
+        "name": "Ramsey",
+        "team": "Arsenal FC",
+        "pos": "MID",
+        "cost": 90,
+        "py/object": "util.Player"
+    },
+    "Rakiti&#263;!FC Barcelona": {
+        "pid": "Rakiti&#263;!FC Barcelona",
+        "name": "Rakiti&#263;",
+        "team": "FC Barcelona",
+        "pos": "MID",
+        "cost": 90,
+        "py/object": "util.Player"
+    },
+    "Mar&#237;a!Paris Saint-Germain": {
+        "pid": "Mar&#237;a!Paris Saint-Germain",
+        "name": "Mar&#237;a",
+        "team": "Paris Saint-Germain",
+        "pos": "MID",
+        "cost": 90,
+        "py/object": "util.Player"
+    },
+    "Sterling!Manchester City FC": {
+        "pid": "Sterling!Manchester City FC",
+        "name": "Sterling",
+        "team": "Manchester City FC",
+        "pos": "MID",
+        "cost": 90,
+        "py/object": "util.Player"
+    },
+    "Pogba!Juventus": {
+        "pid": "Pogba!Juventus",
+        "name": "Pogba",
+        "team": "Juventus",
+        "pos": "MID",
+        "cost": 90,
+        "py/object": "util.Player"
+    },
+    "Isco!Real Madrid CF": {
+        "pid": "Isco!Real Madrid CF",
+        "name": "Isco",
+        "team": "Real Madrid CF",
+        "pos": "MID",
+        "cost": 90,
+        "py/object": "util.Player"
+    },
+    "Kampl!Bayer 04 Leverkusen": {
+        "pid": "Kampl!Bayer 04 Leverkusen",
+        "name": "Kampl",
+        "team": "Bayer 04 Leverkusen",
+        "pos": "MID",
+        "cost": 85,
+        "py/object": "util.Player"
+    },
+    "Oscar!Chelsea FC": {
+        "pid": "Oscar!Chelsea FC",
+        "name": "Oscar",
+        "team": "Chelsea FC",
+        "pos": "MID",
+        "cost": 85,
+        "py/object": "util.Player"
+    },
+    "Kroos!Real Madrid CF": {
+        "pid": "Kroos!Real Madrid CF",
+        "name": "Kroos",
+        "team": "Real Madrid CF",
+        "pos": "MID",
+        "cost": 85,
+        "py/object": "util.Player"
+    },
+    "Marchisio!Juventus": {
+        "pid": "Marchisio!Juventus",
+        "name": "Marchisio",
+        "team": "Juventus",
+        "pos": "MID",
+        "cost": 85,
+        "py/object": "util.Player"
+    },
+    "Rossi!AS Roma": {
+        "pid": "Rossi!AS Roma",
+        "name": "Rossi",
+        "team": "AS Roma",
+        "pos": "MID",
+        "cost": 85,
+        "py/object": "util.Player"
+    },
+    "Bruyne!Manchester City FC": {
+        "pid": "Bruyne!Manchester City FC",
+        "name": "Bruyne",
+        "team": "Manchester City FC",
+        "pos": "MID",
+        "cost": 85,
+        "py/object": "util.Player"
+    },
+    "Hernanes!Juventus": {
+        "pid": "Hernanes!Juventus",
+        "name": "Hernanes",
+        "team": "Juventus",
+        "pos": "MID",
+        "cost": 85,
+        "py/object": "util.Player"
+    },
+    "Pastore!Paris Saint-Germain": {
+        "pid": "Pastore!Paris Saint-Germain",
+        "name": "Pastore",
+        "team": "Paris Saint-Germain",
+        "pos": "MID",
+        "cost": 85,
+        "py/object": "util.Player"
+    },
+    "Mata!Manchester United FC": {
+        "pid": "Mata!Manchester United FC",
+        "name": "Mata",
+        "team": "Manchester United FC",
+        "pos": "MID",
+        "cost": 85,
+        "py/object": "util.Player"
+    },
+    "Dzagoev!PFC CSKA Moskva": {
+        "pid": "Dzagoev!PFC CSKA Moskva",
+        "name": "Dzagoev",
+        "team": "PFC CSKA Moskva",
+        "pos": "MID",
+        "cost": 80,
+        "py/object": "util.Player"
+    },
+    "Raffael!VfL Borussia M&#246;nchengladbach": {
+        "pid": "Raffael!VfL Borussia M&#246;nchengladbach",
+        "name": "Raffael",
+        "team": "VfL Borussia M&#246;nchengladbach",
+        "pos": "MID",
+        "cost": 80,
+        "py/object": "util.Player"
+    },
+    "Khedira!Juventus": {
+        "pid": "Khedira!Juventus",
+        "name": "Khedira",
+        "team": "Juventus",
+        "pos": "MID",
+        "cost": 80,
+        "py/object": "util.Player"
+    },
+    "Oxlade-Chamberlain!Arsenal FC": {
+        "pid": "Oxlade-Chamberlain!Arsenal FC",
+        "name": "Oxlade-Chamberlain",
+        "team": "Arsenal FC",
+        "pos": "MID",
+        "cost": 80,
+        "py/object": "util.Player"
+    },
+    "Teixeira!FC Shakhtar Donetsk": {
+        "pid": "Teixeira!FC Shakhtar Donetsk",
+        "name": "Teixeira",
+        "team": "FC Shakhtar Donetsk",
+        "pos": "MID",
+        "cost": 80,
+        "py/object": "util.Player"
+    },
+    "Kramer!Bayer 04 Leverkusen": {
+        "pid": "Kramer!Bayer 04 Leverkusen",
+        "name": "Kramer",
+        "team": "Bayer 04 Leverkusen",
+        "pos": "MID",
+        "cost": 80,
+        "py/object": "util.Player"
+    },
+    "Sneijder!Galatasaray A&#350;": {
+        "pid": "Sneijder!Galatasaray A&#350;",
+        "name": "Sneijder",
+        "team": "Galatasaray A&#350;",
+        "pos": "MID",
+        "cost": 80,
+        "py/object": "util.Player"
+    },
+    "Draxler!VfL Wolfsburg": {
+        "pid": "Draxler!VfL Wolfsburg",
+        "name": "Draxler",
+        "team": "VfL Wolfsburg",
+        "pos": "MID",
+        "cost": 80,
+        "py/object": "util.Player"
+    },
+    "Valbuena!Olympique Lyonnais": {
+        "pid": "Valbuena!Olympique Lyonnais",
+        "name": "Valbuena",
+        "team": "Olympique Lyonnais",
+        "pos": "MID",
+        "cost": 80,
+        "py/object": "util.Player"
+    },
+    "Modri&#263;!Real Madrid CF": {
+        "pid": "Modri&#263;!Real Madrid CF",
+        "name": "Modri&#263;",
+        "team": "Real Madrid CF",
+        "pos": "MID",
+        "cost": 80,
+        "py/object": "util.Player"
+    },
+    "Fekir!Olympique Lyonnais": {
+        "pid": "Fekir!Olympique Lyonnais",
+        "name": "Fekir",
+        "team": "Olympique Lyonnais",
+        "pos": "MID",
+        "cost": 80,
+        "py/object": "util.Player"
+    },
+    "Konoplyanka!Sevilla FC": {
+        "pid": "Konoplyanka!Sevilla FC",
+        "name": "Konoplyanka",
+        "team": "Sevilla FC",
+        "pos": "MID",
+        "cost": 80,
+        "py/object": "util.Player"
+    },
+    "Lucas!Paris Saint-Germain": {
+        "pid": "Lucas!Paris Saint-Germain",
+        "name": "Lucas",
+        "team": "Paris Saint-Germain",
+        "pos": "MID",
+        "cost": 80,
+        "py/object": "util.Player"
+    },
+    "Navas!Manchester City FC": {
+        "pid": "Navas!Manchester City FC",
+        "name": "Navas",
+        "team": "Manchester City FC",
+        "pos": "MID",
+        "cost": 80,
+        "py/object": "util.Player"
+    },
+    "Nasri!Manchester City FC": {
+        "pid": "Nasri!Manchester City FC",
+        "name": "Nasri",
+        "team": "Manchester City FC",
+        "pos": "MID",
+        "cost": 80,
+        "py/object": "util.Player"
+    },
+    "Willian!Chelsea FC": {
+        "pid": "Willian!Chelsea FC",
+        "name": "Willian",
+        "team": "Chelsea FC",
+        "pos": "MID",
+        "cost": 80,
+        "py/object": "util.Player"
+    },
+    "Bernard!FC Shakhtar Donetsk": {
+        "pid": "Bernard!FC Shakhtar Donetsk",
+        "name": "Bernard",
+        "team": "FC Shakhtar Donetsk",
+        "pos": "MID",
+        "cost": 80,
+        "py/object": "util.Player"
+    },
+    "Danny!FC Zenit": {
+        "pid": "Danny!FC Zenit",
+        "name": "Danny",
+        "team": "FC Zenit",
+        "pos": "MID",
+        "cost": 80,
+        "py/object": "util.Player"
+    },
+    "Costa!FC Bayern M&#252;nchen": {
+        "pid": "Costa!FC Bayern M&#252;nchen",
+        "name": "Costa",
+        "team": "FC Bayern M&#252;nchen",
+        "pos": "MID",
+        "cost": 80,
+        "py/object": "util.Player"
+    },
+    "Hazard!VfL Borussia M&#246;nchengladbach": {
+        "pid": "Hazard!VfL Borussia M&#246;nchengladbach",
+        "name": "Hazard",
+        "team": "VfL Borussia M&#246;nchengladbach",
+        "pos": "MID",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Busquets!FC Barcelona": {
+        "pid": "Busquets!FC Barcelona",
+        "name": "Busquets",
+        "team": "FC Barcelona",
+        "pos": "MID",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Tiago!Club Atl&#233;tico de Madrid": {
+        "pid": "Tiago!Club Atl&#233;tico de Madrid",
+        "name": "Tiago",
+        "team": "Club Atl&#233;tico de Madrid",
+        "pos": "MID",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Florenzi!AS Roma": {
+        "pid": "Florenzi!AS Roma",
+        "name": "Florenzi",
+        "team": "AS Roma",
+        "pos": "MID",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Herrera!Manchester United FC": {
+        "pid": "Herrera!Manchester United FC",
+        "name": "Herrera",
+        "team": "Manchester United FC",
+        "pos": "MID",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Cuadrado!Juventus": {
+        "pid": "Cuadrado!Juventus",
+        "name": "Cuadrado",
+        "team": "Juventus",
+        "pos": "MID",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Gabi!Club Atl&#233;tico de Madrid": {
+        "pid": "Gabi!Club Atl&#233;tico de Madrid",
+        "name": "Gabi",
+        "team": "Club Atl&#233;tico de Madrid",
+        "pos": "MID",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Vitolo!Sevilla FC": {
+        "pid": "Vitolo!Sevilla FC",
+        "name": "Vitolo",
+        "team": "Sevilla FC",
+        "pos": "MID",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Witsel!FC Zenit": {
+        "pid": "Witsel!FC Zenit",
+        "name": "Witsel",
+        "team": "FC Zenit",
+        "pos": "MID",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Alc&#225;ntara!FC Bayern M&#252;nchen": {
+        "pid": "Alc&#225;ntara!FC Bayern M&#252;nchen",
+        "name": "Alc&#225;ntara",
+        "team": "FC Bayern M&#252;nchen",
+        "pos": "MID",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Iturbe!AS Roma": {
+        "pid": "Iturbe!AS Roma",
+        "name": "Iturbe",
+        "team": "AS Roma",
+        "pos": "MID",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Alonso!FC Bayern M&#252;nchen": {
+        "pid": "Alonso!FC Bayern M&#252;nchen",
+        "name": "Alonso",
+        "team": "FC Bayern M&#252;nchen",
+        "pos": "MID",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Fellaini!Manchester United FC": {
+        "pid": "Fellaini!Manchester United FC",
+        "name": "Fellaini",
+        "team": "Manchester United FC",
+        "pos": "MID",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Tolisso!Olympique Lyonnais": {
+        "pid": "Tolisso!Olympique Lyonnais",
+        "name": "Tolisso",
+        "team": "Olympique Lyonnais",
+        "pos": "MID",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Reyes!Sevilla FC": {
+        "pid": "Reyes!Sevilla FC",
+        "name": "Reyes",
+        "team": "Sevilla FC",
+        "pos": "MID",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Fernandinho!Manchester City FC": {
+        "pid": "Fernandinho!Manchester City FC",
+        "name": "Fernandinho",
+        "team": "Manchester City FC",
+        "pos": "MID",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Schweinsteiger!Manchester United FC": {
+        "pid": "Schweinsteiger!Manchester United FC",
+        "name": "Schweinsteiger",
+        "team": "Manchester United FC",
+        "pos": "MID",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Schneiderlin!Manchester United FC": {
+        "pid": "Schneiderlin!Manchester United FC",
+        "name": "Schneiderlin",
+        "team": "Manchester United FC",
+        "pos": "MID",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Wilshere!Arsenal FC": {
+        "pid": "Wilshere!Arsenal FC",
+        "name": "Wilshere",
+        "team": "Arsenal FC",
+        "pos": "MID",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Taison!FC Shakhtar Donetsk": {
+        "pid": "Taison!FC Shakhtar Donetsk",
+        "name": "Taison",
+        "team": "FC Shakhtar Donetsk",
+        "pos": "MID",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Sch&#252;rrle!VfL Wolfsburg": {
+        "pid": "Sch&#252;rrle!VfL Wolfsburg",
+        "name": "Sch&#252;rrle",
+        "team": "VfL Wolfsburg",
+        "pos": "MID",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Herrera!FC Porto": {
+        "pid": "Herrera!FC Porto",
+        "name": "Herrera",
+        "team": "FC Porto",
+        "pos": "MID",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Fernando!Manchester City FC": {
+        "pid": "Fernando!Manchester City FC",
+        "name": "Fernando",
+        "team": "Manchester City FC",
+        "pos": "MID",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Xhaka!VfL Borussia M&#246;nchengladbach": {
+        "pid": "Xhaka!VfL Borussia M&#246;nchengladbach",
+        "name": "Xhaka",
+        "team": "VfL Borussia M&#246;nchengladbach",
+        "pos": "MID",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Verratti!Paris Saint-Germain": {
+        "pid": "Verratti!Paris Saint-Germain",
+        "name": "Verratti",
+        "team": "Paris Saint-Germain",
+        "pos": "MID",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Roberto!FC Barcelona": {
+        "pid": "Roberto!FC Barcelona",
+        "name": "Roberto",
+        "team": "FC Barcelona",
+        "pos": "MID",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Banega!Sevilla FC": {
+        "pid": "Banega!Sevilla FC",
+        "name": "Banega",
+        "team": "Sevilla FC",
+        "pos": "MID",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Young!Manchester United FC": {
+        "pid": "Young!Manchester United FC",
+        "name": "Young",
+        "team": "Manchester United FC",
+        "pos": "MID",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Gonalons!Olympique Lyonnais": {
+        "pid": "Gonalons!Olympique Lyonnais",
+        "name": "Gonalons",
+        "team": "Olympique Lyonnais",
+        "pos": "MID",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Malbranque!Olympique Lyonnais": {
+        "pid": "Malbranque!Olympique Lyonnais",
+        "name": "Malbranque",
+        "team": "Olympique Lyonnais",
+        "pos": "MID",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Matuidi!Paris Saint-Germain": {
+        "pid": "Matuidi!Paris Saint-Germain",
+        "name": "Matuidi",
+        "team": "Paris Saint-Germain",
+        "pos": "MID",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Delph!Manchester City FC": {
+        "pid": "Delph!Manchester City FC",
+        "name": "Delph",
+        "team": "Manchester City FC",
+        "pos": "MID",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Mati&#263;!Chelsea FC": {
+        "pid": "Mati&#263;!Chelsea FC",
+        "name": "Mati&#263;",
+        "team": "Chelsea FC",
+        "pos": "MID",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Kova&#269;i&#263;!Real Madrid CF": {
+        "pid": "Kova&#269;i&#263;!Real Madrid CF",
+        "name": "Kova&#269;i&#263;",
+        "team": "Real Madrid CF",
+        "pos": "MID",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Ferreira-Carrasco!Club Atl&#233;tico de Madrid": {
+        "pid": "Ferreira-Carrasco!Club Atl&#233;tico de Madrid",
+        "name": "Ferreira-Carrasco",
+        "team": "Club Atl&#233;tico de Madrid",
+        "pos": "MID",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Grenier!Olympique Lyonnais": {
+        "pid": "Grenier!Olympique Lyonnais",
+        "name": "Grenier",
+        "team": "Olympique Lyonnais",
+        "pos": "MID",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "&#209;&#237;guez!Club Atl&#233;tico de Madrid": {
+        "pid": "&#209;&#237;guez!Club Atl&#233;tico de Madrid",
+        "name": "&#209;&#237;guez",
+        "team": "Club Atl&#233;tico de Madrid",
+        "pos": "MID",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Oliveira!FC Porto": {
+        "pid": "Oliveira!FC Porto",
+        "name": "Oliveira",
+        "team": "FC Porto",
+        "pos": "MID",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Kakuta!Sevilla FC": {
+        "pid": "Kakuta!Sevilla FC",
+        "name": "Kakuta",
+        "team": "Sevilla FC",
+        "pos": "MID",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Carrick!Manchester United FC": {
+        "pid": "Carrick!Manchester United FC",
+        "name": "Carrick",
+        "team": "Manchester United FC",
+        "pos": "MID",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Taarabt!SL Benfica": {
+        "pid": "Taarabt!SL Benfica",
+        "name": "Taarabt",
+        "team": "SL Benfica",
+        "pos": "MID",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Herrmann!VfL Borussia M&#246;nchengladbach": {
+        "pid": "Herrmann!VfL Borussia M&#246;nchengladbach",
+        "name": "Herrmann",
+        "team": "VfL Borussia M&#246;nchengladbach",
+        "pos": "MID",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Iborra!Sevilla FC": {
+        "pid": "Iborra!Sevilla FC",
+        "name": "Iborra",
+        "team": "Sevilla FC",
+        "pos": "MID",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Bellarabi!Bayer 04 Leverkusen": {
+        "pid": "Bellarabi!Bayer 04 Leverkusen",
+        "name": "Bellarabi",
+        "team": "Bayer 04 Leverkusen",
+        "pos": "MID",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Nainggolan!AS Roma": {
+        "pid": "Nainggolan!AS Roma",
+        "name": "Nainggolan",
+        "team": "AS Roma",
+        "pos": "MID",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Gait&#225;n!SL Benfica": {
+        "pid": "Gait&#225;n!SL Benfica",
+        "name": "Gait&#225;n",
+        "team": "SL Benfica",
+        "pos": "MID",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Pereyra!Juventus": {
+        "pid": "Pereyra!Juventus",
+        "name": "Pereyra",
+        "team": "Juventus",
+        "pos": "MID",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Maher!PSV Eindhoven": {
+        "pid": "Maher!PSV Eindhoven",
+        "name": "Maher",
+        "team": "PSV Eindhoven",
+        "pos": "MID",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "To&#353;i&#263;!PFC CSKA Moskva": {
+        "pid": "To&#353;i&#263;!PFC CSKA Moskva",
+        "name": "To&#353;i&#263;",
+        "team": "PFC CSKA Moskva",
+        "pos": "MID",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Fred!FC Shakhtar Donetsk": {
+        "pid": "Fred!FC Shakhtar Donetsk",
+        "name": "Fred",
+        "team": "FC Shakhtar Donetsk",
+        "pos": "MID",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Stambouli!Paris Saint-Germain": {
+        "pid": "Stambouli!Paris Saint-Germain",
+        "name": "Stambouli",
+        "team": "Paris Saint-Germain",
+        "pos": "MID",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Nem!FC Shakhtar Donetsk": {
+        "pid": "Nem!FC Shakhtar Donetsk",
+        "name": "Nem",
+        "team": "FC Shakhtar Donetsk",
+        "pos": "MID",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Ca&#241;as!FC Astana": {
+        "pid": "Ca&#241;as!FC Astana",
+        "name": "Ca&#241;as",
+        "team": "FC Astana",
+        "pos": "MID",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Mart&#237;nez!FC Bayern M&#252;nchen": {
+        "pid": "Mart&#237;nez!FC Bayern M&#252;nchen",
+        "name": "Mart&#237;nez",
+        "team": "FC Bayern M&#252;nchen",
+        "pos": "MID",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Arnold!VfL Wolfsburg": {
+        "pid": "Arnold!VfL Wolfsburg",
+        "name": "Arnold",
+        "team": "VfL Wolfsburg",
+        "pos": "MID",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Motta!Paris Saint-Germain": {
+        "pid": "Motta!Paris Saint-Germain",
+        "name": "Motta",
+        "team": "Paris Saint-Germain",
+        "pos": "MID",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Foket!KAA Gent": {
+        "pid": "Foket!KAA Gent",
+        "name": "Foket",
+        "team": "KAA Gent",
+        "pos": "MID",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Pr&#246;pper!PSV Eindhoven": {
+        "pid": "Pr&#246;pper!PSV Eindhoven",
+        "name": "Pr&#246;pper",
+        "team": "PSV Eindhoven",
+        "pos": "MID",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Bender!Bayer 04 Leverkusen": {
+        "pid": "Bender!Bayer 04 Leverkusen",
+        "name": "Bender",
+        "team": "Bayer 04 Leverkusen",
+        "pos": "MID",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Kranj&#269;ar!FC Dynamo Kyiv": {
+        "pid": "Kranj&#269;ar!FC Dynamo Kyiv",
+        "name": "Kranj&#269;ar",
+        "team": "FC Dynamo Kyiv",
+        "pos": "MID",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Hahn!VfL Borussia M&#246;nchengladbach": {
+        "pid": "Hahn!VfL Borussia M&#246;nchengladbach",
+        "name": "Hahn",
+        "team": "VfL Borussia M&#246;nchengladbach",
+        "pos": "MID",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Gustavo!VfL Wolfsburg": {
+        "pid": "Gustavo!VfL Wolfsburg",
+        "name": "Gustavo",
+        "team": "VfL Wolfsburg",
+        "pos": "MID",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Andr&#233;!FC Porto": {
+        "pid": "Andr&#233;!FC Porto",
+        "name": "Andr&#233;",
+        "team": "FC Porto",
+        "pos": "MID",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Sturaro!Juventus": {
+        "pid": "Sturaro!Juventus",
+        "name": "Sturaro",
+        "team": "Juventus",
+        "pos": "MID",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Torres!Club Atl&#233;tico de Madrid": {
+        "pid": "Torres!Club Atl&#233;tico de Madrid",
+        "name": "Torres",
+        "team": "Club Atl&#233;tico de Madrid",
+        "pos": "MID",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "N'Zonzi!Sevilla FC": {
+        "pid": "N'Zonzi!Sevilla FC",
+        "name": "N'Zonzi",
+        "team": "Sevilla FC",
+        "pos": "MID",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Keita!AS Roma": {
+        "pid": "Keita!AS Roma",
+        "name": "Keita",
+        "team": "AS Roma",
+        "pos": "MID",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Eremenko!PFC CSKA Moskva": {
+        "pid": "Eremenko!PFC CSKA Moskva",
+        "name": "Eremenko",
+        "team": "PFC CSKA Moskva",
+        "pos": "MID",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Hleb!FC BATE Borisov": {
+        "pid": "Hleb!FC BATE Borisov",
+        "name": "Hleb",
+        "team": "FC BATE Borisov",
+        "pos": "MID",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Guardado!PSV Eindhoven": {
+        "pid": "Guardado!PSV Eindhoven",
+        "name": "Guardado",
+        "team": "PSV Eindhoven",
+        "pos": "MID",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Falqu&#233;!AS Roma": {
+        "pid": "Falqu&#233;!AS Roma",
+        "name": "Falqu&#233;",
+        "team": "AS Roma",
+        "pos": "MID",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Cambiasso!Olympiacos FC": {
+        "pid": "Cambiasso!Olympiacos FC",
+        "name": "Cambiasso",
+        "team": "Olympiacos FC",
+        "pos": "MID",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Traor&#233;!VfL Borussia M&#246;nchengladbach": {
+        "pid": "Traor&#233;!VfL Borussia M&#246;nchengladbach",
+        "name": "Traor&#233;",
+        "team": "VfL Borussia M&#246;nchengladbach",
+        "pos": "MID",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Blind!Manchester United FC": {
+        "pid": "Blind!Manchester United FC",
+        "name": "Blind",
+        "team": "Manchester United FC",
+        "pos": "MID",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Krohn-Dehli!Sevilla FC": {
+        "pid": "Krohn-Dehli!Sevilla FC",
+        "name": "Krohn-Dehli",
+        "team": "Sevilla FC",
+        "pos": "MID",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "&#304;nan!Galatasaray A&#350;": {
+        "pid": "&#304;nan!Galatasaray A&#350;",
+        "name": "&#304;nan",
+        "team": "Galatasaray A&#350;",
+        "pos": "MID",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Valencia!Manchester United FC": {
+        "pid": "Valencia!Manchester United FC",
+        "name": "Valencia",
+        "team": "Manchester United FC",
+        "pos": "MID",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Maksimovi&#263;!FC Astana": {
+        "pid": "Maksimovi&#263;!FC Astana",
+        "name": "Maksimovi&#263;",
+        "team": "FC Astana",
+        "pos": "MID",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Ferri!Olympique Lyonnais": {
+        "pid": "Ferri!Olympique Lyonnais",
+        "name": "Ferri",
+        "team": "Olympique Lyonnais",
+        "pos": "MID",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Coquelin!Arsenal FC": {
+        "pid": "Coquelin!Arsenal FC",
+        "name": "Coquelin",
+        "team": "Arsenal FC",
+        "pos": "MID",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Almeida!SL Benfica": {
+        "pid": "Almeida!SL Benfica",
+        "name": "Almeida",
+        "team": "SL Benfica",
+        "pos": "MID",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Kasami!Olympiacos FC": {
+        "pid": "Kasami!Olympiacos FC",
+        "name": "Kasami",
+        "team": "Olympiacos FC",
+        "pos": "MID",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Rosick&#253;!Arsenal FC": {
+        "pid": "Rosick&#253;!Arsenal FC",
+        "name": "Rosick&#253;",
+        "team": "Arsenal FC",
+        "pos": "MID",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Guilavogui!VfL Wolfsburg": {
+        "pid": "Guilavogui!VfL Wolfsburg",
+        "name": "Guilavogui",
+        "team": "VfL Wolfsburg",
+        "pos": "MID",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Gordeichuk!FC BATE Borisov": {
+        "pid": "Gordeichuk!FC BATE Borisov",
+        "name": "Gordeichuk",
+        "team": "FC BATE Borisov",
+        "pos": "MID",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Stepanenko!FC Shakhtar Donetsk": {
+        "pid": "Stepanenko!FC Shakhtar Donetsk",
+        "name": "Stepanenko",
+        "team": "FC Shakhtar Donetsk",
+        "pos": "MID",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Vainqueur!AS Roma": {
+        "pid": "Vainqueur!AS Roma",
+        "name": "Vainqueur",
+        "team": "AS Roma",
+        "pos": "MID",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Nordtveit!VfL Borussia M&#246;nchengladbach": {
+        "pid": "Nordtveit!VfL Borussia M&#246;nchengladbach",
+        "name": "Nordtveit",
+        "team": "VfL Borussia M&#246;nchengladbach",
+        "pos": "MID",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Stindl!VfL Borussia M&#246;nchengladbach": {
+        "pid": "Stindl!VfL Borussia M&#246;nchengladbach",
+        "name": "Stindl",
+        "team": "VfL Borussia M&#246;nchengladbach",
+        "pos": "MID",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Neves!FC Porto": {
+        "pid": "Neves!FC Porto",
+        "name": "Neves",
+        "team": "FC Porto",
+        "pos": "MID",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Alt&#305;ntop!Galatasaray A&#350;": {
+        "pid": "Alt&#305;ntop!Galatasaray A&#350;",
+        "name": "Alt&#305;ntop",
+        "team": "Galatasaray A&#350;",
+        "pos": "MID",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Rodriguez!VfL Wolfsburg": {
+        "pid": "Rodriguez!VfL Wolfsburg",
+        "name": "Rodriguez",
+        "team": "VfL Wolfsburg",
+        "pos": "MID",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Shatov!FC Zenit": {
+        "pid": "Shatov!FC Zenit",
+        "name": "Shatov",
+        "team": "FC Zenit",
+        "pos": "MID",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Belhanda!FC Dynamo Kyiv": {
+        "pid": "Belhanda!FC Dynamo Kyiv",
+        "name": "Belhanda",
+        "team": "FC Dynamo Kyiv",
+        "pos": "MID",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "K&#233;th&#233;voama!FC Astana": {
+        "pid": "K&#233;th&#233;voama!FC Astana",
+        "name": "K&#233;th&#233;voama",
+        "team": "FC Astana",
+        "pos": "MID",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Krychowiak!Sevilla FC": {
+        "pid": "Krychowiak!Sevilla FC",
+        "name": "Krychowiak",
+        "team": "Sevilla FC",
+        "pos": "MID",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Rode!FC Bayern M&#252;nchen": {
+        "pid": "Rode!FC Bayern M&#252;nchen",
+        "name": "Rode",
+        "team": "FC Bayern M&#252;nchen",
+        "pos": "MID",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Casemiro!Real Madrid CF": {
+        "pid": "Casemiro!Real Madrid CF",
+        "name": "Casemiro",
+        "team": "Real Madrid CF",
+        "pos": "MID",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Milanov!PFC CSKA Moskva": {
+        "pid": "Milanov!PFC CSKA Moskva",
+        "name": "Milanov",
+        "team": "PFC CSKA Moskva",
+        "pos": "MID",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Ramires!Chelsea FC": {
+        "pid": "Ramires!Chelsea FC",
+        "name": "Ramires",
+        "team": "Chelsea FC",
+        "pos": "MID",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Marlos!FC Shakhtar Donetsk": {
+        "pid": "Marlos!FC Shakhtar Donetsk",
+        "name": "Marlos",
+        "team": "FC Shakhtar Donetsk",
+        "pos": "MID",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "&#216;degaard!Real Madrid CF": {
+        "pid": "&#216;degaard!Real Madrid CF",
+        "name": "&#216;degaard",
+        "team": "Real Madrid CF",
+        "pos": "MID",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Rodrigo!Valencia CF": {
+        "pid": "Rodrigo!Valencia CF",
+        "name": "Rodrigo",
+        "team": "Valencia CF",
+        "pos": "MID",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Darder!Olympique Lyonnais": {
+        "pid": "Darder!Olympique Lyonnais",
+        "name": "Darder",
+        "team": "Olympique Lyonnais",
+        "pos": "MID",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Veloso!FC Dynamo Kyiv": {
+        "pid": "Veloso!FC Dynamo Kyiv",
+        "name": "Veloso",
+        "team": "FC Dynamo Kyiv",
+        "pos": "MID",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Caligiuri!VfL Wolfsburg": {
+        "pid": "Caligiuri!VfL Wolfsburg",
+        "name": "Caligiuri",
+        "team": "VfL Wolfsburg",
+        "pos": "MID",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Pereiro!PSV Eindhoven": {
+        "pid": "Pereiro!PSV Eindhoven",
+        "name": "Pereiro",
+        "team": "PSV Eindhoven",
+        "pos": "MID",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Danilo!FC Porto": {
+        "pid": "Danilo!FC Porto",
+        "name": "Danilo",
+        "team": "FC Porto",
+        "pos": "MID",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Arteta!Arsenal FC": {
+        "pid": "Arteta!Arsenal FC",
+        "name": "Arteta",
+        "team": "Arsenal FC",
+        "pos": "MID",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Carcela-Gonz&#225;lez!SL Benfica": {
+        "pid": "Carcela-Gonz&#225;lez!SL Benfica",
+        "name": "Carcela-Gonz&#225;lez",
+        "team": "SL Benfica",
+        "pos": "MID",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Milicievic!KAA Gent": {
+        "pid": "Milicievic!KAA Gent",
+        "name": "Milicievic",
+        "team": "KAA Gent",
+        "pos": "MID",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Parejo!Valencia CF": {
+        "pid": "Parejo!Valencia CF",
+        "name": "Parejo",
+        "team": "Valencia CF",
+        "pos": "MID",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Kenedy!Chelsea FC": {
+        "pid": "Kenedy!Chelsea FC",
+        "name": "Kenedy",
+        "team": "Chelsea FC",
+        "pos": "MID",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Dejaeghere!KAA Gent": {
+        "pid": "Dejaeghere!KAA Gent",
+        "name": "Dejaeghere",
+        "team": "KAA Gent",
+        "pos": "MID",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "&#262;ori&#263;!GNK Dinamo Zagreb": {
+        "pid": "&#262;ori&#263;!GNK Dinamo Zagreb",
+        "name": "&#262;ori&#263;",
+        "team": "GNK Dinamo Zagreb",
+        "pos": "MID",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Adu!Malm&#246; FF": {
+        "pid": "Adu!Malm&#246; FF",
+        "name": "Adu",
+        "team": "Malm&#246; FF",
+        "pos": "MID",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Ghezzal!Olympique Lyonnais": {
+        "pid": "Ghezzal!Olympique Lyonnais",
+        "name": "Ghezzal",
+        "team": "Olympique Lyonnais",
+        "pos": "MID",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Kalulu!Olympique Lyonnais": {
+        "pid": "Kalulu!Olympique Lyonnais",
+        "name": "Kalulu",
+        "team": "Olympique Lyonnais",
+        "pos": "MID",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Baga!FC BATE Borisov": {
+        "pid": "Baga!FC BATE Borisov",
+        "name": "Baga",
+        "team": "FC BATE Borisov",
+        "pos": "MID",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Imbula!FC Porto": {
+        "pid": "Imbula!FC Porto",
+        "name": "Imbula",
+        "team": "FC Porto",
+        "pos": "MID",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Seguin!VfL Wolfsburg": {
+        "pid": "Seguin!VfL Wolfsburg",
+        "name": "Seguin",
+        "team": "VfL Wolfsburg",
+        "pos": "MID",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Andrade!SL Benfica": {
+        "pid": "Andrade!SL Benfica",
+        "name": "Andrade",
+        "team": "SL Benfica",
+        "pos": "MID",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Crist&#243;foro!Sevilla FC": {
+        "pid": "Crist&#243;foro!Sevilla FC",
+        "name": "Crist&#243;foro",
+        "team": "Sevilla FC",
+        "pos": "MID",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "P&#233;rez!Valencia CF": {
+        "pid": "P&#233;rez!Valencia CF",
+        "name": "P&#233;rez",
+        "team": "Valencia CF",
+        "pos": "MID",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Sydorchuk!FC Dynamo Kyiv": {
+        "pid": "Sydorchuk!FC Dynamo Kyiv",
+        "name": "Sydorchuk",
+        "team": "FC Dynamo Kyiv",
+        "pos": "MID",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Fortounis!Olympiacos FC": {
+        "pid": "Fortounis!Olympiacos FC",
+        "name": "Fortounis",
+        "team": "Olympiacos FC",
+        "pos": "MID",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Rodr&#237;guez!Galatasaray A&#350;": {
+        "pid": "Rodr&#237;guez!Galatasaray A&#350;",
+        "name": "Rodr&#237;guez",
+        "team": "Galatasaray A&#350;",
+        "pos": "MID",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Loftus-Cheek!Chelsea FC": {
+        "pid": "Loftus-Cheek!Chelsea FC",
+        "name": "Loftus-Cheek",
+        "team": "Chelsea FC",
+        "pos": "MID",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Luismi!Sevilla FC": {
+        "pid": "Luismi!Sevilla FC",
+        "name": "Luismi",
+        "team": "Sevilla FC",
+        "pos": "MID",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Lewicki!Malm&#246; FF": {
+        "pid": "Lewicki!Malm&#246; FF",
+        "name": "Lewicki",
+        "team": "Malm&#246; FF",
+        "pos": "MID",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Talisca!SL Benfica": {
+        "pid": "Talisca!SL Benfica",
+        "name": "Talisca",
+        "team": "SL Benfica",
+        "pos": "MID",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Lestienne!PSV Eindhoven": {
+        "pid": "Lestienne!PSV Eindhoven",
+        "name": "Lestienne",
+        "team": "PSV Eindhoven",
+        "pos": "MID",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Pardo!Olympiacos FC": {
+        "pid": "Pardo!Olympiacos FC",
+        "name": "Pardo",
+        "team": "Olympiacos FC",
+        "pos": "MID",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Lingard!Manchester United FC": {
+        "pid": "Lingard!Manchester United FC",
+        "name": "Lingard",
+        "team": "Manchester United FC",
+        "pos": "MID",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Cheryshev!Real Madrid CF": {
+        "pid": "Cheryshev!Real Madrid CF",
+        "name": "Cheryshev",
+        "team": "Real Madrid CF",
+        "pos": "MID",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Neto!KAA Gent": {
+        "pid": "Neto!KAA Gent",
+        "name": "Neto",
+        "team": "KAA Gent",
+        "pos": "MID",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Garc&#237;a!FC Zenit": {
+        "pid": "Garc&#237;a!FC Zenit",
+        "name": "Garc&#237;a",
+        "team": "FC Zenit",
+        "pos": "MID",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Gusev!FC Dynamo Kyiv": {
+        "pid": "Gusev!FC Dynamo Kyiv",
+        "name": "Gusev",
+        "team": "FC Dynamo Kyiv",
+        "pos": "MID",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Fayzulin!FC Zenit": {
+        "pid": "Fayzulin!FC Zenit",
+        "name": "Fayzulin",
+        "team": "FC Zenit",
+        "pos": "MID",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Wernbloom!PFC CSKA Moskva": {
+        "pid": "Wernbloom!PFC CSKA Moskva",
+        "name": "Wernbloom",
+        "team": "PFC CSKA Moskva",
+        "pos": "MID",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Fuego!Valencia CF": {
+        "pid": "Fuego!Valencia CF",
+        "name": "Fuego",
+        "team": "Valencia CF",
+        "pos": "MID",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Barbosa!Valencia CF": {
+        "pid": "Barbosa!Valencia CF",
+        "name": "Barbosa",
+        "team": "Valencia CF",
+        "pos": "MID",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Mvuemba!Olympique Lyonnais": {
+        "pid": "Mvuemba!Olympique Lyonnais",
+        "name": "Mvuemba",
+        "team": "Olympique Lyonnais",
+        "pos": "MID",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Kisa!Galatasaray A&#350;": {
+        "pid": "Kisa!Galatasaray A&#350;",
+        "name": "Kisa",
+        "team": "Galatasaray A&#350;",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "U&#231;an!AS Roma": {
+        "pid": "U&#231;an!AS Roma",
+        "name": "U&#231;an",
+        "team": "AS Roma",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Pizzi!SL Benfica": {
+        "pid": "Pizzi!SL Benfica",
+        "name": "Pizzi",
+        "team": "SL Benfica",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Yusupov!FC Zenit": {
+        "pid": "Yusupov!FC Zenit",
+        "name": "Yusupov",
+        "team": "FC Zenit",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Beysebekov!FC Astana": {
+        "pid": "Beysebekov!FC Astana",
+        "name": "Beysebekov",
+        "team": "FC Astana",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Gu&#240;mundsson!PSV Eindhoven": {
+        "pid": "Gu&#240;mundsson!PSV Eindhoven",
+        "name": "Gu&#240;mundsson",
+        "team": "PSV Eindhoven",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Rybalka!FC Dynamo Kyiv": {
+        "pid": "Rybalka!FC Dynamo Kyiv",
+        "name": "Rybalka",
+        "team": "FC Dynamo Kyiv",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "V&#225;zquez!Real Madrid CF": {
+        "pid": "V&#225;zquez!Real Madrid CF",
+        "name": "V&#225;zquez",
+        "team": "Real Madrid CF",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Zhukov!FC Astana": {
+        "pid": "Zhukov!FC Astana",
+        "name": "Zhukov",
+        "team": "FC Astana",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Evandro!FC Porto": {
+        "pid": "Evandro!FC Porto",
+        "name": "Evandro",
+        "team": "FC Porto",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "&#199;olak!Galatasaray A&#350;": {
+        "pid": "&#199;olak!Galatasaray A&#350;",
+        "name": "&#199;olak",
+        "team": "Galatasaray A&#350;",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Dom&#237;nguez!Olympiacos FC": {
+        "pid": "Dom&#237;nguez!Olympiacos FC",
+        "name": "Dom&#237;nguez",
+        "team": "Olympiacos FC",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Tousart!Olympique Lyonnais": {
+        "pid": "Tousart!Olympique Lyonnais",
+        "name": "Tousart",
+        "team": "Olympique Lyonnais",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Petrovi&#263;!FC Dynamo Kyiv": {
+        "pid": "Petrovi&#263;!FC Dynamo Kyiv",
+        "name": "Petrovi&#263;",
+        "team": "FC Dynamo Kyiv",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Schulz!VfL Borussia M&#246;nchengladbach": {
+        "pid": "Schulz!VfL Borussia M&#246;nchengladbach",
+        "name": "Schulz",
+        "team": "VfL Borussia M&#246;nchengladbach",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Volodko!FC BATE Borisov": {
+        "pid": "Volodko!FC BATE Borisov",
+        "name": "Volodko",
+        "team": "FC BATE Borisov",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Likhtarovich!FC BATE Borisov": {
+        "pid": "Likhtarovich!FC BATE Borisov",
+        "name": "Likhtarovich",
+        "team": "FC BATE Borisov",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Karnitski!FC BATE Borisov": {
+        "pid": "Karnitski!FC BATE Borisov",
+        "name": "Karnitski",
+        "team": "FC BATE Borisov",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Labidi!Olympique Lyonnais": {
+        "pid": "Labidi!Olympique Lyonnais",
+        "name": "Labidi",
+        "team": "Olympique Lyonnais",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Samaris!SL Benfica": {
+        "pid": "Samaris!SL Benfica",
+        "name": "Samaris",
+        "team": "SL Benfica",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Traor&#233;!Chelsea FC": {
+        "pid": "Traor&#233;!Chelsea FC",
+        "name": "Traor&#233;",
+        "team": "Chelsea FC",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Kemen!Olympique Lyonnais": {
+        "pid": "Kemen!Olympique Lyonnais",
+        "name": "Kemen",
+        "team": "Olympique Lyonnais",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Cau&#326;a!PFC CSKA Moskva": {
+        "pid": "Cau&#326;a!PFC CSKA Moskva",
+        "name": "Cau&#326;a",
+        "team": "PFC CSKA Moskva",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Buyalskiy!FC Dynamo Kyiv": {
+        "pid": "Buyalskiy!FC Dynamo Kyiv",
+        "name": "Buyalskiy",
+        "team": "FC Dynamo Kyiv",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Bruggen!KAA Gent": {
+        "pid": "Bruggen!KAA Gent",
+        "name": "Bruggen",
+        "team": "KAA Gent",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Rodi&#263;!Malm&#246; FF": {
+        "pid": "Rodi&#263;!Malm&#246; FF",
+        "name": "Rodi&#263;",
+        "team": "Malm&#246; FF",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Schaars!PSV Eindhoven": {
+        "pid": "Schaars!PSV Eindhoven",
+        "name": "Schaars",
+        "team": "PSV Eindhoven",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Hendrix!PSV Eindhoven": {
+        "pid": "Hendrix!PSV Eindhoven",
+        "name": "Hendrix",
+        "team": "PSV Eindhoven",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Yurchenko!Bayer 04 Leverkusen": {
+        "pid": "Yurchenko!Bayer 04 Leverkusen",
+        "name": "Yurchenko",
+        "team": "Bayer 04 Leverkusen",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Saief!KAA Gent": {
+        "pid": "Saief!KAA Gent",
+        "name": "Saief",
+        "team": "KAA Gent",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Golovin!PFC CSKA Moskva": {
+        "pid": "Golovin!PFC CSKA Moskva",
+        "name": "Golovin",
+        "team": "PFC CSKA Moskva",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Machado!GNK Dinamo Zagreb": {
+        "pid": "Machado!GNK Dinamo Zagreb",
+        "name": "Machado",
+        "team": "GNK Dinamo Zagreb",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Gomes!Valencia CF": {
+        "pid": "Gomes!Valencia CF",
+        "name": "Gomes",
+        "team": "Valencia CF",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Kimmich!FC Bayern M&#252;nchen": {
+        "pid": "Kimmich!FC Bayern M&#252;nchen",
+        "name": "Kimmich",
+        "team": "FC Bayern M&#252;nchen",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Rabiot!Paris Saint-Germain": {
+        "pid": "Rabiot!Paris Saint-Germain",
+        "name": "Rabiot",
+        "team": "Paris Saint-Germain",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Partey!Club Atl&#233;tico de Madrid": {
+        "pid": "Partey!Club Atl&#233;tico de Madrid",
+        "name": "Partey",
+        "team": "Club Atl&#233;tico de Madrid",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Powell!Manchester United FC": {
+        "pid": "Powell!Manchester United FC",
+        "name": "Powell",
+        "team": "Manchester United FC",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Paul!Valencia CF": {
+        "pid": "Paul!Valencia CF",
+        "name": "Paul",
+        "team": "Valencia CF",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Garmash!FC Dynamo Kyiv": {
+        "pid": "Garmash!FC Dynamo Kyiv",
+        "name": "Garmash",
+        "team": "FC Dynamo Kyiv",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Brandt!Bayer 04 Leverkusen": {
+        "pid": "Brandt!Bayer 04 Leverkusen",
+        "name": "Brandt",
+        "team": "Bayer 04 Leverkusen",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Kums!KAA Gent": {
+        "pid": "Kums!KAA Gent",
+        "name": "Kums",
+        "team": "KAA Gent",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Mikel!Chelsea FC": {
+        "pid": "Mikel!Chelsea FC",
+        "name": "Mikel",
+        "team": "Chelsea FC",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Tropi!Valencia CF": {
+        "pid": "Tropi!Valencia CF",
+        "name": "Tropi",
+        "team": "Valencia CF",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "&#352;ov&#353;i&#263;!GNK Dinamo Zagreb": {
+        "pid": "&#352;ov&#353;i&#263;!GNK Dinamo Zagreb",
+        "name": "&#352;ov&#353;i&#263;",
+        "team": "GNK Dinamo Zagreb",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Vloet!PSV Eindhoven": {
+        "pid": "Vloet!PSV Eindhoven",
+        "name": "Vloet",
+        "team": "PSV Eindhoven",
+        "pos": "MID",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Kroon!Malm&#246; FF": {
+        "pid": "Kroon!Malm&#246; FF",
+        "name": "Kroon",
+        "team": "Malm&#246; FF",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Ryu!Bayer 04 Leverkusen": {
+        "pid": "Ryu!Bayer 04 Leverkusen",
+        "name": "Ryu",
+        "team": "Bayer 04 Leverkusen",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Svanberg!Malm&#246; FF": {
+        "pid": "Svanberg!Malm&#246; FF",
+        "name": "Svanberg",
+        "team": "Malm&#246; FF",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Ademi!GNK Dinamo Zagreb": {
+        "pid": "Ademi!GNK Dinamo Zagreb",
+        "name": "Ademi",
+        "team": "GNK Dinamo Zagreb",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Olekhnovich!FC BATE Borisov": {
+        "pid": "Olekhnovich!FC BATE Borisov",
+        "name": "Olekhnovich",
+        "team": "FC BATE Borisov",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Asare!KAA Gent": {
+        "pid": "Asare!KAA Gent",
+        "name": "Asare",
+        "team": "KAA Gent",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Pereira!Manchester United FC": {
+        "pid": "Pereira!Manchester United FC",
+        "name": "Pereira",
+        "team": "Manchester United FC",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Natcho!PFC CSKA Moskva": {
+        "pid": "Natcho!PFC CSKA Moskva",
+        "name": "Natcho",
+        "team": "PFC CSKA Moskva",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Rikan!Maccabi Tel-Aviv FC": {
+        "pid": "Rikan!Maccabi Tel-Aviv FC",
+        "name": "Rikan",
+        "team": "Maccabi Tel-Aviv FC",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Frey!Bayer 04 Leverkusen": {
+        "pid": "Frey!Bayer 04 Leverkusen",
+        "name": "Frey",
+        "team": "Bayer 04 Leverkusen",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Gaudino!FC Bayern M&#252;nchen": {
+        "pid": "Gaudino!FC Bayern M&#252;nchen",
+        "name": "Gaudino",
+        "team": "FC Bayern M&#252;nchen",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Feghouli!Valencia CF": {
+        "pid": "Feghouli!Valencia CF",
+        "name": "Feghouli",
+        "team": "Valencia CF",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Rakip!Malm&#246; FF": {
+        "pid": "Rakip!Malm&#246; FF",
+        "name": "Rakip",
+        "team": "Malm&#246; FF",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Maniatis!Olympiacos FC": {
+        "pid": "Maniatis!Olympiacos FC",
+        "name": "Maniatis",
+        "team": "Olympiacos FC",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Kovalenko!FC Shakhtar Donetsk": {
+        "pid": "Kovalenko!FC Shakhtar Donetsk",
+        "name": "Kovalenko",
+        "team": "FC Shakhtar Donetsk",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Gil!Valencia CF": {
+        "pid": "Gil!Valencia CF",
+        "name": "Gil",
+        "team": "Valencia CF",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Nikoli&#263;!FC BATE Borisov": {
+        "pid": "Nikoli&#263;!FC BATE Borisov",
+        "name": "Nikoli&#263;",
+        "team": "FC BATE Borisov",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Yablonski!FC BATE Borisov": {
+        "pid": "Yablonski!FC BATE Borisov",
+        "name": "Yablonski",
+        "team": "FC BATE Borisov",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Fejsa!SL Benfica": {
+        "pid": "Fejsa!SL Benfica",
+        "name": "Fejsa",
+        "team": "SL Benfica",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Gryn!FC Shakhtar Donetsk": {
+        "pid": "Gryn!FC Shakhtar Donetsk",
+        "name": "Gryn",
+        "team": "FC Shakhtar Donetsk",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Flamini!Arsenal FC": {
+        "pid": "Flamini!Arsenal FC",
+        "name": "Flamini",
+        "team": "Arsenal FC",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Cibicki!Malm&#246; FF": {
+        "pid": "Cibicki!Malm&#246; FF",
+        "name": "Cibicki",
+        "team": "Malm&#246; FF",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Muzhikov!FC Astana": {
+        "pid": "Muzhikov!FC Astana",
+        "name": "Muzhikov",
+        "team": "FC Astana",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Aleksievich!FC BATE Borisov": {
+        "pid": "Aleksievich!FC BATE Borisov",
+        "name": "Aleksievich",
+        "team": "FC BATE Borisov",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Kobin!FC Shakhtar Donetsk": {
+        "pid": "Kobin!FC Shakhtar Donetsk",
+        "name": "Kobin",
+        "team": "FC Shakhtar Donetsk",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Khairullin!FC Astana": {
+        "pid": "Khairullin!FC Astana",
+        "name": "Khairullin",
+        "team": "FC Astana",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Dahoud!VfL Borussia M&#246;nchengladbach": {
+        "pid": "Dahoud!VfL Borussia M&#246;nchengladbach",
+        "name": "Dahoud",
+        "team": "VfL Borussia M&#246;nchengladbach",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Cristante!SL Benfica": {
+        "pid": "Cristante!SL Benfica",
+        "name": "Cristante",
+        "team": "SL Benfica",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Karacan!Galatasaray A&#350;": {
+        "pid": "Karacan!Galatasaray A&#350;",
+        "name": "Karacan",
+        "team": "Galatasaray A&#350;",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Matton!KAA Gent": {
+        "pid": "Matton!KAA Gent",
+        "name": "Matton",
+        "team": "KAA Gent",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Malyshev!FC Shakhtar Donetsk": {
+        "pid": "Malyshev!FC Shakhtar Donetsk",
+        "name": "Malyshev",
+        "team": "FC Shakhtar Donetsk",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Santos!GNK Dinamo Zagreb": {
+        "pid": "Santos!GNK Dinamo Zagreb",
+        "name": "Santos",
+        "team": "GNK Dinamo Zagreb",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Pavi&#269;i&#263;!GNK Dinamo Zagreb": {
+        "pid": "Pavi&#269;i&#263;!GNK Dinamo Zagreb",
+        "name": "Pavi&#269;i&#263;",
+        "team": "GNK Dinamo Zagreb",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Mitrovi&#263;!Maccabi Tel-Aviv FC": {
+        "pid": "Mitrovi&#263;!Maccabi Tel-Aviv FC",
+        "name": "Mitrovi&#263;",
+        "team": "Maccabi Tel-Aviv FC",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Antoli&#263;!GNK Dinamo Zagreb": {
+        "pid": "Antoli&#263;!GNK Dinamo Zagreb",
+        "name": "Antoli&#263;",
+        "team": "GNK Dinamo Zagreb",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Myakushko!FC Dynamo Kyiv": {
+        "pid": "Myakushko!FC Dynamo Kyiv",
+        "name": "Myakushko",
+        "team": "FC Dynamo Kyiv",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Eikrem!Malm&#246; FF": {
+        "pid": "Eikrem!Malm&#246; FF",
+        "name": "Eikrem",
+        "team": "Malm&#246; FF",
+        "pos": "MID",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Glazer!Maccabi Tel-Aviv FC": {
+        "pid": "Glazer!Maccabi Tel-Aviv FC",
+        "name": "Glazer",
+        "team": "Maccabi Tel-Aviv FC",
+        "pos": "MID",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Vermouth!Maccabi Tel-Aviv FC": {
+        "pid": "Vermouth!Maccabi Tel-Aviv FC",
+        "name": "Vermouth",
+        "team": "Maccabi Tel-Aviv FC",
+        "pos": "MID",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Peretz!Maccabi Tel-Aviv FC": {
+        "pid": "Peretz!Maccabi Tel-Aviv FC",
+        "name": "Peretz",
+        "team": "Maccabi Tel-Aviv FC",
+        "pos": "MID",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Andersson!Malm&#246; FF": {
+        "pid": "Andersson!Malm&#246; FF",
+        "name": "Andersson",
+        "team": "Malm&#246; FF",
+        "pos": "MID",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Einbinder!Maccabi Tel-Aviv FC": {
+        "pid": "Einbinder!Maccabi Tel-Aviv FC",
+        "name": "Einbinder",
+        "team": "Maccabi Tel-Aviv FC",
+        "pos": "MID",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Pivari&#263;!GNK Dinamo Zagreb": {
+        "pid": "Pivari&#263;!GNK Dinamo Zagreb",
+        "name": "Pivari&#263;",
+        "team": "GNK Dinamo Zagreb",
+        "pos": "MID",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Armaly!Maccabi Tel-Aviv FC": {
+        "pid": "Armaly!Maccabi Tel-Aviv FC",
+        "name": "Armaly",
+        "team": "Maccabi Tel-Aviv FC",
+        "pos": "MID",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Gojak!GNK Dinamo Zagreb": {
+        "pid": "Gojak!GNK Dinamo Zagreb",
+        "name": "Gojak",
+        "team": "GNK Dinamo Zagreb",
+        "pos": "MID",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Ryazantsev!FC Zenit": {
+        "pid": "Ryazantsev!FC Zenit",
+        "name": "Ryazantsev",
+        "team": "FC Zenit",
+        "pos": "MID",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Milivojevi&#263;!Olympiacos FC": {
+        "pid": "Milivojevi&#263;!Olympiacos FC",
+        "name": "Milivojevi&#263;",
+        "team": "Olympiacos FC",
+        "pos": "MID",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Dedechko!FC Astana": {
+        "pid": "Dedechko!FC Astana",
+        "name": "Dedechko",
+        "team": "FC Astana",
+        "pos": "MID",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Bouchalakis!Olympiacos FC": {
+        "pid": "Bouchalakis!Olympiacos FC",
+        "name": "Bouchalakis",
+        "team": "Olympiacos FC",
+        "pos": "MID",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Rog!GNK Dinamo Zagreb": {
+        "pid": "Rog!GNK Dinamo Zagreb",
+        "name": "Rog",
+        "team": "GNK Dinamo Zagreb",
+        "pos": "MID",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Zahavi!Maccabi Tel-Aviv FC": {
+        "pid": "Zahavi!Maccabi Tel-Aviv FC",
+        "name": "Zahavi",
+        "team": "Maccabi Tel-Aviv FC",
+        "pos": "MID",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Ad&#305;n!Galatasaray A&#350;": {
+        "pid": "Ad&#305;n!Galatasaray A&#350;",
+        "name": "Ad&#305;n",
+        "team": "Galatasaray A&#350;",
+        "pos": "MID",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Stasevich!FC BATE Borisov": {
+        "pid": "Stasevich!FC BATE Borisov",
+        "name": "Stasevich",
+        "team": "FC BATE Borisov",
+        "pos": "MID",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Miha!Maccabi Tel-Aviv FC": {
+        "pid": "Miha!Maccabi Tel-Aviv FC",
+        "name": "Miha",
+        "team": "Maccabi Tel-Aviv FC",
+        "pos": "MID",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Poletanovi&#263;!KAA Gent": {
+        "pid": "Poletanovi&#263;!KAA Gent",
+        "name": "Poletanovi&#263;",
+        "team": "KAA Gent",
+        "pos": "MID",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "&#214;ztekin!Galatasaray A&#350;": {
+        "pid": "&#214;ztekin!Galatasaray A&#350;",
+        "name": "&#214;ztekin",
+        "team": "Galatasaray A&#350;",
+        "pos": "MID",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Molins!Malm&#246; FF": {
+        "pid": "Molins!Malm&#246; FF",
+        "name": "Molins",
+        "team": "Malm&#246; FF",
+        "pos": "MID",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Pascual!Valencia CF": {
+        "pid": "Pascual!Valencia CF",
+        "name": "Pascual",
+        "team": "Valencia CF",
+        "pos": "MID",
+        "cost": 40,
+        "py/object": "util.Player"
+    },
+    "Kozhamberdy!FC Astana": {
+        "pid": "Kozhamberdy!FC Astana",
+        "name": "Kozhamberdy",
+        "team": "FC Astana",
+        "pos": "MID",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Azulay!Maccabi Tel-Aviv FC": {
+        "pid": "Azulay!Maccabi Tel-Aviv FC",
+        "name": "Azulay",
+        "team": "Maccabi Tel-Aviv FC",
+        "pos": "MID",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Igiebor!Maccabi Tel-Aviv FC": {
+        "pid": "Igiebor!Maccabi Tel-Aviv FC",
+        "name": "Igiebor",
+        "team": "Maccabi Tel-Aviv FC",
+        "pos": "MID",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Rios!FC BATE Borisov": {
+        "pid": "Rios!FC BATE Borisov",
+        "name": "Rios",
+        "team": "FC BATE Borisov",
+        "pos": "MID",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Musa!GNK Dinamo Zagreb": {
+        "pid": "Musa!GNK Dinamo Zagreb",
+        "name": "Musa",
+        "team": "GNK Dinamo Zagreb",
+        "pos": "MID",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Alberman!Maccabi Tel-Aviv FC": {
+        "pid": "Alberman!Maccabi Tel-Aviv FC",
+        "name": "Alberman",
+        "team": "Maccabi Tel-Aviv FC",
+        "pos": "MID",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Elabdellaoui!Olympiacos FC": {
+        "pid": "Elabdellaoui!Olympiacos FC",
+        "name": "Elabdellaoui",
+        "team": "Olympiacos FC",
+        "pos": "MID",
+        "cost": 35,
+        "py/object": "util.Player"
+    },
+    "Messi!FC Barcelona": {
+        "pid": "Messi!FC Barcelona",
+        "name": "Messi",
+        "team": "FC Barcelona",
+        "pos": "STR",
+        "cost": 150,
+        "py/object": "util.Player"
+    },
+    "Ronaldo!Real Madrid CF": {
+        "pid": "Ronaldo!Real Madrid CF",
+        "name": "Ronaldo",
+        "team": "Real Madrid CF",
+        "pos": "STR",
+        "cost": 150,
+        "py/object": "util.Player"
+    },
+    "Neymar!FC Barcelona": {
+        "pid": "Neymar!FC Barcelona",
+        "name": "Neymar",
+        "team": "FC Barcelona",
+        "pos": "STR",
+        "cost": 135,
+        "py/object": "util.Player"
+    },
+    "Benzema!Real Madrid CF": {
+        "pid": "Benzema!Real Madrid CF",
+        "name": "Benzema",
+        "team": "Real Madrid CF",
+        "pos": "STR",
+        "cost": 130,
+        "py/object": "util.Player"
+    },
+    "Su&#225;rez!FC Barcelona": {
+        "pid": "Su&#225;rez!FC Barcelona",
+        "name": "Su&#225;rez",
+        "team": "FC Barcelona",
+        "pos": "STR",
+        "cost": 130,
+        "py/object": "util.Player"
+    },
+    "Ag&#252;ero!Manchester City FC": {
+        "pid": "Ag&#252;ero!Manchester City FC",
+        "name": "Ag&#252;ero",
+        "team": "Manchester City FC",
+        "pos": "STR",
+        "cost": 130,
+        "py/object": "util.Player"
+    },
+    "Ibrahimovi&#263;!Paris Saint-Germain": {
+        "pid": "Ibrahimovi&#263;!Paris Saint-Germain",
+        "name": "Ibrahimovi&#263;",
+        "team": "Paris Saint-Germain",
+        "pos": "STR",
+        "cost": 125,
+        "py/object": "util.Player"
+    },
+    "Lewandowski!FC Bayern M&#252;nchen": {
+        "pid": "Lewandowski!FC Bayern M&#252;nchen",
+        "name": "Lewandowski",
+        "team": "FC Bayern M&#252;nchen",
+        "pos": "STR",
+        "cost": 125,
+        "py/object": "util.Player"
+    },
+    "Bale!Real Madrid CF": {
+        "pid": "Bale!Real Madrid CF",
+        "name": "Bale",
+        "team": "Real Madrid CF",
+        "pos": "STR",
+        "cost": 120,
+        "py/object": "util.Player"
+    },
+    "Costa!Chelsea FC": {
+        "pid": "Costa!Chelsea FC",
+        "name": "Costa",
+        "team": "Chelsea FC",
+        "pos": "STR",
+        "cost": 120,
+        "py/object": "util.Player"
+    },
+    "M&#252;ller!FC Bayern M&#252;nchen": {
+        "pid": "M&#252;ller!FC Bayern M&#252;nchen",
+        "name": "M&#252;ller",
+        "team": "FC Bayern M&#252;nchen",
+        "pos": "STR",
+        "cost": 120,
+        "py/object": "util.Player"
+    },
+    "Mand&#382;uki&#263;!Juventus": {
+        "pid": "Mand&#382;uki&#263;!Juventus",
+        "name": "Mand&#382;uki&#263;",
+        "team": "Juventus",
+        "pos": "STR",
+        "cost": 115,
+        "py/object": "util.Player"
+    },
+    "Cavani!Paris Saint-Germain": {
+        "pid": "Cavani!Paris Saint-Germain",
+        "name": "Cavani",
+        "team": "Paris Saint-Germain",
+        "pos": "STR",
+        "cost": 110,
+        "py/object": "util.Player"
+    },
+    "Bony!Manchester City FC": {
+        "pid": "Bony!Manchester City FC",
+        "name": "Bony",
+        "team": "Manchester City FC",
+        "pos": "STR",
+        "cost": 105,
+        "py/object": "util.Player"
+    },
+    "Lavezzi!Paris Saint-Germain": {
+        "pid": "Lavezzi!Paris Saint-Germain",
+        "name": "Lavezzi",
+        "team": "Paris Saint-Germain",
+        "pos": "STR",
+        "cost": 100,
+        "py/object": "util.Player"
+    },
+    "Morata!Juventus": {
+        "pid": "Morata!Juventus",
+        "name": "Morata",
+        "team": "Juventus",
+        "pos": "STR",
+        "cost": 100,
+        "py/object": "util.Player"
+    },
+    "Griezmann!Club Atl&#233;tico de Madrid": {
+        "pid": "Griezmann!Club Atl&#233;tico de Madrid",
+        "name": "Griezmann",
+        "team": "Club Atl&#233;tico de Madrid",
+        "pos": "STR",
+        "cost": 100,
+        "py/object": "util.Player"
+    },
+    "S&#225;nchez!Arsenal FC": {
+        "pid": "S&#225;nchez!Arsenal FC",
+        "name": "S&#225;nchez",
+        "team": "Arsenal FC",
+        "pos": "STR",
+        "cost": 100,
+        "py/object": "util.Player"
+    },
+    "Rodr&#237;guez!Chelsea FC": {
+        "pid": "Rodr&#237;guez!Chelsea FC",
+        "name": "Rodr&#237;guez",
+        "team": "Chelsea FC",
+        "pos": "STR",
+        "cost": 100,
+        "py/object": "util.Player"
+    },
+    "Llorente!Sevilla FC": {
+        "pid": "Llorente!Sevilla FC",
+        "name": "Llorente",
+        "team": "Sevilla FC",
+        "pos": "STR",
+        "cost": 95,
+        "py/object": "util.Player"
+    },
+    "Mart&#237;nez!Club Atl&#233;tico de Madrid": {
+        "pid": "Mart&#237;nez!Club Atl&#233;tico de Madrid",
+        "name": "Mart&#237;nez",
+        "team": "Club Atl&#233;tico de Madrid",
+        "pos": "STR",
+        "cost": 95,
+        "py/object": "util.Player"
+    },
+    "Rooney!Manchester United FC": {
+        "pid": "Rooney!Manchester United FC",
+        "name": "Rooney",
+        "team": "Manchester United FC",
+        "pos": "STR",
+        "cost": 95,
+        "py/object": "util.Player"
+    },
+    "Giroud!Arsenal FC": {
+        "pid": "Giroud!Arsenal FC",
+        "name": "Giroud",
+        "team": "Arsenal FC",
+        "pos": "STR",
+        "cost": 90,
+        "py/object": "util.Player"
+    },
+    "Negredo!Valencia CF": {
+        "pid": "Negredo!Valencia CF",
+        "name": "Negredo",
+        "team": "Valencia CF",
+        "pos": "STR",
+        "cost": 90,
+        "py/object": "util.Player"
+    },
+    "Walcott!Arsenal FC": {
+        "pid": "Walcott!Arsenal FC",
+        "name": "Walcott",
+        "team": "Arsenal FC",
+        "pos": "STR",
+        "cost": 90,
+        "py/object": "util.Player"
+    },
+    "Depay!Manchester United FC": {
+        "pid": "Depay!Manchester United FC",
+        "name": "Depay",
+        "team": "Manchester United FC",
+        "pos": "STR",
+        "cost": 90,
+        "py/object": "util.Player"
+    },
+    "Torres!Club Atl&#233;tico de Madrid": {
+        "pid": "Torres!Club Atl&#233;tico de Madrid",
+        "name": "Torres",
+        "team": "Club Atl&#233;tico de Madrid",
+        "pos": "STR",
+        "cost": 90,
+        "py/object": "util.Player"
+    },
+    "Totti!AS Roma": {
+        "pid": "Totti!AS Roma",
+        "name": "Totti",
+        "team": "AS Roma",
+        "pos": "STR",
+        "cost": 90,
+        "py/object": "util.Player"
+    },
+    "Lacazette!Olympique Lyonnais": {
+        "pid": "Lacazette!Olympique Lyonnais",
+        "name": "Lacazette",
+        "team": "Olympique Lyonnais",
+        "pos": "STR",
+        "cost": 90,
+        "py/object": "util.Player"
+    },
+    "Y&#305;lmaz!Galatasaray A&#350;": {
+        "pid": "Y&#305;lmaz!Galatasaray A&#350;",
+        "name": "Y&#305;lmaz",
+        "team": "Galatasaray A&#350;",
+        "pos": "STR",
+        "cost": 90,
+        "py/object": "util.Player"
+    },
+    "Kiessling!Bayer 04 Leverkusen": {
+        "pid": "Kiessling!Bayer 04 Leverkusen",
+        "name": "Kiessling",
+        "team": "Bayer 04 Leverkusen",
+        "pos": "STR",
+        "cost": 90,
+        "py/object": "util.Player"
+    },
+    "Jes&#233;!Real Madrid CF": {
+        "pid": "Jes&#233;!Real Madrid CF",
+        "name": "Jes&#233;",
+        "team": "Real Madrid CF",
+        "pos": "STR",
+        "cost": 90,
+        "py/object": "util.Player"
+    },
+    "Doumbia!PFC CSKA Moskva": {
+        "pid": "Doumbia!PFC CSKA Moskva",
+        "name": "Doumbia",
+        "team": "PFC CSKA Moskva",
+        "pos": "STR",
+        "cost": 85,
+        "py/object": "util.Player"
+    },
+    "Falcao!Chelsea FC": {
+        "pid": "Falcao!Chelsea FC",
+        "name": "Falcao",
+        "team": "Chelsea FC",
+        "pos": "STR",
+        "cost": 85,
+        "py/object": "util.Player"
+    },
+    "Dost!VfL Wolfsburg": {
+        "pid": "Dost!VfL Wolfsburg",
+        "name": "Dost",
+        "team": "VfL Wolfsburg",
+        "pos": "STR",
+        "cost": 85,
+        "py/object": "util.Player"
+    },
+    "Dybala!Juventus": {
+        "pid": "Dybala!Juventus",
+        "name": "Dybala",
+        "team": "Juventus",
+        "pos": "STR",
+        "cost": 85,
+        "py/object": "util.Player"
+    },
+    "&#199;alhano&#287;lu!Bayer 04 Leverkusen": {
+        "pid": "&#199;alhano&#287;lu!Bayer 04 Leverkusen",
+        "name": "&#199;alhano&#287;lu",
+        "team": "Bayer 04 Leverkusen",
+        "pos": "STR",
+        "cost": 85,
+        "py/object": "util.Player"
+    },
+    "Gervinho!AS Roma": {
+        "pid": "Gervinho!AS Roma",
+        "name": "Gervinho",
+        "team": "AS Roma",
+        "pos": "STR",
+        "cost": 85,
+        "py/object": "util.Player"
+    },
+    "Gameiro!Sevilla FC": {
+        "pid": "Gameiro!Sevilla FC",
+        "name": "Gameiro",
+        "team": "Sevilla FC",
+        "pos": "STR",
+        "cost": 85,
+        "py/object": "util.Player"
+    },
+    "Hulk!FC Zenit": {
+        "pid": "Hulk!FC Zenit",
+        "name": "Hulk",
+        "team": "FC Zenit",
+        "pos": "STR",
+        "cost": 85,
+        "py/object": "util.Player"
+    },
+    "Mehmedi!Bayer 04 Leverkusen": {
+        "pid": "Mehmedi!Bayer 04 Leverkusen",
+        "name": "Mehmedi",
+        "team": "Bayer 04 Leverkusen",
+        "pos": "STR",
+        "cost": 80,
+        "py/object": "util.Player"
+    },
+    "Kruse!VfL Wolfsburg": {
+        "pid": "Kruse!VfL Wolfsburg",
+        "name": "Kruse",
+        "team": "VfL Wolfsburg",
+        "pos": "STR",
+        "cost": 80,
+        "py/object": "util.Player"
+    },
+    "R&#233;my!Chelsea FC": {
+        "pid": "R&#233;my!Chelsea FC",
+        "name": "R&#233;my",
+        "team": "Chelsea FC",
+        "pos": "STR",
+        "cost": 80,
+        "py/object": "util.Player"
+    },
+    "Jonas!SL Benfica": {
+        "pid": "Jonas!SL Benfica",
+        "name": "Jonas",
+        "team": "SL Benfica",
+        "pos": "STR",
+        "cost": 80,
+        "py/object": "util.Player"
+    },
+    "Immobile!Sevilla FC": {
+        "pid": "Immobile!Sevilla FC",
+        "name": "Immobile",
+        "team": "Sevilla FC",
+        "pos": "STR",
+        "cost": 80,
+        "py/object": "util.Player"
+    },
+    "D&#382;eko!AS Roma": {
+        "pid": "D&#382;eko!AS Roma",
+        "name": "D&#382;eko",
+        "team": "AS Roma",
+        "pos": "STR",
+        "cost": 80,
+        "py/object": "util.Player"
+    },
+    "Soudani!GNK Dinamo Zagreb": {
+        "pid": "Soudani!GNK Dinamo Zagreb",
+        "name": "Soudani",
+        "team": "GNK Dinamo Zagreb",
+        "pos": "STR",
+        "cost": 80,
+        "py/object": "util.Player"
+    },
+    "Brahimi!FC Porto": {
+        "pid": "Brahimi!FC Porto",
+        "name": "Brahimi",
+        "team": "FC Porto",
+        "pos": "STR",
+        "cost": 80,
+        "py/object": "util.Player"
+    },
+    "Vietto!Club Atl&#233;tico de Madrid": {
+        "pid": "Vietto!Club Atl&#233;tico de Madrid",
+        "name": "Vietto",
+        "team": "Club Atl&#233;tico de Madrid",
+        "pos": "STR",
+        "cost": 80,
+        "py/object": "util.Player"
+    },
+    "Beauvue!Olympique Lyonnais": {
+        "pid": "Beauvue!Olympique Lyonnais",
+        "name": "Beauvue",
+        "team": "Olympique Lyonnais",
+        "pos": "STR",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Alc&#225;cer!Valencia CF": {
+        "pid": "Alc&#225;cer!Valencia CF",
+        "name": "Alc&#225;cer",
+        "team": "Valencia CF",
+        "pos": "STR",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Bulut!Galatasaray A&#350;": {
+        "pid": "Bulut!Galatasaray A&#350;",
+        "name": "Bulut",
+        "team": "Galatasaray A&#350;",
+        "pos": "STR",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Yarmolenko!FC Dynamo Kyiv": {
+        "pid": "Yarmolenko!FC Dynamo Kyiv",
+        "name": "Yarmolenko",
+        "team": "FC Dynamo Kyiv",
+        "pos": "STR",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Varela!FC Porto": {
+        "pid": "Varela!FC Porto",
+        "name": "Varela",
+        "team": "FC Porto",
+        "pos": "STR",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Jong!PSV Eindhoven": {
+        "pid": "Jong!PSV Eindhoven",
+        "name": "Jong",
+        "team": "PSV Eindhoven",
+        "pos": "STR",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Welbeck!Arsenal FC": {
+        "pid": "Welbeck!Arsenal FC",
+        "name": "Welbeck",
+        "team": "Arsenal FC",
+        "pos": "STR",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Podolski!Galatasaray A&#350;": {
+        "pid": "Podolski!Galatasaray A&#350;",
+        "name": "Podolski",
+        "team": "Galatasaray A&#350;",
+        "pos": "STR",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Tello!FC Porto": {
+        "pid": "Tello!FC Porto",
+        "name": "Tello",
+        "team": "FC Porto",
+        "pos": "STR",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Musa!PFC CSKA Moskva": {
+        "pid": "Musa!PFC CSKA Moskva",
+        "name": "Musa",
+        "team": "PFC CSKA Moskva",
+        "pos": "STR",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Hern&#225;ndez!Bayer 04 Leverkusen": {
+        "pid": "Hern&#225;ndez!Bayer 04 Leverkusen",
+        "name": "Hern&#225;ndez",
+        "team": "Bayer 04 Leverkusen",
+        "pos": "STR",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Zaza!Juventus": {
+        "pid": "Zaza!Juventus",
+        "name": "Zaza",
+        "team": "Juventus",
+        "pos": "STR",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Osvaldo!FC Porto": {
+        "pid": "Osvaldo!FC Porto",
+        "name": "Osvaldo",
+        "team": "FC Porto",
+        "pos": "STR",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Eduardo!FC Shakhtar Donetsk": {
+        "pid": "Eduardo!FC Shakhtar Donetsk",
+        "name": "Eduardo",
+        "team": "FC Shakhtar Donetsk",
+        "pos": "STR",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Jim&#233;nez!SL Benfica": {
+        "pid": "Jim&#233;nez!SL Benfica",
+        "name": "Jim&#233;nez",
+        "team": "SL Benfica",
+        "pos": "STR",
+        "cost": 75,
+        "py/object": "util.Player"
+    },
+    "Aboubakar!FC Porto": {
+        "pid": "Aboubakar!FC Porto",
+        "name": "Aboubakar",
+        "team": "FC Porto",
+        "pos": "STR",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Bendtner!VfL Wolfsburg": {
+        "pid": "Bendtner!VfL Wolfsburg",
+        "name": "Bendtner",
+        "team": "VfL Wolfsburg",
+        "pos": "STR",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Laursen!PSV Eindhoven": {
+        "pid": "Laursen!PSV Eindhoven",
+        "name": "Laursen",
+        "team": "PSV Eindhoven",
+        "pos": "STR",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Moraes!FC Dynamo Kyiv": {
+        "pid": "Moraes!FC Dynamo Kyiv",
+        "name": "Moraes",
+        "team": "FC Dynamo Kyiv",
+        "pos": "STR",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Rosenberg!Malm&#246; FF": {
+        "pid": "Rosenberg!Malm&#246; FF",
+        "name": "Rosenberg",
+        "team": "Malm&#246; FF",
+        "pos": "STR",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Dzyuba!FC Zenit": {
+        "pid": "Dzyuba!FC Zenit",
+        "name": "Dzyuba",
+        "team": "FC Zenit",
+        "pos": "STR",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Bueno!FC Porto": {
+        "pid": "Bueno!FC Porto",
+        "name": "Bueno",
+        "team": "FC Porto",
+        "pos": "STR",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Hod&#382;i&#263;!GNK Dinamo Zagreb": {
+        "pid": "Hod&#382;i&#263;!GNK Dinamo Zagreb",
+        "name": "Hod&#382;i&#263;",
+        "team": "GNK Dinamo Zagreb",
+        "pos": "STR",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Drmic!VfL Borussia M&#246;nchengladbach": {
+        "pid": "Drmic!VfL Borussia M&#246;nchengladbach",
+        "name": "Drmic",
+        "team": "VfL Borussia M&#246;nchengladbach",
+        "pos": "STR",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Gladkiy!FC Shakhtar Donetsk": {
+        "pid": "Gladkiy!FC Shakhtar Donetsk",
+        "name": "Gladkiy",
+        "team": "FC Shakhtar Donetsk",
+        "pos": "STR",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Depoitre!KAA Gent": {
+        "pid": "Depoitre!KAA Gent",
+        "name": "Depoitre",
+        "team": "KAA Gent",
+        "pos": "STR",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Correa!Club Atl&#233;tico de Madrid": {
+        "pid": "Correa!Club Atl&#233;tico de Madrid",
+        "name": "Correa",
+        "team": "Club Atl&#233;tico de Madrid",
+        "pos": "STR",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Mitroglou!SL Benfica": {
+        "pid": "Mitroglou!SL Benfica",
+        "name": "Mitroglou",
+        "team": "SL Benfica",
+        "pos": "STR",
+        "cost": 70,
+        "py/object": "util.Player"
+    },
+    "Boljevi&#263;!PSV Eindhoven": {
+        "pid": "Boljevi&#263;!PSV Eindhoven",
+        "name": "Boljevi&#263;",
+        "team": "PSV Eindhoven",
+        "pos": "STR",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Guedes!SL Benfica": {
+        "pid": "Guedes!SL Benfica",
+        "name": "Guedes",
+        "team": "SL Benfica",
+        "pos": "STR",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Finnbogason!Olympiacos FC": {
+        "pid": "Finnbogason!Olympiacos FC",
+        "name": "Finnbogason",
+        "team": "Olympiacos FC",
+        "pos": "STR",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Narsingh!PSV Eindhoven": {
+        "pid": "Narsingh!PSV Eindhoven",
+        "name": "Narsingh",
+        "team": "PSV Eindhoven",
+        "pos": "STR",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Haddadi!FC Barcelona": {
+        "pid": "Haddadi!FC Barcelona",
+        "name": "Haddadi",
+        "team": "FC Barcelona",
+        "pos": "STR",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Raman!KAA Gent": {
+        "pid": "Raman!KAA Gent",
+        "name": "Raman",
+        "team": "KAA Gent",
+        "pos": "STR",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Pjaca!GNK Dinamo Zagreb": {
+        "pid": "Pjaca!GNK Dinamo Zagreb",
+        "name": "Pjaca",
+        "team": "GNK Dinamo Zagreb",
+        "pos": "STR",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Green!FC Bayern M&#252;nchen": {
+        "pid": "Green!FC Bayern M&#252;nchen",
+        "name": "Green",
+        "team": "FC Bayern M&#252;nchen",
+        "pos": "STR",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Ould-Chikh!SL Benfica": {
+        "pid": "Ould-Chikh!SL Benfica",
+        "name": "Ould-Chikh",
+        "team": "SL Benfica",
+        "pos": "STR",
+        "cost": 65,
+        "py/object": "util.Player"
+    },
+    "Fernandes!GNK Dinamo Zagreb": {
+        "pid": "Fernandes!GNK Dinamo Zagreb",
+        "name": "Fernandes",
+        "team": "GNK Dinamo Zagreb",
+        "pos": "STR",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Hrgota!VfL Borussia M&#246;nchengladbach": {
+        "pid": "Hrgota!VfL Borussia M&#246;nchengladbach",
+        "name": "Hrgota",
+        "team": "VfL Borussia M&#246;nchengladbach",
+        "pos": "STR",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Rodionov!FC BATE Borisov": {
+        "pid": "Rodionov!FC BATE Borisov",
+        "name": "Rodionov",
+        "team": "FC BATE Borisov",
+        "pos": "STR",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Coulibaly!KAA Gent": {
+        "pid": "Coulibaly!KAA Gent",
+        "name": "Coulibaly",
+        "team": "KAA Gent",
+        "pos": "STR",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Salah!AS Roma": {
+        "pid": "Salah!AS Roma",
+        "name": "Salah",
+        "team": "AS Roma",
+        "pos": "STR",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Wilson!Manchester United FC": {
+        "pid": "Wilson!Manchester United FC",
+        "name": "Wilson",
+        "team": "Manchester United FC",
+        "pos": "STR",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Simon!KAA Gent": {
+        "pid": "Simon!KAA Gent",
+        "name": "Simon",
+        "team": "KAA Gent",
+        "pos": "STR",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Kravets!FC Dynamo Kyiv": {
+        "pid": "Kravets!FC Dynamo Kyiv",
+        "name": "Kravets",
+        "team": "FC Dynamo Kyiv",
+        "pos": "STR",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Dentinho!FC Shakhtar Donetsk": {
+        "pid": "Dentinho!FC Shakhtar Donetsk",
+        "name": "Dentinho",
+        "team": "FC Shakhtar Donetsk",
+        "pos": "STR",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Itzhaki!Maccabi Tel-Aviv FC": {
+        "pid": "Itzhaki!Maccabi Tel-Aviv FC",
+        "name": "Itzhaki",
+        "team": "Maccabi Tel-Aviv FC",
+        "pos": "STR",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Mina!Valencia CF": {
+        "pid": "Mina!Valencia CF",
+        "name": "Mina",
+        "team": "Valencia CF",
+        "pos": "STR",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Djurdji&#263;!Malm&#246; FF": {
+        "pid": "Djurdji&#263;!Malm&#246; FF",
+        "name": "Djurdji&#263;",
+        "team": "Malm&#246; FF",
+        "pos": "STR",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Panchenko!PFC CSKA Moskva": {
+        "pid": "Panchenko!PFC CSKA Moskva",
+        "name": "Panchenko",
+        "team": "PFC CSKA Moskva",
+        "pos": "STR",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Locadia!PSV Eindhoven": {
+        "pid": "Locadia!PSV Eindhoven",
+        "name": "Locadia",
+        "team": "PSV Eindhoven",
+        "pos": "STR",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Corona!FC Porto": {
+        "pid": "Corona!FC Porto",
+        "name": "Corona",
+        "team": "FC Porto",
+        "pos": "STR",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Gonz&#225;lez!FC Dynamo Kyiv": {
+        "pid": "Gonz&#225;lez!FC Dynamo Kyiv",
+        "name": "Gonz&#225;lez",
+        "team": "FC Dynamo Kyiv",
+        "pos": "STR",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Brown!Olympiacos FC": {
+        "pid": "Brown!Olympiacos FC",
+        "name": "Brown",
+        "team": "Olympiacos FC",
+        "pos": "STR",
+        "cost": 60,
+        "py/object": "util.Player"
+    },
+    "Nuserbayev!FC Astana": {
+        "pid": "Nuserbayev!FC Astana",
+        "name": "Nuserbayev",
+        "team": "FC Astana",
+        "pos": "STR",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Jozefzoon!PSV Eindhoven": {
+        "pid": "Jozefzoon!PSV Eindhoven",
+        "name": "Jozefzoon",
+        "team": "PSV Eindhoven",
+        "pos": "STR",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Ram&#237;rez!FC Barcelona": {
+        "pid": "Ram&#237;rez!FC Barcelona",
+        "name": "Ram&#237;rez",
+        "team": "FC Barcelona",
+        "pos": "STR",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Ferreyra!FC Shakhtar Donetsk": {
+        "pid": "Ferreyra!FC Shakhtar Donetsk",
+        "name": "Ferreyra",
+        "team": "FC Shakhtar Donetsk",
+        "pos": "STR",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Signevich!FC BATE Borisov": {
+        "pid": "Signevich!FC BATE Borisov",
+        "name": "Signevich",
+        "team": "FC BATE Borisov",
+        "pos": "STR",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Teodorczyk!FC Dynamo Kyiv": {
+        "pid": "Teodorczyk!FC Dynamo Kyiv",
+        "name": "Teodorczyk",
+        "team": "FC Dynamo Kyiv",
+        "pos": "STR",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Berget!Malm&#246; FF": {
+        "pid": "Berget!Malm&#246; FF",
+        "name": "Berget",
+        "team": "Malm&#246; FF",
+        "pos": "STR",
+        "cost": 55,
+        "py/object": "util.Player"
+    },
+    "Pulido!Olympiacos FC": {
+        "pid": "Pulido!Olympiacos FC",
+        "name": "Pulido",
+        "team": "Olympiacos FC",
+        "pos": "STR",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "II!Maccabi Tel-Aviv FC": {
+        "pid": "II!Maccabi Tel-Aviv FC",
+        "name": "II",
+        "team": "Maccabi Tel-Aviv FC",
+        "pos": "STR",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Coman!FC Bayern M&#252;nchen": {
+        "pid": "Coman!FC Bayern M&#252;nchen",
+        "name": "Coman",
+        "team": "FC Bayern M&#252;nchen",
+        "pos": "STR",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Jevti&#263;!FC BATE Borisov": {
+        "pid": "Jevti&#263;!FC BATE Borisov",
+        "name": "Jevti&#263;",
+        "team": "FC BATE Borisov",
+        "pos": "STR",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Cornet!Olympique Lyonnais": {
+        "pid": "Cornet!Olympique Lyonnais",
+        "name": "Cornet",
+        "team": "Olympique Lyonnais",
+        "pos": "STR",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "G&#252;m&#252;s!Galatasaray A&#350;": {
+        "pid": "G&#252;m&#252;s!Galatasaray A&#350;",
+        "name": "G&#252;m&#252;s",
+        "team": "Galatasaray A&#350;",
+        "pos": "STR",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Henr&#237;quez!GNK Dinamo Zagreb": {
+        "pid": "Henr&#237;quez!GNK Dinamo Zagreb",
+        "name": "Henr&#237;quez",
+        "team": "GNK Dinamo Zagreb",
+        "pos": "STR",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Martial!Manchester United FC": {
+        "pid": "Martial!Manchester United FC",
+        "name": "Martial",
+        "team": "Manchester United FC",
+        "pos": "STR",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Pedersen!KAA Gent": {
+        "pid": "Pedersen!KAA Gent",
+        "name": "Pedersen",
+        "team": "KAA Gent",
+        "pos": "STR",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Piatti!Valencia CF": {
+        "pid": "Piatti!Valencia CF",
+        "name": "Piatti",
+        "team": "Valencia CF",
+        "pos": "STR",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Campbell!Arsenal FC": {
+        "pid": "Campbell!Arsenal FC",
+        "name": "Campbell",
+        "team": "Arsenal FC",
+        "pos": "STR",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Seb&#225;!Olympiacos FC": {
+        "pid": "Seb&#225;!Olympiacos FC",
+        "name": "Seb&#225;",
+        "team": "Olympiacos FC",
+        "pos": "STR",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Basat!Maccabi Tel-Aviv FC": {
+        "pid": "Basat!Maccabi Tel-Aviv FC",
+        "name": "Basat",
+        "team": "Maccabi Tel-Aviv FC",
+        "pos": "STR",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Radonji&#263;!Maccabi Tel-Aviv FC": {
+        "pid": "Radonji&#263;!Maccabi Tel-Aviv FC",
+        "name": "Radonji&#263;",
+        "team": "Maccabi Tel-Aviv FC",
+        "pos": "STR",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Sana!Malm&#246; FF": {
+        "pid": "Sana!Malm&#246; FF",
+        "name": "Sana",
+        "team": "Malm&#246; FF",
+        "pos": "STR",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Augustin!Paris Saint-Germain": {
+        "pid": "Augustin!Paris Saint-Germain",
+        "name": "Augustin",
+        "team": "Paris Saint-Germain",
+        "pos": "STR",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Hern&#226;ni!Olympiacos FC": {
+        "pid": "Hern&#226;ni!Olympiacos FC",
+        "name": "Hern&#226;ni",
+        "team": "Olympiacos FC",
+        "pos": "STR",
+        "cost": 50,
+        "py/object": "util.Player"
+    },
+    "Mu&#241;oz!Sevilla FC": {
+        "pid": "Mu&#241;oz!Sevilla FC",
+        "name": "Mu&#241;oz",
+        "team": "Sevilla FC",
+        "pos": "STR",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Schetkin!FC Astana": {
+        "pid": "Schetkin!FC Astana",
+        "name": "Schetkin",
+        "team": "FC Astana",
+        "pos": "STR",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Twumasi!FC Astana": {
+        "pid": "Twumasi!FC Astana",
+        "name": "Twumasi",
+        "team": "FC Astana",
+        "pos": "STR",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Mozolevski!FC BATE Borisov": {
+        "pid": "Mozolevski!FC BATE Borisov",
+        "name": "Mozolevski",
+        "team": "FC BATE Borisov",
+        "pos": "STR",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Soleri!AS Roma": {
+        "pid": "Soleri!AS Roma",
+        "name": "Soleri",
+        "team": "AS Roma",
+        "pos": "STR",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Kabananga!FC Astana": {
+        "pid": "Kabananga!FC Astana",
+        "name": "Kabananga",
+        "team": "FC Astana",
+        "pos": "STR",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Mehmeti!Malm&#246; FF": {
+        "pid": "Mehmeti!Malm&#246; FF",
+        "name": "Mehmeti",
+        "team": "Malm&#246; FF",
+        "pos": "STR",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "Dzholchiyev!FC Astana": {
+        "pid": "Dzholchiyev!FC Astana",
+        "name": "Dzholchiyev",
+        "team": "FC Astana",
+        "pos": "STR",
+        "cost": 45,
+        "py/object": "util.Player"
+    },
+    "&#199;eki&#231;i!GNK Dinamo Zagreb": {
+        "pid": "&#199;eki&#231;i!GNK Dinamo Zagreb",
+        "name": "&#199;eki&#231;i",
+        "team": "GNK Dinamo Zagreb",
+        "pos": "STR",
+        "cost": 35,
+        "py/object": "util.Player"
+    }
+}

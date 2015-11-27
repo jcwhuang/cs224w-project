@@ -1,0 +1,86 @@
+fatalError: false
+maxTotalPoints: 19
+messages: []
+mode: auto
+parts:
+- description: ''
+  extraCredit: false
+  maxPoints: 1
+  maxSeconds: 1
+  messages: []
+  name: writeupValid
+  points: 1
+  seconds: 0
+- description: Basic test for create_chain_csp
+  extraCredit: false
+  maxPoints: 1
+  maxSeconds: 1
+  messages: []
+  name: 0c-1
+  points: 1
+  seconds: 0
+- description: Basic test for create_nqueens_csp for n=8
+  extraCredit: false
+  maxPoints: 2
+  maxSeconds: 1
+  messages: []
+  name: 1a-0
+  points: 2
+  seconds: 0
+- description: Basic test for MCV with n-queens CSP
+  extraCredit: false
+  maxPoints: 2
+  maxSeconds: 1
+  messages: []
+  name: 1b-0
+  points: 2
+  seconds: 0
+- description: Basic test for AC-3 with n-queens CSP
+  extraCredit: false
+  maxPoints: 2
+  maxSeconds: 1
+  messages: []
+  name: 1c-0
+  points: 2
+  seconds: 0
+- description: Basic test for MCV+AC-3 with n-queens CSP
+  extraCredit: false
+  maxPoints: 3
+  maxSeconds: 1
+  messages: []
+  name: 1c-1
+  points: 3
+  seconds: 0
+- description: Basic test for get_sum_variable
+  extraCredit: false
+  maxPoints: 2
+  maxSeconds: 1
+  messages: []
+  name: 2b-0
+  points: 2
+  seconds: 0
+- description: Basic test for add_quarter_constraints
+  extraCredit: false
+  maxPoints: 2
+  maxSeconds: 2
+  messages: []
+  name: 3a-0
+  points: 2
+  seconds: 0
+- description: Basic test for add_unit_constraints
+  extraCredit: false
+  maxPoints: 3
+  maxSeconds: 3
+  messages: []
+  name: 3b-0
+  points: 3
+  seconds: 1
+- description: ''
+  extraCredit: false
+  maxPoints: 1
+  maxSeconds: 1
+  messages: []
+  name: profile.txt
+  points: 1
+  seconds: 0
+totalPoints: 19

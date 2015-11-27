@@ -1,0 +1,19 @@
+parts:
+- description: Writeup of 0a
+  extraCredit: false
+  maxPoints: 4
+  messages: ['?']
+  name: 0a
+  points: '?'
+- description: Writeup of 0b
+  extraCredit: false
+  maxPoints: 4
+  messages: ['?']
+  name: 0b
+  points: '?'
+- description: Writeup of 2a
+  extraCredit: false
+  maxPoints: 4
+  messages: ['?']
+  name: 2a
+  points: '?'
