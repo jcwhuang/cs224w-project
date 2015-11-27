@@ -735,7 +735,7 @@ class ProjectCSPConstructor():
         # for quarter in self.profile.quarters:
         variables = [pid for req in self.profile.requests for pid in req.pids]
         sum_var = get_sum_variable(csp, 'value', variables, self.profile.maxValue)
-        csp.add_unary_factor(sum_var, lambda units: self.profile.minValue <= value <= self.profile.maxValue)
+        csp.add_unary_factor(sum_var, lambda value: self.profile.minValue <= value <= self.profile.maxValue)
         # END_YOUR_CODE
 
     def add_all_additional_constraints(self, csp):
