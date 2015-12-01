@@ -13,7 +13,6 @@ matches = {} #dict of all matches, keys = matchID
 def storePDEdges():
   #store 2015-16 PD EDGE FILES
   # locations = ["passing_distributions/2015-16/", "passing_distributions/2014-15/"]
-  # TODO: somehow matchday 2 is getting lost
 	locations = ["passing_distributions/2014-15/"]
 	for location in locations:
 		for matchday in os.listdir(location):
