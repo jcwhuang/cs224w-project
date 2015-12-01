@@ -13,6 +13,9 @@ class Team():
 	def addPlayer(self, player):
 		self.players.append(player)
 
+	def __str__( self ):
+		return self.name + "," + str(self.players) + "," + str(self.rank)
+
 class Player():
 	def __init__(self, name, number, team, position, price):
 		#self.firstName = firstName
@@ -24,6 +27,10 @@ class Player():
 		self.price = price
 		self.matches = []
 		self.stats = []
+
+	def __str__( self ):
+		return self.name, ",", self.number,",", self.team,",", self.position, \
+			",", self.price,",",self.matches,",",self.stats
 
 class MatchPlayerStats():
 	def __init__(self):
@@ -41,9 +48,13 @@ class MatchPlayerStats():
 		self.redCards = 0
 
 class Match():
-	def __init__(self, homeTeam, visitingTeam):
+	# def __init__(self, homeTeam, visitingTeam):
+	def __init__(self, homeTeam):
+
 		self.homeTeam = homeTeam
-		self.visitingTeam = visitingTeam
+		# self.visitingTeam = visitingTeam
+
+		self.visitingTeam = ""
 		self.homeScore = 0
 		self.visitorScore = 0
 		self.homeTeamObj = Team("", "")
@@ -60,6 +71,9 @@ class Match():
 		# in pdPrediction.py
 		self.homePDType = ""
 		self.visitorPDType = ""
+
+	def __str__( self ):
+		return "" + self.homeTeam +  "," + self.visitingTeam
 
 	def getPD(self, team):
 		if team == self.homeTeam:
