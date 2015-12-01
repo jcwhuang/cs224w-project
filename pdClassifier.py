@@ -61,7 +61,7 @@ def measureCentrality():
 		# compute betweenness centrality for all players and rank top 5
 
 		# load graph
-		homeGraph = snap.TNGraph.New()
+		homeGraph = snap.TUNGraph.New()
 
 		for player1 in homePD:
 			for player2 in homePD[player1]:
@@ -73,6 +73,19 @@ def measureCentrality():
 					homeGraph.AddNode(player2)
 				homeGraph.AddEdge(player1, player2)
 
+		# calculate betweenness centrality
+		Nodes = snap.TIntFltH()
+		Edges = snap.TIntPrFltH()
+		snap.GetBetweennessCentr(homeGraph, Nodes, Edges, 1.0)
+		players_by_between = [(node, Nodes[node]) for node in Nodes]
+		players_by_between = sorted(players_by_between, key=lambda(k, v): v, reverse = True)
+		print "Top 5 players for %s by betweenness centrality" % (match.homeTeam)
+		for i in xrange(5):
+			player_name, between = players_by_between[i]
+			print player_name, between
+		print "--------------"
+
+		# TODO: find corresponding spot in coordinates
 
 
 def storePlayerCoordinates():
