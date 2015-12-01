@@ -12,77 +12,80 @@ matches = {} #dict of all matches, keys = matchID
 
 def storePDEdges():
   #store 2015-16 PD EDGE FILES
-  # for matchday in os.listdir("passing_distributions/2015-16/"):
-
-  #   if matchday.endswith("sh") or matchday.endswith("py") or matchday.endswith("md") or matchday.endswith("Store"):
-  #       continue
-  #   folder = "passing_distributions/2015-16/"+matchday+"/networks/"
-  #   for edge_file in os.listdir(folder):
-  #       if edge_file.endswith("edges"):
-  #           matchID = re.search('(.+?)_tpd', edge_file).group(1)
-  #           team = re.sub("_", " ", re.search('tpd-(.+?)-edges', edge_file).group(1))
-  #           #these two team names were showing up differently in objects
-  #           if "Zenit" in team:
-  #               team = "FC Zenit"
-  #           elif "Maccabi" in team:
-  #               team = "Maccabi Tel-Aviv FC"
-  #           match = classes.Match(team)
-            
-  #           # right now, setting first team seen with matchID as home team
-  #           # and second team seen with same matchID is visiting team
-  #           # TODO: match with games to say who is home team and who is visiting
-  #           teamObj = classes.Team(team, [])
-  #           if matchID in matches.keys():
-  #               match = matches[matchID]
-  #               match.setVisitingTeam(team)
-  #               match.setVisitingTeamObj(teamObj)
-  #               matches[matchID] = match
-  #               print "matches[%s] = %s" % (matchID, match)
-  #           else:
-  #           	match.setHomeTeamObj(teamObj)
-  #               matches[matchID] = match
-  #           pd = match.getPD(team)
-  #           for line in [x.rstrip('\n') for x in open(folder+edge_file)]:
-  #               elems = line.split('\t')
-  #               if elems[0] not in pd.keys():
-  #                   pd[elems[0]] = {}
-  #               pd[elems[0]][elems[1]] = elems[2]
+  # locations = ["passing_distributions/2015-16/", "passing_distributions/2014-15/"]
+  # TODO: somehow matchday 2 is getting lost
+	locations = ["passing_distributions/2014-15/"]
+	for location in locations:
+		for matchday in os.listdir(location):
+		    if matchday.endswith("sh") or matchday.endswith("py") or matchday.endswith("md") or matchday.endswith("Store"):
+		        continue
+		    folder = location+matchday+"/networks/"
+		    for edge_file in os.listdir(folder):
+		        if edge_file.endswith("edges"):
+		            matchID = re.search('(.+?)_tpd', edge_file).group(1)
+		            team = re.sub("_", " ", re.search('tpd-(.+?)-edges', edge_file).group(1))
+		            #these two team names were showing up differently in objects
+		            if "Zenit" in team:
+		                team = "FC Zenit"
+		            elif "Maccabi" in team:
+		                team = "Maccabi Tel-Aviv FC"
+		            match = classes.Match(team)
+		            
+		            # right now, setting first team seen with matchID as home team
+		            # and second team seen with same matchID is visiting team
+		            # TODO: match with games to say who is home team and who is visiting
+		            teamObj = classes.Team(team, [])
+		            if matchID in matches.keys():
+		                match = matches[matchID]
+		                match.setVisitingTeam(team)
+		                match.setVisitingTeamObj(teamObj)
+		                matches[matchID] = match
+		                print "matches[%s] = %s" % (matchID, match)
+		            else:
+		            	match.setHomeTeamObj(teamObj)
+		                matches[matchID] = match
+		            pd = match.getPD(team)
+		            for line in [x.rstrip('\n') for x in open(folder+edge_file)]:
+		                elems = line.split('\t')
+		                if elems[0] not in pd.keys():
+		                    pd[elems[0]] = {}
+		                pd[elems[0]][elems[1]] = elems[2]
 
 #store 2014-15 EDGE FILES
-  location = "passing_distributions/2014-15/networks/"
-  for edge_file in os.listdir(location):
-    if edge_file.endswith("edges"):
-        matchID = re.search('(.+?)_tpd', edge_file).group(1)
-        team = re.sub("_", " ", re.search('tpd-(.+?)-edges', edge_file).group(1))
+  # location = "passing_distributions/2014-15/networks/"
+  # for edge_file in os.listdir(location):
+  #   if edge_file.endswith("edges"):
+  #       matchID = re.search('(.+?)_tpd', edge_file).group(1)
+  #       team = re.sub("_", " ", re.search('tpd-(.+?)-edges', edge_file).group(1))
 
-        #these two team names were showing up differently in objects
-        if "Zenit" in team:
-            team = "FC Zenit"
-        elif "Maccabi" in team:
-            team = "Maccabi Tel-Aviv FC"
+  #       #these two team names were showing up differently in objects
+  #       if "Zenit" in team:
+  #           team = "FC Zenit"
+  #       elif "Maccabi" in team:
+  #           team = "Maccabi Tel-Aviv FC"
 
-        match = classes.Match(team)
-        teamObj = classes.Team(team, [])
-        if matchID in matches.keys():
-            match = matches[matchID]
-            match.setVisitingTeam(team)
-            match.setVisitingTeamObj(teamObj)
-            matches[matchID] = match
-            print "matches[%s] = %s" % (matchID, match)
-        else:
-  			match.setHomeTeamObj(teamObj)
-  			matches[matchID] = match
+  #       match = classes.Match(team)
+  #       teamObj = classes.Team(team, [])
+  #       if matchID in matches.keys():
+  #           match = matches[matchID]
+  #           match.setVisitingTeam(team)
+  #           match.setVisitingTeamObj(teamObj)
+  #           matches[matchID] = match
+  #           print "matches[%s] = %s" % (matchID, match)
+  #       else:
+  # 			match.setHomeTeamObj(teamObj)
+  # 			matches[matchID] = match
 
-        pd = match.getPD(team)
-        for line in [x.rstrip('\n') for x in open(location+edge_file)]:
-            elems = line.split('\t')
+  #       pd = match.getPD(team)
+  #       for line in [x.rstrip('\n') for x in open(location+edge_file)]:
+  #           elems = line.split('\t')
 
-            if elems[0] == "PC" or elems[1] == "PC":
-                continue
+  #           if elems[0] == "PC" or elems[1] == "PC":
+  #               continue
 
-            if elems[0] not in pd.keys():
-                pd[elems[0]] = {}
-            pd[elems[0]][elems[1]] = elems[2]
+  #           if elems[0] not in pd.keys():
+  #               pd[elems[0]] = {}
+  #           pd[elems[0]][elems[1]] = elems[2]
 
 #TODO
 def measureCentrality():
