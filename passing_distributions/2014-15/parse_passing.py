@@ -138,6 +138,8 @@ def store_edges(start, end):
     # store edges
     for line in passing_dist[start:end]:
         split = line.rstrip().split(",")
+        if "" == split[len(split)-1]:
+            split = split[:-1]
         if "Total passes received" not in split[0]:
             # first store num -> name
             name, num, time = split[0:3]
@@ -157,6 +159,9 @@ def store_edges(start, end):
             mins = float(mins) / 60
             num_to_time[num] = hour + mins
             split = split[3:]
+            if split[len(split) - 1] == '':
+                split = split[:-1]
+            # print "split is", split
 
             # store passing edges
             for index in xrange(len(split) - 9):
@@ -170,14 +175,14 @@ def store_edges(start, end):
             # print "player_stats[%s] = "% num, split[14:]
         else:
             # players
-            total_passes = split[3:17]
-            for index in xrange(len(index_to_num)):
-                player = index_to_num[index]
-                total_passes_received_by_player[player] = total_passes[index]
+            # total_passes = split[3:-9]
+            # for index in xrange(len(index_to_num)):
+            #     player = index_to_num[index]
+            #     total_passes_received_by_player[player] = total_passes[index]
                 # print "%s -> %s" % (player, total_passes[index])
 
             # stats
-            total_stats = split[17:]
+            total_stats = split[-9:]
             # pre-process
             total_stats_processed = []
             for stat in total_stats:
@@ -195,7 +200,7 @@ def store_edges(start, end):
                 else:
                     total_stats_processed.append(stat)
 
-            offset = 17
+            offset = len(split) - 9
             for index in xrange(len(total_stats_processed)):
                 total_passes_received_by_stats[index+offset] = total_stats_processed[index]
 
@@ -291,13 +296,13 @@ sys.stderr.write("teams are: " + team1 + " and " + team2 + "\n")
 start1, end1 = get_start_end_index(0, len(passing_dist), passing_dist)
 prep(start1, end1)
 print_player_feature_stats(team1+"+" + team2)
-# print_edges(team1)
-# print_nodes(team1)
+print_edges(team1)
+print_nodes(team1)
 print_player_stats(team1)
 
 # team 2
 start2, end2 = get_start_end_index(end1, len(passing_dist), passing_dist)
 prep(start2, end2)
-# print_edges(team2)
-# print_nodes(team2)
+print_edges(team2)
+print_nodes(team2)
 print_player_stats(team2)

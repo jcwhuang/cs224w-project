@@ -11,7 +11,7 @@ matches = {} #dict of all matches, keys = matchID
 
 
 def storePDEdges():
-  #store 2015-16 PD EDGE FILES
+  #store 2014-15 and 2015-16 PD EDGE FILES
   # locations = ["passing_distributions/2015-16/", "passing_distributions/2014-15/"]
 	locations = ["passing_distributions/2014-15/"]
 	for location in locations:
@@ -50,49 +50,30 @@ def storePDEdges():
 		                    pd[elems[0]] = {}
 		                pd[elems[0]][elems[1]] = elems[2]
 
-#store 2014-15 EDGE FILES
-  # location = "passing_distributions/2014-15/networks/"
-  # for edge_file in os.listdir(location):
-  #   if edge_file.endswith("edges"):
-  #       matchID = re.search('(.+?)_tpd', edge_file).group(1)
-  #       team = re.sub("_", " ", re.search('tpd-(.+?)-edges', edge_file).group(1))
-
-  #       #these two team names were showing up differently in objects
-  #       if "Zenit" in team:
-  #           team = "FC Zenit"
-  #       elif "Maccabi" in team:
-  #           team = "Maccabi Tel-Aviv FC"
-
-  #       match = classes.Match(team)
-  #       teamObj = classes.Team(team, [])
-  #       if matchID in matches.keys():
-  #           match = matches[matchID]
-  #           match.setVisitingTeam(team)
-  #           match.setVisitingTeamObj(teamObj)
-  #           matches[matchID] = match
-  #           print "matches[%s] = %s" % (matchID, match)
-  #       else:
-  # 			match.setHomeTeamObj(teamObj)
-  # 			matches[matchID] = match
-
-  #       pd = match.getPD(team)
-  #       for line in [x.rstrip('\n') for x in open(location+edge_file)]:
-  #           elems = line.split('\t')
-
-  #           if elems[0] == "PC" or elems[1] == "PC":
-  #               continue
-
-  #           if elems[0] not in pd.keys():
-  #               pd[elems[0]] = {}
-  #           pd[elems[0]][elems[1]] = elems[2]
-
 #TODO
 def measureCentrality():
 	for matchID in matches.keys():
+		print "matchID: %s" % matchID
 		match = matches[matchID]
 		homePD = match.getPD(match.homeTeam)
 		visitingPD = match.getPD(match.visitingTeam)
-		#DO SOMETHING
+		# DO SOMETHING
+		# compute betweenness centrality for all players and rank top 5
+
+		# load graph
+		homeGraph = snap.TNGraph.New()
+
+		for player1 in homePD:
+			for player2 in homePD[player1]:
+				player2 = int(player2)
+				player1 = int(player1)
+				if not homeGraph.IsNode(player1):
+					homeGraph.AddNode(player1)
+				if not homeGraph.IsNode(player2):
+					homeGraph.AddNode(player2)
+				homeGraph.AddEdge(player1, player2)
+
+
 
 def storePlayerCoordinates():
 	locations = ["lineup/2014-15/"]  #, "lineup/2015-16/"] #add when 2015-16 lineups done
@@ -165,7 +146,7 @@ def getPosition(team, playerNum):
 
 def classifyPD():
 	for matchID in matches.keys():
-		#to remove
+		# TODO: remove
 		if "2014" not in matchID:
 			continue
 
@@ -209,7 +190,7 @@ def classifyPD():
 		for key in homeRegionPD.keys():
 			totalPasses += homeRegionPD[key];
 
-		#need to fix this bug, totalPasses = 0 because no player numers stored
+		#need to fix this bug, totalPasses = 0 because no player numbers stored
 		if totalPasses == 0:
 			continue
 
@@ -280,15 +261,7 @@ def classifyPD():
 #Rank each player by centrality measures
 storePDEdges()
 
-# JADE - checking on matches
-# print "Checking matches"
-# for match in matches:
-# 	if match is not None:
-# 		print match
-# 		# if matches[match] is not None: 
-# 		# 	print matches[match]
-# print "End checking matches"
-#measureCentrality()  #TODO
+measureCentrality()  #TODO
 
 #Find each player's location using tactical lineup coordinates
 storePlayerCoordinates()

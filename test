@@ -1,302 +1,110 @@
-Finished in 0 iterations
-roster =  []
-chosen action =  Beysebekov
-iteration  0 , reward = -5.0
-roster =  ['Beysebekov']
-chosen action =  Elabdellaoui
-iteration  1 , reward = -3.5
-roster =  ['Beysebekov', 'Elabdellaoui']
-chosen action =  Marquinhos
-iteration  2 , reward = -5.5
-roster =  ['Beysebekov', 'Elabdellaoui', 'Marquinhos']
-chosen action =  Elabdellaoui
-trying a new action Elabdellaoui
-len(state) = 3
-trying a new action Alberman
-len(state) = 3
-iteration  3 , reward = -3.5
-roster =  ['Beysebekov', 'Elabdellaoui', 'Marquinhos', 'Alberman']
-chosen action =  Musa
-iteration  4 , reward = -3.5
-roster =  ['Beysebekov', 'Elabdellaoui', 'Marquinhos', 'Alberman', 'Musa']
-chosen action =  Elabdellaoui
-trying a new action Elabdellaoui
-len(state) = 5
-trying a new action Alberman
-len(state) = 5
-trying a new action Musa
-len(state) = 5
-trying a new action Rios
-len(state) = 5
-iteration  5 , reward = -3.5
-roster =  ['Beysebekov', 'Elabdellaoui', 'Marquinhos', 'Alberman', 'Musa', 'Rios']
-chosen action =  Negredo
-iteration  6 , reward = -9.0
-have max positions for MID
-roster =  ['Beysebekov', 'Elabdellaoui', 'Marquinhos', 'Alberman', 'Musa', 'Rios', 'Negredo']
-chosen action =  Bruggen
-trying a new action Elabdellaoui
-len(state) = 7
-trying a new action Cristóforo
-have max positions for MID
-len(state) = 7
-trying a new action Alberman
-len(state) = 7
-trying a new action Musa
-len(state) = 7
-trying a new action Rios
-len(state) = 7
-trying a new action Igiebor
-have max positions for MID
-len(state) = 7
-trying a new action Anyukov
-len(state) = 7
-iteration  7 , reward = -5.0
-roster =  ['Beysebekov', 'Elabdellaoui', 'Marquinhos', 'Alberman', 'Musa', 'Rios', 'Negredo', 'Anyukov']
-chosen action =  Brouwers
-iteration  8 , reward = -4.0
-roster =  ['Beysebekov', 'Elabdellaoui', 'Marquinhos', 'Alberman', 'Musa', 'Rios', 'Negredo', 'Anyukov', 'Brouwers']
-chosen action =  Elabdellaoui
-trying a new action Elabdellaoui
-len(state) = 9
-trying a new action Alberman
-len(state) = 9
-trying a new action Musa
-len(state) = 9
-trying a new action Rajković
-len(state) = 9
-iteration  9 , reward = -3.0
-roster =  ['Beysebekov', 'Elabdellaoui', 'Marquinhos', 'Alberman', 'Musa', 'Rios', 'Negredo', 'Anyukov', 'Brouwers', 'Rajkovi\xc4\x87']
-chosen action =  Rios
-trying a new action Elabdellaoui
-len(state) = 10
-trying a new action Alberman
-len(state) = 10
-trying a new action Musa
-len(state) = 10
-trying a new action Rios
-len(state) = 10
-trying a new action Igiebor
-have max positions for MID
-len(state) = 10
-trying a new action Azulay
-have max positions for MID
-len(state) = 10
-trying a new action Kozhamberdy
-have max positions for MID
-len(state) = 10
-trying a new action Pascual
-have max positions for MID
-len(state) = 10
-trying a new action Molins
-have max positions for MID
-len(state) = 10
-trying a new action Savić
-len(state) = 10
-iteration  10 , reward = -5.0
-have max positions for MID
-roster =  ['Beysebekov', 'Elabdellaoui', 'Marquinhos', 'Alberman', 'Musa', 'Rios', 'Negredo', 'Anyukov', 'Brouwers', 'Rajkovi\xc4\x87', 'Savi\xc4\x87']
-chosen action =  Öztekin
-trying a new action Elabdellaoui
-len(state) = 11
-trying a new action Alberman
-len(state) = 11
-trying a new action Musa
-len(state) = 11
-trying a new action Rios
-len(state) = 11
-trying a new action Igiebor
-have max positions for MID
-len(state) = 11
-trying a new action Azulay
-have max positions for MID
-len(state) = 11
-trying a new action Bedimo
-len(state) = 11
-iteration  11 , reward = -4.5
-have max positions for MID
-roster =  ['Beysebekov', 'Elabdellaoui', 'Marquinhos', 'Alberman', 'Musa', 'Rios', 'Negredo', 'Anyukov', 'Brouwers', 'Rajkovi\xc4\x87', 'Savi\xc4\x87', 'Bedimo']
-chosen action =  Kozhamberdy
-trying a new action Elabdellaoui
-len(state) = 12
-trying a new action Alberman
-len(state) = 12
-trying a new action Kasami
-have max positions for MID
-len(state) = 12
-trying a new action Musa
-len(state) = 12
-trying a new action Rios
-len(state) = 12
-trying a new action Igiebor
-have max positions for MID
-len(state) = 12
-trying a new action Azulay
-have max positions for MID
-len(state) = 12
-trying a new action Kozhamberdy
-have max positions for MID
-len(state) = 12
-trying a new action Pascual
-have max positions for MID
-len(state) = 12
-trying a new action Molins
-have max positions for MID
-len(state) = 12
-trying a new action Öztekin
-have max positions for MID
-len(state) = 12
-trying a new action Poletanović
-have max positions for MID
-len(state) = 12
-trying a new action Miha
-have max positions for MID
-len(state) = 12
-trying a new action Stasevich
-have max positions for MID
-len(state) = 12
-trying a new action Adın
-have max positions for MID
-len(state) = 12
-trying a new action Fellaini
-have max positions for MID
-len(state) = 12
-trying a new action Kroos
-have max positions for MID
-len(state) = 12
-trying a new action Zahavi
-have max positions for MID
-len(state) = 12
-trying a new action Rog
-have max positions for MID
-len(state) = 12
-trying a new action Bouchalakis
-have max positions for MID
-len(state) = 12
-trying a new action Kimpembe
-have max positions for DEF
-len(state) = 12
-trying a new action Asare
-have max positions for MID
-len(state) = 12
-trying a new action Dedechko
-have max positions for MID
-len(state) = 12
-trying a new action Milivojević
-have max positions for MID
-len(state) = 12
-trying a new action Ryazantsev
-have max positions for MID
-len(state) = 12
-trying a new action Gojak
-have max positions for MID
-len(state) = 12
-trying a new action Armaly
-have max positions for MID
-len(state) = 12
-trying a new action Kobin
-have max positions for MID
-len(state) = 12
-trying a new action Pivarić
-have max positions for MID
-len(state) = 12
-trying a new action Einbinder
-have max positions for MID
-len(state) = 12
-trying a new action Andersson
-have max positions for MID
-len(state) = 12
-trying a new action Peretz
-have max positions for MID
-len(state) = 12
-trying a new action Vermouth
-have max positions for MID
-len(state) = 12
-trying a new action Glazer
-have max positions for MID
-len(state) = 12
-trying a new action Eikrem
-have max positions for MID
-len(state) = 12
-trying a new action Myakushko
-have max positions for MID
-len(state) = 12
-trying a new action Antolić
-have max positions for MID
-len(state) = 12
-trying a new action Mangala
-have max positions for DEF
-len(state) = 12
-trying a new action Mitrović
-have max positions for MID
-len(state) = 12
-trying a new action Pavičić
-have max positions for MID
-len(state) = 12
-trying a new action Santos
-have max positions for MID
-len(state) = 12
-trying a new action Malyshev
-have max positions for MID
-len(state) = 12
-trying a new action Matton
-have max positions for MID
-len(state) = 12
-trying a new action Karacan
-have max positions for MID
-len(state) = 12
-trying a new action Cristante
-have max positions for MID
-len(state) = 12
-trying a new action Dahoud
-have max positions for MID
-len(state) = 12
-trying a new action Khairullin
-have max positions for MID
-len(state) = 12
-trying a new action Aleksievich
-have max positions for MID
-len(state) = 12
-trying a new action Rodić
-have max positions for MID
-len(state) = 12
-trying a new action Cornet
-len(state) = 12
-iteration  12 , reward = -5.0
-have max positions for MID
-roster =  ['Beysebekov', 'Elabdellaoui', 'Marquinhos', 'Alberman', 'Musa', 'Rios', 'Negredo', 'Anyukov', 'Brouwers', 'Rajkovi\xc4\x87', 'Savi\xc4\x87', 'Bedimo', 'Cornet']
-chosen action =  Muzhikov
-trying a new action Elabdellaoui
-len(state) = 13
-trying a new action Alberman
-len(state) = 13
-trying a new action Musa
-len(state) = 13
-trying a new action Rios
-len(state) = 13
-trying a new action Igiebor
-have max positions for MID
-len(state) = 13
-trying a new action Azulay
-have max positions for MID
-len(state) = 13
-trying a new action Nuserbayev
-len(state) = 13
-iteration  13 , reward = -5.5
-have max positions for STR
-roster =  ['Beysebekov', 'Elabdellaoui', 'Marquinhos', 'Alberman', 'Musa', 'Rios', 'Negredo', 'Anyukov', 'Brouwers', 'Rajkovi\xc4\x87', 'Savi\xc4\x87', 'Bedimo', 'Cornet', 'Nuserbayev']
-chosen action =  Simon
-trying a new action Elabdellaoui
-len(state) = 14
-trying a new action Alberman
-len(state) = 14
-trying a new action Musa
-len(state) = 14
-trying a new action Rios
-len(state) = 14
-trying a new action Igiebor
-have max positions for MID
-len(state) = 14
-trying a new action Azulay
-have max positions for MID
-len(state) = 14
+matches[2014307] = AS Roma,PFC CSKA Moskva
+matches[2014308] = FC Bayern München,Manchester City FC
+matches[2014309] = APOEL FC,FC Barcelona
+matches[2014310] = AFC Ajax,Paris Saint-Germain
+matches[2014311] = Chelsea FC,FC Schalke 04
+matches[2014312] = NK Maribor,Sporting Clube de Portugal
+matches[2014313] = FC BATE Borisov,FC Porto
+matches[2014314] = Athletic Club,FC Shakhtar Donetsk
+matches[2014315] = Club Atlético de Madrid,Olympiacos FC
+matches[2014316] = Juventus,Malmö FF
+matches[2014317] = Liverpool FC,PFC Ludogorets 1945
+matches[2014318] = FC Basel 1893,Real Madrid CF
+matches[2014319] = AS Monaco FC,Bayer 04 Leverkusen
+matches[2014320] = FC Zenit,SL Benfica
+matches[2014321] = Galatasaray AŞ,RSC Anderlecht
+matches[2014322] = Arsenal FC,Borussia Dortmund
+matches[2014323] = Malmö FF,Olympiacos FC
+matches[2014324] = Club Atlético de Madrid,Juventus
+matches[2014325] = FC Basel 1893,Liverpool FC
+matches[2014326] = PFC Ludogorets 1945,Real Madrid CF
+matches[2014327] = AS Monaco FC,FC Zenit
+matches[2014328] = Bayer 04 Leverkusen,SL Benfica
+matches[2014329] = Arsenal FC,Galatasaray AŞ
+matches[2014330] = Borussia Dortmund,RSC Anderlecht
+matches[2014331] = AS Roma,Manchester City FC
+matches[2014332] = FC Bayern München,PFC CSKA Moskva
+matches[2014333] = FC Barcelona,Paris Saint-Germain
+matches[2014334] = AFC Ajax,APOEL FC
+matches[2014335] = Chelsea FC,Sporting Clube de Portugal
+matches[2014336] = FC Schalke 04,NK Maribor
+matches[2014337] = FC Porto,FC Shakhtar Donetsk
+matches[2014338] = Athletic Club,FC BATE Borisov
+matches[2014339] = Club Atlético de Madrid,Malmö FF
+matches[2014340] = Juventus,Olympiacos FC
+matches[2014341] = FC Basel 1893,PFC Ludogorets 1945
+matches[2014342] = Liverpool FC,Real Madrid CF
+matches[2014343] = Bayer 04 Leverkusen,FC Zenit
+matches[2014344] = AS Monaco FC,SL Benfica
+matches[2014345] = Arsenal FC,RSC Anderlecht
+matches[2014346] = Borussia Dortmund,Galatasaray AŞ
+matches[2014347] = Manchester City FC,PFC CSKA Moskva
+matches[2014348] = AS Roma,FC Bayern München
+matches[2014349] = APOEL FC,Paris Saint-Germain
+matches[2014350] = AFC Ajax,FC Barcelona
+matches[2014351] = FC Schalke 04,Sporting Clube de Portugal
+matches[2014352] = Chelsea FC,NK Maribor
+matches[2014353] = FC BATE Borisov,FC Shakhtar Donetsk
+matches[2014354] = Athletic Club,FC Porto
+matches[2014355] = Manchester City FC,PFC CSKA Moskva
+matches[2014356] = AS Roma,FC Bayern München
+matches[2014357] = APOEL FC,Paris Saint-Germain
+matches[2014358] = AFC Ajax,FC Barcelona
+matches[2014359] = FC Schalke 04,Sporting Clube de Portugal
+matches[2014360] = Chelsea FC,NK Maribor
+matches[2014361] = FC BATE Borisov,FC Shakhtar Donetsk
+matches[2014362] = Athletic Club,FC Porto
+matches[2014363] = Club Atlético de Madrid,Malmö FF
+matches[2014364] = Juventus,Olympiacos FC
+matches[2014365] = FC Basel 1893,PFC Ludogorets 1945
+matches[2014366] = Liverpool FC,Real Madrid CF
+matches[2014367] = Bayer 04 Leverkusen,FC Zenit
+matches[2014368] = AS Monaco FC,SL Benfica
+matches[2014369] = Arsenal FC,RSC Anderlecht
+matches[2014370] = Borussia Dortmund,Galatasaray AŞ
+matches[2014371] = Club Atlético de Madrid,Olympiacos FC
+matches[2014372] = Juventus,Malmö FF
+matches[2014373] = Liverpool FC,PFC Ludogorets 1945
+matches[2014374] = FC Basel 1893,Real Madrid CF
+matches[2014375] = AS Monaco FC,Bayer 04 Leverkusen
+matches[2014376] = FC Zenit,SL Benfica
+matches[2014377] = Galatasaray AŞ,RSC Anderlecht
+matches[2014378] = Arsenal FC,Borussia Dortmund
+matches[2014379] = AS Roma,PFC CSKA Moskva
+matches[2014380] = FC Bayern München,Manchester City FC
+matches[2014381] = APOEL FC,FC Barcelona
+matches[2014382] = AFC Ajax,Paris Saint-Germain
+matches[2014383] = Chelsea FC,FC Schalke 04
+matches[2014384] = NK Maribor,Sporting Clube de Portugal
+matches[2014385] = FC BATE Borisov,FC Porto
+matches[2014386] = Athletic Club,FC Shakhtar Donetsk
+matches[2014387] = AS Roma,Manchester City FC
+matches[2014388] = FC Bayern München,PFC CSKA Moskva
+matches[2014389] = FC Barcelona,Paris Saint-Germain
+matches[2014390] = AFC Ajax,APOEL FC
+matches[2014391] = Chelsea FC,Sporting Clube de Portugal
+matches[2014392] = FC Schalke 04,NK Maribor
+matches[2014393] = FC Porto,FC Shakhtar Donetsk
+matches[2014394] = Athletic Club,FC BATE Borisov
+matches[2014395] = Malmö FF,Olympiacos FC
+matches[2014396] = Club Atlético de Madrid,Juventus
+matches[2014397] = FC Basel 1893,Liverpool FC
+matches[2014398] = PFC Ludogorets 1945,Real Madrid CF
+matches[2014399] = AS Monaco FC,FC Zenit
+matches[2014400] = Bayer 04 Leverkusen,SL Benfica
+matches[2014401] = Arsenal FC,Galatasaray AŞ
+matches[2014402] = Borussia Dortmund,RSC Anderlecht
+Added 24
+Added 13
+Added 20
+Added 21
+Added 17
+Added 23
+Added 28
+Added 35
+Added 1
+Added 2
+Added 5
+Added 4
+Added 7
+Added 6
