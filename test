@@ -1,302 +1,2008 @@
-Finished in 0 iterations
-roster =  []
-chosen action =  Beysebekov
-iteration  0 , reward = -5.0
-roster =  ['Beysebekov']
-chosen action =  Elabdellaoui
-iteration  1 , reward = -3.5
-roster =  ['Beysebekov', 'Elabdellaoui']
-chosen action =  Marquinhos
-iteration  2 , reward = -5.5
-roster =  ['Beysebekov', 'Elabdellaoui', 'Marquinhos']
-chosen action =  Elabdellaoui
-trying a new action Elabdellaoui
-len(state) = 3
-trying a new action Alberman
-len(state) = 3
-iteration  3 , reward = -3.5
-roster =  ['Beysebekov', 'Elabdellaoui', 'Marquinhos', 'Alberman']
-chosen action =  Musa
-iteration  4 , reward = -3.5
-roster =  ['Beysebekov', 'Elabdellaoui', 'Marquinhos', 'Alberman', 'Musa']
-chosen action =  Elabdellaoui
-trying a new action Elabdellaoui
-len(state) = 5
-trying a new action Alberman
-len(state) = 5
-trying a new action Musa
-len(state) = 5
-trying a new action Rios
-len(state) = 5
-iteration  5 , reward = -3.5
-roster =  ['Beysebekov', 'Elabdellaoui', 'Marquinhos', 'Alberman', 'Musa', 'Rios']
-chosen action =  Negredo
-iteration  6 , reward = -9.0
-have max positions for MID
-roster =  ['Beysebekov', 'Elabdellaoui', 'Marquinhos', 'Alberman', 'Musa', 'Rios', 'Negredo']
-chosen action =  Bruggen
-trying a new action Elabdellaoui
-len(state) = 7
-trying a new action Cristóforo
-have max positions for MID
-len(state) = 7
-trying a new action Alberman
-len(state) = 7
-trying a new action Musa
-len(state) = 7
-trying a new action Rios
-len(state) = 7
-trying a new action Igiebor
-have max positions for MID
-len(state) = 7
-trying a new action Anyukov
-len(state) = 7
-iteration  7 , reward = -5.0
-roster =  ['Beysebekov', 'Elabdellaoui', 'Marquinhos', 'Alberman', 'Musa', 'Rios', 'Negredo', 'Anyukov']
-chosen action =  Brouwers
-iteration  8 , reward = -4.0
-roster =  ['Beysebekov', 'Elabdellaoui', 'Marquinhos', 'Alberman', 'Musa', 'Rios', 'Negredo', 'Anyukov', 'Brouwers']
-chosen action =  Elabdellaoui
-trying a new action Elabdellaoui
-len(state) = 9
-trying a new action Alberman
-len(state) = 9
-trying a new action Musa
-len(state) = 9
-trying a new action Rajković
-len(state) = 9
-iteration  9 , reward = -3.0
-roster =  ['Beysebekov', 'Elabdellaoui', 'Marquinhos', 'Alberman', 'Musa', 'Rios', 'Negredo', 'Anyukov', 'Brouwers', 'Rajkovi\xc4\x87']
-chosen action =  Rios
-trying a new action Elabdellaoui
-len(state) = 10
-trying a new action Alberman
-len(state) = 10
-trying a new action Musa
-len(state) = 10
-trying a new action Rios
-len(state) = 10
-trying a new action Igiebor
-have max positions for MID
-len(state) = 10
-trying a new action Azulay
-have max positions for MID
-len(state) = 10
-trying a new action Kozhamberdy
-have max positions for MID
-len(state) = 10
-trying a new action Pascual
-have max positions for MID
-len(state) = 10
-trying a new action Molins
-have max positions for MID
-len(state) = 10
-trying a new action Savić
-len(state) = 10
-iteration  10 , reward = -5.0
-have max positions for MID
-roster =  ['Beysebekov', 'Elabdellaoui', 'Marquinhos', 'Alberman', 'Musa', 'Rios', 'Negredo', 'Anyukov', 'Brouwers', 'Rajkovi\xc4\x87', 'Savi\xc4\x87']
-chosen action =  Öztekin
-trying a new action Elabdellaoui
-len(state) = 11
-trying a new action Alberman
-len(state) = 11
-trying a new action Musa
-len(state) = 11
-trying a new action Rios
-len(state) = 11
-trying a new action Igiebor
-have max positions for MID
-len(state) = 11
-trying a new action Azulay
-have max positions for MID
-len(state) = 11
-trying a new action Bedimo
-len(state) = 11
-iteration  11 , reward = -4.5
-have max positions for MID
-roster =  ['Beysebekov', 'Elabdellaoui', 'Marquinhos', 'Alberman', 'Musa', 'Rios', 'Negredo', 'Anyukov', 'Brouwers', 'Rajkovi\xc4\x87', 'Savi\xc4\x87', 'Bedimo']
-chosen action =  Kozhamberdy
-trying a new action Elabdellaoui
-len(state) = 12
-trying a new action Alberman
-len(state) = 12
-trying a new action Kasami
-have max positions for MID
-len(state) = 12
-trying a new action Musa
-len(state) = 12
-trying a new action Rios
-len(state) = 12
-trying a new action Igiebor
-have max positions for MID
-len(state) = 12
-trying a new action Azulay
-have max positions for MID
-len(state) = 12
-trying a new action Kozhamberdy
-have max positions for MID
-len(state) = 12
-trying a new action Pascual
-have max positions for MID
-len(state) = 12
-trying a new action Molins
-have max positions for MID
-len(state) = 12
-trying a new action Öztekin
-have max positions for MID
-len(state) = 12
-trying a new action Poletanović
-have max positions for MID
-len(state) = 12
-trying a new action Miha
-have max positions for MID
-len(state) = 12
-trying a new action Stasevich
-have max positions for MID
-len(state) = 12
-trying a new action Adın
-have max positions for MID
-len(state) = 12
-trying a new action Fellaini
-have max positions for MID
-len(state) = 12
-trying a new action Kroos
-have max positions for MID
-len(state) = 12
-trying a new action Zahavi
-have max positions for MID
-len(state) = 12
-trying a new action Rog
-have max positions for MID
-len(state) = 12
-trying a new action Bouchalakis
-have max positions for MID
-len(state) = 12
-trying a new action Kimpembe
-have max positions for DEF
-len(state) = 12
-trying a new action Asare
-have max positions for MID
-len(state) = 12
-trying a new action Dedechko
-have max positions for MID
-len(state) = 12
-trying a new action Milivojević
-have max positions for MID
-len(state) = 12
-trying a new action Ryazantsev
-have max positions for MID
-len(state) = 12
-trying a new action Gojak
-have max positions for MID
-len(state) = 12
-trying a new action Armaly
-have max positions for MID
-len(state) = 12
-trying a new action Kobin
-have max positions for MID
-len(state) = 12
-trying a new action Pivarić
-have max positions for MID
-len(state) = 12
-trying a new action Einbinder
-have max positions for MID
-len(state) = 12
-trying a new action Andersson
-have max positions for MID
-len(state) = 12
-trying a new action Peretz
-have max positions for MID
-len(state) = 12
-trying a new action Vermouth
-have max positions for MID
-len(state) = 12
-trying a new action Glazer
-have max positions for MID
-len(state) = 12
-trying a new action Eikrem
-have max positions for MID
-len(state) = 12
-trying a new action Myakushko
-have max positions for MID
-len(state) = 12
-trying a new action Antolić
-have max positions for MID
-len(state) = 12
-trying a new action Mangala
-have max positions for DEF
-len(state) = 12
-trying a new action Mitrović
-have max positions for MID
-len(state) = 12
-trying a new action Pavičić
-have max positions for MID
-len(state) = 12
-trying a new action Santos
-have max positions for MID
-len(state) = 12
-trying a new action Malyshev
-have max positions for MID
-len(state) = 12
-trying a new action Matton
-have max positions for MID
-len(state) = 12
-trying a new action Karacan
-have max positions for MID
-len(state) = 12
-trying a new action Cristante
-have max positions for MID
-len(state) = 12
-trying a new action Dahoud
-have max positions for MID
-len(state) = 12
-trying a new action Khairullin
-have max positions for MID
-len(state) = 12
-trying a new action Aleksievich
-have max positions for MID
-len(state) = 12
-trying a new action Rodić
-have max positions for MID
-len(state) = 12
-trying a new action Cornet
-len(state) = 12
-iteration  12 , reward = -5.0
-have max positions for MID
-roster =  ['Beysebekov', 'Elabdellaoui', 'Marquinhos', 'Alberman', 'Musa', 'Rios', 'Negredo', 'Anyukov', 'Brouwers', 'Rajkovi\xc4\x87', 'Savi\xc4\x87', 'Bedimo', 'Cornet']
-chosen action =  Muzhikov
-trying a new action Elabdellaoui
-len(state) = 13
-trying a new action Alberman
-len(state) = 13
-trying a new action Musa
-len(state) = 13
-trying a new action Rios
-len(state) = 13
-trying a new action Igiebor
-have max positions for MID
-len(state) = 13
-trying a new action Azulay
-have max positions for MID
-len(state) = 13
-trying a new action Nuserbayev
-len(state) = 13
-iteration  13 , reward = -5.5
-have max positions for STR
-roster =  ['Beysebekov', 'Elabdellaoui', 'Marquinhos', 'Alberman', 'Musa', 'Rios', 'Negredo', 'Anyukov', 'Brouwers', 'Rajkovi\xc4\x87', 'Savi\xc4\x87', 'Bedimo', 'Cornet', 'Nuserbayev']
-chosen action =  Simon
-trying a new action Elabdellaoui
-len(state) = 14
-trying a new action Alberman
-len(state) = 14
-trying a new action Musa
-len(state) = 14
-trying a new action Rios
-len(state) = 14
-trying a new action Igiebor
-have max positions for MID
-len(state) = 14
-trying a new action Azulay
-have max positions for MID
-len(state) = 14
+matches[2014307] = AS Roma,PFC CSKA Moskva
+matches[2014308] = FC Bayern München,Manchester City FC
+matches[2014309] = APOEL FC,FC Barcelona
+matches[2014310] = AFC Ajax,Paris Saint-Germain
+matches[2014311] = Chelsea FC,FC Schalke 04
+matches[2014312] = NK Maribor,Sporting Clube de Portugal
+matches[2014313] = FC BATE Borisov,FC Porto
+matches[2014314] = Athletic Club,FC Shakhtar Donetsk
+matches[2014315] = Club Atlético de Madrid,Olympiacos FC
+matches[2014316] = Juventus,Malmö FF
+matches[2014317] = Liverpool FC,PFC Ludogorets 1945
+matches[2014318] = FC Basel 1893,Real Madrid CF
+matches[2014319] = AS Monaco FC,Bayer 04 Leverkusen
+matches[2014320] = FC Zenit,SL Benfica
+matches[2014321] = Galatasaray AŞ,RSC Anderlecht
+matches[2014322] = Arsenal FC,Borussia Dortmund
+matches[2014323] = Malmö FF,Olympiacos FC
+matches[2014324] = Club Atlético de Madrid,Juventus
+matches[2014325] = FC Basel 1893,Liverpool FC
+matches[2014326] = PFC Ludogorets 1945,Real Madrid CF
+matches[2014327] = AS Monaco FC,FC Zenit
+matches[2014328] = Bayer 04 Leverkusen,SL Benfica
+matches[2014329] = Arsenal FC,Galatasaray AŞ
+matches[2014330] = Borussia Dortmund,RSC Anderlecht
+matches[2014331] = AS Roma,Manchester City FC
+matches[2014332] = FC Bayern München,PFC CSKA Moskva
+matches[2014333] = FC Barcelona,Paris Saint-Germain
+matches[2014334] = AFC Ajax,APOEL FC
+matches[2014335] = Chelsea FC,Sporting Clube de Portugal
+matches[2014336] = FC Schalke 04,NK Maribor
+matches[2014337] = FC Porto,FC Shakhtar Donetsk
+matches[2014338] = Athletic Club,FC BATE Borisov
+matches[2014339] = Club Atlético de Madrid,Malmö FF
+matches[2014340] = Juventus,Olympiacos FC
+matches[2014341] = FC Basel 1893,PFC Ludogorets 1945
+matches[2014342] = Liverpool FC,Real Madrid CF
+matches[2014343] = Bayer 04 Leverkusen,FC Zenit
+matches[2014344] = AS Monaco FC,SL Benfica
+matches[2014345] = Arsenal FC,RSC Anderlecht
+matches[2014346] = Borussia Dortmund,Galatasaray AŞ
+matches[2014347] = Manchester City FC,PFC CSKA Moskva
+matches[2014348] = AS Roma,FC Bayern München
+matches[2014349] = APOEL FC,Paris Saint-Germain
+matches[2014350] = AFC Ajax,FC Barcelona
+matches[2014351] = FC Schalke 04,Sporting Clube de Portugal
+matches[2014352] = Chelsea FC,NK Maribor
+matches[2014353] = FC BATE Borisov,FC Shakhtar Donetsk
+matches[2014354] = Athletic Club,FC Porto
+matches[2014355] = Manchester City FC,PFC CSKA Moskva
+matches[2014356] = AS Roma,FC Bayern München
+matches[2014357] = APOEL FC,Paris Saint-Germain
+matches[2014358] = AFC Ajax,FC Barcelona
+matches[2014359] = FC Schalke 04,Sporting Clube de Portugal
+matches[2014360] = Chelsea FC,NK Maribor
+matches[2014361] = FC BATE Borisov,FC Shakhtar Donetsk
+matches[2014362] = Athletic Club,FC Porto
+matches[2014363] = Club Atlético de Madrid,Malmö FF
+matches[2014364] = Juventus,Olympiacos FC
+matches[2014365] = FC Basel 1893,PFC Ludogorets 1945
+matches[2014366] = Liverpool FC,Real Madrid CF
+matches[2014367] = Bayer 04 Leverkusen,FC Zenit
+matches[2014368] = AS Monaco FC,SL Benfica
+matches[2014369] = Arsenal FC,RSC Anderlecht
+matches[2014370] = Borussia Dortmund,Galatasaray AŞ
+matches[2014371] = Club Atlético de Madrid,Olympiacos FC
+matches[2014372] = Juventus,Malmö FF
+matches[2014373] = Liverpool FC,PFC Ludogorets 1945
+matches[2014374] = FC Basel 1893,Real Madrid CF
+matches[2014375] = AS Monaco FC,Bayer 04 Leverkusen
+matches[2014376] = FC Zenit,SL Benfica
+matches[2014377] = Galatasaray AŞ,RSC Anderlecht
+matches[2014378] = Arsenal FC,Borussia Dortmund
+matches[2014379] = AS Roma,PFC CSKA Moskva
+matches[2014380] = FC Bayern München,Manchester City FC
+matches[2014381] = APOEL FC,FC Barcelona
+matches[2014382] = AFC Ajax,Paris Saint-Germain
+matches[2014383] = Chelsea FC,FC Schalke 04
+matches[2014384] = NK Maribor,Sporting Clube de Portugal
+matches[2014385] = FC BATE Borisov,FC Porto
+matches[2014386] = Athletic Club,FC Shakhtar Donetsk
+matches[2014387] = AS Roma,Manchester City FC
+matches[2014388] = FC Bayern München,PFC CSKA Moskva
+matches[2014389] = FC Barcelona,Paris Saint-Germain
+matches[2014390] = AFC Ajax,APOEL FC
+matches[2014391] = Chelsea FC,Sporting Clube de Portugal
+matches[2014392] = FC Schalke 04,NK Maribor
+matches[2014393] = FC Porto,FC Shakhtar Donetsk
+matches[2014394] = Athletic Club,FC BATE Borisov
+matches[2014395] = Malmö FF,Olympiacos FC
+matches[2014396] = Club Atlético de Madrid,Juventus
+matches[2014397] = FC Basel 1893,Liverpool FC
+matches[2014398] = PFC Ludogorets 1945,Real Madrid CF
+matches[2014399] = AS Monaco FC,FC Zenit
+matches[2014400] = Bayer 04 Leverkusen,SL Benfica
+matches[2014401] = Arsenal FC,Galatasaray AŞ
+matches[2014402] = Borussia Dortmund,RSC Anderlecht
+matchID: 2014376
+Top 5 players for FC Zenit by betweenness centrality
+28 5.36630591631
+4 4.94206349206
+24 3.179004329
+7 2.2753968254
+35 2.09963924964
+--------------
+matchID: 2014377
+Top 5 players for Galatasaray AŞ by betweenness centrality
+8 3.93452380952
+13 3.93452380952
+77 2.95833333333
+3 1.10119047619
+4 1.10119047619
+--------------
+matchID: 2014374
+Top 5 players for FC Basel 1893 by betweenness centrality
+33 14.9718253968
+25 3.33849206349
+36 2.86071428571
+19 2.07182539683
+11 1.73015873016
+--------------
+matchID: 2014375
+Top 5 players for AS Monaco FC by betweenness centrality
+14 4.50912698413
+9 4.00515873016
+8 2.93174603175
+7 2.17579365079
+6 2.04563492063
+--------------
+matchID: 2014372
+Top 5 players for Juventus by betweenness centrality
+3 3.02261904762
+6 3.02261904762
+23 2.35595238095
+26 1.65952380952
+8 1.25595238095
+--------------
+matchID: 2014373
+Top 5 players for Liverpool FC by betweenness centrality
+8 2.64682539683
+9 2.20238095238
+24 2.04563492063
+2 2.04563492063
+14 0.646825396825
+--------------
+matchID: 2014370
+Top 5 players for Borussia Dortmund by betweenness centrality
+5 2.60519480519
+26 2.51428571429
+37 2.51428571429
+10 1.28614718615
+17 1.28614718615
+--------------
+matchID: 2014371
+Top 5 players for Club Atlético de Madrid by betweenness centrality
+14 3.22658730159
+6 3.22658730159
+20 3.22658730159
+8 2.13134920635
+15 2.1003968254
+--------------
+matchID: 2014378
+Top 5 players for Arsenal FC by betweenness centrality
+19 8.64206349206
+21 8.47857142857
+16 3.94087301587
+18 2.55476190476
+4 1.75515873016
+--------------
+matchID: 2014379
+Top 5 players for AS Roma by betweenness centrality
+25 7.8630952381
+23 6.00595238095
+10 4.74404761905
+20 3.74404761905
+16 3.52976190476
+--------------
+matchID: 2014307
+Top 5 players for AS Roma by betweenness centrality
+35 3.25238095238
+4 3.25238095238
+20 2.41785714286
+10 2.17380952381
+13 2.17380952381
+--------------
+matchID: 2014309
+Top 5 players for APOEL FC by betweenness centrality
+16 6.04841269841
+28 5.5246031746
+21 4.21944444444
+5 3.09563492063
+15 2.45515873016
+--------------
+matchID: 2014308
+Top 5 players for FC Bayern München by betweenness centrality
+3 7.2619047619
+27 3.67857142857
+17 3.67857142857
+18 2.41904761905
+21 2.36904761905
+--------------
+matchID: 2014389
+Top 5 players for FC Barcelona by betweenness centrality
+14 1.59920634921
+5 1.59920634921
+8 1.22023809524
+24 1.20238095238
+15 1.17857142857
+--------------
+matchID: 2014388
+Top 5 players for FC Bayern München by betweenness centrality
+20 2.83333333333
+17 2.83333333333
+34 2.83333333333
+31 2.83333333333
+19 1.84523809524
+--------------
+matchID: 2014383
+Top 5 players for Chelsea FC by betweenness centrality
+22 3.90082972583
+10 2.49844877345
+21 2.49844877345
+24 2.08773448773
+28 2.04325396825
+--------------
+matchID: 2014382
+Top 5 players for AFC Ajax by betweenness centrality
+16 3.64166666667
+24 3.64166666667
+25 3.04166666667
+10 0.475
+26 0.475
+--------------
+matchID: 2014381
+Top 5 players for APOEL FC by betweenness centrality
+15 9.06785714286
+9 5.9623015873
+26 4.65515873016
+28 3.61349206349
+16 2.55515873016
+--------------
+matchID: 2014380
+Top 5 players for FC Bayern München by betweenness centrality
+3 7.50238095238
+10 6.14404761905
+13 6.14404761905
+34 3.83571428571
+17 1.66904761905
+--------------
+matchID: 2014387
+Top 5 players for AS Roma by betweenness centrality
+44 4.74642857143
+4 3.62738095238
+2 3.6119047619
+13 3.17857142857
+20 2.07976190476
+--------------
+matchID: 2014386
+Top 5 players for Athletic Club by betweenness centrality
+17 7.34285714286
+24 5.39285714286
+10 3.29285714286
+19 3.29285714286
+1 1.84285714286
+--------------
+matchID: 2014385
+Top 5 players for FC BATE Borisov by betweenness centrality
+23 5.36666666667
+55 4.95833333333
+5 4.325
+42 3.2
+3 3.11666666667
+--------------
+matchID: 2014384
+Top 5 players for NK Maribor by betweenness centrality
+5 4.10952380952
+7 3.82619047619
+26 3.82619047619
+10 2.725
+44 2.475
+--------------
+matchID: 2014310
+Top 5 players for AFC Ajax by betweenness centrality
+10 8.1873015873
+2 5.60396825397
+4 2.1873015873
+32 1.8373015873
+16 1.46111111111
+--------------
+matchID: 2014311
+Top 5 players for Chelsea FC by betweenness centrality
+21 4.39761904762
+2 3.96428571429
+3 3.44761904762
+10 3.21904761905
+4 2.78571428571
+--------------
+matchID: 2014312
+Top 5 players for NK Maribor by betweenness centrality
+28 16.5297619048
+10 12.2916666667
+5 4.52976190476
+44 2.90476190476
+70 1.19642857143
+--------------
+matchID: 2014313
+Top 5 players for FC BATE Borisov by betweenness centrality
+22 4.04087301587
+14 3.63253968254
+8 3.38293650794
+21 3.08968253968
+33 2.23253968254
+--------------
+matchID: 2014314
+Top 5 players for Athletic Club by betweenness centrality
+8 5.40714285714
+17 4.89047619048
+18 3.17380952381
+11 2.57142857143
+24 2.47142857143
+--------------
+matchID: 2014315
+Top 5 players for Club Atlético de Madrid by betweenness centrality
+10 7.00238095238
+6 4.90238095238
+20 4.85238095238
+2 3.54285714286
+15 3.53571428571
+--------------
+matchID: 2014316
+Top 5 players for Juventus by betweenness centrality
+6 17.2857142857
+19 9.5
+33 7.18571428571
+26 1.18571428571
+22 1.18571428571
+--------------
+matchID: 2014317
+Top 5 players for Liverpool FC by betweenness centrality
+14 1.7130952381
+18 1.7130952381
+45 1.7130952381
+8 1.7130952381
+6 1.44642857143
+--------------
+matchID: 2014318
+Top 5 players for FC Basel 1893 by betweenness centrality
+33 3.05119047619
+7 3.05119047619
+19 3.05119047619
+25 2.65952380952
+20 1.925
+--------------
+matchID: 2014319
+Top 5 players for AS Monaco FC by betweenness centrality
+8 7.62142857143
+22 6.15357142857
+3 4.67738095238
+2 2.75119047619
+24 2.16071428571
+--------------
+matchID: 2014398
+Top 5 players for PFC Ludogorets 1945 by betweenness centrality
+17 7.4130952381
+80 3.59642857143
+18 3.34404761905
+21 2.45357142857
+25 2.37023809524
+--------------
+matchID: 2014399
+Top 5 players for AS Monaco FC by betweenness centrality
+8 7.5253968254
+23 4.89682539683
+7 2.35476190476
+24 2.04523809524
+14 1.5253968254
+--------------
+matchID: 2014390
+Top 5 players for AFC Ajax by betweenness centrality
+3 6.57142857143
+2 6.57142857143
+10 3.9880952381
+25 3.07142857143
+11 2.14285714286
+--------------
+matchID: 2014391
+Top 5 players for Chelsea FC by betweenness centrality
+19 3.07857142857
+3 3.07857142857
+4 2.52301587302
+28 2.03333333333
+1 1.77301587302
+--------------
+matchID: 2014392
+Top 5 players for FC Schalke 04 by betweenness centrality
+13 15.128968254
+15 4.90079365079
+22 3.85119047619
+12 1.6369047619
+4 1.6369047619
+--------------
+matchID: 2014393
+Top 5 players for FC Porto by betweenness centrality
+26 2.32103174603
+15 2.32103174603
+21 2.32103174603
+3 1.64206349206
+7 1.33849206349
+--------------
+matchID: 2014394
+Top 5 players for Athletic Club by betweenness centrality
+17 6.98968253968
+14 5.20396825397
+8 4.53968253968
+24 3.01349206349
+6 1.2619047619
+--------------
+matchID: 2014395
+Top 5 players for Malmö FF by betweenness centrality
+8 6.67738095238
+33 4.38968253968
+20 4.35515873016
+3 2.98849206349
+14 2.6869047619
+--------------
+matchID: 2014396
+Top 5 players for Club Atlético de Madrid by betweenness centrality
+20 2.11904761905
+6 2.11904761905
+3 1.60952380952
+10 1.52619047619
+1 0.959523809524
+--------------
+matchID: 2014397
+Top 5 players for FC Basel 1893 by betweenness centrality
+25 7.52272727273
+36 3.22727272727
+11 2.18506493506
+33 2.18506493506
+7 2.18506493506
+--------------
+matchID: 2014329
+Top 5 players for Arsenal FC by betweenness centrality
+11 7.42738095238
+4 6.51785714286
+20 3.74404761905
+23 3.74404761905
+19 3.74404761905
+--------------
+matchID: 2014328
+Top 5 players for Bayer 04 Leverkusen by betweenness centrality
+21 4.92619047619
+13 4.57619047619
+8 2.99285714286
+18 2.87619047619
+10 2.02619047619
+--------------
+matchID: 2014325
+Top 5 players for FC Basel 1893 by betweenness centrality
+20 12.4301587302
+33 2.2253968254
+34 2.2253968254
+17 1.40634920635
+36 1.19206349206
+--------------
+matchID: 2014324
+Top 5 players for Club Atlético de Madrid by betweenness centrality
+6 13.6291208791
+8 12.4166666667
+15 6.10934065934
+10 5.67673992674
+2 4.67673992674
+--------------
+matchID: 2014327
+Top 5 players for AS Monaco FC by betweenness centrality
+28 3.12857142857
+8 3.12857142857
+7 2.90357142857
+3 2.4869047619
+22 1.47857142857
+--------------
+matchID: 2014326
+Top 5 players for PFC Ludogorets 1945 by betweenness centrality
+25 10.1428571429
+80 7.76785714286
+15 4.26785714286
+9 3.54563492063
+21 1.73611111111
+--------------
+matchID: 2014321
+Top 5 players for Galatasaray AŞ by betweenness centrality
+6 5.21904761905
+10 4.22738095238
+3 4.16785714286
+88 3.20238095238
+21 2.25238095238
+--------------
+matchID: 2014320
+Top 5 players for FC Zenit by betweenness centrality
+35 5.61825396825
+17 3.12896825397
+24 2.11825396825
+28 2.11825396825
+8 2.07738095238
+--------------
+matchID: 2014323
+Top 5 players for Malmö FF by betweenness centrality
+9 11.0095238095
+15 11.0
+24 9.01904761905
+8 1.82857142857
+4 1.35238095238
+--------------
+matchID: 2014322
+Top 5 players for Arsenal FC by betweenness centrality
+10 3.99801587302
+17 2.69722222222
+15 2.1119047619
+3 2.09404761905
+4 1.98293650794
+--------------
+matchID: 2014400
+Top 5 players for Bayer 04 Leverkusen by betweenness centrality
+10 8.26031746032
+19 5.1873015873
+27 1.76031746032
+38 1.76031746032
+21 1.49365079365
+--------------
+matchID: 2014401
+Top 5 players for Arsenal FC by betweenness centrality
+21 3.7876984127
+9 3.7876984127
+15 3.29484126984
+28 3.11706349206
+22 1.56349206349
+--------------
+matchID: 2014402
+Top 5 players for Borussia Dortmund by betweenness centrality
+10 5.65238095238
+18 5.65238095238
+4 3.33571428571
+9 2.96071428571
+19 2.5
+--------------
+matchID: 2014338
+Top 5 players for Athletic Club by betweenness centrality
+19 3.98336940837
+20 3.7496031746
+24 2.84884559885
+1 2.75793650794
+7 1.48336940837
+--------------
+matchID: 2014339
+Top 5 players for Club Atlético de Madrid by betweenness centrality
+6 5.43611111111
+20 4.76785714286
+4 3.14563492063
+17 2.84563492063
+21 2.00952380952
+--------------
+matchID: 2014332
+Top 5 players for FC Bayern München by betweenness centrality
+18 8.21111111111
+13 3.1
+27 2.50277777778
+25 2.50277777778
+3 2.50277777778
+--------------
+matchID: 2014333
+Top 5 players for FC Barcelona by betweenness centrality
+5 5.46587301587
+11 3.24404761905
+6 2.12896825397
+24 1.88253968254
+22 1.88253968254
+--------------
+matchID: 2014330
+Top 5 players for Borussia Dortmund by betweenness centrality
+5 6.53333333333
+7 6.53333333333
+17 3.58888888889
+26 2.19444444444
+1 1.41111111111
+--------------
+matchID: 2014331
+Top 5 players for AS Roma by betweenness centrality
+27 11.0
+15 7.35238095238
+13 5.70952380952
+24 1.85238095238
+3 1.85238095238
+--------------
+matchID: 2014336
+Top 5 players for FC Schalke 04 by betweenness centrality
+27 3.2246031746
+15 3.2246031746
+9 2.40793650794
+22 2.07063492063
+10 1.90396825397
+--------------
+matchID: 2014337
+Top 5 players for FC Porto by betweenness centrality
+16 8.35952380952
+10 3.33333333333
+26 2.52619047619
+4 2.52619047619
+9 1.33333333333
+--------------
+matchID: 2014334
+Top 5 players for AFC Ajax by betweenness centrality
+2 2.95
+5 2.51071428571
+10 2.42738095238
+26 2.42738095238
+4 1.76666666667
+--------------
+matchID: 2014335
+Top 5 players for Chelsea FC by betweenness centrality
+4 6.65277777778
+21 6.65277777778
+2 3.34166666667
+3 3.29166666667
+19 2.77777777778
+--------------
+matchID: 2014349
+Top 5 players for APOEL FC by betweenness centrality
+7 4.3880952381
+21 3.5619047619
+8 3.0880952381
+26 2.86785714286
+5 2.84642857143
+--------------
+matchID: 2014348
+Top 5 players for AS Roma by betweenness centrality
+4 5.575
+35 5.45833333333
+24 3.0
+2 2.825
+7 2.075
+--------------
+matchID: 2014347
+Top 5 players for Manchester City FC by betweenness centrality
+42 3.87301587302
+7 3.87301587302
+15 2.11904761905
+16 2.01785714286
+4 1.80634920635
+--------------
+matchID: 2014346
+Top 5 players for Borussia Dortmund by betweenness centrality
+11 3.95634920635
+26 3.95634920635
+5 3.95634920635
+4 1.98968253968
+7 1.98968253968
+--------------
+matchID: 2014345
+Top 5 players for Arsenal FC by betweenness centrality
+16 5.19563492063
+3 3.12896825397
+17 2.66944444444
+18 2.65119047619
+21 2.56785714286
+--------------
+matchID: 2014344
+Top 5 players for AS Monaco FC by betweenness centrality
+2 4.86071428571
+3 3.78452380952
+22 3.74801587302
+28 3.74801587302
+7 3.74801587302
+--------------
+matchID: 2014343
+Top 5 players for Bayer 04 Leverkusen by betweenness centrality
+11 6.84523809524
+7 6.84523809524
+21 5.5119047619
+8 3.83333333333
+10 2.66666666667
+--------------
+matchID: 2014342
+Top 5 players for Liverpool FC by betweenness centrality
+6 2.79761904762
+8 2.79761904762
+37 2.1753968254
+2 2.1753968254
+24 1.77857142857
+--------------
+matchID: 2014341
+Top 5 players for FC Basel 1893 by betweenness centrality
+33 11.8214285714
+16 4.65476190476
+34 3.3869047619
+25 2.60119047619
+20 0.821428571429
+--------------
+matchID: 2014340
+Top 5 players for Juventus by betweenness centrality
+10 5.94166666667
+22 3.44841269841
+3 3.44841269841
+23 1.9873015873
+9 1.37222222222
+--------------
+matchID: 2014358
+Top 5 players for AFC Ajax by betweenness centrality
+5 9.01904761905
+25 4.01904761905
+20 3.50952380952
+2 3.00952380952
+10 2.73571428571
+--------------
+matchID: 2014359
+Top 5 players for FC Schalke 04 by betweenness centrality
+12 4.88928571429
+4 4.88928571429
+15 3.15595238095
+33 2.52142857143
+25 2.42976190476
+--------------
+matchID: 2014354
+Top 5 players for Athletic Club by betweenness centrality
+7 12.2
+8 2.28928571429
+16 2.28928571429
+24 2.04642857143
+22 2.04642857143
+--------------
+matchID: 2014355
+Top 5 players for Manchester City FC by betweenness centrality
+7 2.69011544012
+26 2.69011544012
+5 2.43253968254
+42 1.46392496392
+22 1.37301587302
+--------------
+matchID: 2014356
+Top 5 players for AS Roma by betweenness centrality
+20 9.21071428571
+16 5.54404761905
+4 4.84404761905
+7 2.83571428571
+35 2.71785714286
+--------------
+matchID: 2014357
+Top 5 players for APOEL FC by betweenness centrality
+16 5.9
+28 5.9
+21 3.08095238095
+44 2.0119047619
+26 1.76666666667
+--------------
+matchID: 2014350
+Top 5 players for AFC Ajax by betweenness centrality
+2 4.0753968254
+10 2.73015873016
+16 2.73015873016
+12 1.89523809524
+26 1.85873015873
+--------------
+matchID: 2014351
+Top 5 players for FC Schalke 04 by betweenness centrality
+22 9.39404761905
+7 3.5
+12 1.89404761905
+33 1.89404761905
+4 1.89404761905
+--------------
+matchID: 2014352
+Top 5 players for Chelsea FC by betweenness centrality
+2 4.9373015873
+10 3.76111111111
+21 2.80396825397
+4 2.30952380952
+26 2.1373015873
+--------------
+matchID: 2014353
+Top 5 players for FC BATE Borisov by betweenness centrality
+22 4.25119047619
+62 3.60119047619
+5 3.21785714286
+33 2.82896825397
+13 2.52619047619
+--------------
+matchID: 2014369
+Top 5 players for Arsenal FC by betweenness centrality
+16 17.0972222222
+17 6.85912698413
+19 1.35912698413
+18 1.35912698413
+21 1.1369047619
+--------------
+matchID: 2014368
+Top 5 players for AS Monaco FC by betweenness centrality
+24 12.4928571429
+17 4.09285714286
+8 3.65119047619
+22 2.85952380952
+3 2.675
+--------------
+matchID: 2014361
+Top 5 players for FC BATE Borisov by betweenness centrality
+62 7.34047619048
+8 7.13571428571
+3 5.23571428571
+7 5.21428571429
+22 4.15952380952
+--------------
+matchID: 2014360
+Top 5 players for Chelsea FC by betweenness centrality
+10 3.36388888889
+4 3.36388888889
+5 2.76666666667
+3 1.93055555556
+2 1.93055555556
+--------------
+matchID: 2014363
+Top 5 players for Club Atlético de Madrid by betweenness centrality
+3 8.85238095238
+6 6.74404761905
+14 5.46785714286
+4 2.64404761905
+8 2.64404761905
+--------------
+matchID: 2014362
+Top 5 players for Athletic Club by betweenness centrality
+17 4.54761904762
+4 4.54761904762
+6 4.54761904762
+18 2.59761904762
+10 2.10952380952
+--------------
+matchID: 2014365
+Top 5 players for FC Basel 1893 by betweenness centrality
+33 3.13968253968
+34 2.70634920635
+36 2.4869047619
+7 2.29801587302
+16 2.23015873016
+--------------
+matchID: 2014364
+Top 5 players for Juventus by betweenness centrality
+26 4.2873015873
+21 4.2873015873
+23 4.2873015873
+3 1.5373015873
+6 1.5373015873
+--------------
+matchID: 2014367
+Top 5 players for Bayer 04 Leverkusen by betweenness centrality
+9 13.703968254
+10 3.96111111111
+21 2.95714285714
+8 2.7753968254
+5 1.93015873016
+--------------
+matchID: 2014366
+Top 5 players for Liverpool FC by betweenness centrality
+20 5.60357142857
+19 5.60357142857
+18 5.60357142857
+8 2.71904761905
+4 1.5869047619
+--------------
+teamName is AS Roma
+match ID is 2014307
+match is,  AS Roma,PFC CSKA Moskva
+team object is AS Roma,[],0
+teamName is PFC CSKA Moskva
+match ID is 2014307
+match is,  AS Roma,PFC CSKA Moskva
+team object is AS Roma,[],0
+teamName is FC Bayern Munchen
+match ID is 2014308
+match is,  FC Bayern München,Manchester City FC
+team object is FC Bayern München,[],0
+teamName is FC Manchester City FC
+match ID is 2014308
+match is,  FC Bayern München,Manchester City FC
+team object is FC Bayern München,[],0
+teamName is APOEL FC
+match ID is 2014309
+match is,  APOEL FC,FC Barcelona
+team object is APOEL FC,[],0
+teamName is FC Barcelona
+match ID is 2014309
+match is,  APOEL FC,FC Barcelona
+team object is APOEL FC,[],0
+teamName is AFC Ajax
+match ID is 2014310
+match is,  AFC Ajax,Paris Saint-Germain
+team object is AFC Ajax,[],0
+teamName is Paris Saint-Germain
+match ID is 2014310
+match is,  AFC Ajax,Paris Saint-Germain
+team object is AFC Ajax,[],0
+teamName is Chelsea FC
+match ID is 2014311
+match is,  Chelsea FC,FC Schalke 04
+team object is Chelsea FC,[],0
+teamName is FC Schalke 04
+match ID is 2014311
+match is,  Chelsea FC,FC Schalke 04
+team object is Chelsea FC,[],0
+teamName is NK Maribor
+match ID is 2014312
+match is,  NK Maribor,Sporting Clube de Portugal
+team object is NK Maribor,[],0
+teamName is Sporting Clube de Portugal
+match ID is 2014312
+match is,  NK Maribor,Sporting Clube de Portugal
+team object is NK Maribor,[],0
+teamName is FC BATE Borisov
+match ID is 2014313
+match is,  FC BATE Borisov,FC Porto
+team object is FC BATE Borisov,[],0
+teamName is FC Porto
+match ID is 2014313
+match is,  FC BATE Borisov,FC Porto
+team object is FC BATE Borisov,[],0
+teamName is Athletic Club
+match ID is 2014314
+match is,  Athletic Club,FC Shakhtar Donetsk
+team object is Athletic Club,[],0
+teamName is FC Shakhtar Donetsk
+match ID is 2014314
+match is,  Athletic Club,FC Shakhtar Donetsk
+team object is Athletic Club,[],0
+teamName is Club Atletico de Madrid
+match ID is 2014315
+match is,  Club Atlético de Madrid,Olympiacos FC
+team object is Club Atlético de Madrid,[],0
+teamName is Olympiacos FC
+match ID is 2014315
+match is,  Club Atlético de Madrid,Olympiacos FC
+team object is Club Atlético de Madrid,[],0
+teamName is Juventus
+match ID is 2014316
+match is,  Juventus,Malmö FF
+team object is Juventus,[],0
+teamName is Malmo FF
+match ID is 2014316
+match is,  Juventus,Malmö FF
+team object is Juventus,[],0
+teamName is Liverpool FC
+match ID is 2014317
+match is,  Liverpool FC,PFC Ludogorets 1945
+team object is Liverpool FC,[],0
+teamName is PFC Ludogorets 1945
+match ID is 2014317
+match is,  Liverpool FC,PFC Ludogorets 1945
+team object is Liverpool FC,[],0
+teamName is FC Basel 1893
+match ID is 2014318
+match is,  FC Basel 1893,Real Madrid CF
+team object is FC Basel 1893,[],0
+teamName is Real Madrid CF
+match ID is 2014318
+match is,  FC Basel 1893,Real Madrid CF
+team object is FC Basel 1893,[],0
+teamName is AS Monaco FC
+match ID is 2014319
+match is,  AS Monaco FC,Bayer 04 Leverkusen
+team object is AS Monaco FC,[],0
+teamName is Bayer 04 Leverkusen
+match ID is 2014319
+match is,  AS Monaco FC,Bayer 04 Leverkusen
+team object is AS Monaco FC,[],0
+teamName is Football Club Zenit
+match ID is 2014320
+match is,  FC Zenit,SL Benfica
+team object is FC Zenit,[],0
+teamName is SL Benfica
+match ID is 2014320
+match is,  FC Zenit,SL Benfica
+team object is FC Zenit,[],0
+teamName is FSC Anderlecht
+match ID is 2014321
+match is,  Galatasaray AŞ,RSC Anderlecht
+team object is Galatasaray AŞ,[],0
+teamName is Galatasaray AS
+match ID is 2014321
+match is,  Galatasaray AŞ,RSC Anderlecht
+team object is Galatasaray AŞ,[],0
+teamName is Arsenal FC
+match ID is 2014322
+match is,  Arsenal FC,Borussia Dortmund
+team object is Arsenal FC,[],0
+teamName is Borussia Dortmund
+match ID is 2014322
+match is,  Arsenal FC,Borussia Dortmund
+team object is Arsenal FC,[],0
+teamName is Malmo FF
+match ID is 2014323
+match is,  Malmö FF,Olympiacos FC
+team object is Malmö FF,[],0
+teamName is Olympiacos FC
+match ID is 2014323
+match is,  Malmö FF,Olympiacos FC
+team object is Malmö FF,[],0
+teamName is Club Atletico de Madrid
+match ID is 2014324
+match is,  Club Atlético de Madrid,Juventus
+team object is Club Atlético de Madrid,[],0
+teamName is Juventus
+match ID is 2014324
+match is,  Club Atlético de Madrid,Juventus
+team object is Club Atlético de Madrid,[],0
+teamName is FC Basel 1893
+match ID is 2014325
+match is,  FC Basel 1893,Liverpool FC
+team object is FC Basel 1893,[],0
+teamName is Liverpool FC
+match ID is 2014325
+match is,  FC Basel 1893,Liverpool FC
+team object is FC Basel 1893,[],0
+teamName is PFC Ludogorets 1945
+match ID is 2014326
+match is,  PFC Ludogorets 1945,Real Madrid CF
+team object is PFC Ludogorets 1945,[],0
+teamName is Real Madrid CF
+match ID is 2014326
+match is,  PFC Ludogorets 1945,Real Madrid CF
+team object is PFC Ludogorets 1945,[],0
+teamName is AS Monaco FC
+match ID is 2014327
+match is,  AS Monaco FC,FC Zenit
+team object is AS Monaco FC,[],0
+teamName is Football Club Zenit
+match ID is 2014327
+match is,  AS Monaco FC,FC Zenit
+team object is AS Monaco FC,[],0
+teamName is Bayer 04 Leverkusen
+match ID is 2014328
+match is,  Bayer 04 Leverkusen,SL Benfica
+team object is Bayer 04 Leverkusen,[],0
+teamName is SL Benfica
+match ID is 2014328
+match is,  Bayer 04 Leverkusen,SL Benfica
+team object is Bayer 04 Leverkusen,[],0
+teamName is Arsenal FC
+match ID is 2014329
+match is,  Arsenal FC,Galatasaray AŞ
+team object is Arsenal FC,[],0
+teamName is Galatasaray AS
+match ID is 2014329
+match is,  Arsenal FC,Galatasaray AŞ
+team object is Arsenal FC,[],0
+teamName is Borussia Dortmund
+match ID is 2014330
+match is,  Borussia Dortmund,RSC Anderlecht
+team object is Borussia Dortmund,[],0
+teamName is RSC Anderlecht
+match ID is 2014330
+match is,  Borussia Dortmund,RSC Anderlecht
+team object is Borussia Dortmund,[],0
+teamName is AS Roma
+match ID is 2014331
+match is,  AS Roma,Manchester City FC
+team object is AS Roma,[],0
+teamName is Manchester City FC
+match ID is 2014331
+match is,  AS Roma,Manchester City FC
+team object is AS Roma,[],0
+teamName is FC Bayern Munchen
+match ID is 2014332
+match is,  FC Bayern München,PFC CSKA Moskva
+team object is FC Bayern München,[],0
+teamName is PFC CSKA Moskva
+match ID is 2014332
+match is,  FC Bayern München,PFC CSKA Moskva
+team object is FC Bayern München,[],0
+teamName is FC Barcelona
+match ID is 2014333
+match is,  FC Barcelona,Paris Saint-Germain
+team object is FC Barcelona,[],0
+teamName is Paris Saint-Germain
+match ID is 2014333
+match is,  FC Barcelona,Paris Saint-Germain
+team object is FC Barcelona,[],0
+teamName is AFC Ajax
+match ID is 2014334
+match is,  AFC Ajax,APOEL FC
+team object is AFC Ajax,[],0
+teamName is APOEL FC
+match ID is 2014334
+match is,  AFC Ajax,APOEL FC
+team object is AFC Ajax,[],0
+teamName is Chelsea FC
+match ID is 2014335
+match is,  Chelsea FC,Sporting Clube de Portugal
+team object is Chelsea FC,[],0
+teamName is Sporting Clube de Portugal
+match ID is 2014335
+match is,  Chelsea FC,Sporting Clube de Portugal
+team object is Chelsea FC,[],0
+teamName is FC Schalke 04
+match ID is 2014336
+match is,  FC Schalke 04,NK Maribor
+team object is FC Schalke 04,[],0
+teamName is NK Maribor
+match ID is 2014336
+match is,  FC Schalke 04,NK Maribor
+team object is FC Schalke 04,[],0
+teamName is FC Porto
+match ID is 2014337
+match is,  FC Porto,FC Shakhtar Donetsk
+team object is FC Porto,[],0
+teamName is FC Shakhtar Donetsk
+match ID is 2014337
+match is,  FC Porto,FC Shakhtar Donetsk
+team object is FC Porto,[],0
+teamName is Athletic Club
+match ID is 2014338
+match is,  Athletic Club,FC BATE Borisov
+team object is Athletic Club,[],0
+teamName is FC BATE Borisov
+match ID is 2014338
+match is,  Athletic Club,FC BATE Borisov
+team object is Athletic Club,[],0
+teamName is Club Atletico de Madrid
+match ID is 2014339
+match is,  Club Atlético de Madrid,Malmö FF
+team object is Club Atlético de Madrid,[],0
+teamName is Malmo FF
+match ID is 2014339
+match is,  Club Atlético de Madrid,Malmö FF
+team object is Club Atlético de Madrid,[],0
+teamName is Juventus
+match ID is 2014340
+match is,  Juventus,Olympiacos FC
+team object is Juventus,[],0
+teamName is Olympiacos FC
+match ID is 2014340
+match is,  Juventus,Olympiacos FC
+team object is Juventus,[],0
+teamName is FC Basel 1893
+match ID is 2014341
+match is,  FC Basel 1893,PFC Ludogorets 1945
+team object is FC Basel 1893,[],0
+teamName is PFC Ludogorets 1945
+match ID is 2014341
+match is,  FC Basel 1893,PFC Ludogorets 1945
+team object is FC Basel 1893,[],0
+teamName is Liverpool FC
+match ID is 2014342
+match is,  Liverpool FC,Real Madrid CF
+team object is Liverpool FC,[],0
+teamName is Real Madrid CF
+match ID is 2014342
+match is,  Liverpool FC,Real Madrid CF
+team object is Liverpool FC,[],0
+teamName is Bayer 04 Leverkusen
+match ID is 2014343
+match is,  Bayer 04 Leverkusen,FC Zenit
+team object is Bayer 04 Leverkusen,[],0
+teamName is Football Club Zenit
+match ID is 2014343
+match is,  Bayer 04 Leverkusen,FC Zenit
+team object is Bayer 04 Leverkusen,[],0
+teamName is AS Monaco FC
+match ID is 2014344
+match is,  AS Monaco FC,SL Benfica
+team object is AS Monaco FC,[],0
+teamName is SL Benfica
+match ID is 2014344
+match is,  AS Monaco FC,SL Benfica
+team object is AS Monaco FC,[],0
+teamName is Arsenal FC
+match ID is 2014345
+match is,  Arsenal FC,RSC Anderlecht
+team object is Arsenal FC,[],0
+teamName is RSC Anderlecht
+match ID is 2014345
+match is,  Arsenal FC,RSC Anderlecht
+team object is Arsenal FC,[],0
+teamName is Borussia Dortmund
+match ID is 2014346
+match is,  Borussia Dortmund,Galatasaray AŞ
+team object is Borussia Dortmund,[],0
+teamName is Galatasaray AS
+match ID is 2014346
+match is,  Borussia Dortmund,Galatasaray AŞ
+team object is Borussia Dortmund,[],0
+teamName is Manchester City FC
+match ID is 2014347
+match is,  Manchester City FC,PFC CSKA Moskva
+team object is Manchester City FC,[],0
+teamName is PFC CSKA Moskva
+match ID is 2014347
+match is,  Manchester City FC,PFC CSKA Moskva
+team object is Manchester City FC,[],0
+teamName is AS Roma
+match ID is 2014348
+match is,  AS Roma,FC Bayern München
+team object is AS Roma,[],0
+teamName is FC Bayern Munchen
+match ID is 2014348
+match is,  AS Roma,FC Bayern München
+team object is AS Roma,[],0
+teamName is APOEL FC
+match ID is 2014349
+match is,  APOEL FC,Paris Saint-Germain
+team object is APOEL FC,[],0
+teamName is Paris Saint-Germain
+match ID is 2014349
+match is,  APOEL FC,Paris Saint-Germain
+team object is APOEL FC,[],0
+teamName is AFC Ajax
+match ID is 2014350
+match is,  AFC Ajax,FC Barcelona
+team object is AFC Ajax,[],0
+teamName is FC Barcelona
+match ID is 2014350
+match is,  AFC Ajax,FC Barcelona
+team object is AFC Ajax,[],0
+teamName is FC Schalke 04
+match ID is 2014351
+match is,  FC Schalke 04,Sporting Clube de Portugal
+team object is FC Schalke 04,[],0
+teamName is Sporting Clube de Portugal
+match ID is 2014351
+match is,  FC Schalke 04,Sporting Clube de Portugal
+team object is FC Schalke 04,[],0
+teamName is Chelsea FC
+match ID is 2014352
+match is,  Chelsea FC,NK Maribor
+team object is Chelsea FC,[],0
+teamName is NK Maribor
+match ID is 2014352
+match is,  Chelsea FC,NK Maribor
+team object is Chelsea FC,[],0
+teamName is FC BATE Borisov
+match ID is 2014353
+match is,  FC BATE Borisov,FC Shakhtar Donetsk
+team object is FC BATE Borisov,[],0
+teamName is FC Shakhtar Donetsk
+match ID is 2014353
+match is,  FC BATE Borisov,FC Shakhtar Donetsk
+team object is FC BATE Borisov,[],0
+teamName is Athletic Club
+match ID is 2014354
+match is,  Athletic Club,FC Porto
+team object is Athletic Club,[],0
+teamName is FC Porto
+match ID is 2014354
+match is,  Athletic Club,FC Porto
+team object is Athletic Club,[],0
+teamName is Manchester City FC
+match ID is 2014355
+match is,  Manchester City FC,PFC CSKA Moskva
+team object is Manchester City FC,[],0
+teamName is PFC CSKA Moskva
+match ID is 2014355
+match is,  Manchester City FC,PFC CSKA Moskva
+team object is Manchester City FC,[],0
+teamName is AS Roma
+match ID is 2014356
+match is,  AS Roma,FC Bayern München
+team object is AS Roma,[],0
+teamName is FC Bayern Munchen
+match ID is 2014356
+match is,  AS Roma,FC Bayern München
+team object is AS Roma,[],0
+teamName is APOEL FC
+match ID is 2014357
+match is,  APOEL FC,Paris Saint-Germain
+team object is APOEL FC,[],0
+teamName is Paris Saint-Germain
+match ID is 2014357
+match is,  APOEL FC,Paris Saint-Germain
+team object is APOEL FC,[],0
+teamName is AFC Ajax
+match ID is 2014358
+match is,  AFC Ajax,FC Barcelona
+team object is AFC Ajax,[],0
+teamName is AS Monaco FC
+match ID is 2014358
+match is,  AFC Ajax,FC Barcelona
+team object is AFC Ajax,[],0
+teamName is FC Barcelona
+match ID is 2014358
+match is,  AFC Ajax,FC Barcelona
+team object is AFC Ajax,[],0
+teamName is SL Benfica
+match ID is 2014358
+match is,  AFC Ajax,FC Barcelona
+team object is AFC Ajax,[],0
+teamName is FC Schalke 04
+match ID is 2014359
+match is,  FC Schalke 04,Sporting Clube de Portugal
+team object is FC Schalke 04,[],0
+teamName is Sporting Clube de Portugal
+match ID is 2014359
+match is,  FC Schalke 04,Sporting Clube de Portugal
+team object is FC Schalke 04,[],0
+teamName is Chelsea FC
+match ID is 2014360
+match is,  Chelsea FC,NK Maribor
+team object is Chelsea FC,[],0
+teamName is NK Maribor
+match ID is 2014360
+match is,  Chelsea FC,NK Maribor
+team object is Chelsea FC,[],0
+teamName is FC BATE Borisov
+match ID is 2014361
+match is,  FC BATE Borisov,FC Shakhtar Donetsk
+team object is FC BATE Borisov,[],0
+teamName is FC Shakhtar Donetsk
+match ID is 2014361
+match is,  FC BATE Borisov,FC Shakhtar Donetsk
+team object is FC BATE Borisov,[],0
+teamName is Athletic Club
+match ID is 2014362
+match is,  Athletic Club,FC Porto
+team object is Athletic Club,[],0
+teamName is FC Porto
+match ID is 2014362
+match is,  Athletic Club,FC Porto
+team object is Athletic Club,[],0
+teamName is Club Atletico de Madrid
+match ID is 2014363
+match is,  Club Atlético de Madrid,Malmö FF
+team object is Club Atlético de Madrid,[],0
+teamName is Malmo FF
+match ID is 2014363
+match is,  Club Atlético de Madrid,Malmö FF
+team object is Club Atlético de Madrid,[],0
+teamName is Juventus
+match ID is 2014364
+match is,  Juventus,Olympiacos FC
+team object is Juventus,[],0
+teamName is Olympiacos FC
+match ID is 2014364
+match is,  Juventus,Olympiacos FC
+team object is Juventus,[],0
+teamName is FC Basel 1893
+match ID is 2014365
+match is,  FC Basel 1893,PFC Ludogorets 1945
+team object is FC Basel 1893,[],0
+teamName is PFC Ludogorets 1945
+match ID is 2014365
+match is,  FC Basel 1893,PFC Ludogorets 1945
+team object is FC Basel 1893,[],0
+teamName is Liverpool FC
+match ID is 2014366
+match is,  Liverpool FC,Real Madrid CF
+team object is Liverpool FC,[],0
+teamName is Real Madrid CF
+match ID is 2014366
+match is,  Liverpool FC,Real Madrid CF
+team object is Liverpool FC,[],0
+teamName is Bayer 04 Leverkusen
+match ID is 2014367
+match is,  Bayer 04 Leverkusen,FC Zenit
+team object is Bayer 04 Leverkusen,[],0
+teamName is Football Club Zenit
+match ID is 2014367
+match is,  Bayer 04 Leverkusen,FC Zenit
+team object is Bayer 04 Leverkusen,[],0
+teamName is Arsenal FC
+match ID is 2014369
+match is,  Arsenal FC,RSC Anderlecht
+team object is Arsenal FC,[],0
+teamName is RSC Anderlecht
+match ID is 2014369
+match is,  Arsenal FC,RSC Anderlecht
+team object is Arsenal FC,[],0
+teamName is Borussia Dortmund
+match ID is 2014370
+match is,  Borussia Dortmund,Galatasaray AŞ
+team object is Borussia Dortmund,[],0
+teamName is Galatasaray AS
+match ID is 2014370
+match is,  Borussia Dortmund,Galatasaray AŞ
+team object is Borussia Dortmund,[],0
+teamName is Club Atletico de Madrid
+match ID is 2014371
+match is,  Club Atlético de Madrid,Olympiacos FC
+team object is Club Atlético de Madrid,[],0
+teamName is Olympiacos FC
+match ID is 2014371
+match is,  Club Atlético de Madrid,Olympiacos FC
+team object is Club Atlético de Madrid,[],0
+teamName is Liverpool FC
+match ID is 2014373
+match is,  Liverpool FC,PFC Ludogorets 1945
+team object is Liverpool FC,[],0
+teamName is PFC Ludogorets 1945
+match ID is 2014373
+match is,  Liverpool FC,PFC Ludogorets 1945
+team object is Liverpool FC,[],0
+teamName is FC Basel 1893
+match ID is 2014374
+match is,  FC Basel 1893,Real Madrid CF
+team object is FC Basel 1893,[],0
+teamName is Real Madrid CF
+match ID is 2014374
+match is,  FC Basel 1893,Real Madrid CF
+team object is FC Basel 1893,[],0
+teamName is AS Monaco FC
+match ID is 2014375
+match is,  AS Monaco FC,Bayer 04 Leverkusen
+team object is AS Monaco FC,[],0
+teamName is Bayer 04 Leverkusen
+match ID is 2014375
+match is,  AS Monaco FC,Bayer 04 Leverkusen
+team object is AS Monaco FC,[],0
+teamName is Football Club Zenit
+match ID is 2014376
+match is,  FC Zenit,SL Benfica
+team object is FC Zenit,[],0
+teamName is SL Benfica
+match ID is 2014376
+match is,  FC Zenit,SL Benfica
+team object is FC Zenit,[],0
+teamName is Galatasaray AS
+match ID is 2014377
+match is,  Galatasaray AŞ,RSC Anderlecht
+team object is Galatasaray AŞ,[],0
+teamName is RSC Anderlecht
+match ID is 2014377
+match is,  Galatasaray AŞ,RSC Anderlecht
+team object is Galatasaray AŞ,[],0
+teamName is Arsenal FC
+match ID is 2014378
+match is,  Arsenal FC,Borussia Dortmund
+team object is Arsenal FC,[],0
+teamName is Borussia Dortmund
+match ID is 2014378
+match is,  Arsenal FC,Borussia Dortmund
+team object is Arsenal FC,[],0
+teamName is AS Roma
+match ID is 2014379
+match is,  AS Roma,PFC CSKA Moskva
+team object is AS Roma,[],0
+teamName is PFC CSKA Moskva
+match ID is 2014379
+match is,  AS Roma,PFC CSKA Moskva
+team object is AS Roma,[],0
+teamName is FC Bayern Munchen
+match ID is 2014380
+match is,  FC Bayern München,Manchester City FC
+team object is FC Bayern München,[],0
+teamName is Manchester City FC
+match ID is 2014380
+match is,  FC Bayern München,Manchester City FC
+team object is FC Bayern München,[],0
+teamName is AFC Ajax
+match ID is 2014381
+match is,  APOEL FC,FC Barcelona
+team object is APOEL FC,[],0
+teamName is APOEL FC
+match ID is 2014381
+match is,  APOEL FC,FC Barcelona
+team object is APOEL FC,[],0
+teamName is FC Barcelona
+match ID is 2014381
+match is,  APOEL FC,FC Barcelona
+team object is APOEL FC,[],0
+teamName is Chelsea FC
+match ID is 2014382
+match is,  AFC Ajax,Paris Saint-Germain
+team object is AFC Ajax,[],0
+teamName is Paris Saint-Germain
+match ID is 2014382
+match is,  AFC Ajax,Paris Saint-Germain
+team object is AFC Ajax,[],0
+teamName is FC Schalke 04
+match ID is 2014383
+match is,  Chelsea FC,FC Schalke 04
+team object is Chelsea FC,[],0
+teamName is NK Maribor
+match ID is 2014384
+match is,  NK Maribor,Sporting Clube de Portugal
+team object is NK Maribor,[],0
+teamName is Sporting Clube de Portugal
+match ID is 2014384
+match is,  NK Maribor,Sporting Clube de Portugal
+team object is NK Maribor,[],0
+teamName is FC BATE Borisov
+match ID is 2014385
+match is,  FC BATE Borisov,FC Porto
+team object is FC BATE Borisov,[],0
+teamName is FC Porto
+match ID is 2014385
+match is,  FC BATE Borisov,FC Porto
+team object is FC BATE Borisov,[],0
+teamName is Athletic Club
+match ID is 2014386
+match is,  Athletic Club,FC Shakhtar Donetsk
+team object is Athletic Club,[],0
+teamName is FC Shakhtar Donetsk
+match ID is 2014386
+match is,  Athletic Club,FC Shakhtar Donetsk
+team object is Athletic Club,[],0
+teamName is AS Roma
+match ID is 2014387
+match is,  AS Roma,Manchester City FC
+team object is AS Roma,[],0
+teamName is Manchester City FC
+match ID is 2014387
+match is,  AS Roma,Manchester City FC
+team object is AS Roma,[],0
+teamName is FC Bayern Munchen
+match ID is 2014388
+match is,  FC Bayern München,PFC CSKA Moskva
+team object is FC Bayern München,[],0
+teamName is PFC CSKA Moskva
+match ID is 2014388
+match is,  FC Bayern München,PFC CSKA Moskva
+team object is FC Bayern München,[],0
+teamName is FC Barcelona
+match ID is 2014389
+match is,  FC Barcelona,Paris Saint-Germain
+team object is FC Barcelona,[],0
+teamName is Paris Saint-Germain
+match ID is 2014389
+match is,  FC Barcelona,Paris Saint-Germain
+team object is FC Barcelona,[],0
+teamName is AFC Ajax
+match ID is 2014390
+match is,  AFC Ajax,APOEL FC
+team object is AFC Ajax,[],0
+teamName is APOEL FC
+match ID is 2014390
+match is,  AFC Ajax,APOEL FC
+team object is AFC Ajax,[],0
+teamName is Chelsea FC
+match ID is 2014391
+match is,  Chelsea FC,Sporting Clube de Portugal
+team object is Chelsea FC,[],0
+teamName is Sporting Clube de Portugal
+match ID is 2014391
+match is,  Chelsea FC,Sporting Clube de Portugal
+team object is Chelsea FC,[],0
+teamName is FC Schalke 04
+match ID is 2014392
+match is,  FC Schalke 04,NK Maribor
+team object is FC Schalke 04,[],0
+teamName is NK Maribor
+match ID is 2014392
+match is,  FC Schalke 04,NK Maribor
+team object is FC Schalke 04,[],0
+teamName is FC Porto
+match ID is 2014393
+match is,  FC Porto,FC Shakhtar Donetsk
+team object is FC Porto,[],0
+teamName is FC Shakhtar Donetsk
+match ID is 2014393
+match is,  FC Porto,FC Shakhtar Donetsk
+team object is FC Porto,[],0
+teamName is Athletic Club
+match ID is 2014394
+match is,  Athletic Club,FC BATE Borisov
+team object is Athletic Club,[],0
+teamName is FC BATE Borisov
+match ID is 2014394
+match is,  Athletic Club,FC BATE Borisov
+team object is Athletic Club,[],0
+teamName is Malmo FF
+match ID is 2014395
+match is,  Malmö FF,Olympiacos FC
+team object is Malmö FF,[],0
+teamName is Olympiacos FC
+match ID is 2014395
+match is,  Malmö FF,Olympiacos FC
+team object is Malmö FF,[],0
+teamName is Club Atletico de Madrid
+match ID is 2014396
+match is,  Club Atlético de Madrid,Juventus
+team object is Club Atlético de Madrid,[],0
+teamName is Juventus
+match ID is 2014396
+match is,  Club Atlético de Madrid,Juventus
+team object is Club Atlético de Madrid,[],0
+teamName is FC Basel 1893
+match ID is 2014397
+match is,  FC Basel 1893,Liverpool FC
+team object is FC Basel 1893,[],0
+teamName is Liverpool FC
+match ID is 2014397
+match is,  FC Basel 1893,Liverpool FC
+team object is FC Basel 1893,[],0
+teamName is PFC Ludogorets 1945
+match ID is 2014398
+match is,  PFC Ludogorets 1945,Real Madrid CF
+team object is PFC Ludogorets 1945,[],0
+teamName is Real Madrid CF
+match ID is 2014398
+match is,  PFC Ludogorets 1945,Real Madrid CF
+team object is PFC Ludogorets 1945,[],0
+teamName is AS Monaco FC
+match ID is 2014399
+match is,  AS Monaco FC,FC Zenit
+team object is AS Monaco FC,[],0
+teamName is Football Club Zenit
+match ID is 2014399
+match is,  AS Monaco FC,FC Zenit
+team object is AS Monaco FC,[],0
+teamName is Bayer 04 Leverkusen
+match ID is 2014400
+match is,  Bayer 04 Leverkusen,SL Benfica
+team object is Bayer 04 Leverkusen,[],0
+teamName is SL Benfica
+match ID is 2014400
+match is,  Bayer 04 Leverkusen,SL Benfica
+team object is Bayer 04 Leverkusen,[],0
+teamName is Arsenal FC
+match ID is 2014401
+match is,  Arsenal FC,Galatasaray AŞ
+team object is Arsenal FC,[],0
+teamName is Galatasaray AS
+match ID is 2014401
+match is,  Arsenal FC,Galatasaray AŞ
+team object is Arsenal FC,[],0
+teamName is Borussia Dortmund
+match ID is 2014402
+match is,  Borussia Dortmund,RSC Anderlecht
+team object is Borussia Dortmund,[],0
+teamName is RSC Anderlecht
+match ID is 2014402
+match is,  Borussia Dortmund,RSC Anderlecht
+team object is Borussia Dortmund,[],0
+########################
+2014376
+FC Zenit  vs  SL Benfica
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014377
+Galatasaray AŞ  vs  RSC Anderlecht
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014374
+FC Basel 1893  vs  Real Madrid CF
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014375
+AS Monaco FC  vs  Bayer 04 Leverkusen
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014372
+Juventus  vs  Malmö FF
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014373
+Liverpool FC  vs  PFC Ludogorets 1945
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014370
+Borussia Dortmund  vs  Galatasaray AŞ
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014371
+Club Atlético de Madrid  vs  Olympiacos FC
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014378
+Arsenal FC  vs  Borussia Dortmund
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014379
+AS Roma  vs  PFC CSKA Moskva
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014307
+AS Roma  vs  PFC CSKA Moskva
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014309
+APOEL FC  vs  FC Barcelona
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014308
+FC Bayern München  vs  Manchester City FC
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014389
+FC Barcelona  vs  Paris Saint-Germain
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014388
+FC Bayern München  vs  PFC CSKA Moskva
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014383
+Chelsea FC  vs  FC Schalke 04
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014382
+AFC Ajax  vs  Paris Saint-Germain
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014381
+APOEL FC  vs  FC Barcelona
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014380
+FC Bayern München  vs  Manchester City FC
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014387
+AS Roma  vs  Manchester City FC
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014386
+Athletic Club  vs  FC Shakhtar Donetsk
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014385
+FC BATE Borisov  vs  FC Porto
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014384
+NK Maribor  vs  Sporting Clube de Portugal
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014310
+AFC Ajax  vs  Paris Saint-Germain
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014311
+Chelsea FC  vs  FC Schalke 04
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014312
+NK Maribor  vs  Sporting Clube de Portugal
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014313
+FC BATE Borisov  vs  FC Porto
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014314
+Athletic Club  vs  FC Shakhtar Donetsk
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014315
+Club Atlético de Madrid  vs  Olympiacos FC
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014316
+Juventus  vs  Malmö FF
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014317
+Liverpool FC  vs  PFC Ludogorets 1945
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014318
+FC Basel 1893  vs  Real Madrid CF
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014319
+AS Monaco FC  vs  Bayer 04 Leverkusen
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014398
+PFC Ludogorets 1945  vs  Real Madrid CF
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014399
+AS Monaco FC  vs  FC Zenit
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014390
+AFC Ajax  vs  APOEL FC
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014391
+Chelsea FC  vs  Sporting Clube de Portugal
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014392
+FC Schalke 04  vs  NK Maribor
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014393
+FC Porto  vs  FC Shakhtar Donetsk
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014394
+Athletic Club  vs  FC BATE Borisov
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014395
+Malmö FF  vs  Olympiacos FC
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014396
+Club Atlético de Madrid  vs  Juventus
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014397
+FC Basel 1893  vs  Liverpool FC
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014329
+Arsenal FC  vs  Galatasaray AŞ
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014328
+Bayer 04 Leverkusen  vs  SL Benfica
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014325
+FC Basel 1893  vs  Liverpool FC
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014324
+Club Atlético de Madrid  vs  Juventus
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014327
+AS Monaco FC  vs  FC Zenit
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014326
+PFC Ludogorets 1945  vs  Real Madrid CF
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014321
+Galatasaray AŞ  vs  RSC Anderlecht
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014320
+FC Zenit  vs  SL Benfica
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014323
+Malmö FF  vs  Olympiacos FC
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014322
+Arsenal FC  vs  Borussia Dortmund
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014400
+Bayer 04 Leverkusen  vs  SL Benfica
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014401
+Arsenal FC  vs  Galatasaray AŞ
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014402
+Borussia Dortmund  vs  RSC Anderlecht
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014338
+Athletic Club  vs  FC BATE Borisov
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014339
+Club Atlético de Madrid  vs  Malmö FF
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014332
+FC Bayern München  vs  PFC CSKA Moskva
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014333
+FC Barcelona  vs  Paris Saint-Germain
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014330
+Borussia Dortmund  vs  RSC Anderlecht
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014331
+AS Roma  vs  Manchester City FC
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014336
+FC Schalke 04  vs  NK Maribor
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014337
+FC Porto  vs  FC Shakhtar Donetsk
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014334
+AFC Ajax  vs  APOEL FC
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014335
+Chelsea FC  vs  Sporting Clube de Portugal
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014349
+APOEL FC  vs  Paris Saint-Germain
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014348
+AS Roma  vs  FC Bayern München
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014347
+Manchester City FC  vs  PFC CSKA Moskva
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014346
+Borussia Dortmund  vs  Galatasaray AŞ
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014345
+Arsenal FC  vs  RSC Anderlecht
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014344
+AS Monaco FC  vs  SL Benfica
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014343
+Bayer 04 Leverkusen  vs  FC Zenit
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014342
+Liverpool FC  vs  Real Madrid CF
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014341
+FC Basel 1893  vs  PFC Ludogorets 1945
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014340
+Juventus  vs  Olympiacos FC
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014358
+AFC Ajax  vs  FC Barcelona
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014359
+FC Schalke 04  vs  Sporting Clube de Portugal
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014354
+Athletic Club  vs  FC Porto
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014355
+Manchester City FC  vs  PFC CSKA Moskva
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014356
+AS Roma  vs  FC Bayern München
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014357
+APOEL FC  vs  Paris Saint-Germain
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014350
+AFC Ajax  vs  FC Barcelona
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014351
+FC Schalke 04  vs  Sporting Clube de Portugal
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014352
+Chelsea FC  vs  NK Maribor
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014353
+FC BATE Borisov  vs  FC Shakhtar Donetsk
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014369
+Arsenal FC  vs  RSC Anderlecht
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014368
+AS Monaco FC  vs  SL Benfica
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014361
+FC BATE Borisov  vs  FC Shakhtar Donetsk
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014360
+Chelsea FC  vs  NK Maribor
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014363
+Club Atlético de Madrid  vs  Malmö FF
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014362
+Athletic Club  vs  FC Porto
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014365
+FC Basel 1893  vs  PFC Ludogorets 1945
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014364
+Juventus  vs  Olympiacos FC
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014367
+Bayer 04 Leverkusen  vs  FC Zenit
+{'STR': 0, 'DEF': 0, 'MID': 0}
+########################
+2014366
+Liverpool FC  vs  Real Madrid CF
+{'STR': 0, 'DEF': 0, 'MID': 0}
