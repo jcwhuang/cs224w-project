@@ -1,6 +1,7 @@
 #i Jade Huang
 # baseline PD predictor
 # based on average of passing networks in group stage
+# for 2014-15 season
 
 import os
 import re
