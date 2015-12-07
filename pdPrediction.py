@@ -12,29 +12,20 @@ class PredictPD():
 
 	def __init__(self):
 
-		# Feature: Specific pass count per match
-		# This is kind of weird because it's like rote memorization
-		# TODO: think more about this
-		# countSpecFile = "spec_passes_count.txt"
-		# countSpecificPassesFeature = classes.countSpecificPassesFeature(countSpecFile)
-	
 		self.weights = defaultdict(int)
-		# self.weights["avgPasses"] = 0
-		# self.weights["isSamePos"] = 0
-		# self.weights["isDiffPos"] = 0
-		# self.weights["diffInRank"] = 0
-		# # self.weights["wonAgainstSimTeam"] = 0
-		# # self.weights["avgPassesPerPos"] = 0
-		# self.weights["avgPassVol"] = 0
-		# self.weights["avgPassPerc"] = 0
 
 		self.stepSize = 0.01
 
 		self.matchdays = ["matchday" + str(i) for i in xrange(1, 7)]
+		# uncomment if want to add round of 16 games to matchdays
+		# self.matchdays.append("r-16")
+
+		# # uncomment if want to add quarter final games to matchdays
+		# self.matchdays.append("q-finals")
 
 		self.folder = "passing_distributions/2014-15/"
 
-		# Feature: Average pass count over group stage
+		# init feature classes
 		countAvgFile = "avg_passes_count.txt"
 		self.countAvgPassesFeature = classes.CountAvgPassesFeature(countAvgFile)
 
@@ -44,6 +35,7 @@ class PredictPD():
 		rankFile = "rankings/2013_14_rankings.txt"
 		self.rankFeature = classes.RankingFeature(rankFile)
 
+		# init data structures
 		self.matches = defaultdict(str)
 
 		self.totalPassesBetweenPos = defaultdict(lambda: defaultdict(int))
@@ -62,9 +54,7 @@ class PredictPD():
 	# given prediction and gold
 	def evaluate(self, features, weight):
 		score = self.computeScore(features, self.weights)
-		# print "score %f vs. actual %f" % (float(score), float(weight))
 		loss = self.computeLoss(features, self.weights, float(weight))
-		# print "Loss: %f" % loss
 		return (score, loss)
 
 	def computeLoss(self, features, weights, label):
@@ -92,7 +82,6 @@ class PredictPD():
 		grad = self.computeGradientLoss(features, weights, label)
 		for w in self.weights:
 			self.weights[w] -= self.stepSize * grad[w]
-			# print "updated weights[%s] = %f" % (w, self.weights[w])
 
 	def getTeamNameFromNetwork(self, network):
 		teamName = re.sub("[^-]*-", "", network, count=1)
@@ -133,18 +122,26 @@ class PredictPD():
 			return 1
 		elif matchID >= 2014339 and matchID <= 2014354:
 			return 2
-		elif matchID > 2014354:
+		elif matchID >= 2014354 and matchID <= 2014370:
 			return 3
-		else:
+		elif matchID >= 2014371 and matchID <= 2014386:
 			return 4
+		elif matchID >= 2014387 and matchID <= 2014402:
+			return 5
+		elif matchID >= 2014403 and matchID <= 2014418:
+			return 6
+		elif matchID >= 2014419 and matchID <= 2014426:
+			return 7
+		elif matchID >= 2014427 and matchID <= 2014430:
+			return 8
 
 	def featureExtractor(self, teamName, p1, p2, matchID, matchNum, weight):
 
 		avgPasses = self.countAvgPassesFeature.getCount(teamName, p1, p2)
-		# p_key = p1 + "-" + p2
-		# self.totalPassesBetweenPlayers[teamName][p_key] += float(weight)
-		# totalPasses = self.totalPassesBetweenPlayers[teamName][p_key]
-		# avgPasses = totalPasses / (matchNum + 1)
+		p_key = p1 + "-" + p2
+		self.totalPassesBetweenPlayers[teamName][p_key] += float(weight)
+		totalPasses = self.totalPassesBetweenPlayers[teamName][p_key]
+		avgPasses = totalPasses / (matchNum + 1)
 
 		isSamePos = self.playerPosFeature.isSamePos(teamName, p1, p2)
 		isDiffPos = abs(1 - isSamePos)
@@ -154,35 +151,34 @@ class PredictPD():
 
 		features = defaultdict(float)
 		features["avgPasses"] = avgPasses
-		# features["isSamePos"] = isSamePos
-		# features["isDiffPos"] = isDiffPos
-		# features["diffInRank"] = diffInRank
+		features["isSamePos"] = isSamePos
+		features["isDiffPos"] = isDiffPos
+		features["diffInRank"] = diffInRank
 
-		# pos1 = self.teamNumToPos[teamName][p1]
-		# pos2 = self.teamNumToPos[teamName][p2]
+		pos1 = self.teamNumToPos[teamName][p1]
+		pos2 = self.teamNumToPos[teamName][p2]
 
-		# # keep a running total of past passes between positions
-		# # how about a running average...
-		# p_key = pos1 + "-" + pos2
-		# self.totalPassesBetweenPos[teamName][p_key] += int(weight)
-		# self.totalPasses[teamName] += int(weight)
-		# # print "totalPassesBetweenPos[%s][%s] = %s" % (teamName, p_key, self.totalPassesBetweenPos[teamName][p_key])
-		# # print "totalPasses[%s] = %s" % (teamName, self.totalPasses[teamName])
-		# avgPassesPerPos = self.totalPassesBetweenPos[teamName][p_key] / float(self.totalPasses[teamName])
-		# features["avgPassesPerPos"] = avgPassesPerPos
+		# keep a running total of past passes between positions
+		# how about a running average...
+		p_key = pos1 + "-" + pos2
+		self.totalPassesBetweenPos[teamName][p_key] += int(weight)
+		self.totalPasses[teamName] += int(weight)
+		# print "totalPassesBetweenPos[%s][%s] = %s" % (teamName, p_key, self.totalPassesBetweenPos[teamName][p_key])
+		# print "totalPasses[%s] = %s" % (teamName, self.totalPasses[teamName])
+		avgPassesPerPos = self.totalPassesBetweenPos[teamName][p_key] / float(self.totalPasses[teamName])
+		features["avgPassesPerPos"] = avgPassesPerPos
 
-		# avgPassVol = self.passVolPerTeam[teamName] / (matchNum + 1.0)
-		# avgPassPerc = self.passPercPerTeam[teamName] / (matchNum + 1.0)
+		avgPassVol = self.passVolPerTeam[teamName] / (matchNum + 1.0)
+		avgPassPerc = self.passPercPerTeam[teamName] / (matchNum + 1.0)
 
-		# oppAvgPassVol = self.passVolPerTeam[oppTeam] / (matchNum + 1.0)
-		# oppAvgPassPerc = self.passPercPerTeam[oppTeam] / (matchNum + 1.0)
+		oppAvgPassVol = self.passVolPerTeam[oppTeam] / (matchNum + 1.0)
+		oppAvgPassPerc = self.passPercPerTeam[oppTeam] / (matchNum + 1.0)
 
 		# print "avgPassVol: %s vs oppAvgPassVol: %s" % (avgPassVol, oppAvgPassVol)
         
-		# # TODO: test baseline on random
-		# features["avgPassVol"] = 1 if avgPassVol > oppAvgPassVol else 0
-		# features["avgPassPerc"] = 1 if avgPassPerc > oppAvgPassPerc else 0
-  # #       #
+		features["avgPassVol"] = 1 if avgPassVol > oppAvgPassVol else 0
+		features["avgPassPerc"] = 1 if avgPassPerc > oppAvgPassPerc else 0
+  
 		# for feature: won against a similar ranking team
 		# 1. define history that we are able to use, i.e. previous games
 		matchday = self.getMatchday(matchID)
@@ -206,14 +202,14 @@ class PredictPD():
 					simTeam = sim
 
 			# 3. find out whether the game was won or lost
-			# features["wonAgainstSimTeam"] = self.teamWonAgainst[teamName][matchday]
+			features["wonAgainstSimTeam"] = self.teamWonAgainst[teamName][matchday]
 
 		return features
 
 	def initMatches(self):
 		# store match data for all 6 matchdays in group stage + r-16
 		# match data including team + opponent team
-		for matchday in self.matchdays + ["r-16"]:
+		for matchday in self.matchdays:
 			path = self.folder + matchday + "/networks/"
 			for network in os.listdir(path):
 				if re.search("-edges", network):
@@ -227,7 +223,7 @@ class PredictPD():
 					else:
 						self.matches[matchID] += "/" + teamName
 
-		allScoresFilename = "matches4_groupStage_2014_15.txt"
+		allScoresFilename = "allScores.txt"
 		allScores = open(allScoresFilename, "r")
 		self.matchesWithScores = [line.rstrip() for line in allScores]
 		self.teamPlayedWith = defaultdict(list)
@@ -251,8 +247,6 @@ class PredictPD():
 			# iterate over games
 			for network in os.listdir(path):
 				if re.search("-team", network):
-					# store per match
-					# or store per team?
 					teamName = self.getTeamNameFromNetwork(network)
 					teamName = re.sub("-team", "", teamName)
 					matchID = self.getMatchIDFromFile(network)
@@ -288,7 +282,6 @@ class PredictPD():
 
 			# # try shuffling matchdays
 			# random.shuffle(self.matchdays)
-
 
 			allGames = []
 
