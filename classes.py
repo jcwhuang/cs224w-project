@@ -203,9 +203,7 @@ class PassesComplAttempPerPlayerFeature():
 						matchID = getMatchIDFromFile(network)
 
 						players = [line.rstrip() for line in playerFile]
-						print "matchID is", matchID
 						for player in players:
-							print player
 							num, pc, pa, percPc = player.split(",")
 							self.pcPerPlayer[teamName][num] += float(pc) / 6.0
 							self.paPerPlayer[teamName][num] += float(pa) / 6.0
@@ -219,6 +217,3 @@ class PassesComplAttempPerPlayerFeature():
 
 	def getPCPerc(self, teamName, num):
 		return self.pcPercPerPlayer[teamName][num]
-
-
-
