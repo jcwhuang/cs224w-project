@@ -35,6 +35,8 @@ class PredictPD():
 		rankFile = "rankings/2013_14_rankings.txt"
 		self.rankFeature = classes.RankingFeature(rankFile)
 
+		self.meanDegreeFeature = classes.MeanDegreeFeature()
+
 		# init data structures
 		self.matches = defaultdict(str)
 
@@ -214,6 +216,8 @@ class PredictPD():
 			# 3. find out whether the game was won or lost
 			features["wonAgainstSimTeam"] = self.teamWonAgainst[teamName][matchday]
 
+		# mean degree feature
+		features["meanDegree"] = self.meanDegreeFeature.getMeanDegree(matchID, teamName)
 		return features
 
 	def initMatches(self):
