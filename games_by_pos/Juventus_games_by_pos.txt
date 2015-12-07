@@ -1,0 +1,75 @@
+MatchID: 2014316
+Position  Juventus            Malmö FF
+GK-GK     0                   0
+GK-STR    0                   0
+GK-DEF    17                  10
+GK-MID    1                   0
+STR-GK    0                   0
+STR-STR   12                  0
+STR-DEF   41                  3
+STR-MID   27                  7
+DEF-GK    12                  9
+DEF-STR   45                  6
+DEF-DEF   114                 10
+DEF-MID   106                 25
+MID-GK    0                   3
+MID-STR   31                  7
+MID-DEF   93                  34
+MID-MID   19                  29
+
+MatchID: 2014324
+Position  Club Atlético de Madrid  Juventus
+GK-GK     0                   0
+GK-STR    0                   0
+GK-DEF    5                   14
+GK-MID    1                   2
+STR-GK    0                   0
+STR-STR   0                   11
+STR-DEF   0                   19
+STR-MID   5                   17
+DEF-GK    2                   8
+DEF-STR   0                   25
+DEF-DEF   16                  153
+DEF-MID   43                  65
+MID-GK    0                   1
+MID-STR   7                   20
+MID-DEF   43                  74
+MID-MID   66                  22
+
+MatchID: 2014340
+Position  Juventus            Olympiacos FC
+GK-GK     0                   0
+GK-STR    0                   0
+GK-DEF    10                  10
+GK-MID    8                   1
+STR-GK    0                   0
+STR-STR   16                  0
+STR-DEF   11                  2
+STR-MID   23                  10
+DEF-GK    7                   12
+DEF-STR   22                  7
+DEF-DEF   54                  36
+DEF-MID   86                  48
+MID-GK    4                   0
+MID-STR   39                  7
+MID-DEF   68                  55
+MID-MID   61                  40
+
+MatchID: 2014364
+Position  Juventus            Olympiacos FC
+GK-GK     0                   0
+GK-STR    1                   1
+GK-DEF    9                   12
+GK-MID    8                   3
+STR-GK    0                   0
+STR-STR   12                  0
+STR-DEF   5                   6
+STR-MID   25                  13
+DEF-GK    3                   10
+DEF-STR   18                  5
+DEF-DEF   40                  41
+DEF-MID   100                 70
+MID-GK    2                   1
+MID-STR   38                  14
+MID-DEF   95                  69
+MID-MID   146                 50
