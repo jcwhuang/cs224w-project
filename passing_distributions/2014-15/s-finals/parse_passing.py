@@ -43,8 +43,8 @@ total_passes_received_by_player = defaultdict(float)
 
 # stat index -> total stats
 total_passes_received_by_stats = defaultdict(str)
-
-pass_volume = 0
+pass_compl = 0
+pass_attem = 0
 pass_perc = 0
 
 #################################################
@@ -138,7 +138,8 @@ def setup(start, end):
 #   stores player1 -> player2 edges
 #################################################
 def store_edges(start, end):
-    global pass_volume
+    global pass_compl
+    global pass_attem
     global pass_perc
     # store edges
     for line in passing_dist[start:end]:
@@ -206,9 +207,10 @@ def store_edges(start, end):
                     total_stats_processed.append(stat)
             # TODO JADE
             print total_stats_processed
-            pass_volume = total_stats_processed[-2]
+            pass_compl = total_stats_processed[-3]
+            pass_attem = total_stats_processed[-2]
             pass_perc = total_stats_processed[-1]
-            print "pass vol: %s, pass perc: %s" % (pass_volume, pass_perc)
+            print "pass vol: %s, pass perc: %s" % (pass_attem, pass_perc)
 
             offset = len(split) - 9
             for index in xrange(len(total_stats_processed)):
@@ -285,7 +287,7 @@ def print_team_stats(team):
     line = ""
     # volume = total_passes_received_by_stats[24]
     # perc = total_passes_received_by_stats[25]
-    team_stats_outfile.write(str(pass_volume) + ", " + str(pass_perc))
+    team_stats_outfile.write(str(pass_compl) + ", " + str(pass_attem) + ", " + str(pass_perc))
     # for stat in total_stats_processed:
     #     line += "%s," % player
     #     for i in xrange(len(player_stats[player])):
