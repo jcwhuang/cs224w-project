@@ -37,6 +37,8 @@ class PredictPD():
 
 		self.meanDegreeFeature = classes.MeanDegreeFeature()
 
+		self.betweenFeature = classes.BetweennessFeature()
+
 		# init data structures
 		self.matches = defaultdict(str)
 
@@ -217,7 +219,10 @@ class PredictPD():
 			features["wonAgainstSimTeam"] = self.teamWonAgainst[teamName][matchday]
 
 		# mean degree feature
-		features["meanDegree"] = self.meanDegreeFeature.getMeanDegree(matchID, teamName)
+		# features["meanDegree"] = self.meanDegreeFeature.getMeanDegree(matchID, teamName)
+
+		features["betwPerGameP1"] = self.betweenFeature.getBetweenCentr(matchID, teamName, p1)
+		# features["betwPerGameP2"] = self.betweenFeature.getBetweenCentr(matchID, teamName, p2)
 		return features
 
 	def initMatches(self):
@@ -340,10 +345,10 @@ class PredictPD():
 
 					features = self.featureExtractor(teamName, p1, p2, matchID, matchNum, weight)
 
-					# for f in features:
-					# 	print "features[%s] = %f" % (f, float(features[f]))
-					# for w in self.weights:
-					# 	print "weights[%s] = %f" % (w, float(self.weights[w]))
+					for f in features:
+						print "features[%s] = %f" % (f, float(features[f]))
+					for w in self.weights:
+						print "weights[%s] = %f" % (w, float(self.weights[w]))
 
 					score, loss = self.evaluate(features, weight)
  					self.updateWeights(features, self.weights, int(weight))

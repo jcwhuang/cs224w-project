@@ -2,19 +2,18 @@ import collections
 from collections import defaultdict
 import os
 import re
+from snap import *
 
-class CountSpecificPassesFeature():
-	def __init__(self, count_file_name):
-		self.counts = defaultdict(lambda: defaultdict(int))
-		count_file = open(count_file_name, "r")
-		for line in count_file:
-			team, players, weight = line.strip().split(", ")
-			self.counts[team][players] = weight
 
-	# TODO: return smoothed count? return smoothed probability?
-	def getCount(team, player1, player2):
-		p_key = player1 + "-" + player2
-		return self.counts[team][p_key]
+def getMatchIDFromFile(network):
+	matchID = re.sub("_.*", "", network)
+	return matchID
+
+def getTeamNameFromNetwork(network):
+	teamName = re.sub("[^-]*-", "", network, count=1)
+	teamName = re.sub("-edges", "", teamName)
+	teamName = re.sub("_", " ", teamName)
+	return teamName
 
 class CountAvgPassesFeature():
 	def __init__(self, count_file_name):
@@ -79,19 +78,7 @@ class RankingFeature():
 		return self.getRank(team1) - self.getRank(team2)
 
 class MeanDegreeFeature():
-	# count edges for players
-	# take average 
-	# store per game
 
-	def getMatchIDFromFile(self, network):
-		matchID = re.sub("_.*", "", network)
-		return matchID
-
-	def getTeamNameFromNetwork(self, network):
-		teamName = re.sub("[^-]*-", "", network, count=1)
-		teamName = re.sub("-edges", "", teamName)
-		teamName = re.sub("_", " ", teamName)
-		return teamName
 
 	def __init__(self):
 		folder = "passing_distributions/2014-15/"
@@ -102,8 +89,6 @@ class MeanDegreeFeature():
 
 		self.meanDegree = defaultdict(lambda: defaultdict(float))
 
-		
-
 		for matchday in allGames:
 			path = folder + matchday + "/networks/"
 			for network in os.listdir(path):
@@ -111,14 +96,14 @@ class MeanDegreeFeature():
 					edgeFile = open(path + network, "r")
 
 					degreePerPlayer = defaultdict(int)
-					teamName = self.getTeamNameFromNetwork(network)
-					matchID = self.getMatchIDFromFile(network)
-					print "team: %s" % teamName
+					teamName = getTeamNameFromNetwork(network)
+					matchID = getMatchIDFromFile(network)
+					# print "team: %s" % teamName
 					totalDegree = 0
 
 					for players in edgeFile:
 						p1, p2, weight = players.rstrip().split("\t")
-						print "p1: %s, p2: %s, weight: %f" % (p1, p2, float(weight))
+						# print "p1: %s, p2: %s, weight: %f" % (p1, p2, float(weight))
 						degreePerPlayer[p1] += 1
 
 					# count number of nodes to take average over team
@@ -135,4 +120,61 @@ class MeanDegreeFeature():
 	
 	def getMeanDegree(self, matchID, teamName):
 		return self.meanDegree[matchID][teamName]
+
+# Returns the average betweenness centrality of each player
+# calculated only using group stage, like average degree
+class BetweennessFeature():
+	def __init__(self):
+		folder = "passing_distributions/2014-15/"
+		allGames = ["matchday" + str(i) for i in xrange(1, 7)]
+		# allGames.append("r-16")
+		# allGames.append("q-finals")
+		# allGames.append("s-finals")
+
+		self.betweenCentr = defaultdict(lambda: defaultdict(float))
+
+		for matchday in allGames:
+			path = folder + matchday + "/networks/"
+			for network in os.listdir(path):
+				if re.search("-edges", network):
+					edgeFile = open(path + network, "r")
+
+					degreePerPlayer = defaultdict(int)
+					teamName = getTeamNameFromNetwork(network)
+					matchID = getMatchIDFromFile(network)
+
+					edges = [line.rstrip() for line in edgeFile]
+
+					nodeFile = open(path + matchID + "_tpd-" + re.sub(" ", "_", teamName) + "-nodes", "r")
+					players = [line.rstrip() for line in nodeFile]
+					
+					# build each network
+
+					PlayerGraph = TUNGraph.New()
+					for player in players:
+						num, name = player.split("\t")
+						PlayerGraph.AddNode(int(num))
+					for edge in edges:
+						src, dest, weight = edge.split("\t")
+						src = int(src)
+						dest = int(dest)
+						PlayerGraph.AddEdge(src, dest)
+
+					# calculate betweenness
+					Nodes = TIntFltH()
+					Edges = TIntPrFltH()
+					GetBetweennessCentr(PlayerGraph, Nodes, Edges, 1.0)
+
+					players_by_between = [(node, Nodes[node]) for node in Nodes]
+					for player in players_by_between:
+						num, betw = player
+						self.betweenCentr[teamName][num] += betw
+
+		# normalize over number of matchdays
+		for teamName in self.betweenCentr:
+			for num in self.betweenCentr[teamName]:
+				self.betweenCentr[teamName][num] /= 6
+
+	def getBetweenCentr(self, matchID, teamName, player):
+		return self.betweenCentr[teamName][int(player)]
 
