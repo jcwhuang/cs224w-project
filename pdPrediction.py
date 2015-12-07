@@ -39,6 +39,8 @@ class PredictPD():
 
 		self.betweenFeature = classes.BetweennessFeature()
 
+		self.passComplAttempFeature = classes.PassesComplAttempPerPlayerFeature()
+
 		# init data structures
 		self.matches = defaultdict(str)
 
@@ -222,7 +224,11 @@ class PredictPD():
 		# features["meanDegree"] = self.meanDegreeFeature.getMeanDegree(matchID, teamName)
 
 		features["betwPerGameP1"] = self.betweenFeature.getBetweenCentr(matchID, teamName, p1)
-		# features["betwPerGameP2"] = self.betweenFeature.getBetweenCentr(matchID, teamName, p2)
+		features["betwPerGameP2"] = self.betweenFeature.getBetweenCentr(matchID, teamName, p2)
+
+		features["avgPassComplPerP1"] = self.passComplAttempFeature.getPC(teamName, p1)
+		features["avgPassComplPerP2"] = self.passComplAttempFeature.getPC(teamName, p2)
+
 		return features
 
 	def initMatches(self):

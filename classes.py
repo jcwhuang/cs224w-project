@@ -178,3 +178,47 @@ class BetweennessFeature():
 	def getBetweenCentr(self, matchID, teamName, player):
 		return self.betweenCentr[teamName][int(player)]
 
+# average passes completed and attempted per player feature
+# averaged over all group games
+class PassesComplAttempPerPlayerFeature():
+	def __init__(self):
+		folder = "passing_distributions/2014-15/"
+		allGames = ["matchday" + str(i) for i in xrange(1, 7)]
+		# allGames.append("r-16")
+		# allGames.append("q-finals")
+		# allGames.append("s-finals")
+
+		self.pcPerPlayer = defaultdict(lambda: defaultdict(float))
+		self.paPerPlayer = defaultdict(lambda: defaultdict(float))
+		self.pcPercPerPlayer = defaultdict(lambda: defaultdict(float))
+
+		for matchday in allGames:
+			path = folder + matchday + "/networks/"
+			for network in os.listdir(path):
+				if "+" not in network:
+					if re.search("-players", network):
+						playerFile = open(path + network, "r")
+
+						teamName = getTeamNameFromNetwork(network)
+						matchID = getMatchIDFromFile(network)
+
+						players = [line.rstrip() for line in playerFile]
+						print "matchID is", matchID
+						for player in players:
+							print player
+							num, pc, pa, percPc = player.split(",")
+							self.pcPerPlayer[teamName][num] += float(pc) / 6.0
+							self.paPerPlayer[teamName][num] += float(pa) / 6.0
+							self.pcPercPerPlayer[teamName][num] += float(percPc) / 6.0
+
+	def getPC(self, teamName, num):
+		return self.pcPerPlayer[teamName][num]
+
+	def getPA(self, teamName, num):
+		return self.pcPerPlayer[teamName][num]
+
+	def getPCPerc(self, teamName, num):
+		return self.pcPercPerPlayer[teamName][num]
+
+
+

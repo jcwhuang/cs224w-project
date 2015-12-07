@@ -276,7 +276,7 @@ def print_player_stats(team):
         p_stats = player_stats[player][-3:]
         print "p_stats are", p_stats
         for i in xrange(3):
-            line += "%s," % (player_stats[player][i])
+            line += "%s," % (p_stats[i])
         line = line[:-1] # get rid of last comma
         line += "\n"
     # print line
