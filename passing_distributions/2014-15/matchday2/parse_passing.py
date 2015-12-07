@@ -270,8 +270,13 @@ def print_player_stats(team):
     line = ""
     for player in player_stats:
         line += "%s," % player
-        for i in xrange(len(player_stats[player])):
-            line += "%s:%s," % (i, player_stats[player][i])
+        # only interested in last three values: total PC, PA, % PC
+
+        # for i in xrange(len(player_stats[player])):
+        p_stats = player_stats[player][-3:]
+        print "p_stats are", p_stats
+        for i in xrange(3):
+            line += "%s," % (player_stats[player][i])
         line = line[:-1] # get rid of last comma
         line += "\n"
     # print line
@@ -328,16 +333,16 @@ sys.stderr.write("teams are: " + team1 + " and " + team2 + "\n")
 # team 1
 start1, end1 = get_start_end_index(0, len(passing_dist), passing_dist)
 prep(start1, end1)
-print_team_stats(team1)
+# print_team_stats(team1)
 # print_player_feature_stats(team1+"+" + team2)
 # print_edges(team1)
 # print_nodes(team1)
-# print_player_stats(team1)
+print_player_stats(team1)
 
 # team 2
 start2, end2 = get_start_end_index(end1, len(passing_dist), passing_dist)
 prep(start2, end2)
-print_team_stats(team2)
+# print_team_stats(team2)
 # print_edges(team2)
 # print_nodes(team2)
-# print_player_stats(team2)
+print_player_stats(team2)

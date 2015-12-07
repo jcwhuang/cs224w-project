@@ -77,8 +77,8 @@ class RankingFeature():
 	def getDiffInRank(self, team1, team2):
 		return self.getRank(team1) - self.getRank(team2)
 
+# unsuccessful feature
 class MeanDegreeFeature():
-
 
 	def __init__(self):
 		folder = "passing_distributions/2014-15/"
