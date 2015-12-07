@@ -32,6 +32,12 @@ class PredictPD():
 		self.stepSize = 0.01
 
 		self.matchdays = ["matchday" + str(i) for i in xrange(1, 7)]
+		# uncomment if want to add round of 16 games to matchdays
+		# self.matchdays.append("r-16")
+
+		# # uncomment if want to add quarter final games to matchdays
+		# self.matchdays.append("q-finals")
+
 
 		self.folder = "passing_distributions/2014-15/"
 
