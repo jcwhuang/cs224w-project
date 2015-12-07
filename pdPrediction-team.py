@@ -115,6 +115,7 @@ class PredictPD():
 			return team2
 		else: return team1
 
+	# returns the index of where to look for the scores
 	def getMatchday(self, matchID):
 		matchID = int(matchID)
 		if matchID <= 2014322:
@@ -123,10 +124,18 @@ class PredictPD():
 			return 1
 		elif matchID >= 2014339 and matchID <= 2014354:
 			return 2
-		elif matchID > 2014354:
+		elif matchID >= 2014354 and matchID <= 2014370:
 			return 3
-		else:
+		elif matchID >= 2014371 and matchID <= 2014386:
 			return 4
+		elif matchID >= 2014387 and matchID <= 2014402:
+			return 5
+		elif matchID >= 2014403 and matchID <= 2014418:
+			return 6
+		elif matchID >= 2014419 and matchID <= 2014426:
+			return 7
+		elif matchID >= 2014427 and matchID <= 2014430:
+			return 8
 
 	def featureExtractor(self, teamName, p1, p2, matchID, matchNum, weight):
 
@@ -212,8 +221,7 @@ class PredictPD():
 					else:
 						self.matches[matchID] += "/" + teamName
 
-		# TODO: add scores for round of 16, quarter finals, semi finals
-		allScoresFilename = "matches4_groupStage_2014_15.txt"
+		allScoresFilename = "allScores.txt"
 		allScores = open(allScoresFilename, "r")
 		self.matchesWithScores = [line.rstrip() for line in allScores]
 		self.teamPlayedWith = defaultdict(list)
