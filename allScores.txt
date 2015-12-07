@@ -83,7 +83,7 @@ Olympiacos FC, 4, 2, Malmö FF
 Liverpool FC, 1, 1, FC Basel 1893
 Real Madrid CF, 4, 0, PFC Ludogorets Razgrad
 SL Benfica, 0, 0, Bayer 04 Leverkusen
-AS Monaco, 2, 0, FC Zenit
+AS Monaco FC, 2, 0, FC Zenit
 Borussia Dortmund, 1, 1, RSC Anderlecht
 Galatasaray AŞ, 1, 4, Arsenal FC
 FC Bayern München, 3, 0, PFC CSKA Moskva
@@ -100,23 +100,23 @@ FC Basel 1893, 1, 1, FC Porto
 FC Schalke 04, 0, 2, Real Madrid CF
 Manchester City FC, 1, 2, FC Barcelona
 Juventus, 2, 1, Borussia Dortmund
-Arsenal FC, 1, 3, AS Monaco
+Arsenal FC, 1, 3, AS Monaco FC
 Bayer 04 Leverkusen, 1, 0, Club Atlético de Madrid
 FC Poro, 4, 0, FC Basel 1893
 Real Madrid CF, 3, 4, FC Schalke 04
 Chelsea FC, 2, 2, Paris Saint-Germain
 FC Bayern München, 7, 0, FC Shakhtar Donetsk
 Club Atlético de Madrid, 1, 0, Bayer 04 Leverkusen
-AS Monaco, 0, 2, Arsenal FC
+AS Monaco FC, 0, 2, Arsenal FC
 FC Barcelona, 1, 0, Manchester City FC
 Borussia Dortmund, 0, 3, Juventus
 Club Atlético de Madrid, 0, 0, Real Madrid CF
-Juventus, 1, 0, AS Monaco
+Juventus, 1, 0, AS Monaco FC
 FC Porto, 3, 1, FC Bayern München
 Paris Saint-Germain, 1, 3, FC Barcelona
 FC Barcelona, 2, 0, Paris Saint-Germain
 FC Bayern München, 6, 1, FC Porto
-AS Monaco, 0, 0, Juventus
+AS Monaco FC, 0, 0, Juventus
 Real Madrid CF, 1, 0, Club Atlético de Madrid
 Juventus, 2, 1, Real Madrid CF
 FC Barcelona, 3, 0, FC Bayern München

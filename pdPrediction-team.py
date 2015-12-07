@@ -198,7 +198,8 @@ class PredictPD():
 				if sim < simTeamDistance:
 					simTeamDistance = sim
 					simTeam = sim
-
+			print "matchID is %s" % matchID
+			print "Matchday is %d" % matchday
 			# 3. find out whether the game was won or lost
 			features["wonAgainstSimTeam"] = self.teamWonAgainst[teamName][matchday]
 

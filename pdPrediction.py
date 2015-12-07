@@ -200,16 +200,20 @@ class PredictPD():
 				if sim < simTeamDistance:
 					simTeamDistance = sim
 					simTeam = sim
-
+			print "matchID is %s" % matchID
+			print "Matchday is: %d" % matchday
+			print "teamWonAgainst[%s]" % teamName, self.teamWonAgainst[teamName]
 			# 3. find out whether the game was won or lost
 			features["wonAgainstSimTeam"] = self.teamWonAgainst[teamName][matchday]
 
 		return features
 
 	def initMatches(self):
+
 		# store match data for all 6 matchdays in group stage + r-16
 		# match data including team + opponent team
 		for matchday in self.matchdays:
+			print "Init matchday: %s" % matchday
 			path = self.folder + matchday + "/networks/"
 			for network in os.listdir(path):
 				if re.search("-edges", network):
@@ -228,6 +232,7 @@ class PredictPD():
 		self.matchesWithScores = [line.rstrip() for line in allScores]
 		self.teamPlayedWith = defaultdict(list)
 		self.teamWonAgainst = defaultdict(list)
+		print "matches with Scores size: %s" % (len(self.matchesWithScores))
 
 		# for every team, store opponents in order by matchday
 		for match in self.matchesWithScores:
@@ -236,6 +241,7 @@ class PredictPD():
 			if score1 > score2:
 				team1Won = 1
 
+			print "team1: %s, team2: %s" % (team1, team2)
 			self.teamPlayedWith[team1].append(team2)
 			self.teamPlayedWith[team2].append(team1)
 			self.teamWonAgainst[team1].append(team1Won)
@@ -339,8 +345,15 @@ class PredictPD():
 		avgLoss = 0
 		totalEx = 0
 		matchNum = 0
-		# for matchday in self.matchdays[4:]:
+
+		# uncomment below if testing on round of 16
 		matchday = "r-16"
+
+		# uncomment below if testing on quarter finals
+		# matchday = "q-finals"
+
+		# uncommend below if testing on semi-finals
+		# matchday = "s-finals"
 		print "On " + matchday
 		path = self.folder + matchday + "/networks/"
 		# iterate over games
