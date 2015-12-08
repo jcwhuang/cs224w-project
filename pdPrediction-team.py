@@ -42,6 +42,9 @@ class PredictPD():
 
 		self.passComplAttempFeature = classes.PassesComplAttempPerPlayerFeature()
 
+		self.countPassesPosFeature = classes.CountPassesPerPosFeature("games_by_pos/perTeam/", "group")
+
+
 		# init data structures
 		self.matches = defaultdict(str)
 
@@ -177,10 +180,20 @@ class PredictPD():
 		# keep a running total of past passes between positions
 		# how about a running average...
 		p_key = pos1 + "-" + pos2
-		self.totalPassesBetweenPos[teamName][p_key] += int(weight)
-		self.totalPasses[teamName] += int(weight)
-		avgPassesPerPos = self.totalPassesBetweenPos[teamName][p_key] / float(self.totalPasses[teamName])
-		features["avgPassesPerPos"] = avgPassesPerPos
+		# --- Average passes per position, running average
+		
+		# self.totalPassesBetweenPos[teamName][p_key] += int(weight)
+		# self.totalPasses[teamName] += int(weight)
+		# # print "totalPassesBetweenPos[%s][%s] = %s" % (teamName, p_key, self.totalPassesBetweenPos[teamName][p_key])
+		# # print "totalPasses[%s] = %s" % (teamName, self.totalPasses[teamName])
+		# avgPassesPerPos = self.totalPassesBetweenPos[teamName][p_key] / float(self.totalPasses[teamName])
+
+		# ---
+		
+
+		# --- Average passes per position, precomputed
+		avgPassesPerPos = self.countPassesPosFeature.getCount(teamName, p_key)
+		# ---
 
 		avgPassCompl = self.passComplPerTeam[teamName] / (matchNum + 1.0)
 		avgPassAttem = self.passAttemPerTeam[teamName] / (matchNum + 1.0)
@@ -229,8 +242,8 @@ class PredictPD():
 		features["betwPerGameP1"] = self.betweenFeature.getBetweenCentr(matchID, teamName, p1)
 		features["betwPerGameP2"] = self.betweenFeature.getBetweenCentr(matchID, teamName, p2)
 
-		features["avgPassComplPerP1"] = self.passComplAttempFeature.getPC(teamName, p1)
-		features["avgPassComplPerP2"] = self.passComplAttempFeature.getPC(teamName, p2)
+		features["avgPCPercPerP1"] = self.passComplAttempFeature.getPCPerc(teamName, p1)
+		features["avgPCPercPerP2"] = self.passComplAttempFeature.getPCPerc(teamName, p2)
 
 		return features
 

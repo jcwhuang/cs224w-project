@@ -12,7 +12,7 @@
 17, Paris Saint-Germain
 18, FC Shakhtar Donetsk
 20, FC Basel 1893
-21, FC Zenit
+21, Football Club Zenit
 22, Manchester City FC
 24, Bayer 04 Leverkusen
 27, Olympiacos FC

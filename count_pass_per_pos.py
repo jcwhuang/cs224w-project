@@ -40,6 +40,10 @@ folder = "passing_distributions/2014-15/"
 totalPassesBetweenPos = defaultdict(lambda: defaultdict(int))
 
 matchdays = ["matchday" + str(i) for i in xrange(1, 7)]
+matchdays.append("r-16")
+matchdays.append("q-finals")
+matchdays.append("s-finals")
+
 pos = ["GK", "STR", "DEF", "MID"]
 allPosCombos = [pos1 + "-" + pos2 for pos1 in pos for pos2 in pos]
 
@@ -78,11 +82,15 @@ for matchday in matchdays:
 			# 	passesBetweenPos = defaultdict(lambda: defaultdict(int))
 
 			# this prints the data in a .csv/parse-able format
+
 			print "MatchID: %s" % matchID
 			print "Team: %s" % teamName
+			filename = "games_by_pos/perTeam/" + matchID + "-" + re.sub(" ", "_", teamName)
+			outfile = open(filename, "w+")
+
 			for posPair in allPosCombos:
-				print "{0:10}\t{1:<20}".format(posPair, \
-					passesBetweenPos[teamName][posPair])
+				outfile.write("{0}\t{1}\n".format(posPair, \
+					passesBetweenPos[teamName][posPair]))
 			passesBetweenPos = defaultdict(lambda: defaultdict(int))
 
 			lastMatchID = matchID

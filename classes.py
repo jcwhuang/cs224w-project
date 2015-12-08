@@ -200,16 +200,21 @@ class PassesComplAttempPerPlayerFeature():
 						playerFile = open(path + network, "r")
 
 						teamName = getTeamNameFromNetwork(network)
+						teamName = re.sub("-players", "", teamName)
 						matchID = getMatchIDFromFile(network)
 
 						players = [line.rstrip() for line in playerFile]
 						for player in players:
 							num, pc, pa, percPc = player.split(",")
 							self.pcPerPlayer[teamName][num] += float(pc) / 6.0
+							# print "teamName: %s, num: %s, %f" % (teamName, num, self.pcPerPlayer[teamName][num])
 							self.paPerPlayer[teamName][num] += float(pa) / 6.0
 							self.pcPercPerPlayer[teamName][num] += float(percPc) / 6.0
 
 	def getPC(self, teamName, num):
+		# print "teamName: ", teamName
+		# print "num: ", num
+		print self.pcPerPlayer[teamName][num]
 		return self.pcPerPlayer[teamName][num]
 
 	def getPA(self, teamName, num):
@@ -217,3 +222,45 @@ class PassesComplAttempPerPlayerFeature():
 
 	def getPCPerc(self, teamName, num):
 		return self.pcPercPerPlayer[teamName][num]
+
+# pre-load passes by position by matchID
+class CountPassesPerPosFeature():
+	def __init__(self, count_file_dir, train_end):
+		self.countsByPos = defaultdict(lambda: defaultdict(float))
+
+		folders = []
+
+		if train_end == "group":
+			folders.append("group/")
+		elif train_end == "r-16":
+			folders.append("group/")
+			folders.append("r-16/")
+		elif train_end == "q-finals":
+			folders.append("group/")
+			folders.append("r-16/")
+			folders.append("q-finals/")
+
+		# total passes per team
+		self.totalCounts = defaultdict(float)
+		for stage in folders:
+			path = count_file_dir + stage
+			for teamByGame in os.listdir(path):
+				if ".DS_Store" not in teamByGame:
+					teamGameFile = open(path + teamByGame, "r")
+					# get teamName from filename
+					teamName = re.sub(".*-", "", teamByGame)
+					teamName = re.sub("_", " ", teamName)
+					for line in teamGameFile:
+						pos, weight = line.rstrip().split("\t")
+						self.countsByPos[teamName][pos] += float(weight)
+						self.totalCounts[teamName] += float(weight)
+
+		for teamName in self.countsByPos:
+			for pos in self.countsByPos[teamName]:
+				self.countsByPos[teamName][pos] /= self.totalCounts[teamName]
+
+
+	def getCount(self, team, pos):
+		return self.countsByPos[team][pos]
+
+# pre-load passes completed/attempted
