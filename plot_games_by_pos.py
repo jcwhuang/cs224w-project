@@ -12,7 +12,7 @@ N = 16
 ind = np.arange(N)
 width = 0.35
 
-filename = "games_by_pos/Ludogorets_games_by_pos.txt"
+filename = "games_by_pos/Juventus_games_by_pos.txt"
 games_by_pos = open(filename, "r")
 
 team1 = ""
@@ -23,6 +23,10 @@ team2Means = []
 
 hasPos = False
 for i, line in enumerate(games_by_pos):
+
+	if "MatchID" in line:
+		matchID = line.split(": ")[1]
+
 	if "Position" in line:
 		_, team1, team2 = re.split(r'\s{2,}', line.rstrip())
 		hasPos = True
@@ -37,7 +41,7 @@ for i, line in enumerate(games_by_pos):
 		rects1 = ax.bar(ind, tuple(team1Means), width, color='r')
 		rects2 = ax.bar(ind+width, tuple(team2Means), width, color='y')
 		ax.set_ylabel('Weight of passes')
-		ax.set_title('Weight of passes by team')
+		ax.set_title('Weight of passes by team for ' + matchID)
 		ax.set_xticks(ind + width)
 		ax.set_xticklabels(('GK-GK', 'GK-STR', 'GK-DEF', 'GK-MID',\
 			'STR-GK', 'STR-STR', 'STR-DEF', 'STR-MID', \
@@ -56,6 +60,14 @@ for i, line in enumerate(games_by_pos):
 
 		if "FF" in team2:
 			team2 = "Malmo FF"
+
+		if "FF" in team1:
+			team1 = "Malmo FF"
+
+		if "de Madrid" in team1:
+			team1 = "Club Atletico de Madrid"
+		if "de Madrid" in team2:
+			team2 = "Club Atletico de Madrid"
 
 		ax.legend((rects1[0], rects2[0]), (team1, team2))
 

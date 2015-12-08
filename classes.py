@@ -214,7 +214,7 @@ class PassesComplAttempPerPlayerFeature():
 	def getPC(self, teamName, num):
 		# print "teamName: ", teamName
 		# print "num: ", num
-		print self.pcPerPlayer[teamName][num]
+		# print self.pcPerPlayer[teamName][num]
 		return self.pcPerPlayer[teamName][num]
 
 	def getPA(self, teamName, num):
