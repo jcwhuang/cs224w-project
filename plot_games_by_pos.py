@@ -12,7 +12,7 @@ N = 16
 ind = np.arange(N)
 width = 0.35
 
-filename = "games_by_pos/RealMadrid_games_by_pos.txt"
+filename = "games_by_pos/Ludogorets_games_by_pos.txt"
 games_by_pos = open(filename, "r")
 
 team1 = ""
@@ -86,7 +86,7 @@ ax.set_xticklabels(('GK-GK', 'GK-STR', 'GK-DEF', 'GK-MID',\
 if "Bayern" in team2:
 	team2 = "FC Bayern Munchen"
 
-ax.legend((rects1[0], rects2[0]), (team1, team2))
+ax.legend((rects1[0], rects2[0]), (team1, team2), loc="upper left")
 
 plt.show()
 

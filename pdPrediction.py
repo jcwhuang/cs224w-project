@@ -370,12 +370,12 @@ class PredictPD():
 					p1, p2, weight = players.rstrip().split("\t")
 					# print "p1: %s, p2: %s, weight: %f" % (p1, p2, float(weight))
 
-					teamFile = open(path + matchID + "_tpd-" + re.sub(" ", "_", teamName) + "-team", "r")
-					for line in teamFile:
-						stats = line.rstrip().split(", ")
-					self.passComplPerTeam[teamName] += float(stats[0])
-					self.passAttemPerTeam[teamName] += float(stats[1])
-					self.passPercPerTeam[teamName] += float(stats[2])
+					# teamFile = open(path + matchID + "_tpd-" + re.sub(" ", "_", teamName) + "-team", "r")
+					# for line in teamFile:
+					# 	stats = line.rstrip().split(", ")
+					# self.passComplPerTeam[teamName] += float(stats[0])
+					# self.passAttemPerTeam[teamName] += float(stats[1])
+					# self.passPercPerTeam[teamName] += float(stats[2])
 
 					features = self.featureExtractor(teamName, p1, p2, matchID, matchNum, weight)
 
