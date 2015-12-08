@@ -43,6 +43,8 @@ class PredictPD():
 
 		self.countPassesPosFeature = classes.CountPassesPerPosFeature("games_by_pos/perTeam/", "group")
 
+		self.passComplAttempTeamFeature = classes.CountPassesComplAttempPerTeamFeature("group")
+
 		# init data structures
 		self.matches = defaultdict(str)
 
@@ -186,27 +188,37 @@ class PredictPD():
 
 		# ---
 		
-
 		# --- Average passes per position, precomputed
 		avgPassesPerPos = self.countPassesPosFeature.getCount(teamName, p_key)
 		# ---
 
 		features["avgPassesPerPos"] = avgPassesPerPos
 
-		avgPassCompl = self.passComplPerTeam[teamName] / (matchNum + 1.0)
-		avgPassAttem = self.passAttemPerTeam[teamName] / (matchNum + 1.0)
-		avgPassPerc = self.passPercPerTeam[teamName] / (matchNum + 1.0)
+		
+		# --- Running average
+		# avgPassCompl = self.passComplPerTeam[teamName] / (matchNum + 1.0)
+		# avgPassAttem = self.passAttemPerTeam[teamName] / (matchNum + 1.0)
+		# avgPassPerc = self.passPercPerTeam[teamName] / (matchNum + 1.0)
+		# avgPassFail = avgPassCompl - avgPassAttem
+
+		# oppAvgPassCompl = self.passComplPerTeam[oppTeam] / (matchNum + 1.0)
+		# oppAvgPassAttem = self.passAttemPerTeam[oppTeam] / (matchNum + 1.0)
+		# oppAvgPassPerc = self.passPercPerTeam[oppTeam] / (matchNum + 1.0)
+		# oppAvgPassFail = oppAvgPassCompl - oppAvgPassAttem
+
+		# --- 
+
+		# --- Precomputed
+		avgPassCompl = self.passComplAttempTeamFeature.getPCCount(teamName, matchNum)
+		avgPassAttem = self.passComplAttempTeamFeature.getPACount(teamName, matchNum)
+		avgPassPerc = self.passComplAttempTeamFeature.getPCPerc(teamName, matchNum)
 		avgPassFail = avgPassCompl - avgPassAttem
 
-		oppAvgPassCompl = self.passComplPerTeam[oppTeam] / (matchNum + 1.0)
-		oppAvgPassAttem = self.passAttemPerTeam[oppTeam] / (matchNum + 1.0)
-		oppAvgPassPerc = self.passPercPerTeam[oppTeam] / (matchNum + 1.0)
+		oppAvgPassCompl = self.passComplAttempTeamFeature.getPCCount(oppTeam, matchNum)
+		oppAvgPassAttem = self.passComplAttempTeamFeature.getPACount(oppTeam, matchNum)
+		oppAvgPassPerc = self.passComplAttempTeamFeature.getPCPerc(oppTeam, matchNum)
 		oppAvgPassFail = oppAvgPassCompl - oppAvgPassAttem
-        
-		features["avgPassCompl"] = 1 if avgPassCompl > oppAvgPassCompl else 0
-		features["avgPassAttem"] = 1 if avgPassAttem > oppAvgPassAttem else 0
-		features["avgPassPerc"] = 1 if avgPassPerc > oppAvgPassPerc else 0
-		features["avgPassFail"] = 1 if avgPassFail > oppAvgPassFail else 0
+		# ---
   
 		# for feature: won against a similar ranking team
 		# 1. define history that we are able to use, i.e. previous games

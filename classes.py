@@ -264,3 +264,53 @@ class CountPassesPerPosFeature():
 		return self.countsByPos[team][pos]
 
 # pre-load passes completed/attempted
+class CountPassesComplAttempPerTeamFeature():
+	def __init__(self, train_end):
+
+		self.passComplPerTeam = defaultdict(int)
+		self.passAttemPerTeam = defaultdict(int)
+		self.passPercPerTeam = defaultdict(float)
+
+		folder = "passing_distributions/2014-15/"
+
+		allGames = ["matchday" + str(i) for i in xrange(1, 7)]
+
+		if train_end == "r-16":
+			folders.append("r-16/")
+		elif train_end == "q-finals":
+			folders.append("r-16/")
+			folders.append("q-finals/")
+
+		# allGames.append("r-16")
+		# allGames.append("q-finals")
+		# allGames.append("s-finals")
+
+		for matchday in allGames:
+			path = folder + matchday + "/networks/"
+			for network in os.listdir(path):
+				if re.search("-team", network):
+					teamFile = open(path + network, "r")
+					teamName = getTeamNameFromNetwork(network)
+					teamName = re.sub("-team", "", teamName)
+					matchID = getMatchIDFromFile(network)
+					# print "teamName is: %s" % teamName
+					# print "matchID is: %s" % matchID
+					for line in teamFile:
+						print line
+						stats = line.rstrip().split(", ")
+						self.passComplPerTeam[teamName] += float(stats[0])
+						self.passAttemPerTeam[teamName] += float(stats[1])
+						self.passPercPerTeam[teamName] += float(stats[2])
+	
+	def getPCCount(self, teamName, matchNum):
+		return self.passComplPerTeam[teamName] / (matchNum + 1.0)
+
+	def getPACount(self, teamName, matchNum):
+		return self.passAttemPerTeam[teamName] / (matchNum + 1.0)
+
+	def getPCPerc(self, teamName, matchNum):
+		return self.passPercPerTeam[teamName] / (matchNum + 1.0)
+
+	def getPassFail(self, teamName, matchNum):
+		return self.getPCCount(self, teamName, matchNum) - self.getPACount(self, teamName, matchNum)
+
