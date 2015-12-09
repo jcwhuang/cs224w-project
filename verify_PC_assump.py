@@ -2,7 +2,7 @@ from collections import defaultdict
 import os
 import re
 
-allScoresFilename = "matches4_groupStage_2014_15.txt"
+allScoresFilename = "scores/2014-15_groupStageScores.txt"
 allScores = open(allScoresFilename, "r")
 matchesWithScores = [line.rstrip() for line in allScores]
 matchIDToScore = defaultdict(str)

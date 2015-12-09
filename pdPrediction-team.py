@@ -292,7 +292,7 @@ class PredictPD():
 					else:
 						self.matches[matchID] += "/" + teamName
 
-		allScoresFilename = "allScores.txt"
+		allScoresFilename = "scores/2014-15_allScores.txt"
 		allScores = open(allScoresFilename, "r")
 		self.matchesWithScores = [line.rstrip() for line in allScores]
 		self.teamPlayedWith = defaultdict(list)
