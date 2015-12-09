@@ -26,7 +26,7 @@ class PredictPD():
 		self.folder = "passing_distributions/2014-15/"
 
 		# init feature classes
-		countAvgFile = "avg_passes_count.txt"
+		countAvgFile = "txt/avg_passes_count.txt"
 		self.countAvgPassesFeature = classes.CountAvgPassesFeature(countAvgFile)
 
 		squad_dir = "squads/2014-15/squad_list/"
