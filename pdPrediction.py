@@ -14,7 +14,7 @@ class PredictPD():
 
 		self.weights = defaultdict(int)
 
-		self.stepSize = 0.01
+		self.stepSize = 0.008
 
 		self.matchdays = ["matchday" + str(i) for i in xrange(1, 7)]
 		# uncomment if want to add round of 16 games to matchdays
@@ -169,7 +169,7 @@ class PredictPD():
 		features = defaultdict(float)
 		features["avgPasses"] = avgPasses
 		features["isSamePos"] = isSamePos
-		features["isDiffPos"] = isDiffPos
+		# features["isDiffPos"] = isDiffPos
 		features["diffInRank"] = diffInRank
 
 		pos1 = self.teamNumToPos[teamName][p1]
@@ -192,7 +192,7 @@ class PredictPD():
 		avgPassesPerPos = self.countPassesPosFeature.getCount(teamName, p_key)
 		# ---
 
-		features["avgPassesPerPos"] = avgPassesPerPos
+		# features["avgPassesPerPos"] = avgPassesPerPos
 
 		
 		# --- Running average
@@ -242,12 +242,12 @@ class PredictPD():
 					simTeamDistance = sim
 					simTeam = sim
 			# 3. find out whether the game was won or lost
-			features["wonAgainstSimTeam"] = self.teamWonAgainst[teamName][matchday]
+			# features["wonAgainstSimTeam"] = self.teamWonAgainst[teamName][matchday]
 
 		# mean degree feature
-		# features["meanDegree"] = self.meanDegreeFeature.getMeanDegree(matchID, teamName)
+		features["meanDegree"] = self.meanDegreeFeature.getMeanDegree(matchID, teamName)
 
-		features["betwPerGameP1"] = self.betweenFeature.getBetweenCentr(matchID, teamName, p1)
+		# features["betwPerGameP1"] = self.betweenFeature.getBetweenCentr(matchID, teamName, p1)
 		features["betwPerGameP2"] = self.betweenFeature.getBetweenCentr(matchID, teamName, p2)
 
 		# features["avgPassComplPerP1"] = self.passComplAttempFeature.getPC(teamName, p1)
@@ -255,7 +255,7 @@ class PredictPD():
 		# features["avgPassAttempPerP1"] = self.passComplAttempFeature.getPA(teamName, p1)
 		# features["avgPassAttempPerP2"] = self.passComplAttempFeature.getPA(teamName, p2)
 		features["avgPCPercPerP1"] = self.passComplAttempFeature.getPCPerc(teamName, p1)
-		features["avgPCPercPerP2"] = self.passComplAttempFeature.getPCPerc(teamName, p2)
+		# features["avgPCPercPerP2"] = self.passComplAttempFeature.getPCPerc(teamName, p2)
 
 		return features
 
@@ -338,7 +338,7 @@ class PredictPD():
 			print "Iteration %s" % i
 			print "------------"
 			for w in self.weights:
-					print "weights[%s] = %f" % (w, float(self.weights[w]))
+				print "weights[%s] = %f" % (w, float(self.weights[w]))
 			# iterate over matchdays -- hold out on some matchdays
 			matchNum = 0
 
@@ -379,10 +379,10 @@ class PredictPD():
 
 					features = self.featureExtractor(teamName, p1, p2, matchID, matchNum, weight)
 
-					for f in features:
-						print "features[%s] = %f" % (f, float(features[f]))
-					for w in self.weights:
-						print "weights[%s] = %f" % (w, float(self.weights[w]))
+					# for f in features:
+					# 	print "features[%s] = %f" % (f, float(features[f]))
+					# for w in self.weights:
+					# 	print "weights[%s] = %f" % (w, float(self.weights[w]))
 
 					score, loss = self.evaluate(features, weight)
  					self.updateWeights(features, self.weights, int(weight))

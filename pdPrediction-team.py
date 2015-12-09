@@ -170,7 +170,7 @@ class PredictPD():
 		diffInRank = self.rankFeature.isHigherInRank(teamName, oppTeam)
 
 		features = defaultdict(float)
-		features["avgPasses"] = avgPasses
+		# features["avgPasses"] = avgPasses
 		features["isSamePos"] = isSamePos
 		features["isDiffPos"] = isDiffPos
 		features["diffInRank"] = diffInRank
@@ -226,10 +226,10 @@ class PredictPD():
 
 
         
-		features["avgPassCompl"] = 1 if avgPassCompl > oppAvgPassCompl else 0
-		features["avgPassAttem"] = 1 if avgPassAttem > oppAvgPassAttem else 0
-		features["avgPassPerc"] = 1 if avgPassPerc > oppAvgPassPerc else 0
-		features["avgPassFail"] = 1 if avgPassFail > oppAvgPassFail else 0
+		# features["avgPassCompl"] = 1 if avgPassCompl > oppAvgPassCompl else 0
+		# features["avgPassAttem"] = 1 if avgPassAttem > oppAvgPassAttem else 0
+		# features["avgPassPerc"] = 1 if avgPassPerc > oppAvgPassPerc else 0
+		# features["avgPassFail"] = 1 if avgPassFail > oppAvgPassFail else 0
 
 		# for feature: won against a similar ranking team
 		# 1. define history that we are able to use, i.e. previous games
@@ -255,15 +255,15 @@ class PredictPD():
 
 
 			# 3. find out whether the game was won or lost
-			features["wonAgainstSimTeam"] = self.teamWonAgainst[teamName][matchday]
+			# features["wonAgainstSimTeam"] = self.teamWonAgainst[teamName][matchday]
 
 		# mean degree feature
 		# features["meanDegree"] = self.meanDegreeFeature.getMeanDegree(matchID, teamName)
 		
 		features["betwPerGameP1"] = self.betweenFeature.getBetweenCentr(matchID, teamName, p1)
-		features["betwPerGameP2"] = self.betweenFeature.getBetweenCentr(matchID, teamName, p2)
+		# features["betwPerGameP2"] = self.betweenFeature.getBetweenCentr(matchID, teamName, p2)
 
-		features["avgPCPercPerP1"] = self.passComplAttempFeature.getPCPerc(teamName, p1)
+		# features["avgPCPercPerP1"] = self.passComplAttempFeature.getPCPerc(teamName, p1)
 		features["avgPCPercPerP2"] = self.passComplAttempFeature.getPCPerc(teamName, p2)
 
 		return features

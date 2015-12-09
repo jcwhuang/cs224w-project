@@ -296,7 +296,6 @@ class CountPassesComplAttempPerTeamFeature():
 					# print "teamName is: %s" % teamName
 					# print "matchID is: %s" % matchID
 					for line in teamFile:
-						print line
 						stats = line.rstrip().split(", ")
 						self.passComplPerTeam[teamName] += float(stats[0])
 						self.passAttemPerTeam[teamName] += float(stats[1])
