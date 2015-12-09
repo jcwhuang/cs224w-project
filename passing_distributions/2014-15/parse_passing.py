@@ -1,10 +1,17 @@
 # Jade Huang
+# jade.huang@stanford.edu
 # Parse passing distributions (PD)
 # Assumes PD is in .csv format
 # usage: python parse_passing.py -i INFILE -o OUTFILE
 #        where INFILE is a .csv file with passing distributions
 #        OUTFILE will be the prefix for two edge/node lists
 #        (one per team)
+#
+# Parses passing distributions into
+#   edge files (player1  player2  weight)
+#   node files (player_num  player_name)
+#   team stats files (PC,  PA,  PC%)
+#   player stats files (player_num,PC,PA,PC%)
 
 import sys
 import re
@@ -43,8 +50,8 @@ total_passes_received_by_player = defaultdict(float)
 
 # stat index -> total stats
 total_passes_received_by_stats = defaultdict(str)
-
-pass_volume = 0
+pass_compl = 0
+pass_attem = 0
 pass_perc = 0
 
 #################################################
@@ -138,6 +145,9 @@ def setup(start, end):
 #   stores player1 -> player2 edges
 #################################################
 def store_edges(start, end):
+    global pass_compl
+    global pass_attem
+    global pass_perc
     # store edges
     for line in passing_dist[start:end]:
         split = line.rstrip().split(",")
@@ -204,8 +214,10 @@ def store_edges(start, end):
                     total_stats_processed.append(stat)
             # TODO JADE
             print total_stats_processed
-            pass_volume = total_stats_processed[-2]
+            pass_compl = total_stats_processed[-3]
+            pass_attem = total_stats_processed[-2]
             pass_perc = total_stats_processed[-1]
+            print "pass vol: %s, pass perc: %s" % (pass_attem, pass_perc)
 
             offset = len(split) - 9
             for index in xrange(len(total_stats_processed)):
@@ -265,8 +277,13 @@ def print_player_stats(team):
     line = ""
     for player in player_stats:
         line += "%s," % player
-        for i in xrange(len(player_stats[player])):
-            line += "%s:%s," % (i, player_stats[player][i])
+        # only interested in last three values: total PC, PA, % PC
+
+        # for i in xrange(len(player_stats[player])):
+        p_stats = player_stats[player][-3:]
+        print "p_stats are", p_stats
+        for i in xrange(3):
+            line += "%s," % (p_stats[i])
         line = line[:-1] # get rid of last comma
         line += "\n"
     # print line
@@ -282,7 +299,7 @@ def print_team_stats(team):
     line = ""
     # volume = total_passes_received_by_stats[24]
     # perc = total_passes_received_by_stats[25]
-    team_stats_outfile.write(str(pass_volume) + ", " + str(pass_perc))
+    team_stats_outfile.write(str(pass_compl) + ", " + str(pass_attem) + ", " + str(pass_perc))
     # for stat in total_stats_processed:
     #     line += "%s," % player
     #     for i in xrange(len(player_stats[player])):
@@ -324,15 +341,15 @@ sys.stderr.write("teams are: " + team1 + " and " + team2 + "\n")
 start1, end1 = get_start_end_index(0, len(passing_dist), passing_dist)
 prep(start1, end1)
 print_team_stats(team1)
-# print_player_feature_stats(team1+"+" + team2)
-# print_edges(team1)
-# print_nodes(team1)
-# print_player_stats(team1)
+print_player_feature_stats(team1+"+" + team2)
+print_edges(team1)
+print_nodes(team1)
+print_player_stats(team1)
 
 # team 2
 start2, end2 = get_start_end_index(end1, len(passing_dist), passing_dist)
 prep(start2, end2)
 print_team_stats(team2)
-# print_edges(team2)
-# print_nodes(team2)
-# print_player_stats(team2)
+print_edges(team2)
+print_nodes(team2)
+print_player_stats(team2)
