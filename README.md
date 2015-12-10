@@ -17,3 +17,5 @@ for games in the round of 16 stage
 
 **Results:** Our linear regression model exceeded our baseline (average past
 passing network) by 25.27%
+
+_For more details including model, algorithm, analysis, results, see writeup/final.pdf_
