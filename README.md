@@ -3,14 +3,15 @@
 ###Autumn 2015###
 
 **Data:** UEFA Champions League 2014-15
-| Type of data | Relevant directory |
-|------------- |--------------------|
-|passing distributions| passing_distributions/|
-|rankings| rankings/|
-|squad lists| squads/|
-|scores| scores/|
-|tactical lineups|lineup/|
-|individual player statistics| player_statistics/|
+
+Type of data: Relevant directory
+--------------------------------
+passing distributions: passing_distributions/
+rankings: rankings/
+squad lists: squads/
+scores: scores/
+tactical lineups: lineup/
+individual player statistics: player_statistics/
 
 **Goal:** Based on games from the group stage, predict passing distributions
 for games in the round of 16 stage
