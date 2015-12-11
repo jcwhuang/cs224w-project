@@ -38,6 +38,10 @@ sub grab_players {
             my ($team_name) = $player_info =~ /data-tnm="([^"]*)"/;
             my ($player_pos) = $player_info =~ /data-pos="([^"]*)"/;
             my ($player_price) = $player_info =~ /data-val="([^"]*)"/;
-            print "$player_name, $team_name, $player_pos, $player_price\n";
+            print "$player_name, $team_name, $player_pos, $player_price, ";
+            while ($content =~ s/$player_name\s*<p>\s*([^<]*)<//) {
+                my ($per) = $1 =~/%\s*([0-9.]*)\s*Picked/;
+                print "$per\n"
+            }
         }
 }

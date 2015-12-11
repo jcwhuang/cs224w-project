@@ -1,0 +1,770 @@
+# Player name, team name, player position, player price
+Hazard, Chelsea FC, MID, 11.5, 3.83
+0.58
+Robben, FC Bayern München, MID, 11.0, 1.37
+James Rodríguez, Real Madrid CF, MID, 10.5, 2.19
+Götze, FC Bayern München, MID, 10.5, 2.08
+Ribéry, FC Bayern München, MID, 10.5, 0.66
+Touré, Manchester City FC, MID, 10.0, 1.30
+Vidal, FC Bayern München, MID, 10.0, 0.98
+Iniesta, FC Barcelona, MID, 10.0, 2.72
+Fàbregas, Chelsea FC, MID, 9.5, 2.82
+Silva, Manchester City FC, MID, 9.5, 1.06
+Özil, Arsenal FC, MID, 9.5, 4.79
+Santi Cazorla, Arsenal FC, MID, 9.5, 0.93
+Koke, Club Atlético de Madrid, MID, 9.0, 1.37
+Pjanić, AS Roma, MID, 9.0, 3.49
+Ramsey, Arsenal FC, MID, 9.0, 0.88
+Rakitić, FC Barcelona, MID, 9.0, 8.44
+Di María, Paris Saint-Germain, MID, 9.0, 20.29
+Sterling, Manchester City FC, MID, 9.0, 2.66
+Pogba, Juventus, MID, 9.0, 10.34
+Isco, Real Madrid CF, MID, 9.0, 2.91
+Kampl, Bayer 04 Leverkusen, MID, 8.5, 0.84
+Oscar, Chelsea FC, MID, 8.5, 1.67
+Kroos, Real Madrid CF, MID, 8.5, 5.08
+Marchisio, Juventus, MID, 8.5, 0.47
+De Rossi, AS Roma, MID, 8.5, 0.97
+De Bruyne, Manchester City FC, MID, 8.5, 11.31
+Hernanes, Juventus, MID, 8.5, 0.44
+Pastore, Paris Saint-Germain, MID, 8.5, 1.07
+Juan Mata, Manchester United FC, MID, 8.5, 7.09
+Dzagoev, PFC CSKA Moskva, MID, 8.0, 0.56
+Raffael, VfL Borussia Mönchengladbach, MID, 8.0, 0.52
+Khedira, Juventus, MID, 8.0, 0.41
+Oxlade-Chamberlain, Arsenal FC, MID, 8.0, 1.10
+Alex Teixeira, FC Shakhtar Donetsk, MID, 8.0, 2.10
+Kramer, Bayer 04 Leverkusen, MID, 8.0, 0.45
+Sneijder, Galatasaray AŞ, MID, 8.0, 3.08
+Draxler, VfL Wolfsburg, MID, 8.0, 4.73
+Valbuena, Olympique Lyonnais, MID, 8.0, 0.92
+Modrić, Real Madrid CF, MID, 8.0, 7.38
+Fekir, Olympique Lyonnais, MID, 8.0, 0.40
+Konoplyanka, Sevilla FC, MID, 8.0, 1.95
+Lucas, Paris Saint-Germain, MID, 8.0, 1.62
+Jesús Navas, Manchester City FC, MID, 8.0, 0.77
+Nasri, Manchester City FC, MID, 8.0, 0.66
+Willian, Chelsea FC, MID, 8.0, 11.94
+Bernard, FC Shakhtar Donetsk, MID, 8.0, 0.40
+Danny, FC Zenit, MID, 8.0, 1.59
+Douglas Costa, FC Bayern München, MID, 8.0, 21.23
+Hazard, VfL Borussia Mönchengladbach, MID, 7.5, Busquets, FC Barcelona, MID, 7.5, 4.93
+Tiago, Club Atlético de Madrid, MID, 7.5, 1.58
+Florenzi, AS Roma, MID, 7.5, 1.99
+Ander Herrera, Manchester United FC, MID, 7.5, 0.99
+Cuadrado, Juventus, MID, 7.5, 3.72
+Gabi, Club Atlético de Madrid, MID, 7.5, 2.44
+Vitolo, Sevilla FC, MID, 7.5, 0.54
+Witsel, FC Zenit, MID, 7.5, 2.88
+Thiago Alcántara, FC Bayern München, MID, 7.5, 3.84
+Iturbe, AS Roma, MID, 7.5, 0.79
+Alonso, FC Bayern München, MID, 7.5, 4.48
+Fellaini, Manchester United FC, MID, 7.5, 0.77
+Tolisso, Olympique Lyonnais, MID, 7.5, 0.37
+Reyes, Sevilla FC, MID, 7.5, 0.51
+Fernandinho, Manchester City FC, MID, 7.5, 1.55
+Schweinsteiger, Manchester United FC, MID, 7.5, 2.09
+Schneiderlin, Manchester United FC, MID, 7.5, 0.84
+Wilshere, Arsenal FC, MID, 7.5, 0.54
+Taison, FC Shakhtar Donetsk, MID, 7.5, 0.39
+Schürrle, VfL Wolfsburg, MID, 7.5, 2.97
+Herrera, FC Porto, MID, 7.5, 2.67
+Fernando, Manchester City FC, MID, 7.5, 0.35
+Xhaka, VfL Borussia Mönchengladbach, MID, 7.5, 0.49
+Verratti, Paris Saint-Germain, MID, 7.0, 6.44
+Sergi Roberto, FC Barcelona, MID, 7.0, 1.63
+Banega, Sevilla FC, MID, 7.0, 0.92
+Young, Manchester United FC, MID, 7.0, 0.78
+Gonalons, Olympique Lyonnais, MID, 7.0, 0.41
+Malbranque, Olympique Lyonnais, MID, 7.0, 0.23
+Matuidi, Paris Saint-Germain, MID, 7.0, 11.88
+Delph, Manchester City FC, MID, 7.0, 0.38
+Matić, Chelsea FC, MID, 7.0, 4.90
+Kovačić, Real Madrid CF, MID, 7.0, 1.16
+Ferreira-Carrasco, Club Atlético de Madrid, MID, 7.0, 1.27
+Grenier, Olympique Lyonnais, MID, 7.0, 0.23
+Saúl Ñíguez, Club Atlético de Madrid, MID, 7.0, 0.97
+Sérgio Oliveira, FC Porto, MID, 7.0, 0.39
+Kakuta, Sevilla FC, MID, 7.0, 0.22
+Carrick, Manchester United FC, MID, 7.0, 0.47
+Taarabt, SL Benfica, MID, 7.0, 0.47
+Herrmann, VfL Borussia Mönchengladbach, MID, 7.0, 0.35
+Iborra, Sevilla FC, MID, 7.0, 0.36
+Bellarabi, Bayer 04 Leverkusen, MID, 7.0, 3.15
+Nainggolan, AS Roma, MID, 7.0, 2.56
+Gaitán, SL Benfica, MID, 7.0, 11.56
+Pereyra, Juventus, MID, 7.0, 0.65
+Maher, PSV Eindhoven, MID, 7.0, 0.43
+Tošić, PFC CSKA Moskva, MID, 7.0, 0.70
+Fred, FC Shakhtar Donetsk, MID, 6.5, 0.96
+Stambouli, Paris Saint-Germain, MID, 6.5, 0.33
+Wellington Nem, FC Shakhtar Donetsk, MID, 6.5, 0.32
+Cañas, FC Astana, MID, 6.5, 0.38
+Javi Martínez, FC Bayern München, MID, 6.5, 1.14
+Arnold, VfL Wolfsburg, MID, 6.5, 0.41
+Thiago Motta, Paris Saint-Germain, MID, 6.5, 5.02
+Foket, KAA Gent, MID, 6.5, 0.25
+Pröpper, PSV Eindhoven, MID, 6.5, 0.53
+Bender, Bayer 04 Leverkusen, MID, 6.5, 1.22
+Kranjčar, FC Dynamo Kyiv, MID, 6.5, 0.41
+Hahn, VfL Borussia Mönchengladbach, MID, 6.5, 0.29
+Luiz Gustavo, VfL Wolfsburg, MID, 6.5, 0.98
+André André, FC Porto, MID, 6.5, 8.90
+Sturaro, Juventus, MID, 6.5, 0.51
+Óliver Torres, Club Atlético de Madrid, MID, 6.5, 1.03
+N'Zonzi, Sevilla FC, MID, 6.5, 0.44
+Keita, AS Roma, MID, 6.5, 0.65
+Eremenko, PFC CSKA Moskva, MID, 6.5, 0.53
+Hleb, FC BATE Borisov, MID, 6.5, 0.37
+Guardado, PSV Eindhoven, MID, 6.5, 1.98
+Falqué, AS Roma, MID, 6.5, 0.75
+Cambiasso, Olympiacos FC, MID, 6.5, 0.48
+Traoré, VfL Borussia Mönchengladbach, MID, 6.5, 0.39
+0.55
+Blind, Manchester United FC, MID, 6.5, 2.84
+Krohn-Dehli, Sevilla FC, MID, 6.5, 0.44
+Selçuk İnan, Galatasaray AŞ, MID, 6.5, 0.68
+Valencia, Manchester United FC, MID, 6.5, 0.83
+Maksimović, FC Astana, MID, 6.5, 0.33
+Ferri, Olympique Lyonnais, MID, 6.0, 0.43
+Coquelin, Arsenal FC, MID, 6.0, 1.10
+André Almeida, SL Benfica, MID, 6.0, 2.04
+Kasami, Olympiacos FC, MID, 6.0, 0.98
+Rosický, Arsenal FC, MID, 6.0, 0.59
+Guilavogui, VfL Wolfsburg, MID, 6.0, 0.57
+Gordeichuk, FC BATE Borisov, MID, 6.0, 0.40
+Stepanenko, FC Shakhtar Donetsk, MID, 6.0, 0.34
+Vainqueur, AS Roma, MID, 6.0, 0.36
+Nordtveit, VfL Borussia Mönchengladbach, MID, 6.0, 0.29
+Stindl, VfL Borussia Mönchengladbach, MID, 6.0, 1.18
+Rúben Neves, FC Porto, MID, 6.0, 0.47
+Hamit Altıntop, Galatasaray AŞ, MID, 6.0, 0.23
+Rodriguez, VfL Wolfsburg, MID, 6.0, 0.58
+Shatov, FC Zenit, MID, 6.0, 8.93
+Belhanda, FC Dynamo Kyiv, MID, 6.0, 0.40
+Kéthévoama, FC Astana, MID, 6.0, 0.28
+Krychowiak, Sevilla FC, MID, 6.0, 2.31
+Rode, FC Bayern München, MID, 6.0, 0.52
+Casemiro, Real Madrid CF, MID, 6.0, 2.50
+Milanov, PFC CSKA Moskva, MID, 6.0, 0.31
+Ramires, Chelsea FC, MID, 6.0, 3.76
+Marlos, FC Shakhtar Donetsk, MID, 6.0, 0.46
+Ødegaard, Real Madrid CF, MID, 6.0, 0.49
+Rodrigo, Valencia CF, MID, 6.0, 0.97
+Sergi Darder, Olympique Lyonnais, MID, 6.0, 0.35
+Miguel Veloso, FC Dynamo Kyiv, MID, 6.0, 0.93
+Caligiuri, VfL Wolfsburg, MID, 6.0, 3.42
+Pereiro, PSV Eindhoven, MID, 6.0, 0.50
+Danilo, FC Porto, MID, 6.0, 1.14
+Arteta, Arsenal FC, MID, 6.0, 0.81
+Carcela-González, SL Benfica, MID, 6.0, 0.32
+Milicievic, KAA Gent, MID, 6.0, 0.40
+Parejo, Valencia CF, MID, 6.0, 3.24
+Kenedy, Chelsea FC, MID, 5.5, 0.46
+Dejaeghere, KAA Gent, MID, 5.5, 0.25
+Ćorić, GNK Dinamo Zagreb, MID, 5.5, 0.47
+Adu, Malmö FF, MID, 5.5, 0.51
+Ghezzal, Olympique Lyonnais, MID, 5.5, 0.30
+Kalulu, Olympique Lyonnais, MID, 5.5, 0.11
+Baga, FC BATE Borisov, MID, 5.5, 0.32
+Imbula, FC Porto, MID, 5.5, 2.13
+Seguin, VfL Wolfsburg, MID, 5.5, 0.42
+Victor Andrade, SL Benfica, MID, 5.5, 0.36
+Cristóforo, Sevilla FC, MID, 5.5, 0.30
+Pérez, Valencia CF, MID, 5.5, 3.50
+Sydorchuk, FC Dynamo Kyiv, MID, 5.5, 0.32
+Fortounis, Olympiacos FC, MID, 5.5, 1.19
+José Rodríguez, Galatasaray AŞ, MID, 5.5, 0.51
+Loftus-Cheek, Chelsea FC, MID, 5.5, 0.44
+Luismi, Sevilla FC, MID, 5.5, 0.28
+Lewicki, Malmö FF, MID, 5.5, 0.31
+Talisca, SL Benfica, MID, 5.5, 1.13
+Lestienne, PSV Eindhoven, MID, 5.5, 2.59
+Pardo, Olympiacos FC, MID, 5.5, 4.12
+Lingard, Manchester United FC, MID, 5.5, 0.96
+Cheryshev, Real Madrid CF, MID, 5.5, 0.50
+Renato Neto, KAA Gent, MID, 5.5, 0.41
+Javi García, FC Zenit, MID, 5.5, 2.53
+Gusev, FC Dynamo Kyiv, MID, 5.5, 0.85
+Fayzulin, FC Zenit, MID, 5.5, 0.28
+Wernbloom, PFC CSKA Moskva, MID, 5.5, 0.59
+Javi Fuego, Valencia CF, MID, 5.5, 0.75
+Danilo Barbosa, Valencia CF, MID, 5.5, 0.37
+Mvuemba, Olympique Lyonnais, MID, 5.5, 0.34
+Bilal Kisa, Galatasaray AŞ, MID, 5.0, 1.25
+Salih Uçan, AS Roma, MID, 5.0, 0.54
+Pizzi, SL Benfica, MID, 5.0, 0.91
+Yusupov, FC Zenit, MID, 5.0, 0.42
+Beysebekov, FC Astana, MID, 5.0, 0.33
+Guðmundsson, PSV Eindhoven, MID, 5.0, 0.34
+Rybalka, FC Dynamo Kyiv, MID, 5.0, 2.91
+Lucas Vázquez, Real Madrid CF, MID, 5.0, 1.02
+Zhukov, FC Astana, MID, 5.0, 0.42
+Evandro, FC Porto, MID, 5.0, 0.62
+Emre Çolak, Galatasaray AŞ, MID, 5.0, 0.42
+Domínguez, Olympiacos FC, MID, 5.0, 1.02
+Tousart, Olympique Lyonnais, MID, 5.0, 0.31
+Petrović, FC Dynamo Kyiv, MID, 5.0, 0.32
+Schulz, VfL Borussia Mönchengladbach, MID, 5.0, 0.32
+Volodko, FC BATE Borisov, MID, 5.0, 0.54
+Likhtarovich, FC BATE Borisov, MID, 5.0, 0.28
+Karnitski, FC BATE Borisov, MID, 5.0, 0.67
+Labidi, Olympique Lyonnais, MID, 5.0, 0.30
+Samaris, SL Benfica, MID, 5.0, 1.66
+Traoré, Chelsea FC, MID, 5.0, Kemen, Olympique Lyonnais, MID, 5.0, 0.27
+Cauņa, PFC CSKA Moskva, MID, 5.0, 0.30
+Buyalskiy, FC Dynamo Kyiv, MID, 5.0, 0.43
+Van der Bruggen, KAA Gent, MID, 5.0, 0.27
+Rodić, Malmö FF, MID, 5.0, 0.32
+Schaars, PSV Eindhoven, MID, 5.0, 0.41
+Hendrix, PSV Eindhoven, MID, 5.0, 0.70
+Yurchenko, Bayer 04 Leverkusen, MID, 5.0, 0.34
+Saief, KAA Gent, MID, 5.0, 0.25
+Golovin, PFC CSKA Moskva, MID, 5.0, 0.28
+Paulo Machado, GNK Dinamo Zagreb, MID, 5.0, 0.89
+André Gomes, Valencia CF, MID, 5.0, 1.92
+Kimmich, FC Bayern München, MID, 5.0, 0.59
+Rabiot, Paris Saint-Germain, MID, 5.0, 1.99
+Partey, Club Atlético de Madrid, MID, 5.0, 0.46
+Powell, Manchester United FC, MID, 5.0, 0.28
+De Paul, Valencia CF, MID, 5.0, 0.42
+Garmash, FC Dynamo Kyiv, MID, 5.0, 0.76
+Brandt, Bayer 04 Leverkusen, MID, 5.0, 0.92
+Kums, KAA Gent, MID, 5.0, 3.08
+Mikel, Chelsea FC, MID, 5.0, 1.16
+Tropi, Valencia CF, MID, 5.0, 0.27
+Šovšić, GNK Dinamo Zagreb, MID, 5.0, 0.30
+Vloet, PSV Eindhoven, MID, 5.0, 0.29
+Kroon, Malmö FF, MID, 4.5, 0.49
+Ryu, Bayer 04 Leverkusen, MID, 4.5, 0.43
+Svanberg, Malmö FF, MID, 4.5, 0.31
+Ademi, GNK Dinamo Zagreb, MID, 4.5, 0.58
+Olekhnovich, FC BATE Borisov, MID, 4.5, 0.49
+Asare, KAA Gent, MID, 4.5, 0.45
+Pereira, Manchester United FC, MID, 4.5, 1.15
+Natcho, PFC CSKA Moskva, MID, 4.5, 3.02
+Rikan, Maccabi Tel-Aviv FC, MID, 4.5, 0.40
+Frey, Bayer 04 Leverkusen, MID, 4.5, 0.43
+Gaudino, FC Bayern München, MID, 4.5, 0.64
+Feghouli, Valencia CF, MID, 4.5, 15.06
+Rakip, Malmö FF, MID, 4.5, 0.30
+Maniatis, Olympiacos FC, MID, 4.5, 0.29
+Kovalenko, FC Shakhtar Donetsk, MID, 4.5, 0.41
+Gil, Valencia CF, MID, 4.5, 0.42
+Nikolić, FC BATE Borisov, MID, 4.5, 0.37
+Yablonski, FC BATE Borisov, MID, 4.5, 0.35
+Fejsa, SL Benfica, MID, 4.5, 0.50
+Gryn, FC Shakhtar Donetsk, MID, 4.5, 0.31
+Flamini, Arsenal FC, MID, 4.5, 1.87
+Cibicki, Malmö FF, MID, 4.5, 0.32
+Muzhikov, FC Astana, MID, 4.5, 0.47
+Aleksievich, FC BATE Borisov, MID, 4.5, 0.34
+Kobin, FC Shakhtar Donetsk, MID, 4.5, 0.31
+Khairullin, FC Astana, MID, 4.5, 0.30
+Dahoud, VfL Borussia Mönchengladbach, MID, 4.5, 0.26
+Cristante, SL Benfica, MID, 4.5, 0.50
+Jem Paul Karacan, Galatasaray AŞ, MID, 4.5, 0.30
+Matton, KAA Gent, MID, 4.5, 0.40
+Malyshev, FC Shakhtar Donetsk, MID, 4.5, 0.32
+Gonçalo Santos, GNK Dinamo Zagreb, MID, 4.5, 0.33
+Pavičić, GNK Dinamo Zagreb, MID, 4.5, 0.28
+Mitrović, Maccabi Tel-Aviv FC, MID, 4.5, 0.65
+Antolić, GNK Dinamo Zagreb, MID, 4.5, 0.36
+Myakushko, FC Dynamo Kyiv, MID, 4.5, 0.28
+Eikrem, Malmö FF, MID, 4.5, 0.33
+Glazer, Maccabi Tel-Aviv FC, MID, 4.0, 0.71
+Vermouth, Maccabi Tel-Aviv FC, MID, 4.0, 0.41
+Peretz, Maccabi Tel-Aviv FC, MID, 4.0, 0.39
+Andersson, Malmö FF, MID, 4.0, 0.76
+Einbinder, Maccabi Tel-Aviv FC, MID, 4.0, 0.32
+Pivarić, GNK Dinamo Zagreb, MID, 4.0, 2.52
+Armaly, Maccabi Tel-Aviv FC, MID, 4.0, 0.32
+Gojak, GNK Dinamo Zagreb, MID, 4.0, 0.43
+Ryazantsev, FC Zenit, MID, 4.0, 1.98
+Milivojević, Olympiacos FC, MID, 4.0, 0.86
+Dedechko, FC Astana, MID, 4.0, 0.66
+Bouchalakis, Olympiacos FC, MID, 4.0, 0.29
+Rog, GNK Dinamo Zagreb, MID, 4.0, 0.56
+Zahavi, Maccabi Tel-Aviv FC, MID, 4.0, 2.43
+Olcan Adın, Galatasaray AŞ, MID, 4.0, 0.75
+Stasevich, FC BATE Borisov, MID, 4.0, 2.18
+Miha, Maccabi Tel-Aviv FC, MID, 4.0, 0.35
+Poletanović, KAA Gent, MID, 4.0, 0.47
+Yasin Öztekin, Galatasaray AŞ, MID, 4.0, 1.89
+Molins, Malmö FF, MID, 4.0, 0.33
+Pascual, Valencia CF, MID, 4.0, 1.69
+Kozhamberdy, FC Astana, MID, 3.5, 4.69
+Azulay, Maccabi Tel-Aviv FC, MID, 3.5, 3.19
+Igiebor, Maccabi Tel-Aviv FC, MID, 3.5, 1.58
+Rios, FC BATE Borisov, MID, 3.5, 4.60
+Musa, GNK Dinamo Zagreb, MID, 3.5, 8.00
+Alberman, Maccabi Tel-Aviv FC, MID, 3.5, 6.73
+Elabdellaoui, Olympiacos FC, MID, 3.5, 21.58
+Varane, Real Madrid CF, DEF, 7.0, 6.35
+Dani Alves, FC Barcelona, DEF, 7.0, 4.13
+Chiellini, Juventus, DEF, 7.0, 4.84
+Mascherano, FC Barcelona, DEF, 7.0, 3.01
+Godín, Club Atlético de Madrid, DEF, 7.0, 12.40
+Boateng, FC Bayern München, DEF, 7.0, 10.93
+Juanfran, Club Atlético de Madrid, DEF, 7.0, 4.44
+Jordi Alba, FC Barcelona, DEF, 7.0, 4.05
+Bonucci, Juventus, DEF, 7.0, 2.05
+Marcelo, Real Madrid CF, DEF, 7.0, 7.33
+Lahm, FC Bayern München, DEF, 6.5, 10.54
+Piqué, FC Barcelona, DEF, 6.5, 9.14
+Kompany, Manchester City FC, DEF, 6.5, 2.90
+Ivanović, Chelsea FC, DEF, 6.5, 2.45
+Terry, Chelsea FC, DEF, 6.5, 1.93
+Alaba, FC Bayern München, DEF, 6.5, 14.45
+Ramos, Real Madrid CF, DEF, 6.5, 6.67
+Thiago Silva, Paris Saint-Germain, DEF, 6.5, 10.32
+Benatia, FC Bayern München, DEF, 6.0, 1.22
+Darmian, Manchester United FC, DEF, 6.0, 4.02
+Otamendi, Manchester City FC, DEF, 6.0, 4.46
+Evra, Juventus, DEF, 6.0, 4.06
+Dante, VfL Wolfsburg, DEF, 6.0, 2.65
+van der Wiel, Paris Saint-Germain, DEF, 6.0, 1.40
+Barzagli, Juventus, DEF, 6.0, 2.83
+Lichtsteiner, Juventus, DEF, 6.0, 1.86
+Zabaleta, Manchester City FC, DEF, 6.0, 1.24
+Jantschke, VfL Borussia Mönchengladbach, DEF, 6.0, 0.40
+Cahill, Chelsea FC, DEF, 6.0, 3.80
+Pepe, Real Madrid CF, DEF, 6.0, 2.65
+David Luiz, Paris Saint-Germain, DEF, 6.0, 6.23
+Smalling, Manchester United FC, DEF, 5.5, 10.27
+Mangala, Manchester City FC, DEF, 5.5, 1.26
+Filipe Luís, Club Atlético de Madrid, DEF, 5.5, 5.78
+Mertesacker, Arsenal FC, DEF, 5.5, 2.84
+Danilo, Real Madrid CF, DEF, 5.5, 3.35
+Vermaelen, FC Barcelona, DEF, 5.5, 0.90
+Srna, FC Shakhtar Donetsk, DEF, 5.5, 1.92
+Maxwell, Paris Saint-Germain, DEF, 5.5, 12.27
+Papadopoulos, Bayer 04 Leverkusen, DEF, 5.5, 1.28
+Kurzawa, Paris Saint-Germain, DEF, 5.5, 1.67
+Ben Haim I, Maccabi Tel-Aviv FC, DEF, 5.5, 0.31
+Monreal, Arsenal FC, DEF, 5.5, 1.34
+Azpilicueta, Chelsea FC, DEF, 5.5, 8.03
+Badstuber, FC Bayern München, DEF, 5.5, 0.43
+Gibbs, Arsenal FC, DEF, 5.5, 1.20
+Garay, FC Zenit, DEF, 5.5, 4.83
+Wendt, VfL Borussia Mönchengladbach, DEF, 5.5, 0.43
+Demichelis, Manchester City FC, DEF, 5.5, 0.86
+Martins Indi, FC Porto, DEF, 5.5, 2.29
+Mathieu, FC Barcelona, DEF, 5.5, 2.50
+Shaw, Manchester United FC, DEF, 5.5, 0.78
+Rodriguez, VfL Wolfsburg, DEF, 5.5, 3.34
+Kolarov, Manchester City FC, DEF, 5.5, 3.15
+Daniel Carriço, Sevilla FC, DEF, 5.5, 0.30
+Marquinhos, Paris Saint-Germain, DEF, 5.5, 2.42
+Alex Sandro, Juventus, DEF, 5.5, 2.42
+Bartra, FC Barcelona, DEF, 5.5, 1.30
+Rugani, Juventus, DEF, 5.5, 0.36
+Siqueira, Club Atlético de Madrid, DEF, 5.5, 2.03
+Koscielny, Arsenal FC, DEF, 5.5, 3.44
+Rafinha, FC Bayern München, DEF, 5.0, 3.80
+0.61
+1.19
+Vieirinha, VfL Wolfsburg, DEF, 5.0, 0.66
+Baba, Chelsea FC, DEF, 5.0, 0.87
+Cissokho, FC Porto, DEF, 5.0, 0.71
+Lombaerts, FC Zenit, DEF, 5.0, 2.77
+Träsch, VfL Wolfsburg, DEF, 5.0, 1.18
+Gayà, Valencia CF, DEF, 5.0, 1.89
+Clichy, Manchester City FC, DEF, 5.0, 0.79
+Carvajal, Real Madrid CF, DEF, 5.0, 5.59
+João Cancelo, Valencia CF, DEF, 5.0, 5.39
+Hilbert, Bayer 04 Leverkusen, DEF, 5.0, 0.36
+Adriano, FC Barcelona, DEF, 5.0, 0.98
+Gabriel, Arsenal FC, DEF, 5.0, 1.04
+Rami, Sevilla FC, DEF, 5.0, 0.44
+Willems, PSV Eindhoven, DEF, 5.0, 0.33
+Maicon, FC Porto, DEF, 5.0, 3.32
+1.66
+Maicon, AS Roma, DEF, 5.0, Sagna, Manchester City FC, DEF, 5.0, 2.33
+Luisão, SL Benfica, DEF, 5.0, 2.47
+Tah, Bayer 04 Leverkusen, DEF, 5.0, 0.64
+Schulz, VfL Borussia Mönchengladbach, DEF, 5.0, 0.30
+Rafael, Olympique Lyonnais, DEF, 5.0, 0.50
+Barragán, Valencia CF, DEF, 5.0, 0.47
+Christensen, VfL Borussia Mönchengladbach, DEF, 5.0, 0.43
+Korb, VfL Borussia Mönchengladbach, DEF, 5.0, 0.37
+Aurier, Paris Saint-Germain, DEF, 5.0, 3.27
+Coke, Sevilla FC, DEF, 5.0, 1.37
+Morozyuk, FC Dynamo Kyiv, DEF, 5.0, 0.35
+Anyukov, FC Zenit, DEF, 5.0, 0.55
+Torosidis, AS Roma, DEF, 5.0, 0.71
+Escudero, Sevilla FC, DEF, 5.0, 0.29
+Nacho, Real Madrid CF, DEF, 5.0, 2.65
+Jones, Manchester United FC, DEF, 5.0, 0.57
+Umtiti, Olympique Lyonnais, DEF, 5.0, 0.73
+Bernat, FC Bayern München, DEF, 5.0, 5.22
+Debuchy, Arsenal FC, DEF, 5.0, 0.80
+Giménez, Club Atlético de Madrid, DEF, 5.0, 7.77
+Cáceres, Juventus, DEF, 5.0, 0.60
+Rafinha, FC Barcelona, DEF, 5.0, Stranzl, VfL Borussia Mönchengladbach, DEF, 5.0, 0.27
+Luís Neto, FC Zenit, DEF, 5.0, 0.61
+Maxi Pereira, FC Porto, DEF, 5.0, 4.51
+Trémoulinas, Sevilla FC, DEF, 5.0, 0.86
+Douglas, FC Barcelona, DEF, 5.0, 0.37
+Leandro Castán, AS Roma, DEF, 5.0, 0.47
+Rojo, Manchester United FC, DEF, 5.0, 1.32
+Domínguez, VfL Borussia Mönchengladbach, DEF, 5.0, 0.32
+Arbeloa, Real Madrid CF, DEF, 5.0, 1.58
+Nielsen, KAA Gent, DEF, 5.0, 0.36
+Shevchuk, FC Shakhtar Donetsk, DEF, 5.0, 0.38
+Johnson, VfL Borussia Mönchengladbach, DEF, 5.0, 0.59
+Berezutski, PFC CSKA Moskva, DEF, 5.0, 0.39
+0.65
+Morel, Olympique Lyonnais, DEF, 5.0, 0.38
+Savić, Club Atlético de Madrid, DEF, 5.0, 0.81
+Semih Kaya, Galatasaray AŞ, DEF, 4.5, 1.00
+Khacheridi, FC Dynamo Kyiv, DEF, 4.5, 2.33
+Boenisch, Bayer 04 Leverkusen, DEF, 4.5, 0.51
+Lucas Hernández, Club Atlético de Madrid, DEF, 4.5, 0.60
+Naldo, VfL Wolfsburg, DEF, 4.5, 3.79
+Bellerín, Arsenal FC, DEF, 4.5, 7.40
+Jedvaj, Bayer 04 Leverkusen, DEF, 4.5, 0.29
+Eliseu, SL Benfica, DEF, 4.5, 4.28
+Sabri Sarıoğlu, Galatasaray AŞ, DEF, 4.5, 0.55
+Moreno, PSV Eindhoven, DEF, 4.5, 3.86
+Kimpembe, Paris Saint-Germain, DEF, 4.5, 0.34
+Carole, Galatasaray AŞ, DEF, 4.5, 0.36
+Yanga-Mbiwa, Olympique Lyonnais, DEF, 4.5, 0.62
+Hakan Balta, Galatasaray AŞ, DEF, 4.5, 0.62
+Ivo Pinto, GNK Dinamo Zagreb, DEF, 4.5, 0.37
+Rúben Vezo, Valencia CF, DEF, 4.5, 0.46
+Mariano Ferreira, Sevilla FC, DEF, 4.5, 0.38
+Jardel, SL Benfica, DEF, 4.5, 1.26
+Mário Fernandes, PFC CSKA Moskva, DEF, 4.5, 0.99
+Tinnerholm, Malmö FF, DEF, 4.5, 0.45
+Kryvtsov, FC Shakhtar Donetsk, DEF, 4.5, 0.36
+Donati, Bayer 04 Leverkusen, DEF, 4.5, 0.78
+Biševac, Olympique Lyonnais, DEF, 4.5, 0.34
+Jung, VfL Wolfsburg, DEF, 4.5, 0.38
+Dragovic, FC Dynamo Kyiv, DEF, 4.5, 4.58
+Zouma, Chelsea FC, DEF, 4.5, 8.64
+Schennikov, PFC CSKA Moskva, DEF, 4.5, 0.32
+Jallet, Olympique Lyonnais, DEF, 4.5, 0.87
+Rakitskiy, FC Shakhtar Donetsk, DEF, 4.5, 1.66
+Mustafi, Valencia CF, DEF, 4.5, 3.06
+Klose, VfL Wolfsburg, DEF, 4.5, 0.45
+Danilo Silva, FC Dynamo Kyiv, DEF, 4.5, 0.80
+Chambers, Arsenal FC, DEF, 4.5, 0.89
+Marcano, FC Porto, DEF, 4.5, 1.23
+Kolodziejczak, Sevilla FC, DEF, 4.5, 0.56
+Ignashevich, PFC CSKA Moskva, DEF, 4.5, 0.56
+Santos, Valencia CF, DEF, 4.5, 0.18
+Andreolli, Sevilla FC, DEF, 4.5, 0.40
+Bedimo, Olympique Lyonnais, DEF, 4.5, 0.32
+Johansson, KAA Gent, DEF, 4.5, 0.28
+Digne, AS Roma, DEF, 4.5, 3.37
+Arias, PSV Eindhoven, DEF, 4.5, 0.74
+Criscito, FC Zenit, DEF, 4.5, 3.21
+Gámez, Club Atlético de Madrid, DEF, 4.5, 0.66
+Smolnikov, FC Zenit, DEF, 4.5, 0.94
+Aničić, FC Astana, DEF, 4.5, 0.39
+Orbán, Valencia CF, DEF, 4.5, 0.41
+Poulsen, PSV Eindhoven, DEF, 4.5, 0.34
+Bruma, PSV Eindhoven, DEF, 4.5, 0.72
+Rüdiger, AS Roma, DEF, 4.5, 0.86
+Kirchhoff, FC Bayern München, DEF, 4.5, 0.35
+Koné, Olympique Lyonnais, DEF, 4.5, 0.28
+Mladenović, FC BATE Borisov, DEF, 4.5, 1.12
+Taravel, GNK Dinamo Zagreb, DEF, 4.5, 0.42
+Layún, FC Porto, DEF, 4.5, 7.65
+Sílvio, SL Benfica, DEF, 4.5, 0.36
+Azevedo, FC Shakhtar Donetsk, DEF, 4.5, 0.37
+Wendell, Bayer 04 Leverkusen, DEF, 4.5, 1.09
+Shomko, FC Astana, DEF, 4.5, 0.38
+Lindelöf, SL Benfica, DEF, 4.5, 0.32
+Knoche, VfL Wolfsburg, DEF, 4.0, 0.46
+Árnason, Malmö FF, DEF, 4.0, 0.46
+Manolas, AS Roma, DEF, 4.0, 8.33
+Chedjou, Galatasaray AŞ, DEF, 4.0, 1.63
+Brouwers, VfL Borussia Mönchengladbach, DEF, 4.0, 0.36
+Rafinha, KAA Gent, DEF, 4.0, Brenet, PSV Eindhoven, DEF, 4.0, 1.33
+Postnikov, FC Astana, DEF, 4.0, 0.52
+Zhavnerchik, FC BATE Borisov, DEF, 4.0, 0.29
+Günter, Galatasaray AŞ, DEF, 4.0, 0.38
+Berezutski, PFC CSKA Moskva, DEF, 4.0, Antunes, FC Dynamo Kyiv, DEF, 4.0, 1.97
+Dubra, FC BATE Borisov, DEF, 4.0, 0.33
+Latorre, Valencia CF, DEF, 4.0, 0.50
+Ilič, FC Astana, DEF, 4.0, 0.65
+Botía, Olympiacos FC, DEF, 4.0, 0.58
+Elvedi, VfL Borussia Mönchengladbach, DEF, 4.0, 0.35
+Schäfer, VfL Wolfsburg, DEF, 4.0, 0.55
+Milunović, FC BATE Borisov, DEF, 4.0, 0.78
+Sigali, GNK Dinamo Zagreb, DEF, 4.0, 0.34
+Yotún, Malmö FF, DEF, 4.0, 0.38
+Polyakov, FC BATE Borisov, DEF, 4.0, 0.41
+McNair, Manchester United FC, DEF, 4.0, 0.44
+Lisandro López, SL Benfica, DEF, 4.0, 1.25
+Makarenko, FC Dynamo Kyiv, DEF, 4.0, 0.31
+Nababkin, PFC CSKA Moskva, DEF, 4.0, 0.34
+Tarık Çamdal, Galatasaray AŞ, DEF, 4.0, 0.34
+Rose, Olympique Lyonnais, DEF, 4.0, 0.38
+Ordets, FC Shakhtar Donetsk, DEF, 4.0, 0.44
+Shpungin, Maccabi Tel-Aviv FC, DEF, 4.0, 0.35
+Semedo, SL Benfica, DEF, 4.0, 2.07
+Tibi, Maccabi Tel-Aviv FC, DEF, 4.0, 0.36
+Bengtsson, Malmö FF, DEF, 4.0, 0.29
+Ben Harush, Maccabi Tel-Aviv FC, DEF, 4.0, 0.35
+Mitrović, KAA Gent, DEF, 4.0, 0.88
+Denayer, Galatasaray AŞ, DEF, 4.0, 0.75
+Abdennour, Valencia CF, DEF, 4.0, 2.58
+Siovas, Olympiacos FC, DEF, 4.0, 0.83
+Ascues, VfL Wolfsburg, DEF, 4.0, 0.45
+Kucher, FC Shakhtar Donetsk, DEF, 4.0, 1.04
+Gaiduchik, FC BATE Borisov, DEF, 3.5, 0.91
+Vasin, PFC CSKA Moskva, DEF, 3.5, 0.64
+Ismaily, FC Shakhtar Donetsk, DEF, 3.5, 0.99
+Vida, FC Dynamo Kyiv, DEF, 3.5, 1.06
+Ziv, Maccabi Tel-Aviv FC, DEF, 3.5, 0.39
+Vouros, Olympiacos FC, DEF, 3.5, 0.50
+Isimat-Mirin, PSV Eindhoven, DEF, 3.5, 0.95
+Carvalho, Malmö FF, DEF, 3.5, 0.93
+Raly, Maccabi Tel-Aviv FC, DEF, 3.5, 0.35
+Leandro Salino, Olympiacos FC, DEF, 3.5, 1.15
+Konate, Malmö FF, DEF, 3.5, 0.76
+Chernov, PFC CSKA Moskva, DEF, 3.5, 0.58
+Măţel, GNK Dinamo Zagreb, DEF, 3.5, 0.63
+Dasa, Maccabi Tel-Aviv FC, DEF, 3.5, 0.45
+da Costa, Olympiacos FC, DEF, 3.5, 0.93
+Volodko, FC BATE Borisov, DEF, 3.5, 2.82
+Ozen, Malmö FF, DEF, 3.5, 0.42
+Baiduk, FC BATE Borisov, DEF, 3.5, 0.54
+Matviyenko, FC Shakhtar Donetsk, DEF, 3.5, 0.77
+Brorsson, Malmö FF, DEF, 3.5, 0.42
+Schildenfeld, GNK Dinamo Zagreb, DEF, 3.5, 0.42
+Akhmetov, FC Astana, DEF, 3.0, 4.54
+Masuaku, Olympiacos FC, DEF, 3.0, 13.45
+Carlos García, Maccabi Tel-Aviv FC, DEF, 3.0, 4.66
+Vitas, KAA Gent, DEF, 3.0, 2.91
+Goldberg, Maccabi Tel-Aviv FC, DEF, 3.0, 3.17
+Vindheim, Malmö FF, DEF, 3.0, 4.38
+Pikalkin, FC Astana, DEF, 3.0, 6.67
+Benković, GNK Dinamo Zagreb, DEF, 3.0, 10.52
+Buffon, Juventus, GK, 7.0, 4.46
+Neuer, FC Bayern München, GK, 7.0, 16.98
+ter Stegen, FC Barcelona, GK, 7.0, 3.35
+Casillas, FC Porto, GK, 6.5, 4.37
+Navas, Real Madrid CF, GK, 6.0, 15.60
+Courtois, Chelsea FC, GK, 6.0, 1.91
+Sirigu, Paris Saint-Germain, GK, 6.0, 1.50
+Čech, Arsenal FC, GK, 6.0, 3.45
+de Gea, Manchester United FC, GK, 6.0, 8.63
+Romero, Manchester United FC, GK, 6.0, 0.52
+Hart, Manchester City FC, GK, 6.0, 2.39
+Oblak, Club Atlético de Madrid, GK, 5.5, 15.60
+Bravo, FC Barcelona, GK, 5.5, 1.22
+Leno, Bayer 04 Leverkusen, GK, 5.5, 1.90
+Szczęsny, AS Roma, GK, 5.5, 1.80
+Pyatov, FC Shakhtar Donetsk, GK, 5.5, 0.75
+Akinfeev, PFC CSKA Moskva, GK, 5.5, 0.77
+Helton, FC Porto, GK, 5.0, 0.60
+Muslera, Galatasaray AŞ, GK, 5.0, 2.70
+Barragán, Club Atlético de Madrid, GK, 5.0, 0.42
+Benaglio, VfL Wolfsburg, GK, 5.0, 2.30
+Rico, Sevilla FC, GK, 5.0, 0.78
+De Sanctis, AS Roma, GK, 5.0, 0.96
+Lopes, Olympique Lyonnais, GK, 5.0, 1.55
+0.70
+Trapp, Paris Saint-Germain, GK, 5.0, 5.65
+Moyà, Club Atlético de Madrid, GK, 5.0, 1.39
+Casilla, Real Madrid CF, GK, 5.0, 2.01
+Caballero, Manchester City FC, GK, 5.0, 0.46
+Begović, Chelsea FC, GK, 4.5, 9.88
+Ulreich, FC Bayern München, GK, 4.5, 0.51
+Wiland, Malmö FF, GK, 4.5, 0.53
+Ospina, Arsenal FC, GK, 4.5, 2.39
+Neto, Juventus, GK, 4.5, 0.54
+Zoet, PSV Eindhoven, GK, 4.5, 1.26
+Casteels, VfL Wolfsburg, GK, 4.5, 0.36
+Chernik, FC BATE Borisov, GK, 4.5, 0.43
+Roberto, Olympiacos FC, GK, 4.5, 2.26
+Júlio César, SL Benfica, GK, 4.5, 5.77
+Krešić, Bayer 04 Leverkusen, GK, 4.5, 0.36
+Lodygin, FC Zenit, GK, 4.5, 2.59
+Douchez, Paris Saint-Germain, GK, 4.5, 0.43
+Kapino, Olympiacos FC, GK, 4.5, 0.33
+Sommer, VfL Borussia Mönchengladbach, GK, 4.5, 0.95
+Kerzhakov, FC Zenit, GK, 4.0, 1.18
+Gorgelin, Olympique Lyonnais, GK, 4.0, 0.45
+Starke, FC Bayern München, GK, 4.0, 0.60
+Eray İşcan, Galatasaray AŞ, GK, 4.0, 0.34
+Shovkovskiy, FC Dynamo Kyiv, GK, 4.0, 2.94
+Ederson, SL Benfica, GK, 4.0, 0.42
+Eduardo, GNK Dinamo Zagreb, GK, 4.0, 1.18
+Koopmans, PSV Eindhoven, GK, 4.0, 0.37
+Erić, FC Astana, GK, 4.0, 0.92
+Kanibolotskiy, FC Shakhtar Donetsk, GK, 4.0, 0.36
+Paulo Lopes, SL Benfica, GK, 4.0, Beto, Sevilla FC, GK, 4.0, 2.40
+Kompalla, VfL Borussia Mönchengladbach, GK, 4.0, 0.33
+Heimeroth, VfL Borussia Mönchengladbach, GK, 4.0, 0.32
+Sels, KAA Gent, GK, 4.0, 1.26
+Ryan, Valencia CF, GK, 4.0, 0.81
+Malafeev, FC Zenit, GK, 4.0, 0.63
+Sippel, VfL Borussia Mönchengladbach, GK, 4.0, 0.37
+Pasveer, PSV Eindhoven, GK, 3.5, 0.63
+Masip, FC Barcelona, GK, 3.5, 0.95
+Mocio, Olympique Lyonnais, GK, 3.5, 0.50
+Sarnavskiy, FC Shakhtar Donetsk, GK, 3.5, 0.49
+Rybka, FC Dynamo Kyiv, GK, 3.5, 0.92
+Andersson, Malmö FF, GK, 3.5, 0.44
+Yelldell, Bayer 04 Leverkusen, GK, 3.5, 0.50
+Ježina, GNK Dinamo Zagreb, GK, 3.5, 0.40
+Yoel, Valencia CF, GK, 3.5, 0.73
+Grün, VfL Wolfsburg, GK, 3.5, 0.74
+Chepchugov, PFC CSKA Moskva, GK, 3.5, 0.71
+Soroko, FC BATE Borisov, GK, 3.5, 0.90
+Loginovski, FC Astana, GK, 3.5, 0.47
+Jaume Doménech, Valencia CF, GK, 3.5, 5.90
+Sivera, Valencia CF, GK, 3.5, 0.60
+Cenk Gönen, Galatasaray AŞ, GK, 3.5, 0.52
+Chichkan, FC BATE Borisov, GK, 3.0, 3.76
+Vandenbussche, KAA Gent, GK, 3.0, 1.89
+Golubnichi, FC Astana, GK, 3.0, 2.49
+Johansson, Malmö FF, GK, 3.0, 2.99
+Hasson, Maccabi Tel-Aviv FC, GK, 3.0, 1.83
+Ohayon, Maccabi Tel-Aviv FC, GK, 3.0, 1.05
+Azinovic, Malmö FF, GK, 3.0, 4.78
+Thoelen, KAA Gent, GK, 3.0, 1.50
+Rajković, Maccabi Tel-Aviv FC, GK, 3.0, 4.33
+Lifshitz, Maccabi Tel-Aviv FC, GK, 3.0, 2.46
+Mikulić, GNK Dinamo Zagreb, GK, 3.0, 9.34
+Messi, FC Barcelona, STR, 15.0, 9.61
+Ronaldo, Real Madrid CF, STR, 15.0, 45.95
+Neymar, FC Barcelona, STR, 13.5, 10.34
+Benzema, Real Madrid CF, STR, 13.0, 1.86
+Suárez, FC Barcelona, STR, 13.0, 14.27
+Agüero, Manchester City FC, STR, 13.0, 1.26
+Ibrahimović, Paris Saint-Germain, STR, 12.5, 3.54
+Lewandowski, FC Bayern München, STR, 12.5, 23.75
+Bale, Real Madrid CF, STR, 12.0, 1.08
+Diego Costa, Chelsea FC, STR, 12.0, 0.90
+Müller, FC Bayern München, STR, 12.0, 8.84
+Mandžukić, Juventus, STR, 11.5, 0.49
+Cavani, Paris Saint-Germain, STR, 11.0, 2.16
+Bony, Manchester City FC, STR, 10.5, 0.45
+Lavezzi, Paris Saint-Germain, STR, 10.0, 0.54
+Morata, Juventus, STR, 10.0, 3.79
+Griezmann, Club Atlético de Madrid, STR, 10.0, 13.06
+Alexis Sánchez, Arsenal FC, STR, 10.0, 4.87
+Pedro Rodríguez, Chelsea FC, STR, 10.0, 0.67
+Llorente, Sevilla FC, STR, 9.5, 0.37
+Martínez, Club Atlético de Madrid, STR, 9.5, 1.61
+Rooney, Manchester United FC, STR, 9.5, 2.05
+Giroud, Arsenal FC, STR, 9.0, 1.32
+Negredo, Valencia CF, STR, 9.0, 0.57
+Walcott, Arsenal FC, STR, 9.0, 1.39
+Depay, Manchester United FC, STR, 9.0, 5.49
+Torres, Club Atlético de Madrid, STR, 9.0, 0.94
+Totti, AS Roma, STR, 9.0, 0.43
+Lacazette, Olympique Lyonnais, STR, 9.0, 1.91
+Burak Yılmaz, Galatasaray AŞ, STR, 9.0, 0.48
+Kiessling, Bayer 04 Leverkusen, STR, 9.0, 0.38
+Jesé, Real Madrid CF, STR, 9.0, 0.45
+Doumbia, PFC CSKA Moskva, STR, 8.5, 1.33
+Falcao, Chelsea FC, STR, 8.5, 1.12
+Dost, VfL Wolfsburg, STR, 8.5, 0.88
+Dybala, Juventus, STR, 8.5, 1.67
+Hakan Çalhanoğlu, Bayer 04 Leverkusen, STR, 8.5, 2.50
+Gervinho, AS Roma, STR, 8.5, 0.97
+Gameiro, Sevilla FC, STR, 8.5, 0.51
+Hulk, FC Zenit, STR, 8.5, 9.39
+Mehmedi, Bayer 04 Leverkusen, STR, 8.0, 0.43
+Kruse, VfL Wolfsburg, STR, 8.0, 0.58
+Rémy, Chelsea FC, STR, 8.0, 0.75
+Jonas, SL Benfica, STR, 8.0, 2.12
+Immobile, Sevilla FC, STR, 8.0, 0.75
+Džeko, AS Roma, STR, 8.0, 2.83
+Soudani, GNK Dinamo Zagreb, STR, 8.0, 0.33
+Brahimi, FC Porto, STR, 8.0, 1.98
+Vietto, Club Atlético de Madrid, STR, 8.0, 0.51
+Beauvue, Olympique Lyonnais, STR, 7.5, 0.42
+Paco Alcácer, Valencia CF, STR, 7.5, 1.25
+Umut Bulut, Galatasaray AŞ, STR, 7.5, 0.33
+Yarmolenko, FC Dynamo Kyiv, STR, 7.5, 2.62
+Varela, FC Porto, STR, 7.5, 0.39
+de Jong, PSV Eindhoven, STR, 7.5, 0.88
+Welbeck, Arsenal FC, STR, 7.5, 0.84
+Podolski, Galatasaray AŞ, STR, 7.5, 1.78
+Tello, FC Porto, STR, 7.5, 0.81
+Musa, PFC CSKA Moskva, STR, 7.5, 0.97
+Hernández, Bayer 04 Leverkusen, STR, 7.5, 4.69
+Zaza, Juventus, STR, 7.5, 0.45
+Osvaldo, FC Porto, STR, 7.5, 0.36
+Eduardo, FC Shakhtar Donetsk, STR, 7.5, 0.39
+Jiménez, SL Benfica, STR, 7.5, 0.53
+Aboubakar, FC Porto, STR, 7.0, 9.61
+Bendtner, VfL Wolfsburg, STR, 7.0, 0.74
+Laursen, PSV Eindhoven, STR, 7.0, 0.32
+Júnior Moraes, FC Dynamo Kyiv, STR, 7.0, 0.39
+Rosenberg, Malmö FF, STR, 7.0, 0.41
+Dzyuba, FC Zenit, STR, 7.0, 3.68
+Alberto Bueno, FC Porto, STR, 7.0, 0.32
+Hodžić, GNK Dinamo Zagreb, STR, 7.0, 0.30
+Drmic, VfL Borussia Mönchengladbach, STR, 7.0, 0.40
+Gladkiy, FC Shakhtar Donetsk, STR, 7.0, 0.31
+Depoitre, KAA Gent, STR, 7.0, 0.37
+Correa, Club Atlético de Madrid, STR, 7.0, 0.74
+Mitroglou, SL Benfica, STR, 7.0, 1.29
+Boljević, PSV Eindhoven, STR, 6.5, 0.35
+Gonçalo Guedes, SL Benfica, STR, 6.5, 0.34
+Finnbogason, Olympiacos FC, STR, 6.5, 0.34
+Narsingh, PSV Eindhoven, STR, 6.5, 0.79
+Munir El Haddadi, FC Barcelona, STR, 6.5, 0.82
+Raman, KAA Gent, STR, 6.5, 0.30
+Pjaca, GNK Dinamo Zagreb, STR, 6.5, 0.37
+Green, FC Bayern München, STR, 6.5, 0.35
+Ould-Chikh, SL Benfica, STR, 6.5, 0.28
+Fernandes, GNK Dinamo Zagreb, STR, 6.0, 0.55
+Hrgota, VfL Borussia Mönchengladbach, STR, 6.0, 0.33
+Rodionov, FC BATE Borisov, STR, 6.0, 0.25
+Coulibaly, KAA Gent, STR, 6.0, 0.30
+Salah, AS Roma, STR, 6.0, 5.67
+Wilson, Manchester United FC, STR, 6.0, 0.43
+Simon, KAA Gent, STR, 6.0, 0.31
+Kravets, FC Dynamo Kyiv, STR, 6.0, 0.28
+Dentinho, FC Shakhtar Donetsk, STR, 6.0, 0.38
+Itzhaki, Maccabi Tel-Aviv FC, STR, 6.0, 0.29
+Santi Mina, Valencia CF, STR, 6.0, 0.38
+Djurdjić, Malmö FF, STR, 6.0, 0.32
+Panchenko, PFC CSKA Moskva, STR, 6.0, 0.31
+Locadia, PSV Eindhoven, STR, 6.0, 0.39
+Corona, FC Porto, STR, 6.0, 1.17
+González, FC Dynamo Kyiv, STR, 6.0, 2.13
+Brown, Olympiacos FC, STR, 6.0, 0.55
+Nuserbayev, FC Astana, STR, 5.5, 0.36
+Jozefzoon, PSV Eindhoven, STR, 5.5, 0.29
+Sandro Ramírez, FC Barcelona, STR, 5.5, 0.83
+Ferreyra, FC Shakhtar Donetsk, STR, 5.5, 0.41
+Signevich, FC BATE Borisov, STR, 5.5, 0.54
+Teodorczyk, FC Dynamo Kyiv, STR, 5.5, 0.33
+Berget, Malmö FF, STR, 5.5, 0.38
+Pulido, Olympiacos FC, STR, 5.0, 0.40
+Ben Haim II, Maccabi Tel-Aviv FC, STR, 5.0, 0.37
+Coman, FC Bayern München, STR, 5.0, 4.44
+Jevtić, FC BATE Borisov, STR, 5.0, 0.40
+Cornet, Olympique Lyonnais, STR, 5.0, 0.38
+Sinan Gümüs, Galatasaray AŞ, STR, 5.0, 0.37
+Henríquez, GNK Dinamo Zagreb, STR, 5.0, 0.47
+Martial, Manchester United FC, STR, 5.0, 20.71
+Pedersen, KAA Gent, STR, 5.0, 0.31
+Piatti, Valencia CF, STR, 5.0, 1.44
+Campbell, Arsenal FC, STR, 5.0, 1.54
+Sebá, Olympiacos FC, STR, 5.0, 0.18
+Ben Basat, Maccabi Tel-Aviv FC, STR, 5.0, 0.33
+Radonjić, Maccabi Tel-Aviv FC, STR, 5.0, 0.26
+Sana, Malmö FF, STR, 5.0, 0.31
+Augustin, Paris Saint-Germain, STR, 5.0, 0.48
+Hernâni, Olympiacos FC, STR, 5.0, 0.57
+Juan Muñoz, Sevilla FC, STR, 4.5, 0.30
+Schetkin, FC Astana, STR, 4.5, 0.75
+Twumasi, FC Astana, STR, 4.5, 0.35
+Mozolevski, FC BATE Borisov, STR, 4.5, 0.75
+Soleri, AS Roma, STR, 4.5, 0.33
+Kabananga, FC Astana, STR, 4.5, 1.29
+Mehmeti, Malmö FF, STR, 4.5, 1.08
+Dzholchiyev, FC Astana, STR, 4.5, 0.81
+Çekiçi, GNK Dinamo Zagreb, STR, 3.5, 11.25

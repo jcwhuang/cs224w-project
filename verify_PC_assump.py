@@ -47,24 +47,25 @@ for matchday in matchdays:
 
 				teamFile = open(path + matchID + "_tpd-" + re.sub(" ", "_", teamName) + "-team", "r")
 				for line in teamFile:
-					passVol1, passPerc1 = line.rstrip().split(", ")
+					print line
+					passC1, passA1, passPerc1 = line.rstrip().split(", ")
 
 				score1 = int(score1)
 				score2 = int(score2)
-				passVol1 = float(passVol1)
+				passC1 = float(passC1)
 				passPerc1 = float(passPerc1)
 
 				oppTeamFile = open(path + matchID + "_tpd-" + re.sub(" ", "_", oppTeam) + "-team", "r")
 				for line in oppTeamFile:
-					passVol2, passPerc2 = line.rstrip().split(", ")
-				passVol2 = float(passVol2)
+					passC2, passA2, passPerc2 = line.rstrip().split(", ")
+				passC2 = float(passC2)
 				passPerc2 = float(passPerc2)
-				print "passVol1: %d, passVol2: %d" % (passVol1, passVol2)
+				print "passVol1: %d, passVol2: %d" % (passC1, passC2)
 				print "passPerc: %f, passPerc2: %f" % (passPerc1, passPerc2)
 
-				if score1 > score2 and passVol1 > passVol2:
+				if score1 > score2 and passC1 > passC2:
 					yesHighPCVol += 1
-				elif score2 > score1 and passVol2 > passVol1:
+				elif score2 > score1 and passC2 > passC1:
 					yesHighPCVol += 1
 
 				if score1 > score2 and passPerc1 > passPerc2:

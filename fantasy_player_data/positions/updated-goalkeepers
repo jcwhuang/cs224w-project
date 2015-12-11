@@ -1,0 +1,88 @@
+# Player name, team name, player position, player price
+Buffon, Juventus, GK, 7.0, 4.46
+Neuer, FC Bayern München, GK, 7.0, 16.98
+ter Stegen, FC Barcelona, GK, 7.0, 3.35
+Casillas, FC Porto, GK, 6.5, 4.37
+Navas, Real Madrid CF, GK, 6.0, 15.60
+Courtois, Chelsea FC, GK, 6.0, 1.91
+Sirigu, Paris Saint-Germain, GK, 6.0, 1.50
+Čech, Arsenal FC, GK, 6.0, 3.45
+de Gea, Manchester United FC, GK, 6.0, 8.63
+Romero, Manchester United FC, GK, 6.0, 0.52
+Hart, Manchester City FC, GK, 6.0, 2.39
+Oblak, Club Atlético de Madrid, GK, 5.5, 15.60
+Bravo, FC Barcelona, GK, 5.5, 1.22
+Leno, Bayer 04 Leverkusen, GK, 5.5, 1.90
+Szczęsny, AS Roma, GK, 5.5, 1.80
+Pyatov, FC Shakhtar Donetsk, GK, 5.5, 0.75
+Akinfeev, PFC CSKA Moskva, GK, 5.5, 0.77
+Helton, FC Porto, GK, 5.0, 0.60
+Muslera, Galatasaray AŞ, GK, 5.0, 2.70
+Barragán, Club Atlético de Madrid, GK, 5.0, 0.42
+Benaglio, VfL Wolfsburg, GK, 5.0, 2.30
+Rico, Sevilla FC, GK, 5.0, 0.78
+De Sanctis, AS Roma, GK, 5.0, 0.96
+Lopes, Olympique Lyonnais, GK, 5.0, 1.55
+Trapp, Paris Saint-Germain, GK, 5.0, 5.65
+Moyà, Club Atlético de Madrid, GK, 5.0, 1.39
+Casilla, Real Madrid CF, GK, 5.0, 2.01
+Caballero, Manchester City FC, GK, 5.0, 0.46
+Begović, Chelsea FC, GK, 4.5, 9.88
+Ulreich, FC Bayern München, GK, 4.5, 0.51
+Wiland, Malmö FF, GK, 4.5, 0.53
+Ospina, Arsenal FC, GK, 4.5, 2.39
+Neto, Juventus, GK, 4.5, 0.54
+Zoet, PSV Eindhoven, GK, 4.5, 1.26
+Casteels, VfL Wolfsburg, GK, 4.5, 0.36
+Chernik, FC BATE Borisov, GK, 4.5, 0.43
+Roberto, Olympiacos FC, GK, 4.5, 2.26
+Júlio César, SL Benfica, GK, 4.5, 5.77
+Krešić, Bayer 04 Leverkusen, GK, 4.5, 0.36
+Lodygin, FC Zenit, GK, 4.5, 2.59
+Douchez, Paris Saint-Germain, GK, 4.5, 0.43
+Kapino, Olympiacos FC, GK, 4.5, 0.33
+Sommer, VfL Borussia Mönchengladbach, GK, 4.5, 0.95
+Kerzhakov, FC Zenit, GK, 4.0, 1.18
+Gorgelin, Olympique Lyonnais, GK, 4.0, 0.45
+Starke, FC Bayern München, GK, 4.0, 0.60
+Eray İşcan, Galatasaray AŞ, GK, 4.0, 0.34
+Shovkovskiy, FC Dynamo Kyiv, GK, 4.0, 2.94
+Ederson, SL Benfica, GK, 4.0, 0.42
+Eduardo, GNK Dinamo Zagreb, GK, 4.0, 1.18
+Koopmans, PSV Eindhoven, GK, 4.0, 0.37
+Erić, FC Astana, GK, 4.0, 0.92
+Kanibolotskiy, FC Shakhtar Donetsk, GK, 4.0, 0.36
+Paulo Lopes, SL Benfica, GK, 4.0, 0.70
+Kompalla, VfL Borussia Mönchengladbach, GK, 4.0, 0.33
+Heimeroth, VfL Borussia Mönchengladbach, GK, 4.0, 0.32
+Sels, KAA Gent, GK, 4.0, 1.26
+Ryan, Valencia CF, GK, 4.0, 0.81
+Malafeev, FC Zenit, GK, 4.0, 0.63
+Sippel, VfL Borussia Mönchengladbach, GK, 4.0, 0.37
+Pasveer, PSV Eindhoven, GK, 3.5, 0.63
+Masip, FC Barcelona, GK, 3.5, 0.95
+Mocio, Olympique Lyonnais, GK, 3.5, 0.50
+Sarnavskiy, FC Shakhtar Donetsk, GK, 3.5, 0.49
+Rybka, FC Dynamo Kyiv, GK, 3.5, 0.92
+Andersson, Malmö FF, GK, 3.5, 0.44
+Yelldell, Bayer 04 Leverkusen, GK, 3.5, 0.50
+Ježina, GNK Dinamo Zagreb, GK, 3.5, 0.40
+Yoel, Valencia CF, GK, 3.5, 0.73
+Grün, VfL Wolfsburg, GK, 3.5, 0.74
+Chepchugov, PFC CSKA Moskva, GK, 3.5, 0.71
+Soroko, FC BATE Borisov, GK, 3.5, 0.90
+Loginovski, FC Astana, GK, 3.5, 0.47
+Jaume Doménech, Valencia CF, GK, 3.5, 5.90
+Sivera, Valencia CF, GK, 3.5, 0.60
+Cenk Gönen, Galatasaray AŞ, GK, 3.5, 0.52
+Chichkan, FC BATE Borisov, GK, 3.0, 3.76
+Vandenbussche, KAA Gent, GK, 3.0, 1.89
+Golubnichi, FC Astana, GK, 3.0, 2.49
+Johansson, Malmö FF, GK, 3.0, 2.99
+Hasson, Maccabi Tel-Aviv FC, GK, 3.0, 1.83
+Ohayon, Maccabi Tel-Aviv FC, GK, 3.0, 1.05
+Azinovic, Malmö FF, GK, 3.0, 4.78
+Thoelen, KAA Gent, GK, 3.0, 1.50
+Rajković, Maccabi Tel-Aviv FC, GK, 3.0, 4.33
+Lifshitz, Maccabi Tel-Aviv FC, GK, 3.0, 2.46
+Mikulić, GNK Dinamo Zagreb, GK, 3.0, 9.34

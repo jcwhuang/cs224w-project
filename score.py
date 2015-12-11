@@ -1,3 +1,5 @@
+# Score using fantasy football rules
+
 import os
 import re
 from collections import defaultdict
