@@ -1,5 +1,18 @@
 # Jade Huang
 # jayebird@stanford.edu
+#
+# This script was used to grab all player numbers and player names from
+# teams who played in the 2015-16 Champions League.
+#
+# This script assumes there are files with names of the following
+# convention:
+#
+#   *teamName-nodes
+#
+# These *-nodes files were created when parsing passing_distributions
+# which can be found in the passing_distributions folder.
+# Originally this script was run in the passing_distributions folder
+# and then copied over to this directory.
 
 # glob for *-nodes
 # get team name from nodes

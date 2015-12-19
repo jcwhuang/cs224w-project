@@ -1,16 +1,27 @@
 # Jade Huang
 # jayebird@stanford.edu
-
-# glob for *-nodes
-# get team name from nodes
+#
+# This script was used to grab all team names who played in the
+# 2015-16 season of the Champions League.
+# This script assumes there are files named with the following
+# convention:
+#
+#   *teamName-nodes
+#
+# Originally, these *-nodes files were created by parsing passing
+# distributions which can be found in the passing_distributions
+# folder. The script was run originally in the passing_distributions
+# folder, and then copied over to a new directory.
 
 import glob
 import re
 from collections import defaultdict
 
+# glob for *-nodes
 node_files = glob.glob("*-nodes")
 teams = set()
 
+# get team name from nodes
 for node_file in node_files:
 	m = re.match("^.*-(.*)-nodes$", node_file)
 	if m:
