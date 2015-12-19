@@ -10,9 +10,7 @@
 #   *teamName-nodes
 #
 # These *-nodes files were created when parsing passing_distributions
-# which can be found in the passing_distributions folder.
-# Originally this script was run in the passing_distributions folder
-# and then copied over to this directory.
+# which were copied over from the passing_distributions folder.
 
 # glob for *-nodes
 # get team name from nodes

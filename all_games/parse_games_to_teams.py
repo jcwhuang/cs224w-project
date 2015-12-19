@@ -9,9 +9,8 @@
 #   *teamName-nodes
 #
 # Originally, these *-nodes files were created by parsing passing
-# distributions which can be found in the passing_distributions
-# folder. The script was run originally in the passing_distributions
-# folder, and then copied over to a new directory.
+# distributions which were copied from the passing_distributions
+# folder.
 
 import glob
 import re
