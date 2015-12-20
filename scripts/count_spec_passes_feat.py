@@ -38,7 +38,6 @@ for matchday in matchdays:
                 p_key = p1 + "-" + p2
                 allGroupPasses[teamName][p_key] += int(weight)
 
-# normalize over 6 matchdays
 for teamName in allGroupPasses:
     for p_key in allGroupPasses[teamName]:
         weight = allGroupPasses[teamName][p_key]
