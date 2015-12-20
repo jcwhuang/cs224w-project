@@ -2,9 +2,8 @@
 ## Final project for CS224W at Stanford University ##
 ###Autumn 2015###
 
-**Data:** UEFA Champions League 2014-15
-
-Type of data: Relevant directory
+**Data:** UEFA Champions League 2014-15 season. Relevant data can be found in
+the data directory in the following subfolders:
 * passing distributions: passing_distributions/
 * rankings: rankings/
 * squad lists: squads/
