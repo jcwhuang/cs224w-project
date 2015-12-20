@@ -2,7 +2,9 @@
 ## Final project for CS224W at Stanford University ##
 ###Autumn 2015###
 
-**Scripts**
+In this directory are a number of scripts used to calculate counts used for
+features, plot bar graphs, and calculate general statistics.
+
 * `count_avg_passes_feat.py`: Accumulates average number of passes during the
   group stage for each player pair for each team
 * `count_pass_per_pos.py`: Accumulates counts of how often certain positions
