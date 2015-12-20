@@ -12,41 +12,36 @@ class PredictPD():
 
 	def __init__(self):
 
-		# each team has its own set of weights
+		# Each team has its own set of weights
 		self.weights = defaultdict(lambda: defaultdict(int))
-
 		self.stepSize = 0.01
 
-		self.matchdays = ["matchday" + str(i) for i in xrange(1, 7)]
+		# -------- Initialize directory paths --------
+		self.data_dir = "../data/"
+		self.folder = self.data_dir + "passing_distributions/2014-15/"
+		countAvgFile = self.data_dir + "counts/avg_passes_count.txt"
+		squad_dir = self.data_dir + "squads/2014-15/squad_list/"
+		rankFile = self.data_dir + "rankings/2013_14_rankings.txt"
+		passPerPosDir = self.data_dir + "games_by_pos/perTeam/"
 		# uncomment if want to add round of 16 games to matchdays
 		# self.matchdays.append("r-16")
 
 		# # uncomment if want to add quarter final games to matchdays
 		# self.matchdays.append("q-finals")
+		# --------------------------------------------
 
-		self.folder = "../data/passing_distributions/2014-15/"
-
-		# init feature classes
-		countAvgFile = "../data/counts/avg_passes_count.txt"
+		# -------- Initialize features --------
 		self.countAvgPassesFeature = classes.CountAvgPassesFeature(countAvgFile)
-
-		squad_dir = "../data/squads/2014-15/squad_list/"
 		self.playerPosFeature = classes.PlayerPositionFeature(squad_dir)
-
-		rankFile = "../data/rankings/2013_14_rankings.txt"
 		self.rankFeature = classes.RankingFeature(rankFile)
-
 		self.meanDegreeFeature = classes.MeanDegreeFeature()
-
 		self.betweenFeature = classes.BetweennessFeature()
-
 		self.passComplAttempFeature = classes.PassesComplAttempPerPlayerFeature()
-
-		self.countPassesPosFeature = classes.CountPassesPerPosFeature("../data/games_by_pos/perTeam/", "group")
-
+		self.countPassesPosFeature = classes.CountPassesPerPosFeature(passPerPosDir, "group")
 		self.passComplAttempTeamFeature = classes.CountPassesComplAttempPerTeamFeature("group")
+		# -------------------------------------
 
-		# init data structures
+		# -------- Initialize data structures --------
 		self.matches = defaultdict(str)
 
 		self.totalPassesBetweenPos = defaultdict(lambda: defaultdict(int))
@@ -61,6 +56,7 @@ class PredictPD():
 		self.passPercPerTeam = defaultdict(float)
 
 		self.teamStatsByMatch = defaultdict(lambda: defaultdict(list))
+		# --------------------------------------------
 
 	# Average pairwise error over all players in a team
 	# given prediction and gold

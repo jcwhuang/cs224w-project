@@ -12,6 +12,7 @@ class PredictPD():
 
 	def __init__(self):
 
+		# Entire model uses one set of weights
 		self.weights = defaultdict(int)
 		self.stepSize = 0.008
 
@@ -33,19 +34,12 @@ class PredictPD():
 
 		# -------- Initialize features --------
 		self.countAvgPassesFeature = classes.CountAvgPassesFeature(countAvgFile)
-
 		self.playerPosFeature = classes.PlayerPositionFeature(squad_dir)
-
 		self.rankFeature = classes.RankingFeature(rankFile)
-
 		self.meanDegreeFeature = classes.MeanDegreeFeature()
-
 		self.betweenFeature = classes.BetweennessFeature()
-
 		self.passComplAttempFeature = classes.PassesComplAttempPerPlayerFeature()
-
 		self.countPassesPosFeature = classes.CountPassesPerPosFeature(passPerPosDir, "group")
-
 		self.passComplAttempTeamFeature = classes.CountPassesComplAttempPerTeamFeature("group")
 		# -------------------------------------
 
