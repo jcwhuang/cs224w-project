@@ -192,7 +192,7 @@ class RankingFeature():
 class MeanDegreeFeature():
 
 	def __init__(self):
-		folder = "data/passing_distributions/2014-15/"
+		folder = "../data/passing_distributions/2014-15/"
 		allGames = ["matchday" + str(i) for i in xrange(1, 7)]
 		allGames.append("r-16")
 		allGames.append("q-finals")
@@ -236,7 +236,7 @@ class MeanDegreeFeature():
 # calculated only using group stage, like average degree
 class BetweennessFeature():
 	def __init__(self):
-		folder = "data/passing_distributions/2014-15/"
+		folder = "../data/passing_distributions/2014-15/"
 		allGames = ["matchday" + str(i) for i in xrange(1, 7)]
 		# allGames.append("r-16")
 		# allGames.append("q-finals")
@@ -293,7 +293,7 @@ class BetweennessFeature():
 # averaged over all group games
 class PassesComplAttempPerPlayerFeature():
 	def __init__(self):
-		folder = "data/passing_distributions/2014-15/"
+		folder = "../data/passing_distributions/2014-15/"
 		allGames = ["matchday" + str(i) for i in xrange(1, 7)]
 		# allGames.append("r-16")
 		# allGames.append("q-finals")
@@ -382,7 +382,7 @@ class CountPassesComplAttempPerTeamFeature():
 		self.passAttemPerTeam = defaultdict(int)
 		self.passPercPerTeam = defaultdict(float)
 
-		folder = "data/passing_distributions/2014-15/"
+		folder = "../data/passing_distributions/2014-15/"
 
 		allGames = ["matchday" + str(i) for i in xrange(1, 7)]
 

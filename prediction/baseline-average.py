@@ -16,7 +16,7 @@ def getTeamNameFromFile(network):
 # allGroupPasses[team][p1-p2] = totalPasses
 allGroupPasses = defaultdict(lambda: defaultdict(int))
 totalPassesPerTeam = defaultdict(int)
-folder = "passing_distributions/2014-15/"
+folder = "../data/passing_distributions/2014-15/"
 
 # accumulate averages on first 4 matchdays
 matchdays = ["matchday" + str(i) for i in xrange(1, 7)]
