@@ -29,10 +29,10 @@ class PredictPD():
 		countAvgFile = "txt/avg_passes_count.txt"
 		self.countAvgPassesFeature = classes.CountAvgPassesFeature(countAvgFile)
 
-		squad_dir = "squads/2014-15/squad_list/"
+		squad_dir = "data/squads/2014-15/squad_list/"
 		self.playerPosFeature = classes.PlayerPositionFeature(squad_dir)
 
-		rankFile = "rankings/2013_14_rankings.txt"
+		rankFile = "data/rankings/2013_14_rankings.txt"
 		self.rankFeature = classes.RankingFeature(rankFile)
 
 		self.meanDegreeFeature = classes.MeanDegreeFeature()
@@ -285,7 +285,7 @@ class PredictPD():
 					else:
 						self.matches[matchID] += "/" + teamName
 
-		allScoresFilename = "scores/2014-15_allScores.txt"
+		allScoresFilename = "data/scores/2014-15_allScores.txt"
 		allScores = open(allScoresFilename, "r")
 		self.matchesWithScores = [line.rstrip() for line in allScores]
 		self.teamPlayedWith = defaultdict(list)
