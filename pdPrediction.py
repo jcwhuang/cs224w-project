@@ -1,4 +1,4 @@
-import collections, util, math, random
+import collections, math, random
 import classes, scoring
 import copy
 import os
@@ -23,7 +23,7 @@ class PredictPD():
 		# # uncomment if want to add quarter final games to matchdays
 		# self.matchdays.append("q-finals")
 
-		self.folder = "passing_distributions/2014-15/"
+		self.folder = "data/passing_distributions/2014-15/"
 
 		# init feature classes
 		countAvgFile = "txt/avg_passes_count.txt"

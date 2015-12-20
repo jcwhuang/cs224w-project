@@ -1,6 +1,0 @@
-# Unit limit per quarter. You can ignore this for the first
-# few questions in problem 2.
-minValue 90
-maxValue 100
-
-# Courses that I'm requesting
