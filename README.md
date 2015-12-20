@@ -18,4 +18,18 @@ for games in the round of 16 stage
 **Results:** Our linear regression model exceeded our baseline (average past
 passing network) by 25.27%
 
+**To duplicate or results or run experiments of your own with our linear
+predictor:** 
+Linear predictor with entire model sharing one set of weights
+```
+$ cd predicted
+$ python pdPrediction.py
+```
+
+Linear predictor with each team having its own set of weights
+```
+$ cd predicted
+$ python pdPrediction-team.py
+```
+
 _For more details including model, algorithm, analysis, results, see writeup/final.pdf_
