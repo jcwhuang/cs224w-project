@@ -18,8 +18,9 @@ for games in the round of 16 stage
 **Results:** Our linear regression model exceeded our baseline (average past
 passing network) by 25.27%
 
-**To duplicate or results or run experiments of your own with our linear
+**To duplicate our results or run experiments of your own with our linear
 predictor:** 
+
 Linear predictor with entire model sharing one set of weights
 ```
 $ cd predicted
